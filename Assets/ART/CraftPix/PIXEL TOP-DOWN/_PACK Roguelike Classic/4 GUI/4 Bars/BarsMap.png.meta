@@ -1,0 +1,3580 @@
+fileFormatVersion: 2
+guid: 6c60e251375f7234c9b628a14c51a798
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3261989196246329870
+    second: BarsMap_0
+  - first:
+      213: -6911016100541323864
+    second: BarsMap_1
+  - first:
+      213: -4740368390101321094
+    second: BarsMap_2
+  - first:
+      213: -4400782234323154886
+    second: BarsMap_3
+  - first:
+      213: -3915598558968453332
+    second: BarsMap_4
+  - first:
+      213: 6478969455526884202
+    second: BarsMap_5
+  - first:
+      213: 842820419549019722
+    second: BarsMap_6
+  - first:
+      213: 954477656704179086
+    second: BarsMap_7
+  - first:
+      213: -3661859875482040273
+    second: BarsMap_8
+  - first:
+      213: -6523703603819745097
+    second: BarsMap_9
+  - first:
+      213: -5452383529157678062
+    second: BarsMap_10
+  - first:
+      213: 1996477371329070336
+    second: BarsMap_11
+  - first:
+      213: -6794501254577935734
+    second: BarsMap_12
+  - first:
+      213: 8145480938317286769
+    second: BarsMap_13
+  - first:
+      213: 2166157952271546450
+    second: BarsMap_14
+  - first:
+      213: 6536283180322028940
+    second: BarsMap_15
+  - first:
+      213: -4162862891666374098
+    second: BarsMap_16
+  - first:
+      213: -7296877607264526555
+    second: BarsMap_17
+  - first:
+      213: 8763754877792079480
+    second: BarsMap_18
+  - first:
+      213: 5658574362445286110
+    second: BarsMap_19
+  - first:
+      213: 1819973203520556834
+    second: BarsMap_20
+  - first:
+      213: 886921983829612204
+    second: BarsMap_21
+  - first:
+      213: 144985359806228479
+    second: BarsMap_22
+  - first:
+      213: -8264722061044942817
+    second: BarsMap_23
+  - first:
+      213: -171694874168939191
+    second: BarsMap_24
+  - first:
+      213: 6629474974672906134
+    second: BarsMap_25
+  - first:
+      213: -1585460939794548737
+    second: BarsMap_26
+  - first:
+      213: -6893361357033743378
+    second: BarsMap_27
+  - first:
+      213: -8320950260864576796
+    second: BarsMap_28
+  - first:
+      213: 1162709933950647995
+    second: BarsMap_29
+  - first:
+      213: -1547486680607066277
+    second: BarsMap_30
+  - first:
+      213: -4433638736578845222
+    second: BarsMap_31
+  - first:
+      213: -2502229356500458363
+    second: BarsMap_32
+  - first:
+      213: 8129714908156984575
+    second: BarsMap_33
+  - first:
+      213: -6533545474592313316
+    second: BarsMap_34
+  - first:
+      213: 5384471214996054527
+    second: BarsMap_35
+  - first:
+      213: 6361884659975914389
+    second: BarsMap_36
+  - first:
+      213: -2679646163808246159
+    second: BarsMap_37
+  - first:
+      213: 1244886639845466790
+    second: BarsMap_38
+  - first:
+      213: -6891099484651301229
+    second: BarsMap_39
+  - first:
+      213: -6151987150908705086
+    second: BarsMap_40
+  - first:
+      213: 5690019663101122947
+    second: BarsMap_41
+  - first:
+      213: 4522814284160399528
+    second: BarsMap_42
+  - first:
+      213: -2781456023306384436
+    second: BarsMap_43
+  - first:
+      213: 7143045662959961797
+    second: BarsMap_44
+  - first:
+      213: -8961231912118294129
+    second: BarsMap_45
+  - first:
+      213: 5613589926136102753
+    second: BarsMap_46
+  - first:
+      213: -8572608003043244897
+    second: BarsMap_47
+  - first:
+      213: 5652607959823873791
+    second: BarsMap_48
+  - first:
+      213: -2665174848174587092
+    second: BarsMap_49
+  - first:
+      213: 7988674446622240485
+    second: BarsMap_50
+  - first:
+      213: 7277646015243421263
+    second: BarsMap_51
+  - first:
+      213: -3024408178583108568
+    second: BarsMap_52
+  - first:
+      213: 8257711767122117044
+    second: BarsMap_53
+  - first:
+      213: 8352573253921460270
+    second: BarsMap_54
+  - first:
+      213: 5316885327269976093
+    second: BarsMap_55
+  - first:
+      213: 3277972059460798904
+    second: BarsMap_56
+  - first:
+      213: -2644292504080500241
+    second: BarsMap_57
+  - first:
+      213: 8962445900681618429
+    second: BarsMap_58
+  - first:
+      213: -1290971615539450354
+    second: BarsMap_59
+  - first:
+      213: 5343116196189243556
+    second: BarsMap_60
+  - first:
+      213: -2774185655003320025
+    second: BarsMap_61
+  - first:
+      213: 1648000405086574491
+    second: BarsMap_62
+  - first:
+      213: 5245195340853059064
+    second: BarsMap_63
+  - first:
+      213: -593819125059449706
+    second: BarsMap_64
+  - first:
+      213: -6407725612303124263
+    second: BarsMap_65
+  - first:
+      213: -8064431544550576666
+    second: BarsMap_66
+  - first:
+      213: 5592131450409316475
+    second: BarsMap_67
+  - first:
+      213: 6056226932569342085
+    second: BarsMap_68
+  - first:
+      213: 8558128576306829842
+    second: BarsMap_69
+  - first:
+      213: -5228934025343633184
+    second: BarsMap_70
+  - first:
+      213: -6244721304597795036
+    second: BarsMap_71
+  - first:
+      213: -8982950715105315091
+    second: BarsMap_72
+  - first:
+      213: 8705967125242454934
+    second: BarsMap_73
+  - first:
+      213: 5712080161911371011
+    second: BarsMap_74
+  - first:
+      213: 4350892504591261151
+    second: BarsMap_75
+  - first:
+      213: -8615385254463713128
+    second: BarsMap_76
+  - first:
+      213: -5438500083234822744
+    second: BarsMap_77
+  - first:
+      213: 6983351353140520168
+    second: BarsMap_78
+  - first:
+      213: 2932143420840071441
+    second: BarsMap_79
+  - first:
+      213: -1715991661954034502
+    second: BarsMap_80
+  - first:
+      213: -7713452257400411162
+    second: BarsMap_81
+  - first:
+      213: -9022803017524914550
+    second: BarsMap_82
+  - first:
+      213: 5487546230875656322
+    second: BarsMap_83
+  - first:
+      213: 9052415037266311285
+    second: BarsMap_84
+  - first:
+      213: 900633993073299523
+    second: BarsMap_85
+  - first:
+      213: -3801261073605088324
+    second: BarsMap_86
+  - first:
+      213: 2028647228012309430
+    second: BarsMap_87
+  - first:
+      213: -7547244430434053857
+    second: BarsMap_88
+  - first:
+      213: -1318460707118632376
+    second: BarsMap_89
+  - first:
+      213: 7841812576550617211
+    second: BarsMap_90
+  - first:
+      213: 2785095025954320370
+    second: BarsMap_91
+  - first:
+      213: 6377409343484019102
+    second: BarsMap_92
+  - first:
+      213: 4151161506219819521
+    second: BarsMap_93
+  - first:
+      213: 4184676810435796512
+    second: BarsMap_94
+  - first:
+      213: 6178972394817503388
+    second: BarsMap_95
+  - first:
+      213: 7270419988413730084
+    second: BarsMap_96
+  - first:
+      213: 8738509920028393202
+    second: BarsMap_97
+  - first:
+      213: 4767697742035247881
+    second: BarsMap_98
+  - first:
+      213: 5455482168427091678
+    second: BarsMap_99
+  - first:
+      213: -7773157404413440007
+    second: BarsMap_100
+  - first:
+      213: 9190399957951426138
+    second: BarsMap_101
+  - first:
+      213: -6292704019322264790
+    second: BarsMap_102
+  - first:
+      213: 3687603488397701665
+    second: BarsMap_103
+  - first:
+      213: -8544626625743746714
+    second: BarsMap_104
+  - first:
+      213: 2237497161299419896
+    second: BarsMap_105
+  - first:
+      213: 1472138637557058701
+    second: BarsMap_106
+  - first:
+      213: -2278592155823709430
+    second: BarsMap_107
+  - first:
+      213: 7044825570875715237
+    second: BarsMap_108
+  - first:
+      213: 5550606858949898891
+    second: BarsMap_109
+  - first:
+      213: -299025381316661553
+    second: BarsMap_110
+  - first:
+      213: 1737764254707297023
+    second: BarsMap_111
+  - first:
+      213: -8476631479626173466
+    second: BarsMap_112
+  - first:
+      213: 7613383698056075458
+    second: BarsMap_113
+  - first:
+      213: -1791068277428965739
+    second: BarsMap_114
+  - first:
+      213: 6435896844287115328
+    second: BarsMap_115
+  - first:
+      213: -2706240612433936346
+    second: BarsMap_116
+  - first:
+      213: -3538086929425560930
+    second: BarsMap_117
+  - first:
+      213: 4688188355809781966
+    second: BarsMap_118
+  - first:
+      213: -5678084689957100872
+    second: BarsMap_119
+  - first:
+      213: 4320463634589928616
+    second: BarsMap_120
+  - first:
+      213: 1498299531916784722
+    second: BarsMap_121
+  - first:
+      213: -2618406944107899584
+    second: BarsMap_122
+  - first:
+      213: 8189959883654803873
+    second: BarsMap_123
+  - first:
+      213: 3284315912280147920
+    second: BarsMap_124
+  - first:
+      213: 2483416080179367809
+    second: BarsMap_125
+  - first:
+      213: -7045249437975723537
+    second: BarsMap_126
+  - first:
+      213: 4565318468819768946
+    second: BarsMap_127
+  - first:
+      213: 8511407745218571397
+    second: BarsMap_128
+  - first:
+      213: -1215055262411204612
+    second: BarsMap_129
+  - first:
+      213: -5171393223224002985
+    second: BarsMap_130
+  - first:
+      213: -4511691319835719311
+    second: BarsMap_131
+  - first:
+      213: -3641773564849197832
+    second: BarsMap_132
+  - first:
+      213: -1668538500229122674
+    second: BarsMap_133
+  - first:
+      213: -8944961818513445065
+    second: BarsMap_134
+  - first:
+      213: 2914889521273446071
+    second: BarsMap_135
+  - first:
+      213: 7436122165670230703
+    second: BarsMap_136
+  - first:
+      213: -1356349143298090605
+    second: BarsMap_137
+  - first:
+      213: -2056594145633145715
+    second: BarsMap_138
+  - first:
+      213: 5516208121354674493
+    second: BarsMap_139
+  - first:
+      213: 1817586544790666675
+    second: BarsMap_140
+  - first:
+      213: 3049960476416898702
+    second: BarsMap_141
+  - first:
+      213: 1773546881512272195
+    second: BarsMap_142
+  - first:
+      213: 3786817428050158243
+    second: BarsMap_143
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BarsMap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f55398db161bb2d0800000000000000
+      internalID: -3261989196246329870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 179
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5aa3209732710a0800000000000000
+      internalID: -6911016100541323864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 197
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a35839014d63eb0800000000000000
+      internalID: -4740368390101321094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 179
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38815dcfd74de2c0800000000000000
+      internalID: -4400782234323154886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_4
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 197
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2767a93bdff8a9c0800000000000000
+      internalID: -3915598558968453332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 179
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63394b846ce9e950800000000000000
+      internalID: 6478969455526884202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 197
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e3aa4c4bc42bb00800000000000000
+      internalID: 842820419549019722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_7
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 179
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b56e92f5cfe3d00800000000000000
+      internalID: 954477656704179086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 197
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2803a838d57e2dc0800000000000000
+      internalID: -3661859875482040273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 179
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0736ae2262775a0800000000000000
+      internalID: -6523703603819745097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_10
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 197
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21cad55711e3554b0800000000000000
+      internalID: -5452383529157678062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_11
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 179
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005cc286799e4bb10800000000000000
+      internalID: 1996477371329070336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_12
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 197
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8aafe69b1515b1a0800000000000000
+      internalID: -6794501254577935734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_13
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 179
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d0e1db1cf8a0170800000000000000
+      internalID: 8145480938317286769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_14
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 197
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25878884e2dbf0e10800000000000000
+      internalID: 2166157952271546450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_15
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 179
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d747afbea85ba50800000000000000
+      internalID: 6536283180322028940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_16
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 197
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22029d714a8a36c0800000000000000
+      internalID: -4162862891666374098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_17
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 179
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52fde790a784cba90800000000000000
+      internalID: -7296877607264526555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_18
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 197
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ec46501ac1f9970800000000000000
+      internalID: 8763754877792079480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_19
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 179
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda0fa8f66b478e40800000000000000
+      internalID: 5658574362445286110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_20
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 197
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f82986cf7d14910800000000000000
+      internalID: 1819973203520556834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_21
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 179
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca616ad58dafe4c00800000000000000
+      internalID: 886921983829612204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_22
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 197
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7e1e4aa67130200800000000000000
+      internalID: 144985359806228479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_23
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 179
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18f418e21fcd4d80800000000000000
+      internalID: -8264722061044942817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94da76feb640e9df0800000000000000
+      internalID: -171694874168939191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69768b07d50a00c50800000000000000
+      internalID: 6629474974672906134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_26
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 161
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7f946ecaf4ff9e0800000000000000
+      internalID: -1585460939794548737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_27
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 143
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb599d4e5cd550a0800000000000000
+      internalID: -6893361357033743378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_28
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 161
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e21973f2db068c80800000000000000
+      internalID: -8320950260864576796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_29
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 143
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe32fd4686c22010800000000000000
+      internalID: 1162709933950647995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_30
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 161
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5774cb1019368ae0800000000000000
+      internalID: -1547486680607066277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_31
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 143
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad56ecb3f0d8872c0800000000000000
+      internalID: -4433638736578845222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_32
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 161
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5846c3b58ab464dd0800000000000000
+      internalID: -2502229356500458363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_33
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 143
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcf4e9c2ac82d070800000000000000
+      internalID: 8129714908156984575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_34
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 161
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10701fc10f2455a0800000000000000
+      internalID: -6533545474592313316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_35
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 143
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1e729ba0c79ba40800000000000000
+      internalID: 5384471214996054527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_36
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 161
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5930fdb3464f94850800000000000000
+      internalID: 6361884659975914389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_37
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 143
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176a87ae20cffcad0800000000000000
+      internalID: -2679646163808246159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_38
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 161
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a26e91adc9b64110800000000000000
+      internalID: 1244886639845466790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_39
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 143
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3965b718785ed50a0800000000000000
+      internalID: -6891099484651301229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_40
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 161
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6b157e740cf9aa0800000000000000
+      internalID: -6151987150908705086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_41
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 143
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38951209cb207fe40800000000000000
+      internalID: 5690019663101122947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_42
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 161
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a87178e0a344ce30800000000000000
+      internalID: 4522814284160399528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_43
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 143
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbc37ccb784669d0800000000000000
+      internalID: -2781456023306384436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_44
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 161
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c68f1b5f22312360800000000000000
+      internalID: 7143045662959961797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_45
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 143
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f896b48fd0f43a380800000000000000
+      internalID: -8961231912118294129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_46
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 161
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fbd06bb4a77ed40800000000000000
+      internalID: 5613589926136102753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_47
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 143
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94cfebd07af70980800000000000000
+      internalID: -8572608003043244897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 125
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6f8db9df8127e40800000000000000
+      internalID: 5652607959823873791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c238f36a895630bd0800000000000000
+      internalID: -2665174848174587092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_50
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 125
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eea82955197dde60800000000000000
+      internalID: 7988674446622240485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_51
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 107
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f460f930e746ff460800000000000000
+      internalID: 7277646015243421263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_52
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 125
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82484cb19c42706d0800000000000000
+      internalID: -3024408178583108568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_53
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 107
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b180e8d919499270800000000000000
+      internalID: 8257711767122117044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_54
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 125
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20da60ee1d4ae370800000000000000
+      internalID: 8352573253921460270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_55
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 107
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18d96bf80f59c940800000000000000
+      internalID: 5316885327269976093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_56
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 125
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b901db7832bd7d20800000000000000
+      internalID: 3277972059460798904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_57
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 107
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9bd044af59d4bd0800000000000000
+      internalID: -2644292504080500241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_58
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 125
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3a8c4cf01016c70800000000000000
+      internalID: 8962445900681618429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_59
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 107
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ea8a0d72c851ee0800000000000000
+      internalID: -1290971615539450354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_60
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 125
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a80f731fdf862a40800000000000000
+      internalID: 5343116196189243556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_61
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 107
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721fa8458dc1089d0800000000000000
+      internalID: -2774185655003320025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_62
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 125
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9792ee03afded610800000000000000
+      internalID: 1648000405086574491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_63
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 107
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd941d4f5daac840800000000000000
+      internalID: 5245195340853059064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_64
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 125
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c8ff5e6a452c7f0800000000000000
+      internalID: -593819125059449706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_65
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 107
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8ff74518f2317a0800000000000000
+      internalID: -6407725612303124263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_66
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 125
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6edab97cc32651090800000000000000
+      internalID: -8064431544550576666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_67
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 107
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70ffeefced3b9d40800000000000000
+      internalID: 5592131450409316475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_68
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 125
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58003f2de4a0c0450800000000000000
+      internalID: 6056226932569342085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_69
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 107
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a53e4e89494c670800000000000000
+      internalID: 8558128576306829842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_70
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 125
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8707145381f67b0800000000000000
+      internalID: -5228934025343633184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_71
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 107
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f62263f0b4659a0800000000000000
+      internalID: -6244721304597795036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 89
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de67e471be5265380800000000000000
+      internalID: -8982950715105315091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 71
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6932e4669fec1d870800000000000000
+      internalID: 8705967125242454934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_74
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 89
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3057843b4a2654f40800000000000000
+      internalID: 5712080161911371011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_75
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 71
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd52105ea9716c30800000000000000
+      internalID: 4350892504591261151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_76
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 89
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8905d80e1c0007880800000000000000
+      internalID: -8615385254463713128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_77
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 71
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a52bdb1df09684b0800000000000000
+      internalID: -5438500083234822744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_78
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 89
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e42fa96e09d9e060800000000000000
+      internalID: 6983351353140520168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_79
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 71
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111dba5f7e011b820800000000000000
+      internalID: 2932143420840071441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_80
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 89
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab492b7dca29f28e0800000000000000
+      internalID: -1715991661954034502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_81
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 71
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eba6bd1a0054f490800000000000000
+      internalID: -7713452257400411162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_82
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 89
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86da1ed57098c280800000000000000
+      internalID: -9022803017524914550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_83
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 71
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28090e3093ea72c40800000000000000
+      internalID: 5487546230875656322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_84
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 89
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578b9afb383a0ad70800000000000000
+      internalID: 9052415037266311285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_85
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 71
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34096cd48d1bf7c00800000000000000
+      internalID: 900633993073299523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_86
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 89
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbbaf3981353f3bc0800000000000000
+      internalID: -3801261073605088324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_87
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 71
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb2148d7e3372c10800000000000000
+      internalID: 2028647228012309430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_88
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 89
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11dee27d2dc24790800000000000000
+      internalID: -7547244430434053857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_89
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 71
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84232ede8f2e3bde0800000000000000
+      internalID: -1318460707118632376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_90
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 89
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b708d7c9df6b3dc60800000000000000
+      internalID: 7841812576550617211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_91
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 71
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffe6b78b25a6a620800000000000000
+      internalID: 2785095025954320370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_92
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 89
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e914f99420c118850800000000000000
+      internalID: 6377409343484019102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_93
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 71
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10202876563eb9930800000000000000
+      internalID: 4151161506219819521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_94
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 89
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e17d14365f21a30800000000000000
+      internalID: 4184676810435796512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_95
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 71
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90ca0ec7ae10c550800000000000000
+      internalID: 6178972394817503388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42dcc498578b5e460800000000000000
+      internalID: 7270419988413730084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fef481497c654970800000000000000
+      internalID: 8738509920028393202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_98
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 53
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903617606d34a2240800000000000000
+      internalID: 4767697742035247881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_99
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed61397b024c5bb40800000000000000
+      internalID: 5455482168427091678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_100
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 53
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff4dbe4682302490800000000000000
+      internalID: -7773157404413440007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_101
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ea575a11cda8f70800000000000000
+      internalID: 9190399957951426138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_102
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 53
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23af9bd803dba8a0800000000000000
+      internalID: -6292704019322264790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_103
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122bf6eb5dffc2330800000000000000
+      internalID: 3687603488397701665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_104
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 53
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6690332fa536b6980800000000000000
+      internalID: -8544626625743746714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_105
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2623d30df2d0f10800000000000000
+      internalID: 2237497161299419896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_106
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 53
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c47b78a461e6410800000000000000
+      internalID: 1472138637557058701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_107
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03e22cb180d060e0800000000000000
+      internalID: -2278592155823709430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_108
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 53
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aea2a8188f34c160800000000000000
+      internalID: 7044825570875715237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_109
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b823e83a787b70d40800000000000000
+      internalID: 5550606858949898891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_110
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 53
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce6bcffff5a9dbf0800000000000000
+      internalID: -299025381316661553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_111
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa2331f167cd1810800000000000000
+      internalID: 1737764254707297023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_112
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 53
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3fcf49494fc5a80800000000000000
+      internalID: -8476631479626173466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_113
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8d16dc22c28a960800000000000000
+      internalID: 7613383698056075458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_114
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 53
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e206324e8d427e0800000000000000
+      internalID: -1791068277428965739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_115
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0408aceb416e05950800000000000000
+      internalID: 6435896844287115328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_116
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 53
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620c3235080817ad0800000000000000
+      internalID: -2706240612433936346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_117
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a032beea036eec0800000000000000
+      internalID: -3538086929425560930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_118
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 53
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec82a24787acf0140800000000000000
+      internalID: 4688188355809781966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_119
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 35
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2e58aee046331b0800000000000000
+      internalID: -5678084689957100872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acc9bce8ce55fb30800000000000000
+      internalID: 4320463634589928616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254b8076c770bc410800000000000000
+      internalID: 1498299531916784722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_122
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045580bd1cc89abd0800000000000000
+      internalID: -2618406944107899584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_123
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1b1f53f1598a170800000000000000
+      internalID: 8189959883654803873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_124
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 17
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d70f91dbeb349d20800000000000000
+      internalID: 3284315912280147920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_125
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f859864cdd67220800000000000000
+      internalID: 2483416080179367809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_126
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 17
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1cf67a6fe3a3e90800000000000000
+      internalID: -7045249437975723537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_127
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276588495f44b5f30800000000000000
+      internalID: 4565318468819768946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_128
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 17
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ce248bf389e1670800000000000000
+      internalID: 8511407745218571397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_129
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7d28d2da1432fe0800000000000000
+      internalID: -1215055262411204612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_130
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 17
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756fedf33458b38b0800000000000000
+      internalID: -5171393223224002985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_131
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1798af806a04361c0800000000000000
+      internalID: -4511691319835719311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_132
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 17
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc61cadc32d57dc0800000000000000
+      internalID: -3641773564849197832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_133
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85b7c7031928d8e0800000000000000
+      internalID: -1668538500229122674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_134
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 17
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fe2165e9c1dd380800000000000000
+      internalID: -8944961818513445065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_135
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be130b6394c37820800000000000000
+      internalID: 2914889521273446071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_136
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 17
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faabe2f16b9623760800000000000000
+      internalID: 7436122165670230703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_137
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399df42f3a74d2de0800000000000000
+      internalID: -1356349143298090605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_138
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 17
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c636655828573e0800000000000000
+      internalID: -2056594145633145715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_139
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31687c6f028d8c40800000000000000
+      internalID: 5516208121354674493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_140
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 17
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bdf6ce155d593910800000000000000
+      internalID: 1817586544790666675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_141
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e867fc7d4e2a35a20800000000000000
+      internalID: 3049960476416898702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_142
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 17
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3417a09fd77ec9810800000000000000
+      internalID: 1773546881512272195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarsMap_143
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2203c236a7d8430800000000000000
+      internalID: 3786817428050158243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

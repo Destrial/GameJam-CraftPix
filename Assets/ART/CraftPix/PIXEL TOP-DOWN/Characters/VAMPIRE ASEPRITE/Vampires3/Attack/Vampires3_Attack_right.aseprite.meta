@@ -1,0 +1,472 @@
+fileFormatVersion: 2
+guid: e13c60315f0d61849a9c5e955a40364a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Vampires3_Attack_right_Frame_0
+    originalName: 
+    pivot: {x: 0.6428572, y: -0.5666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 218
+      width: 28
+      height: 30
+    spriteID: dac346b398bf2064facdc8d2b953a408
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 218}
+  - name: Vampires3_Attack_right_Frame_1
+    originalName: 
+    pivot: {x: 0.6428572, y: -0.4473684}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 172
+      width: 28
+      height: 38
+    spriteID: 6dfa37d9865fd4c4a8368b322b3aabf4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 172}
+  - name: Vampires3_Attack_right_Frame_2
+    originalName: 
+    pivot: {x: 0.58064514, y: -0.35714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 122
+      width: 31
+      height: 42
+    spriteID: a8dde4fc70bce3e48941ba43a6bef9ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 122}
+  - name: Vampires3_Attack_right_Frame_3
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.2888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 45
+      width: 33
+      height: 45
+    spriteID: e150b1d54514cf04f86447dc563fd603
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 45}
+  - name: Vampires3_Attack_right_Frame_4
+    originalName: 
+    pivot: {x: 0.6428572, y: -0.31111112}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 172
+      width: 28
+      height: 45
+    spriteID: 95306f5ad55214a43930f8e0dc2770d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 172}
+  - name: Vampires3_Attack_right_Frame_5
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.4473684}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 98
+      width: 38
+      height: 38
+    spriteID: 8714a4fa516232841b92f80ad0a08dc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 98}
+  - name: Vampires3_Attack_right_Frame_6
+    originalName: 
+    pivot: {x: 0.475, y: -0.5151515}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 81
+      width: 40
+      height: 33
+    spriteID: 63e38d3c2a3b8ba47be85497f34b35d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 81}
+  - name: Vampires3_Attack_right_Frame_7
+    originalName: 
+    pivot: {x: 0.43478262, y: -0.5862069}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 183
+      width: 46
+      height: 29
+    spriteID: 61a6981193b0fd3498d3102d6a4d7cb9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 183}
+  - name: Vampires3_Attack_right_Frame_8
+    originalName: 
+    pivot: {x: 0.39130434, y: -0.54838705}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 144
+      width: 46
+      height: 31
+    spriteID: aae6576dad5d4a348b9d938c09338b19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 144}
+  - name: Vampires3_Attack_right_Frame_9
+    originalName: 
+    pivot: {x: 0.375, y: -0.5151515}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 48
+      height: 33
+    spriteID: 3856132c0e62665459d1018a0f4a6e55
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Vampires3_Attack_right_Frame_10
+    originalName: 
+    pivot: {x: 0.36734694, y: -0.5666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 43
+      width: 49
+      height: 30
+    spriteID: e6395b7ed938fc7419c0f0aa33da212d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 43}
+  - name: Vampires3_Attack_right_Frame_11
+    originalName: 
+    pivot: {x: 0.35999998, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 4
+      width: 50
+      height: 31
+    spriteID: 966aa09ff4c4f4640815cd299d122e5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1352922538
+    name: Vampires3_Attack_right
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Vampires3_Attack_right_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 14
+        y: 17
+        width: 28
+        height: 30
+      spriteId: dac346b398bf2064facdc8d2b953a408
+    - name: Vampires3_Attack_right_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 14
+        y: 17
+        width: 28
+        height: 38
+      spriteId: 6dfa37d9865fd4c4a8368b322b3aabf4
+    - name: Vampires3_Attack_right_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 14
+        y: 15
+        width: 31
+        height: 42
+      spriteId: a8dde4fc70bce3e48941ba43a6bef9ae
+    - name: Vampires3_Attack_right_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 14
+        y: 13
+        width: 33
+        height: 45
+      spriteId: e150b1d54514cf04f86447dc563fd603
+    - name: Vampires3_Attack_right_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 14
+        y: 14
+        width: 28
+        height: 45
+      spriteId: 95306f5ad55214a43930f8e0dc2770d1
+    - name: Vampires3_Attack_right_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 12
+        y: 17
+        width: 38
+        height: 38
+      spriteId: 8714a4fa516232841b92f80ad0a08dc2
+    - name: Vampires3_Attack_right_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 13
+        y: 17
+        width: 40
+        height: 33
+      spriteId: 63e38d3c2a3b8ba47be85497f34b35d7
+    - name: Vampires3_Attack_right_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 12
+        y: 17
+        width: 46
+        height: 29
+      spriteId: 61a6981193b0fd3498d3102d6a4d7cb9
+    - name: Vampires3_Attack_right_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 14
+        y: 17
+        width: 46
+        height: 31
+      spriteId: aae6576dad5d4a348b9d938c09338b19
+    - name: Vampires3_Attack_right_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 14
+        y: 17
+        width: 48
+        height: 33
+      spriteId: 3856132c0e62665459d1018a0f4a6e55
+    - name: Vampires3_Attack_right_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 14
+        y: 17
+        width: 49
+        height: 30
+      spriteId: e6395b7ed938fc7419c0f0aa33da212d
+    - name: Vampires3_Attack_right_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 14
+        y: 16
+        width: 50
+        height: 31
+      spriteId: 966aa09ff4c4f4640815cd299d122e5e
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

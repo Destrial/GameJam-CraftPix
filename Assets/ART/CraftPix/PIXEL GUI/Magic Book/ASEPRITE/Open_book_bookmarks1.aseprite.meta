@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 0872f4e6bc1caa6479a5f55ffd9241e1
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Open_book_bookmarks1_Frame_1
+    originalName: 
+    pivot: {x: 0.8, y: -0.09836066}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 4
+      width: 5
+      height: 122
+    spriteID: fc7e7c054cc01bb4382d68cb93268f40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 244, y: 4}
+  - name: Open_book_bookmarks1_Frame_2
+    originalName: 
+    pivot: {x: 0.4, y: -0.09836066}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 4
+      width: 10
+      height: 122
+    spriteID: dee75eeeec5e7dd48953e9381898fe35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 4}
+  - name: Open_book_bookmarks1_Frame_3
+    originalName: 
+    pivot: {x: 0.2857143, y: -0.09836066}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 4
+      width: 14
+      height: 122
+    spriteID: d69695b7aa7384344b0f724790a86fad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 4}
+  - name: Open_book_bookmarks1_Frame_4
+    originalName: 
+    pivot: {x: 0.23529412, y: -0.09836066}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 17
+      height: 122
+    spriteID: 2b49b5be1e68d5e4abf2be6684fb0369
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Open_book_bookmarks1_Frame_5
+    originalName: 
+    pivot: {x: 0.23529412, y: -0.09836066}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 4
+      width: 17
+      height: 122
+    spriteID: b67c5e95f8cd8f64f9305e1ed85e7aaa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 4}
+  - name: Open_book_bookmarks1_Frame_6
+    originalName: 
+    pivot: {x: 0.23529412, y: -0.09836066}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 4
+      width: 17
+      height: 122
+    spriteID: da4473f34b37d664380e9b21c14181fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 4}
+  - name: Open_book_bookmarks1_Frame_7
+    originalName: 
+    pivot: {x: 0.23529412, y: -0.09836066}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 4
+      width: 17
+      height: 122
+    spriteID: 2cf37031af83b36499aacec3ea9d1ed7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 4}
+  - name: Open_book_bookmarks1_Frame_8
+    originalName: 
+    pivot: {x: 0.23529412, y: -0.09836066}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 4
+      width: 17
+      height: 122
+    spriteID: 633c6590fa901fa4a99fae24e4cf49a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 4}
+  - name: Open_book_bookmarks1_Frame_9
+    originalName: 
+    pivot: {x: 0.23529412, y: -0.09836066}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 4
+      width: 17
+      height: 122
+    spriteID: 24a758d7e255ec344995054b3a0037ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 4}
+  - name: Open_book_bookmarks1_Frame_10
+    originalName: 
+    pivot: {x: 0.23529412, y: -0.09836066}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 4
+      width: 17
+      height: 122
+    spriteID: 31b873a83aa3a194f8308cfc35fcfdeb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 4}
+  - name: Open_book_bookmarks1_Frame_11
+    originalName: 
+    pivot: {x: 0.23529412, y: -0.09836066}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 179
+      y: 4
+      width: 17
+      height: 122
+    spriteID: bcc1987a1500a2343b9ff0f58bff5157
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 179, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1327237799
+    name: Open_book_bookmarks1
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Open_book_bookmarks1_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 12
+        y: 12
+        width: 5
+        height: 122
+      spriteId: fc7e7c054cc01bb4382d68cb93268f40
+    - name: Open_book_bookmarks1_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 12
+        y: 12
+        width: 10
+        height: 122
+      spriteId: dee75eeeec5e7dd48953e9381898fe35
+    - name: Open_book_bookmarks1_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 12
+        y: 12
+        width: 14
+        height: 122
+      spriteId: d69695b7aa7384344b0f724790a86fad
+    - name: Open_book_bookmarks1_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 12
+        y: 12
+        width: 17
+        height: 122
+      spriteId: 2b49b5be1e68d5e4abf2be6684fb0369
+    - name: Open_book_bookmarks1_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 12
+        y: 12
+        width: 17
+        height: 122
+      spriteId: b67c5e95f8cd8f64f9305e1ed85e7aaa
+    - name: Open_book_bookmarks1_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 12
+        y: 12
+        width: 17
+        height: 122
+      spriteId: da4473f34b37d664380e9b21c14181fd
+    - name: Open_book_bookmarks1_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 12
+        y: 12
+        width: 17
+        height: 122
+      spriteId: 2cf37031af83b36499aacec3ea9d1ed7
+    - name: Open_book_bookmarks1_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 12
+        y: 12
+        width: 17
+        height: 122
+      spriteId: 633c6590fa901fa4a99fae24e4cf49a6
+    - name: Open_book_bookmarks1_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 12
+        y: 12
+        width: 17
+        height: 122
+      spriteId: 24a758d7e255ec344995054b3a0037ec
+    - name: Open_book_bookmarks1_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 12
+        y: 12
+        width: 17
+        height: 122
+      spriteId: 31b873a83aa3a194f8308cfc35fcfdeb
+    - name: Open_book_bookmarks1_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 12
+        y: 12
+        width: 17
+        height: 122
+      spriteId: bcc1987a1500a2343b9ff0f58bff5157
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 144}

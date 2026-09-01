@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: ec76587707cdf1d4493d7af73e676c87
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Swordsman_lvl1_attack_side_right_Frame_0
+    originalName: 
+    pivot: {x: 0.47058824, y: -0.60714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 184
+      width: 17
+      height: 28
+    spriteID: 4751277383a84bc4baae6e77dd0c2277
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 184}
+  - name: Swordsman_lvl1_attack_side_right_Frame_1
+    originalName: 
+    pivot: {x: 0.5357143, y: 0.41025642}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 215
+      y: 4
+      width: 28
+      height: 78
+    spriteID: 5344ce9b6073b9642a1a49ee3b3bfb70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 215, y: 4}
+  - name: Swordsman_lvl1_attack_side_right_Frame_2
+    originalName: 
+    pivot: {x: 0.21875, y: 0.1754386}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 184
+      width: 96
+      height: 57
+    spriteID: ddeb530095223f54284025db2028e5f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 184}
+  - name: Swordsman_lvl1_attack_side_right_Frame_3
+    originalName: 
+    pivot: {x: 0.08374384, y: 0.4512195}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 203
+      height: 82
+    spriteID: 97209c37fa0a44741bab8f9c489ff1b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Swordsman_lvl1_attack_side_right_Frame_4
+    originalName: 
+    pivot: {x: 0.041237112, y: 0.4512195}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 94
+      width: 194
+      height: 82
+    spriteID: 3d43fbffef729c14f8cf422e627fcce9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 94}
+  - name: Swordsman_lvl1_attack_side_right_Frame_5
+    originalName: 
+    pivot: {x: 0.2580645, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 94
+      width: 31
+      height: 32
+    spriteID: d52039ed683e0694dbb2d7fbf75876de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 94}
+  - name: Swordsman_lvl1_attack_side_right_Frame_6
+    originalName: 
+    pivot: {x: 0.2580645, y: -0.5666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 134
+      width: 31
+      height: 30
+    spriteID: 023c449e4b4c32b4f89b6ce63a9e7550
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 134}
+  - name: Swordsman_lvl1_attack_side_right_Frame_7
+    originalName: 
+    pivot: {x: 0.36363637, y: -0.60714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 184
+      width: 22
+      height: 28
+    spriteID: f87c63dba7a755645a0c73048d31a1a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 184}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 682012236
+    name: Swordsman_lvl1_attack_side_right
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Swordsman_lvl1_attack_side_right_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 24
+        y: 17
+        width: 17
+        height: 28
+      spriteId: 4751277383a84bc4baae6e77dd0c2277
+    - name: Swordsman_lvl1_attack_side_right_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 17
+        y: -32
+        width: 28
+        height: 78
+      spriteId: 5344ce9b6073b9642a1a49ee3b3bfb70
+    - name: Swordsman_lvl1_attack_side_right_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 11
+        y: -10
+        width: 96
+        height: 57
+      spriteId: ddeb530095223f54284025db2028e5f6
+    - name: Swordsman_lvl1_attack_side_right_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 15
+        y: -37
+        width: 203
+        height: 82
+      spriteId: 97209c37fa0a44741bab8f9c489ff1b4
+    - name: Swordsman_lvl1_attack_side_right_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 24
+        y: -37
+        width: 194
+        height: 82
+      spriteId: 3d43fbffef729c14f8cf422e627fcce9
+    - name: Swordsman_lvl1_attack_side_right_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 24
+        y: 16
+        width: 31
+        height: 32
+      spriteId: d52039ed683e0694dbb2d7fbf75876de
+    - name: Swordsman_lvl1_attack_side_right_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 24
+        y: 17
+        width: 31
+        height: 30
+      spriteId: 023c449e4b4c32b4f89b6ce63a9e7550
+    - name: Swordsman_lvl1_attack_side_right_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 24
+        y: 17
+        width: 22
+        height: 28
+      spriteId: f87c63dba7a755645a0c73048d31a1a7
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

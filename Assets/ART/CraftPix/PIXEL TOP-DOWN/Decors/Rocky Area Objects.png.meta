@@ -1,0 +1,2116 @@
+fileFormatVersion: 2
+guid: fcbb5d62c5c534b45860cc5b71dc47b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8708942681956149696
+    second: Rocky Area Objects_0
+  - first:
+      213: 954995463589878591
+    second: Rocky Area Objects_1
+  - first:
+      213: 5089431465916306551
+    second: Rocky Area Objects_2
+  - first:
+      213: -1900741301721433609
+    second: Rocky Area Objects_3
+  - first:
+      213: 2223318875143438537
+    second: Rocky Area Objects_4
+  - first:
+      213: 6315788218262452504
+    second: Rocky Area Objects_5
+  - first:
+      213: 3964175969800824676
+    second: Rocky Area Objects_6
+  - first:
+      213: 1806208784555818609
+    second: Rocky Area Objects_7
+  - first:
+      213: 8062970297871252287
+    second: Rocky Area Objects_8
+  - first:
+      213: 4053740188418667914
+    second: Rocky Area Objects_9
+  - first:
+      213: 487902495699509537
+    second: Rocky Area Objects_10
+  - first:
+      213: -3600128814092468152
+    second: Rocky Area Objects_11
+  - first:
+      213: -3707381179805778455
+    second: Rocky Area Objects_12
+  - first:
+      213: 9120759294514771987
+    second: Rocky Area Objects_13
+  - first:
+      213: -5556767054053611977
+    second: Rocky Area Objects_14
+  - first:
+      213: 1926076561311350746
+    second: Rocky Area Objects_15
+  - first:
+      213: -3111374147478685654
+    second: Rocky Area Objects_16
+  - first:
+      213: -3462988363896851149
+    second: Rocky Area Objects_17
+  - first:
+      213: -478396640815653091
+    second: Rocky Area Objects_18
+  - first:
+      213: -3154733193631397597
+    second: Rocky Area Objects_19
+  - first:
+      213: 3935128462411709123
+    second: Rocky Area Objects_20
+  - first:
+      213: 5116773337169747752
+    second: Rocky Area Objects_21
+  - first:
+      213: -2705494968595440405
+    second: Rocky Area Objects_22
+  - first:
+      213: 7343992086641075901
+    second: Rocky Area Objects_23
+  - first:
+      213: 2264597031096616116
+    second: Rocky Area Objects_24
+  - first:
+      213: -977511282339835666
+    second: Rocky Area Objects_25
+  - first:
+      213: 3712576011548258717
+    second: Rocky Area Objects_26
+  - first:
+      213: 2192560150865370944
+    second: Rocky Area Objects_27
+  - first:
+      213: 7573166768918866922
+    second: Rocky Area Objects_28
+  - first:
+      213: 6007895750053364597
+    second: Rocky Area Objects_29
+  - first:
+      213: -4675792474243805276
+    second: Rocky Area Objects_30
+  - first:
+      213: -3806362072622733143
+    second: Rocky Area Objects_31
+  - first:
+      213: 1227202036953573287
+    second: Rocky Area Objects_32
+  - first:
+      213: -5735603322100335028
+    second: Rocky Area Objects_33
+  - first:
+      213: 7259569815685891494
+    second: Rocky Area Objects_34
+  - first:
+      213: 242637763068898687
+    second: Rocky Area Objects_35
+  - first:
+      213: 6676623615086176810
+    second: Rocky Area Objects_36
+  - first:
+      213: 604409682636961432
+    second: Rocky Area Objects_37
+  - first:
+      213: -4845197123391405539
+    second: Rocky Area Objects_38
+  - first:
+      213: 2642589198425318687
+    second: Rocky Area Objects_39
+  - first:
+      213: -2698560059747340749
+    second: Rocky Area Objects_40
+  - first:
+      213: -5512148433234706300
+    second: Rocky Area Objects_41
+  - first:
+      213: 6280958162496794159
+    second: Rocky Area Objects_42
+  - first:
+      213: 3025339008316684657
+    second: Rocky Area Objects_43
+  - first:
+      213: -2227008285679126448
+    second: Rocky Area Objects_44
+  - first:
+      213: -2518058501726658540
+    second: Rocky Area Objects_45
+  - first:
+      213: 5202058528327531675
+    second: Rocky Area Objects_46
+  - first:
+      213: 3184406985031978838
+    second: Rocky Area Objects_47
+  - first:
+      213: 2330544083581918908
+    second: Rocky Area Objects_48
+  - first:
+      213: 5562368159139957512
+    second: Rocky Area Objects_49
+  - first:
+      213: 8425594203087724063
+    second: Rocky Area Objects_50
+  - first:
+      213: 35513938971151419
+    second: Rocky Area Objects_51
+  - first:
+      213: 1801627776570862723
+    second: Rocky Area Objects_52
+  - first:
+      213: 3673828111059053046
+    second: Rocky Area Objects_53
+  - first:
+      213: 4282892091020207407
+    second: Rocky Area Objects_54
+  - first:
+      213: -5218043616971059634
+    second: Rocky Area Objects_55
+  - first:
+      213: 7459716818722103657
+    second: Rocky Area Objects_56
+  - first:
+      213: -8553460365055577653
+    second: Rocky Area Objects_57
+  - first:
+      213: 1017836813001663970
+    second: Rocky Area Objects_58
+  - first:
+      213: 4349171754290987140
+    second: Rocky Area Objects_59
+  - first:
+      213: 2908123889282838895
+    second: Rocky Area Objects_60
+  - first:
+      213: 5784589384427497913
+    second: Rocky Area Objects_61
+  - first:
+      213: 3879088728308420323
+    second: Rocky Area Objects_62
+  - first:
+      213: 5571776217905701789
+    second: Rocky Area Objects_63
+  - first:
+      213: -788670485831653623
+    second: Rocky Area Objects_64
+  - first:
+      213: 3537992126127577589
+    second: Rocky Area Objects_65
+  - first:
+      213: -3107388004327640593
+    second: Rocky Area Objects_66
+  - first:
+      213: 2288228645127610009
+    second: Rocky Area Objects_67
+  - first:
+      213: 8015793230801789934
+    second: Rocky Area Objects_68
+  - first:
+      213: 4167570209575614922
+    second: Rocky Area Objects_69
+  - first:
+      213: -2860384916344626745
+    second: Rocky Area Objects_70
+  - first:
+      213: 8086757705093202067
+    second: Rocky Area Objects_71
+  - first:
+      213: -8500138007489043445
+    second: Rocky Area Objects_72
+  - first:
+      213: 4599851606712079489
+    second: Rocky Area Objects_73
+  - first:
+      213: 9046440638394766001
+    second: Rocky Area Objects_74
+  - first:
+      213: 5780992573450617804
+    second: Rocky Area Objects_75
+  - first:
+      213: -6327031947355247865
+    second: Rocky Area Objects_76
+  - first:
+      213: -3765962057728367366
+    second: Rocky Area Objects_77
+  - first:
+      213: 3055080484926375543
+    second: Rocky Area Objects_78
+  - first:
+      213: 3411665325991244597
+    second: Rocky Area Objects_79
+  - first:
+      213: -3883411972721474678
+    second: Rocky Area Objects_80
+  - first:
+      213: -8673713746782748132
+    second: Rocky Area Objects_81
+  - first:
+      213: -4112391208241136970
+    second: Rocky Area Objects_82
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rocky Area Objects_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 694
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9eb3f2a316cd870800000000000000
+      internalID: 8708942681956149696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 632
+        width: 206
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b52697053d04d00800000000000000
+      internalID: 954995463589878591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_2
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 687
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77413aa04fa41a640800000000000000
+      internalID: 5089431465916306551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 543
+        width: 209
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9fafc4bd53f95e0800000000000000
+      internalID: -1900741301721433609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_4
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 689
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0885fbcb0dade10800000000000000
+      internalID: 2223318875143438537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_5
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 578
+        width: 82
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819712a0cef26a750800000000000000
+      internalID: 6315788218262452504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_6
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 691
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4672e1b9a05930730800000000000000
+      internalID: 3964175969800824676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_7
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 581
+        width: 79
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17eb3a1e151f01910800000000000000
+      internalID: 1806208784555818609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 591
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b342734cc65ef60800000000000000
+      internalID: 8062970297871252287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 544
+        width: 123
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a857b664937c14830800000000000000
+      internalID: 4053740188418667914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_10
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 596
+        width: 65
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121223d1cb065c600800000000000000
+      internalID: 487902495699509537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_11
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 596
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840ce5afae5c90ec0800000000000000
+      internalID: -3600128814092468152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_12
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 582
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed35b2a57cbc8cc0800000000000000
+      internalID: -3707381179805778455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_13
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 545
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31835672142739e70800000000000000
+      internalID: 9120759294514771987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_14
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 545
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7366a8b2ec562e2b0800000000000000
+      internalID: -5556767054053611977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_15
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 543
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf3b2f7d6ccaba10800000000000000
+      internalID: 1926076561311350746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_16
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 545
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28f23892bd22d4d0800000000000000
+      internalID: -3111374147478685654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_17
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 544
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335fd944e6ef0ffc0800000000000000
+      internalID: -3462988363896851149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_18
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 546
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f51723ac46c59f0800000000000000
+      internalID: -478396640815653091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_19
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 546
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3298778ffd22834d0800000000000000
+      internalID: -3154733193631397597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_20
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 544
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca3493cc726c9630800000000000000
+      internalID: 3935128462411709123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 418
+        width: 99
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f51368d3e620740800000000000000
+      internalID: 5116773337169747752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_22
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 420
+        width: 99
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec134f09a6247ad0800000000000000
+      internalID: -2705494968595440405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_23
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 479
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6658584e91be560800000000000000
+      internalID: 7343992086641075901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_24
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 479
+        width: 43
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b40bed50077d6f10800000000000000
+      internalID: 2264597031096616116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_25
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 482
+        width: 79
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee09234faae2f62f0800000000000000
+      internalID: -977511282339835666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_26
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 485
+        width: 75
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9178f16638b58330800000000000000
+      internalID: 3712576011548258717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_27
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 489
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04fd10d27d98d6e10800000000000000
+      internalID: 2192560150865370944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_28
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 489
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeba33e4d0b491960800000000000000
+      internalID: 7573166768918866922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_29
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 451
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573828d7a55506350800000000000000
+      internalID: 6007895750053364597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_30
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 421
+        width: 72
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4afc041a48f3c1fb0800000000000000
+      internalID: -4675792474243805276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_31
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 419
+        width: 72
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a86dc6acd51d2bc0800000000000000
+      internalID: -3806362072622733143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_32
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 462
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7e04820c5e70110800000000000000
+      internalID: 1227202036953573287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_33
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 415
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4eb8a5ca2b0760b0800000000000000
+      internalID: -5735603322100335028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_34
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 415
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a50b16d84c2fb460800000000000000
+      internalID: 7259569815685891494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_35
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 416
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d21dc82c50e5300800000000000000
+      internalID: 242637763068898687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_36
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 421
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a223cbdc128ac50800000000000000
+      internalID: 6676623615086176810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_37
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 418
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896f160776b436800800000000000000
+      internalID: 604409682636961432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_38
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 317
+        width: 123
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12c28123e662ccb0800000000000000
+      internalID: -4845197123391405539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_39
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 315
+        width: 123
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15ec6bffdc5ca420800000000000000
+      internalID: 2642589198425318687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_40
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 307
+        width: 84
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ee3b95ce9cc8ad0800000000000000
+      internalID: -2698560059747340749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_41
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 307
+        width: 84
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480c1df543ae083b0800000000000000
+      internalID: -5512148433234706300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_42
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 368
+        width: 66
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e26bcbb227a2750800000000000000
+      internalID: 6280958162496794159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_43
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 371
+        width: 97
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17939d39cc92cf920800000000000000
+      internalID: 3025339008316684657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 321
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0587e3c63c31811e0800000000000000
+      internalID: -2227008285679126448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 313
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4102ee8422f0e0dd0800000000000000
+      internalID: -2518058501726658540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_46
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 305
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9cf0c97bac613840800000000000000
+      internalID: 5202058528327531675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_47
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 307
+        width: 85
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f8a1bf749413c20800000000000000
+      internalID: 3184406985031978838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbed94b0f71c75020800000000000000
+      internalID: 2330544083581918908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 211
+        width: 77
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b0b7bbe50813d40800000000000000
+      internalID: 5562368159139957512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_50
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 261
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e52a87949bde470800000000000000
+      internalID: 8425594203087724063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_51
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 215
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c43f44dbb2e7000800000000000000
+      internalID: 35513938971151419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_52
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 207
+        width: 73
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cabf7daeaa00910800000000000000
+      internalID: 1801627776570862723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_53
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 209
+        width: 72
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9e485c33f0cf230800000000000000
+      internalID: 3673828111059053046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_54
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 207
+        width: 86
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25e6904aa3ef6b30800000000000000
+      internalID: 4282892091020207407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_55
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 264
+        width: 90
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e02fb0af8c597b0800000000000000
+      internalID: -5218043616971059634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_56
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 259
+        width: 66
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96120f06cec368760800000000000000
+      internalID: 7459716818722103657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_57
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 255
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1ba7cbd110c4980800000000000000
+      internalID: -8553460365055577653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 186
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5a74e4035102e00800000000000000
+      internalID: 1017836813001663970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_59
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 208
+        width: 144
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4804da9eaac5b5c30800000000000000
+      internalID: 4349171754290987140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_60
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 219
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61f787f44bbb5820800000000000000
+      internalID: 2908123889282838895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 81
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9eb46a56df64050800000000000000
+      internalID: 5784589384427497913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_62
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 129
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee8b0765aa45d530800000000000000
+      internalID: 3879088728308420323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_63
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 132
+        width: 99
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d932d3c13fce25d40800000000000000
+      internalID: 5571776217905701789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_64
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 131
+        width: 100
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9076b272f541e05f0800000000000000
+      internalID: -788670485831653623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_65
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 140
+        width: 89
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f996f7f719791130800000000000000
+      internalID: 3537992126127577589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_66
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 147
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1bdbed21750e4d0800000000000000
+      internalID: -3107388004327640593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_67
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 94
+        width: 88
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e54b544db61cf10800000000000000
+      internalID: 2288228645127610009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_68
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 144
+        width: 68
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3ebe25971dd3f60800000000000000
+      internalID: 8015793230801789934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_69
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 56
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9314e560f26d930800000000000000
+      internalID: 4167570209575614922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_70
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 56
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1a464d21fdd48d0800000000000000
+      internalID: -2860384916344626745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 52
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390cbbc894fe93070800000000000000
+      internalID: 8086757705093202067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_72
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 107
+        width: 66
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04a1d19481790a80800000000000000
+      internalID: -8500138007489043445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_73
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 61
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184559d4aa4f5df30800000000000000
+      internalID: 4599851606712079489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_74
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 79
+        width: 130
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b29d2d94d96b8d70800000000000000
+      internalID: 9046440638394766001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_75
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 82
+        width: 67
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc302b5dd163a3050800000000000000
+      internalID: 5780992573450617804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_76
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ba75747fdd138a0800000000000000
+      internalID: -6327031947355247865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_77
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4608f167d9cbbc0800000000000000
+      internalID: -3765962057728367366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_78
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 0
+        width: 135
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776c348b383d56a20800000000000000
+      internalID: 3055080484926375543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_79
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 39
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533b938c98ba85f20800000000000000
+      internalID: 3411665325991244597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_80
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 36
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a830071d2695b1ac0800000000000000
+      internalID: -3883411972721474678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_81
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 36
+        width: 144
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1287977d47c0a780800000000000000
+      internalID: -8673713746782748132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky Area Objects_82
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 40
+        width: 82
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6baf8570cf9dde6c0800000000000000
+      internalID: -4112391208241136970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

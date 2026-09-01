@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: ef3692c846f3fff4fba172b5683afd08
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Turning_pages_left_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.027322406}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 643
+      width: 246
+      height: 183
+    spriteID: 24584e32aec7a9c4aa28a8d6982005d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 512, y: 643}
+  - name: Turning_pages_left_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.026881723}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 258
+      y: 643
+      width: 246
+      height: 186
+    spriteID: 18e0a93a4d00c8248af886922c87d093
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 258, y: 643}
+  - name: Turning_pages_left_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.026455028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 766
+      y: 438
+      width: 246
+      height: 189
+    spriteID: 95a41d47e788d0f47b3e97de033509d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 766, y: 438}
+  - name: Turning_pages_left_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.025906738}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 258
+      y: 438
+      width: 246
+      height: 193
+    spriteID: 712c2035f10431540b86e251d3222cd9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 258, y: 438}
+  - name: Turning_pages_left_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.02538071}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 766
+      y: 223
+      width: 246
+      height: 197
+    spriteID: c11615ed06fc6ea42ad26e4a514ea275
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 766, y: 223}
+  - name: Turning_pages_left_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.025000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 223
+      width: 246
+      height: 200
+    spriteID: d96978ecac5b02a4280d05eaf89951b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 512, y: 223}
+  - name: Turning_pages_left_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.024630543}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 258
+      y: 223
+      width: 246
+      height: 203
+    spriteID: 2cfdf18dfe357fd49a41c90edc0365c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 258, y: 223}
+  - name: Turning_pages_left_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.023923445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 4
+      width: 246
+      height: 209
+    spriteID: 652f91dfa7473784bbc35281d13eb637
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 512, y: 4}
+  - name: Turning_pages_left_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.023696685}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 246
+      height: 211
+    spriteID: 03500b54f20010949aa99679ed079176
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Turning_pages_left_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.023696685}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 258
+      y: 4
+      width: 246
+      height: 211
+    spriteID: 15f6016b7fb6e8145a1e06788cded575
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 258, y: 4}
+  - name: Turning_pages_left_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.024038462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 766
+      y: 4
+      width: 246
+      height: 208
+    spriteID: 185aec1a193752a45ad51d19fb1cfed2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 766, y: 4}
+  - name: Turning_pages_left_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.02415459}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 223
+      width: 246
+      height: 207
+    spriteID: 66c7c699aa5c4224ba6b06c5dbeda28f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 223}
+  - name: Turning_pages_left_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.02538071}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 438
+      width: 246
+      height: 197
+    spriteID: f4f66d1d16db09d4f87757b88af13a18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 438}
+  - name: Turning_pages_left_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.025906738}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 438
+      width: 246
+      height: 193
+    spriteID: 00605f51b61578445b155a65262314db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 512, y: 438}
+  - name: Turning_pages_left_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.026455028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 643
+      width: 246
+      height: 189
+    spriteID: 9502e437b4c9c5c408fb835bdfac7231
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 643}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1703089332
+    name: Turning_pages_left
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Turning_pages_left_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 13
+        y: 5
+        width: 246
+        height: 183
+      spriteId: 24584e32aec7a9c4aa28a8d6982005d2
+    - name: Turning_pages_left_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 13
+        y: 5
+        width: 246
+        height: 186
+      spriteId: 18e0a93a4d00c8248af886922c87d093
+    - name: Turning_pages_left_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 13
+        y: 5
+        width: 246
+        height: 189
+      spriteId: 95a41d47e788d0f47b3e97de033509d0
+    - name: Turning_pages_left_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 13
+        y: 5
+        width: 246
+        height: 193
+      spriteId: 712c2035f10431540b86e251d3222cd9
+    - name: Turning_pages_left_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 13
+        y: 5
+        width: 246
+        height: 197
+      spriteId: c11615ed06fc6ea42ad26e4a514ea275
+    - name: Turning_pages_left_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 13
+        y: 5
+        width: 246
+        height: 200
+      spriteId: d96978ecac5b02a4280d05eaf89951b2
+    - name: Turning_pages_left_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 13
+        y: 5
+        width: 246
+        height: 203
+      spriteId: 2cfdf18dfe357fd49a41c90edc0365c8
+    - name: Turning_pages_left_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 13
+        y: 5
+        width: 246
+        height: 209
+      spriteId: 652f91dfa7473784bbc35281d13eb637
+    - name: Turning_pages_left_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 13
+        y: 5
+        width: 246
+        height: 211
+      spriteId: 03500b54f20010949aa99679ed079176
+    - name: Turning_pages_left_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 13
+        y: 5
+        width: 246
+        height: 211
+      spriteId: 15f6016b7fb6e8145a1e06788cded575
+    - name: Turning_pages_left_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 13
+        y: 5
+        width: 246
+        height: 208
+      spriteId: 185aec1a193752a45ad51d19fb1cfed2
+    - name: Turning_pages_left_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 13
+        y: 5
+        width: 246
+        height: 207
+      spriteId: 66c7c699aa5c4224ba6b06c5dbeda28f
+    - name: Turning_pages_left_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 13
+        y: 5
+        width: 246
+        height: 197
+      spriteId: f4f66d1d16db09d4f87757b88af13a18
+    - name: Turning_pages_left_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 13
+        y: 5
+        width: 246
+        height: 193
+      spriteId: 00605f51b61578445b155a65262314db
+    - name: Turning_pages_left_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 13
+        y: 5
+        width: 246
+        height: 189
+      spriteId: 9502e437b4c9c5c408fb835bdfac7231
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 272, y: 272}

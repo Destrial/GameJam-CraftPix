@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: fb9d6466e4ecadd41bd3b803209b2cab
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Vampires3_Death_left_Frame_0
+    originalName: 
+    pivot: {x: 0.39285716, y: -0.5666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 67
+      width: 28
+      height: 30
+    spriteID: 58c176778f6c1084881c475252725cca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 67}
+  - name: Vampires3_Death_left_Frame_1
+    originalName: 
+    pivot: {x: 0.39285716, y: -0.5862069}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 67
+      width: 28
+      height: 29
+    spriteID: 01dc23a4359e2234e87a13e8618ffd4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 67}
+  - name: Vampires3_Death_left_Frame_2
+    originalName: 
+    pivot: {x: 0.37931034, y: -0.6296296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 187
+      y: 67
+      width: 29
+      height: 27
+    spriteID: 35b69121a25089640ae453552de2ffb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 187, y: 67}
+  - name: Vampires3_Death_left_Frame_3
+    originalName: 
+    pivot: {x: 0.39285716, y: -0.60714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 67
+      width: 28
+      height: 28
+    spriteID: 8c023b8c9e1fea04f964870d2ff5efdb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 67}
+  - name: Vampires3_Death_left_Frame_4
+    originalName: 
+    pivot: {x: 0.39285716, y: -0.5862069}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 67
+      width: 28
+      height: 29
+    spriteID: 14a288bb7b769fc4f9bda212cd7021b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 67}
+  - name: Vampires3_Death_left_Frame_5
+    originalName: 
+    pivot: {x: 0.4516129, y: -0.5666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 67
+      width: 31
+      height: 30
+    spriteID: 0e4be0931d46bae48b5575c3639baa7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 67}
+  - name: Vampires3_Death_left_Frame_6
+    originalName: 
+    pivot: {x: 0.46875, y: -0.5666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 211
+      y: 4
+      width: 32
+      height: 30
+    spriteID: 9a2f586d6b2ce7940bdce2cf5fde764a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 211, y: 4}
+  - name: Vampires3_Death_left_Frame_7
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.35897437}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 4
+      width: 39
+      height: 39
+    spriteID: 9e64eaa8541d7b744ba9207d78891f8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 4}
+  - name: Vampires3_Death_left_Frame_8
+    originalName: 
+    pivot: {x: 0.52380955, y: -0.21739131}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 4
+      width: 42
+      height: 46
+    spriteID: 24a27e1bf980dc9468d0bbd7ad049f7f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 4}
+  - name: Vampires3_Death_left_Frame_9
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.14}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 4
+      width: 45
+      height: 50
+    spriteID: 0bddb4f35dc25a34d815adc02a5e4002
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 4}
+  - name: Vampires3_Death_left_Frame_10
+    originalName: 
+    pivot: {x: 0.53061223, y: -0.07272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 49
+      height: 55
+    spriteID: 8f35ae8f091ba5d4691a62dc6a5ff92b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -467331709
+    name: Vampires3_Death_left
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Vampires3_Death_left_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 21
+        y: 17
+        width: 28
+        height: 30
+      spriteId: 58c176778f6c1084881c475252725cca
+    - name: Vampires3_Death_left_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 21
+        y: 17
+        width: 28
+        height: 29
+      spriteId: 01dc23a4359e2234e87a13e8618ffd4a
+    - name: Vampires3_Death_left_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 21
+        y: 17
+        width: 29
+        height: 27
+      spriteId: 35b69121a25089640ae453552de2ffb3
+    - name: Vampires3_Death_left_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 21
+        y: 17
+        width: 28
+        height: 28
+      spriteId: 8c023b8c9e1fea04f964870d2ff5efdb
+    - name: Vampires3_Death_left_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 21
+        y: 17
+        width: 28
+        height: 29
+      spriteId: 14a288bb7b769fc4f9bda212cd7021b6
+    - name: Vampires3_Death_left_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 18
+        y: 17
+        width: 31
+        height: 30
+      spriteId: 0e4be0931d46bae48b5575c3639baa7a
+    - name: Vampires3_Death_left_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 17
+        y: 17
+        width: 32
+        height: 30
+      spriteId: 9a2f586d6b2ce7940bdce2cf5fde764a
+    - name: Vampires3_Death_left_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 11
+        y: 14
+        width: 39
+        height: 39
+      spriteId: 9e64eaa8541d7b744ba9207d78891f8a
+    - name: Vampires3_Death_left_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 10
+        y: 10
+        width: 42
+        height: 46
+      spriteId: 24a27e1bf980dc9468d0bbd7ad049f7f
+    - name: Vampires3_Death_left_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 8
+        y: 7
+        width: 45
+        height: 50
+      spriteId: 0bddb4f35dc25a34d815adc02a5e4002
+    - name: Vampires3_Death_left_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 6
+        y: 4
+        width: 49
+        height: 55
+      spriteId: 8f35ae8f091ba5d4691a62dc6a5ff92b
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
