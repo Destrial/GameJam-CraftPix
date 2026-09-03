@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Altar2_0: 1205447952436369912
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

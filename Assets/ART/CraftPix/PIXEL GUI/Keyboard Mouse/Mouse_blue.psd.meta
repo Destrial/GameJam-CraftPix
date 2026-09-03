@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mouse_blue_0: 5902046566956625093
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

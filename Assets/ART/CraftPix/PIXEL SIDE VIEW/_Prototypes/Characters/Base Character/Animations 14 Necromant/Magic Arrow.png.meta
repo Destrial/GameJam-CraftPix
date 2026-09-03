@@ -404,7 +404,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Magic Arrow_0: 6333653222134828502
+      Magic Arrow_1: 2992046970766736313
+      Magic Arrow_10: 6656222373904642841
+      Magic Arrow_11: -2193518243553613228
+      Magic Arrow_2: 4461527717585489115
+      Magic Arrow_3: -8599339443414195575
+      Magic Arrow_4: -6141928624292374822
+      Magic Arrow_5: 8470885192964181831
+      Magic Arrow_6: -330742760660372785
+      Magic Arrow_7: 1083290603665989471
+      Magic Arrow_8: -7133324450223283092
+      Magic Arrow_9: -2044044390135104339
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

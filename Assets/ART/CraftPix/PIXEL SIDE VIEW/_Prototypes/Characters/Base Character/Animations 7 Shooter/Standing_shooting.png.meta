@@ -284,7 +284,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Standing_shooting_0: 7746609007223630825
+      Standing_shooting_1: -3209851560558028625
+      Standing_shooting_2: 1393442222829670478
+      Standing_shooting_3: -8548016283051215940
+      Standing_shooting_4: -3022778370295042296
+      Standing_shooting_5: -5906896636031268114
+      Standing_shooting_6: -4169064099424684547
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

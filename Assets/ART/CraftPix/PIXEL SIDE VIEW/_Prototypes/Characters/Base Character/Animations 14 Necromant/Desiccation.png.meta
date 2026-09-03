@@ -548,7 +548,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Desiccation_0: -1132496558200847426
+      Desiccation_1: -9097131063370515423
+      Desiccation_10: 970169406854118755
+      Desiccation_11: 1229699732508185264
+      Desiccation_12: -3114311926203939002
+      Desiccation_13: 5948197473925418531
+      Desiccation_14: 8201147069042315135
+      Desiccation_15: 480769667160595492
+      Desiccation_16: -1551728172552988483
+      Desiccation_17: -1164920838792908473
+      Desiccation_2: 4526764928983333664
+      Desiccation_3: -8163854517540248142
+      Desiccation_4: 6093385859317205550
+      Desiccation_5: 4268095641689781188
+      Desiccation_6: -3870783742799148938
+      Desiccation_7: -7811837819985146325
+      Desiccation_8: 3732520120170317909
+      Desiccation_9: -6116032468880106487
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

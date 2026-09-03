@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Peek_out_hiding_2_0: 2224909445683354007
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

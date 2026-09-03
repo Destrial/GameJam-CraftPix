@@ -284,7 +284,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BarSet_0: -2775396802441438265
+      BarSet_1: 3328694814802457926
+      BarSet_2: -3291313059305424874
+      BarSet_3: 5010584029134669785
+      BarSet_4: -8562646242506185363
+      BarSet_5: 3995183943542154458
+      BarSet_6: -2344491548805893381
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

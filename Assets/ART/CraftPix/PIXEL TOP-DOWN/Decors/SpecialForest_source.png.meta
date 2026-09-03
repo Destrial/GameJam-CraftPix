@@ -1076,7 +1076,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpecialForest_source_0: -6012339468889392111
+      SpecialForest_source_1: -5696183411656621921
+      SpecialForest_source_10: 775929926400970976
+      SpecialForest_source_11: -7098342863237747172
+      SpecialForest_source_12: -2245191545148223127
+      SpecialForest_source_13: 5974451298775666003
+      SpecialForest_source_14: 9017907743280077881
+      SpecialForest_source_15: 5115600802727147587
+      SpecialForest_source_16: -5273226980255763950
+      SpecialForest_source_17: 1014854106131972638
+      SpecialForest_source_18: -36861263050183395
+      SpecialForest_source_19: -8399307766878190684
+      SpecialForest_source_2: 5585444358142060392
+      SpecialForest_source_20: 1846827277941078789
+      SpecialForest_source_21: 8166476979728216259
+      SpecialForest_source_22: 2806688078900193568
+      SpecialForest_source_23: 7484741381544917404
+      SpecialForest_source_24: 1308031595942652872
+      SpecialForest_source_25: 8919922100679720337
+      SpecialForest_source_26: 3509761598118153257
+      SpecialForest_source_27: 6124150804236411647
+      SpecialForest_source_28: -1842174326132227725
+      SpecialForest_source_29: 7526781169710632437
+      SpecialForest_source_3: 7419801276870617648
+      SpecialForest_source_30: -403003581682720822
+      SpecialForest_source_31: 4117199557160492746
+      SpecialForest_source_32: -1221089628113397664
+      SpecialForest_source_33: -2548096033011952670
+      SpecialForest_source_34: -2165225595453253973
+      SpecialForest_source_35: -7928438412547775614
+      SpecialForest_source_36: 8075249509116760652
+      SpecialForest_source_37: 2359967908682501468
+      SpecialForest_source_38: -3113880870547869614
+      SpecialForest_source_39: 3246765031979363206
+      SpecialForest_source_4: 4835822105265251969
+      SpecialForest_source_5: 3388812240325884682
+      SpecialForest_source_6: 7315514051988284751
+      SpecialForest_source_7: 6183220861998895440
+      SpecialForest_source_8: 5153953280290989053
+      SpecialForest_source_9: -1134206118544535925
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

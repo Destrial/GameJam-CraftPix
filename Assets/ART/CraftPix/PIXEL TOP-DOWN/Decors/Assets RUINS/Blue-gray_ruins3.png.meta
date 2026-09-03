@@ -188,7 +188,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blue-gray_ruins3_0: 8167403655975393660
+      Blue-gray_ruins3_1: -1452967929724704954
+      Blue-gray_ruins3_2: -3189997217972102835
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

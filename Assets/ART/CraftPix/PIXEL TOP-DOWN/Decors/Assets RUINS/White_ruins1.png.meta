@@ -236,7 +236,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      White_ruins1_0: 3919439084712167332
+      White_ruins1_1: 3316173580037302672
+      White_ruins1_2: -1045049148516265080
+      White_ruins1_3: -3846570238029199875
+      White_ruins1_4: 2071966954852397842
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -308,7 +308,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lie_Recharge_0: -5712445711829475896
+      Lie_Recharge_1: 6336627750087233930
+      Lie_Recharge_2: 441081267943888182
+      Lie_Recharge_3: -1200532981465022027
+      Lie_Recharge_4: 8626497500960925700
+      Lie_Recharge_5: 7044527804501690311
+      Lie_Recharge_6: 5464923630813234556
+      Lie_Recharge_7: 1980674972471723179
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

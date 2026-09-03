@@ -212,7 +212,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rotating_blades_0: -6754883324850532928
+      Rotating_blades_1: 159941820732619224
+      Rotating_blades_2: -8419955107302675849
+      Rotating_blades_3: -4016879394603533383
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

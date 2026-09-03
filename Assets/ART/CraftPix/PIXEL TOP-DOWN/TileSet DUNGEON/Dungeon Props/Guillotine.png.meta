@@ -404,7 +404,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Guillotine_0: -2703505985120436073
+      Guillotine_1: -6701256601056110766
+      Guillotine_10: 5638048744382968000
+      Guillotine_11: 184208340702070044
+      Guillotine_2: 3865433746087138920
+      Guillotine_3: 362659695812678123
+      Guillotine_4: 6074889202060812631
+      Guillotine_5: 29444795392291996
+      Guillotine_6: 520386731669881639
+      Guillotine_7: 1200805231626371040
+      Guillotine_8: 996916309148725967
+      Guillotine_9: 6397977117848570957
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

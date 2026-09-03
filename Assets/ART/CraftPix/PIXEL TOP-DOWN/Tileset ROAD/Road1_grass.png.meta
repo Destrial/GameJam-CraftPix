@@ -476,7 +476,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Road1_grass_0: -5656094969703949175
+      Road1_grass_1: -6828002938952250248
+      Road1_grass_10: 607120827156575716
+      Road1_grass_11: 6879514133558923575
+      Road1_grass_12: -5584361050314834271
+      Road1_grass_13: 8071490369754866489
+      Road1_grass_14: -180963751678762515
+      Road1_grass_2: 8464263453941431383
+      Road1_grass_3: 2102804875150337038
+      Road1_grass_4: 2668817402380081984
+      Road1_grass_5: 1506704160379892900
+      Road1_grass_6: -6607335009483284405
+      Road1_grass_7: -1845559954795094372
+      Road1_grass_8: 8361138946571906833
+      Road1_grass_9: 4696953543053441966
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -476,7 +476,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Portal1_Start_0: 8419691050032953277
+      Portal1_Start_1: 3166177964611410378
+      Portal1_Start_10: -3205690342579620818
+      Portal1_Start_11: -5122960408264223639
+      Portal1_Start_12: -3341396243046400870
+      Portal1_Start_13: -8872762045033397888
+      Portal1_Start_14: 5866937952006542313
+      Portal1_Start_2: 7964384514606333655
+      Portal1_Start_3: 580410829862674791
+      Portal1_Start_4: -3660363527992732003
+      Portal1_Start_5: -1302396379772778501
+      Portal1_Start_6: 7356101106443865943
+      Portal1_Start_7: -1149553045795370968
+      Portal1_Start_8: -3873287136676380270
+      Portal1_Start_9: 7341093249834041659
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

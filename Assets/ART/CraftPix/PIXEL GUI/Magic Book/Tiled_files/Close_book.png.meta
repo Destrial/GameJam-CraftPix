@@ -404,7 +404,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Close_book_0: 7459837738170382272
+      Close_book_1: 3972286940121023317
+      Close_book_10: -7874745741041224535
+      Close_book_11: -5601629082184709810
+      Close_book_2: -3526961063808305617
+      Close_book_3: 1417617138154148204
+      Close_book_4: 2008617231162083192
+      Close_book_5: -4561897926669993477
+      Close_book_6: 4303488052075078377
+      Close_book_7: -6899691333941924028
+      Close_book_8: 4460607308792116549
+      Close_book_9: 5056935233520769102
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
