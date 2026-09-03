@@ -404,7 +404,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Open_book_0: -5243015480975233709
+      Open_book_1: 8715371106433221956
+      Open_book_10: 5311168110932089615
+      Open_book_11: -1001897079843138339
+      Open_book_2: 6689506002479408377
+      Open_book_3: -3027194744224102617
+      Open_book_4: -8762774242976995492
+      Open_book_5: -548465937224999249
+      Open_book_6: 5953088221676227030
+      Open_book_7: -8705377882823086351
+      Open_book_8: -4563942962034465783
+      Open_book_9: -8014917961493851714
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

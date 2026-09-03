@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cyborg_0: -7827374038766925829
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

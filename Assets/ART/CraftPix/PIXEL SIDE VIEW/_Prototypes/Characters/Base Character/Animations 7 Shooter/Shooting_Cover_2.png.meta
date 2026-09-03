@@ -284,7 +284,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shooting_Cover_2_0: 5485455494357509195
+      Shooting_Cover_2_1: 931987031478238206
+      Shooting_Cover_2_2: -1986533404372660466
+      Shooting_Cover_2_3: -4098121263211051363
+      Shooting_Cover_2_4: -7110667556511250333
+      Shooting_Cover_2_5: -6905265537203617973
+      Shooting_Cover_2_6: 1784191105699277896
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

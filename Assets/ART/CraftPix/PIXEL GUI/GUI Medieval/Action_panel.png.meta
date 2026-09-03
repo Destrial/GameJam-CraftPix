@@ -380,7 +380,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Action_panel_0: 2678117307762808000
+      Action_panel_1: -2967464138562639994
+      Action_panel_10: 5281840824156573430
+      Action_panel_2: 7490909027001448214
+      Action_panel_3: 8818557686247508717
+      Action_panel_4: 8190202942815179626
+      Action_panel_5: 1291737993660870816
+      Action_panel_6: 3024772523474242210
+      Action_panel_7: 7044285566318344818
+      Action_panel_8: 9167033657735099162
+      Action_panel_9: -8669341311543686296
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

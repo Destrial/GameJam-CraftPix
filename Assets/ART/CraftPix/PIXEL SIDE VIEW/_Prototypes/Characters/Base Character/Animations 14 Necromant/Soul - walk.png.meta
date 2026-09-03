@@ -260,7 +260,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Soul - walk_0: -6093150049577314122
+      Soul - walk_1: 8816163363342047038
+      Soul - walk_2: 5608616621815378850
+      Soul - walk_3: -805127548605585845
+      Soul - walk_4: 3730182828173324017
+      Soul - walk_5: 1310272268829387001
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

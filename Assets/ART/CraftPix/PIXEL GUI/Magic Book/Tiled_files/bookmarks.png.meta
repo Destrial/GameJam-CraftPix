@@ -356,7 +356,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bookmarks_0: -4670214557889447595
+      bookmarks_1: 2494172351531770727
+      bookmarks_2: -8242229758532979256
+      bookmarks_3: -6832750043151350100
+      bookmarks_4: -8257848425599350628
+      bookmarks_5: 522343997953463794
+      bookmarks_6: 8874384204137575477
+      bookmarks_7: 8467063617607034088
+      bookmarks_8: -359780979922097932
+      bookmarks_9: 3026216395894915102
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

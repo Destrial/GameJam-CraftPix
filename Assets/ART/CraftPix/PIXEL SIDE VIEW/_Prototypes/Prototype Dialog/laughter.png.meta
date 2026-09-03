@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      laughter_0: 7128209902012607947
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

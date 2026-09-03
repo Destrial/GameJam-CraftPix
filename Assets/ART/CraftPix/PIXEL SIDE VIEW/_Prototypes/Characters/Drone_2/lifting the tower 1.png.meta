@@ -164,7 +164,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lifting the tower 1_0: 647022071010601731
+      lifting the tower 1_1: -3390229206799126541
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

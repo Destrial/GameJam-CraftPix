@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      N-Helicoper_0: -2761182509373239015
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

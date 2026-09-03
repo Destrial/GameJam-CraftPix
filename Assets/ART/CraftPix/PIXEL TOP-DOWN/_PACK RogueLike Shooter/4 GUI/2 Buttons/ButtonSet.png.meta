@@ -692,7 +692,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ButtonSet_0: -8343275781146118787
+      ButtonSet_1: 6277503288398815371
+      ButtonSet_10: 5424577170351235636
+      ButtonSet_11: -3243916718121526543
+      ButtonSet_12: -3183852875624311238
+      ButtonSet_13: 636343160359614583
+      ButtonSet_14: 6408416308940310740
+      ButtonSet_15: -6096297323457941751
+      ButtonSet_16: -4410947563897708972
+      ButtonSet_17: -3481124118687724938
+      ButtonSet_18: 4334482207892517888
+      ButtonSet_19: -1513141792654981944
+      ButtonSet_2: 7946244427493646166
+      ButtonSet_20: 6589058289748406219
+      ButtonSet_21: 7771690743572164013
+      ButtonSet_22: 8367728018330976504
+      ButtonSet_23: -3395627630063031500
+      ButtonSet_3: -191190013389901391
+      ButtonSet_4: -1489489254625923641
+      ButtonSet_5: -1651535647590569584
+      ButtonSet_6: -8685050101223514784
+      ButtonSet_7: -2602609282688841682
+      ButtonSet_8: 4958185221000568715
+      ButtonSet_9: 2347492516795921941
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -212,7 +212,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pages_desappear-Sheet_0: 2193905742384169360
+      pages_desappear-Sheet_1: 7775406739554384812
+      pages_desappear-Sheet_2: -7238904459622491881
+      pages_desappear-Sheet_3: 557182550708658630
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

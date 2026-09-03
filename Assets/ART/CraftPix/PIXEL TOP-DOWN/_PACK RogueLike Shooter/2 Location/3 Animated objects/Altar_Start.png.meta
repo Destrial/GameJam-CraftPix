@@ -236,7 +236,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Altar_Start_0: -5689677858459959562
+      Altar_Start_1: 4381735875126123197
+      Altar_Start_2: -7097300495697896368
+      Altar_Start_3: 7450914588309183705
+      Altar_Start_4: 6713949105690034807
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

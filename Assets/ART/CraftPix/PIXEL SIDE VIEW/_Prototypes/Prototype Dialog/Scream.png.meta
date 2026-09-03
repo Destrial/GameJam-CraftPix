@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Scream_0: -698445991872946889
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

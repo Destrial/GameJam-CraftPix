@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Button BG shadow_0: -8592026666180931059
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

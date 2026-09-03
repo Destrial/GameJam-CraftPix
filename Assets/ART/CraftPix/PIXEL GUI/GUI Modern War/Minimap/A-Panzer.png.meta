@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      A-Panzer_0: 2080298310290759697
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

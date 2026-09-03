@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Brown-gray_ruins4_0: 4960438655310874223
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

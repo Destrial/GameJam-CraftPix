@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Money Panel HUD_0: 1409648453459948843
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SMG HUD_0: -4949469282822386838
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

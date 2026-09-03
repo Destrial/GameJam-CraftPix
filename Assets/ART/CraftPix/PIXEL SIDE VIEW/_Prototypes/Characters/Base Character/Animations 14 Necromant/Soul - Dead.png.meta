@@ -260,7 +260,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Soul - Dead_0: -2828289244269193845
+      Soul - Dead_1: 1663615163124270271
+      Soul - Dead_2: 4395319004612403031
+      Soul - Dead_3: 2456979319705448401
+      Soul - Dead_4: -1677142641949430908
+      Soul - Dead_5: 4983324271499429807
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

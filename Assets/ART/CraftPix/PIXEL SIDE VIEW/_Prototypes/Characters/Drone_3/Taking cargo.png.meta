@@ -308,7 +308,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Taking cargo_0: 1836487083578122499
+      Taking cargo_1: 910086720004617977
+      Taking cargo_2: 6876038399093303621
+      Taking cargo_3: 7025872128180976793
+      Taking cargo_4: 6233290164807163689
+      Taking cargo_5: -4930359126948079059
+      Taking cargo_6: 4003766849576093456
+      Taking cargo_7: -937907516755754663
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

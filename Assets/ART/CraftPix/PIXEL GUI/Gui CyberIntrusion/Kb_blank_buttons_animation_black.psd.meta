@@ -308,7 +308,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kb_blank_buttons_animation_black_0: 3971027264802137303
+      Kb_blank_buttons_animation_black_1: -445846830095147598
+      Kb_blank_buttons_animation_black_2: -6272616335244994468
+      Kb_blank_buttons_animation_black_3: -3739030713942486725
+      Kb_blank_buttons_animation_black_4: 6758451510028730706
+      Kb_blank_buttons_animation_black_5: -3876527630891516730
+      Kb_blank_buttons_animation_black_6: 1242059018252980491
+      Kb_blank_buttons_animation_black_7: 1021402801129925007
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

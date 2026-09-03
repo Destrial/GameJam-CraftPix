@@ -212,7 +212,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Portal2_2_0: 615723799203838867
+      Portal2_2_1: -5159164603939468855
+      Portal2_2_2: 4498452487370124534
+      Portal2_2_3: 9218191049423506579
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

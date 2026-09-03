@@ -356,7 +356,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Altar_Idle_0: -7142329186778448189
+      Altar_Idle_1: 2465417178230210389
+      Altar_Idle_2: 7392600149722105571
+      Altar_Idle_3: 1876136492248690440
+      Altar_Idle_4: 4642875956702541999
+      Altar_Idle_5: 850286185717875213
+      Altar_Idle_6: -6865382073061709739
+      Altar_Idle_7: 2836522944786051077
+      Altar_Idle_8: -8652328990753176573
+      Altar_Idle_9: 921398695784986771
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

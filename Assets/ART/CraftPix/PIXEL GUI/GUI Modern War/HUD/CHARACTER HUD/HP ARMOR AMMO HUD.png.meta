@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HP ARMOR AMMO HUD_0: -4237009216259752214
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -404,7 +404,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sitting_recharge_0: -1376886967032485560
+      Sitting_recharge_1: -8952401445838380166
+      Sitting_recharge_10: 7925883426857912063
+      Sitting_recharge_11: 4088098488923347920
+      Sitting_recharge_2: 8923125361652343889
+      Sitting_recharge_3: 5656274029416938577
+      Sitting_recharge_4: 3880088381862533430
+      Sitting_recharge_5: 6766249443820398833
+      Sitting_recharge_6: 7119639356656546559
+      Sitting_recharge_7: 5571375362369116660
+      Sitting_recharge_8: 6471201344930300554
+      Sitting_recharge_9: 4206540677310877679
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -284,7 +284,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Aimed_shot_0: 7064795443410895249
+      Aimed_shot_1: 6746295518608963175
+      Aimed_shot_2: -3787458708900647890
+      Aimed_shot_3: 3523932586443725685
+      Aimed_shot_4: 1305679639322674620
+      Aimed_shot_5: -5666897103775542487
+      Aimed_shot_6: 4763020693604525819
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mouse_black_red_0: 2137409218071144799
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

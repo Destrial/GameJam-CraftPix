@@ -332,7 +332,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rotation_0: -966105221705955409
+      Rotation_1: -5987517039084768677
+      Rotation_2: 4611943798815270453
+      Rotation_3: -1044926643148267334
+      Rotation_4: -366279702455973235
+      Rotation_5: 4063983301635373529
+      Rotation_6: -8353801817404861525
+      Rotation_7: 2527050060199842766
+      Rotation_8: -6861691542784242315
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

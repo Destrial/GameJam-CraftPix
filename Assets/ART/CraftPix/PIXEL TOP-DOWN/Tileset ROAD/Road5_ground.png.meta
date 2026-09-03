@@ -476,7 +476,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Road5_ground_0: -3635780541578662726
+      Road5_ground_1: 660864413073235938
+      Road5_ground_10: 2166680485572293761
+      Road5_ground_11: 6018694857127424164
+      Road5_ground_12: 1775708324934931862
+      Road5_ground_13: -5771938741079523767
+      Road5_ground_14: -8432653852615916210
+      Road5_ground_2: -3158461670960211282
+      Road5_ground_3: 1630309355740691326
+      Road5_ground_4: 3780653306613577391
+      Road5_ground_5: -3010573174263306210
+      Road5_ground_6: -3001761627332779247
+      Road5_ground_7: 249116076904529991
+      Road5_ground_8: -5351052324355047389
+      Road5_ground_9: 497181487437147177
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

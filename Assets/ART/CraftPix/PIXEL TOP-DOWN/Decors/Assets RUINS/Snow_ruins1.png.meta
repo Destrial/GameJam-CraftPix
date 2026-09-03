@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Snow_ruins1_0: -618721795250067649
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

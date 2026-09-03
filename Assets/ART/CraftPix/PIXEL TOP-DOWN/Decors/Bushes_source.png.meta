@@ -980,7 +980,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bushes_source_0: -2178217216483014112
+      Bushes_source_1: -4082907490124782545
+      Bushes_source_10: 7109497983546152751
+      Bushes_source_11: 2854540871993724009
+      Bushes_source_12: 178915460988639980
+      Bushes_source_13: 9126932105493167633
+      Bushes_source_14: 7798633545908799277
+      Bushes_source_15: 4647878263130561992
+      Bushes_source_16: -2043276436606724560
+      Bushes_source_17: -4086440704297507952
+      Bushes_source_18: 1733721056199592498
+      Bushes_source_19: 3498399015818335857
+      Bushes_source_2: 4288107792802293541
+      Bushes_source_20: -2865726280631587834
+      Bushes_source_21: 8409483974543838111
+      Bushes_source_22: -4434330065775926020
+      Bushes_source_23: -83244569340991556
+      Bushes_source_24: 7413035545458167305
+      Bushes_source_25: 8583773975416139450
+      Bushes_source_26: -951391162141869192
+      Bushes_source_27: 5773007989095212032
+      Bushes_source_28: -331144752831617697
+      Bushes_source_29: 1665418485453354232
+      Bushes_source_3: -8294155965859200423
+      Bushes_source_30: -7911665715998310112
+      Bushes_source_31: 4899018353886712822
+      Bushes_source_32: 8218932415115784374
+      Bushes_source_33: 7318459612342574559
+      Bushes_source_34: 8049740542426888276
+      Bushes_source_35: 7726642743967109426
+      Bushes_source_4: 4267551806470288011
+      Bushes_source_5: -3107783434919140555
+      Bushes_source_6: 3022768040213725070
+      Bushes_source_7: -2673991649566262210
+      Bushes_source_8: 6412883693127116710
+      Bushes_source_9: 119495763176441265
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

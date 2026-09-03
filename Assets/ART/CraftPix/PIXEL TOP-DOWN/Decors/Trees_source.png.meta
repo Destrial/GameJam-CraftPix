@@ -1076,7 +1076,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Trees_source_0: 5091974610922338118
+      Trees_source_1: 8141564273500460361
+      Trees_source_10: -5672547664490235927
+      Trees_source_11: -6053431068092091859
+      Trees_source_12: 8641682798788235083
+      Trees_source_13: -1883174561955642709
+      Trees_source_14: -9100588512128961408
+      Trees_source_15: -6328342303428187115
+      Trees_source_16: -2449298873898677486
+      Trees_source_17: 2949590711031135856
+      Trees_source_18: -8131494830434291833
+      Trees_source_19: -4857749527858795960
+      Trees_source_2: -5045543944316405349
+      Trees_source_20: 5106497007335221219
+      Trees_source_21: 733263931681231261
+      Trees_source_22: -232014024016345583
+      Trees_source_23: 7247999986788070354
+      Trees_source_24: 2725688945477176154
+      Trees_source_25: 6379584240818505536
+      Trees_source_26: -4505633617881854827
+      Trees_source_27: -8109604016664716204
+      Trees_source_28: -5564813434359082077
+      Trees_source_29: -4382301558826873359
+      Trees_source_3: -1532240980237570017
+      Trees_source_30: -7641323561052432809
+      Trees_source_31: -5741486323308166871
+      Trees_source_32: 7008382959291383928
+      Trees_source_33: 1674306393667979051
+      Trees_source_34: -4777372838520973699
+      Trees_source_35: -4280648495959244978
+      Trees_source_36: 2833803402873904432
+      Trees_source_37: 8145222619921108013
+      Trees_source_38: -4368212450924100917
+      Trees_source_39: -1501363329485670904
+      Trees_source_4: -5437839763883201431
+      Trees_source_5: -721971227986280098
+      Trees_source_6: 8705029046335584927
+      Trees_source_7: -8130867973761099966
+      Trees_source_8: -8948323096613642921
+      Trees_source_9: 2717283617302734710
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

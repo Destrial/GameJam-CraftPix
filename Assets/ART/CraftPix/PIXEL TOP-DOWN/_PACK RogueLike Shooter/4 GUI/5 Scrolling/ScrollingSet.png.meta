@@ -1076,7 +1076,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ScrollingSet_0: 8683309249779701609
+      ScrollingSet_1: 6186276955801586723
+      ScrollingSet_10: 5037526991825792269
+      ScrollingSet_11: 3598930043734071780
+      ScrollingSet_12: 6129149950653154687
+      ScrollingSet_13: -3785568853593484196
+      ScrollingSet_14: -562289026507370540
+      ScrollingSet_15: -3096327867157607219
+      ScrollingSet_16: -8721168977074655390
+      ScrollingSet_17: -113765576463736083
+      ScrollingSet_18: -3987482610571009852
+      ScrollingSet_19: 4366099916914455729
+      ScrollingSet_2: -802637281690082590
+      ScrollingSet_20: 102631079897677906
+      ScrollingSet_21: -1263718994159023150
+      ScrollingSet_22: -7207821550933568316
+      ScrollingSet_23: -9144917943365245776
+      ScrollingSet_24: 8894942036291513732
+      ScrollingSet_25: 2908188105357253253
+      ScrollingSet_26: 3944890539278253021
+      ScrollingSet_27: 5089653437692409637
+      ScrollingSet_28: -3559131416865570014
+      ScrollingSet_29: 7067608071956239921
+      ScrollingSet_3: -8308684207982934990
+      ScrollingSet_30: -4721737258448334556
+      ScrollingSet_31: -8303445628064041450
+      ScrollingSet_32: -3775631936390160198
+      ScrollingSet_33: 2285569584849930552
+      ScrollingSet_34: -2994728910751724803
+      ScrollingSet_35: 1071920662736468709
+      ScrollingSet_36: -4467005667110904236
+      ScrollingSet_37: -2225096266152547518
+      ScrollingSet_38: -9141436148948880301
+      ScrollingSet_39: -4291174910598530292
+      ScrollingSet_4: -5597914349978106222
+      ScrollingSet_5: 3580301481241051272
+      ScrollingSet_6: 3717948540298123512
+      ScrollingSet_7: -2061616471951500412
+      ScrollingSet_8: 2324573796879535272
+      ScrollingSet_9: -559162229208635143
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

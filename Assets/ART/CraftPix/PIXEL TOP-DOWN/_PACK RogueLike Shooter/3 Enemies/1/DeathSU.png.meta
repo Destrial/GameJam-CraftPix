@@ -260,7 +260,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DeathSU_0: -7730106021417902167
+      DeathSU_1: 3567890131736160128
+      DeathSU_2: 7774650495611129692
+      DeathSU_3: -4972202922889359504
+      DeathSU_4: -3749432145332589428
+      DeathSU_5: -6707274628560057200
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
