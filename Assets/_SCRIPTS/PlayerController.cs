@@ -1,69 +1,85 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 
 namespace Destrial
 {
 
     public class PlayerController : MonoBehaviour
     {
-        private BoardManager m_Board;
-        public Vector2Int m_CellPosition;
-        private Animator m_Animator;
-        private bool m_IsGameOver;
+        DestrialInputs _myInputs;
+        private BoardManager _board;
+        
+        public Vector2Int CellPosition;
+        private Animator _animator;
+        private bool _isGameOver;
 
-        private bool m_IsMoving;
-        private Vector3 m_MoveTarget;
-        [SerializeField] float MoveSpeed = 1;
+        private bool _isMoving;
+        private Vector3 _moveTarget;
+        [SerializeField] float _moveSpeed = 1;
         public BoardManager.CellData Cell;
 
         private void Awake()
         {
-            m_Animator = GetComponent<Animator>();
+            _animator = GetComponent<Animator>();
+            _myInputs = new DestrialInputs();
+        }
+        private void OnEnable()
+        {
+            _myInputs.Enable();
+            
+        }
+
+      
+        private void OnDisable()
+        {
+            _myInputs.Disable();
+        
         }
 
         public void Spawn(BoardManager boardManager, Vector2Int cell)
         {
-            m_Board = boardManager;
-            m_CellPosition = cell;
+            _board = boardManager;
+            CellPosition = cell;
 
             //let's move to the right position...
-            transform.position = m_Board.CellToWorld(cell);
-            Cell = m_Board.GetCellData(cell);
+            transform.position = _board.CellToWorld(cell);
+            Cell = _board.GetCellData(cell);
         }
 
         public void MoveTo(Vector2Int cell, bool immediate)
         {
-            m_CellPosition = cell;
+            CellPosition = cell;
 
             if (immediate)
             {
-                m_IsMoving = false;
-                transform.position = m_Board.CellToWorld(m_CellPosition);
+                _isMoving = false;
+                transform.position = _board.CellToWorld(CellPosition);
 
 
             }
             else
             {
-                m_IsMoving = true;
-                m_MoveTarget = m_Board.CellToWorld(m_CellPosition);
+                _isMoving = true;
+                _moveTarget = _board.CellToWorld(CellPosition);
             }
 
-            Cell = m_Board.GetCellData(cell);
-            m_Animator.SetBool("Moving", m_IsMoving);
+            Cell = _board.GetCellData(cell);
+            _animator.SetBool("Moving", _isMoving);
         }
 
         public void Init()
         {
-            m_IsMoving = false;
-            m_Animator.SetBool("Moving", false);
-            m_IsGameOver = false;
+            _isMoving = false;
+            _animator.SetBool("Moving", false);
+            _isGameOver = false;
 
         }
 
 
         public void Update()
         {
-            if (m_IsGameOver)
+            if (_isGameOver)
             {
                 if (Keyboard.current.enterKey.wasPressedThisFrame)
                 {
@@ -72,26 +88,43 @@ namespace Destrial
 
                 return;
             }
+            if (_isMoving)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, _moveTarget, _moveSpeed * Time.deltaTime);
 
-            Vector2Int newCellTarget = m_CellPosition;
+                if (transform.position == _moveTarget)
+                {
+                    _isMoving = false;
+                    _animator.SetBool("Moving", false);
+                    var cellData = _board.GetCellData(CellPosition);
+                    if (cellData.ContainedObject != null)
+                        cellData.ContainedObject.PlayerEntered();
+                }
+
+                return;
+            }
+            
+            Vector2 moveInput = _myInputs.Player.Move.ReadValue<Vector2>();
+            
+            Vector2Int newCellTarget = CellPosition;
             bool hasMoved = false;
 
-            if (Keyboard.current.upArrowKey.wasPressedThisFrame)
+            if (moveInput.y>0)
             {
                 newCellTarget.y += 1;
                 hasMoved = true;
             }
-            else if (Keyboard.current.downArrowKey.wasPressedThisFrame)
+            else if (moveInput.y<0)
             {
                 newCellTarget.y -= 1;
                 hasMoved = true;
             }
-            else if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
+            else if (moveInput.x>0)
             {
                 newCellTarget.x += 1;
                 hasMoved = true;
             }
-            else if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
+            else if (moveInput.x<0)
             {
                 newCellTarget.x -= 1;
                 hasMoved = true;
@@ -99,9 +132,9 @@ namespace Destrial
 
             if (hasMoved)
             {
-
+                Debug.Log("Moving to " + newCellTarget);
                 //check if the new position is passable, then move there if it is.
-                BoardManager.CellData cellData = m_Board.GetCellData(newCellTarget);
+                BoardManager.CellData cellData = _board.GetCellData(newCellTarget);
 
                 if (cellData != null && cellData.Passable)
                 {
@@ -120,26 +153,12 @@ namespace Destrial
                 }
             }
 
-            if (m_IsMoving)
-            {
-                transform.position = Vector3.MoveTowards(transform.position, m_MoveTarget, MoveSpeed * Time.deltaTime);
-
-                if (transform.position == m_MoveTarget)
-                {
-                    m_IsMoving = false;
-                    m_Animator.SetBool("Moving", false);
-                    var cellData = m_Board.GetCellData(m_CellPosition);
-                    if (cellData.ContainedObject != null)
-                        cellData.ContainedObject.PlayerEntered();
-                }
-
-                return;
-            }
+           
         }
 
         public void GameOver()
         {
-            m_IsGameOver = true;
+            _isGameOver = true;
         }
     }
 }

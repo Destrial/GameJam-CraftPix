@@ -7,7 +7,7 @@ namespace Destrial
     {
         public int Health = 3;
 
-        private int m_CurrentHealth;
+        private int _currentHealth;
 
         private void Awake()
         {
@@ -22,14 +22,14 @@ namespace Destrial
         public override void Init(Vector2Int coord)
         {
             base.Init(coord);
-            m_CurrentHealth = Health;
+            _currentHealth = Health;
         }
 
         public override bool PlayerWantsToEnter()
         {
-            m_CurrentHealth -= 1;
+            _currentHealth -= 1;
 
-            if (m_CurrentHealth <= 0)
+            if (_currentHealth <= 0)
             {
                 Destroy(gameObject);
             }
@@ -50,12 +50,12 @@ namespace Destrial
             }
 
             //remove enemy from current cell
-            var currentCell = board.GetCellData(m_Cell);
+            var currentCell = board.GetCellData(_cell);
             currentCell.ContainedObject = null;
 
             //add it to the next cell
             targetCell.ContainedObject = this;
-            m_Cell = coord;
+            _cell = coord;
             transform.position = board.CellToWorld(coord);
 
             return true;
@@ -64,10 +64,10 @@ namespace Destrial
         void TurnHappened()
         {
             //We added a public property that return the player current cell!
-            var playerCell = GameManager.Instance.PlayerController.m_CellPosition;
+            var playerCell = GameManager.Instance.PlayerController.CellPosition;
 
-            int xDist = playerCell.x - m_Cell.x;
-            int yDist = playerCell.y - m_Cell.y;
+            int xDist = playerCell.x - _cell.x;
+            int yDist = playerCell.y - _cell.y;
 
             int absXDist = Mathf.Abs(xDist);
             int absYDist = Mathf.Abs(yDist);
@@ -106,11 +106,11 @@ namespace Destrial
             //player to our right
             if (xDist > 0)
             {
-                return MoveTo(m_Cell + Vector2Int.right);
+                return MoveTo(_cell + Vector2Int.right);
             }
 
             //player to our left
-            return MoveTo(m_Cell + Vector2Int.left);
+            return MoveTo(_cell + Vector2Int.left);
         }
 
         bool TryMoveInY(int yDist)
@@ -120,11 +120,11 @@ namespace Destrial
             //player on top
             if (yDist > 0)
             {
-                return MoveTo(m_Cell + Vector2Int.up);
+                return MoveTo(_cell + Vector2Int.up);
             }
 
             //player below
-            return MoveTo(m_Cell + Vector2Int.down);
+            return MoveTo(_cell + Vector2Int.down);
         }
     }
 }

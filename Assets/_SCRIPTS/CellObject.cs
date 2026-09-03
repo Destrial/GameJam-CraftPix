@@ -6,11 +6,11 @@ namespace Destrial
     public class CellObject : MonoBehaviour
     {
         //Called when the player enter the cell in which that object is
-        protected Vector2Int m_Cell;
+        protected Vector2Int _cell;
 
         public virtual void Init(Vector2Int cell)
         {
-            m_Cell = cell;
+            _cell = cell;
         }
 
         public virtual void PlayerEntered()

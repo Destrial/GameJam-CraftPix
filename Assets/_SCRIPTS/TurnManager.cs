@@ -6,21 +6,21 @@ namespace Destrial
     public class TurnManager
     {
         public event System.Action OnTick;
-        private int m_TurnCount;
+        private int _turnCount;
 
         public TurnManager() //constructeur
         {
-            m_TurnCount = 1;
+            _turnCount = 1;
         }
 
         public void Tick()
         {
-            m_TurnCount += 1;
+            _turnCount += 1;
             OnTick?.Invoke();
 
 
 
-            Debug.Log("Current turn count : " + m_TurnCount);
+            Debug.Log("Current turn count : " + _turnCount);
         }
     }
 }

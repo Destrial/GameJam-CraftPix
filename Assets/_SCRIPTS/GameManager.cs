@@ -9,15 +9,15 @@ namespace Destrial
         public static GameManager Instance { get; private set; } // SINGLETON
 
         public UIDocument UIDoc;
-        private Label m_FoodLabel;
-        private VisualElement m_GameOverPanel;
-        private Label m_GameOverMessage;
+        private Label _foodLabel;
+        private VisualElement _gameOverPanel;
+        private Label _gameOverMessage;
 
         public BoardManager BoardManager;
         public PlayerController PlayerController;
-        private int m_FoodAmount = 100;
-        [SerializeField] private int m_StartFood = 20;
-        private int m_CurrentLevel = 0;
+        private int _foodAmount = 100;
+        [SerializeField] private int _startFood = 20;
+        private int _currentLevel = 0;
 
         public TurnManager TurnManager { get; private set; }
 
@@ -38,21 +38,21 @@ namespace Destrial
             TurnManager = new TurnManager();
             TurnManager.OnTick += OnTurnHappen;
 
-            m_FoodLabel = UIDoc.rootVisualElement.Q<Label>("FoodLabel");
+            _foodLabel = UIDoc.rootVisualElement.Q<Label>("FoodLabel");
 
-            m_GameOverPanel = UIDoc.rootVisualElement.Q<VisualElement>("GameOverPanel");
-            m_GameOverMessage = m_GameOverPanel.Q<Label>("GameOverMessage");
+            _gameOverPanel = UIDoc.rootVisualElement.Q<VisualElement>("GameOverPanel");
+            _gameOverMessage = _gameOverPanel.Q<Label>("GameOverMessage");
 
             StartNewGame();
         }
 
         public void StartNewGame()
         {
-            m_GameOverPanel.style.visibility = Visibility.Hidden;
+            _gameOverPanel.style.visibility = Visibility.Hidden;
 
-            m_CurrentLevel = 1;
-            m_FoodAmount = m_StartFood;
-            m_FoodLabel.text = "Food : " + m_FoodAmount;
+            _currentLevel = 1;
+            _foodAmount = _startFood;
+            _foodLabel.text = "Food : " + _foodAmount;
 
             BoardManager.Clean();
             BoardManager.Init();
@@ -67,7 +67,7 @@ namespace Destrial
             BoardManager.Init();
             PlayerController.Spawn(BoardManager, new Vector2Int(1, 1));
             PlayerController.Init();
-            m_CurrentLevel++;
+            _currentLevel++;
         }
 
         void OnTurnHappen()
@@ -77,14 +77,14 @@ namespace Destrial
 
         public void ChangeFood(int amount)
         {
-            m_FoodAmount += amount;
-            m_FoodLabel.text = "Food : " + m_FoodAmount;
+            _foodAmount += amount;
+            _foodLabel.text = "Food : " + _foodAmount;
 
-            if (m_FoodAmount <= 0)
+            if (_foodAmount <= 0)
             {
                 PlayerController.GameOver();
-                m_GameOverPanel.style.visibility = Visibility.Visible;
-                m_GameOverMessage.text = "<size=32>Game Over!</size>\n\nYou traveled through\n\n " + m_CurrentLevel +
+                _gameOverPanel.style.visibility = Visibility.Visible;
+                _gameOverMessage.text = "<size=32>Game Over!</size>\n\nYou traveled through\n\n " + _currentLevel +
                                          " levels";
 
             }

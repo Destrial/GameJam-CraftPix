@@ -15,11 +15,11 @@ namespace Destrial
             public CellObject ContainedObject;
         }
 
-        private CellData[,] m_BoardData;
+        private CellData[,] _boardData;
 
 
-        private Tilemap m_Tilemap;
-        private Grid m_Grid;
+        private Tilemap _tilemap;
+        private Grid _grid;
 
         public ExitCellObject ExitCellPrefab;
         public FoodObject[] FoodPrefab;
@@ -31,40 +31,40 @@ namespace Destrial
         public Tile[] GroundTiles;
         public Tile[] WallTiles;
 
-        [SerializeField] int EnemyNumber = 6;
+        [SerializeField] int _enemyNumber = 6;
         public PlayerController Player;
-        private List<Vector2Int> m_EmptyCellsList;
+        private List<Vector2Int> _emptyCellsList;
 
         // Start is called before the first frame update
         public void Init()
         {
-            m_Tilemap = GetComponentInChildren<Tilemap>();
-            m_Grid = GetComponentInChildren<Grid>();
+            _tilemap = GetComponentInChildren<Tilemap>();
+            _grid = GetComponentInChildren<Grid>();
 
-            m_BoardData = new CellData[Width, Height];
-            m_EmptyCellsList = new List<Vector2Int>();
+            _boardData = new CellData[Width, Height];
+            _emptyCellsList = new List<Vector2Int>();
 
             for (int y = 0; y < Height; ++y)
             {
                 for (int x = 0; x < Width; ++x)
                 {
                     Tile tile;
-                    m_BoardData[x, y] = new CellData();
+                    _boardData[x, y] = new CellData();
 
                     if (x == 0 || y == 0 || x == Width - 1 || y == Height - 1)
                     {
                         tile = WallTiles[Random.Range(0, WallTiles.Length)];
-                        m_BoardData[x, y].Passable = false;
+                        _boardData[x, y].Passable = false;
                     }
                     else
                     {
                         tile = GroundTiles[Random.Range(0, GroundTiles.Length)];
-                        m_BoardData[x, y].Passable = true;
+                        _boardData[x, y].Passable = true;
                         //this is a passable empty cell, add it to the list!
-                        m_EmptyCellsList.Add(new Vector2Int(x, y));
+                        _emptyCellsList.Add(new Vector2Int(x, y));
                     }
 
-                    m_Tilemap.SetTile(new Vector3Int(x, y, 0), tile);
+                    _tilemap.SetTile(new Vector3Int(x, y, 0), tile);
 
                     //int tileNumber = Random.Range(0, GroundTiles.Length);
                     //m_Tilemap.SetTile(new Vector3Int(x, y, 0), GroundTiles[tileNumber]);
@@ -72,11 +72,11 @@ namespace Destrial
             }
 
             //remove the starting point of the player! It's not empty, the player is there
-            m_EmptyCellsList.Remove(new Vector2Int(1, 1));
+            _emptyCellsList.Remove(new Vector2Int(1, 1));
 
             Vector2Int endCoord = new Vector2Int(Width - 2, Height - 2);
             AddObject(Instantiate(ExitCellPrefab), endCoord);
-            m_EmptyCellsList.Remove(endCoord);
+            _emptyCellsList.Remove(endCoord);
 
             GenerateWall();
             GenerateFood();
@@ -87,7 +87,7 @@ namespace Destrial
 
         public Vector3 CellToWorld(Vector2Int cellIndex)
         {
-            return m_Grid.GetCellCenterWorld((Vector3Int)cellIndex);
+            return _grid.GetCellCenterWorld((Vector3Int)cellIndex);
         }
 
         public CellData GetCellData(Vector2Int cellIndex)
@@ -98,7 +98,7 @@ namespace Destrial
                 return null;
             }
 
-            return m_BoardData[cellIndex.x, cellIndex.y];
+            return _boardData[cellIndex.x, cellIndex.y];
         }
 
         void GenerateFood()
@@ -106,10 +106,10 @@ namespace Destrial
             int foodCount = 5;
             for (int i = 0; i < foodCount; ++i)
             {
-                int randomIndex = Random.Range(0, m_EmptyCellsList.Count);
-                Vector2Int coord = m_EmptyCellsList[randomIndex];
+                int randomIndex = Random.Range(0, _emptyCellsList.Count);
+                Vector2Int coord = _emptyCellsList[randomIndex];
 
-                m_EmptyCellsList.RemoveAt(randomIndex);
+                _emptyCellsList.RemoveAt(randomIndex);
 
                 int numi = Random.Range(0, FoodPrefab.Length);
                 FoodObject newFood = Instantiate(FoodPrefab[numi]);
@@ -123,10 +123,10 @@ namespace Destrial
             int wallCount = Random.Range(6, 10);
             for (int i = 0; i < wallCount; ++i)
             {
-                int randomIndex = Random.Range(0, m_EmptyCellsList.Count);
-                Vector2Int coord = m_EmptyCellsList[randomIndex];
+                int randomIndex = Random.Range(0, _emptyCellsList.Count);
+                Vector2Int coord = _emptyCellsList[randomIndex];
 
-                m_EmptyCellsList.RemoveAt(randomIndex);
+                _emptyCellsList.RemoveAt(randomIndex);
 
                 int numi = Random.Range(0, WallPrefab.Length);
                 WallObject newWall = Instantiate(WallPrefab[numi]);
@@ -137,13 +137,13 @@ namespace Destrial
 
         void GenerateEnemy()
         {
-            int enemyCount = Random.Range(1, EnemyNumber);
+            int enemyCount = Random.Range(1, _enemyNumber);
             for (int i = 0; i < enemyCount; ++i)
             {
-                int randomIndex = Random.Range(0, m_EmptyCellsList.Count);
-                Vector2Int coord = m_EmptyCellsList[randomIndex];
+                int randomIndex = Random.Range(0, _emptyCellsList.Count);
+                Vector2Int coord = _emptyCellsList[randomIndex];
 
-                m_EmptyCellsList.RemoveAt(randomIndex);
+                _emptyCellsList.RemoveAt(randomIndex);
 
 
                 Enemy newEnemy = Instantiate(EnemyPrefab);
@@ -155,17 +155,17 @@ namespace Destrial
 
         public void SetCellTile(Vector2Int cellIndex, Tile tile)
         {
-            m_Tilemap.SetTile(new Vector3Int(cellIndex.x, cellIndex.y, 0), tile);
+            _tilemap.SetTile(new Vector3Int(cellIndex.x, cellIndex.y, 0), tile);
         }
 
         public Tile GetCellTile(Vector2Int cellIndex)
         {
-            return m_Tilemap.GetTile<Tile>(new Vector3Int(cellIndex.x, cellIndex.y, 0));
+            return _tilemap.GetTile<Tile>(new Vector3Int(cellIndex.x, cellIndex.y, 0));
         }
 
         void AddObject(CellObject obj, Vector2Int coord)
         {
-            CellData data = m_BoardData[coord.x, coord.y];
+            CellData data = _boardData[coord.x, coord.y];
             obj.transform.position = CellToWorld(coord);
             data.ContainedObject = obj;
             obj.Init(coord);
@@ -174,7 +174,7 @@ namespace Destrial
         public void Clean()
         {
             //no board data, so exit early, nothing to clean
-            if (m_BoardData == null)
+            if (_boardData == null)
                 return;
 
 
@@ -182,7 +182,7 @@ namespace Destrial
             {
                 for (int x = 0; x < Width; ++x)
                 {
-                    var cellData = m_BoardData[x, y];
+                    var cellData = _boardData[x, y];
 
                     if (cellData.ContainedObject != null)
                     {
