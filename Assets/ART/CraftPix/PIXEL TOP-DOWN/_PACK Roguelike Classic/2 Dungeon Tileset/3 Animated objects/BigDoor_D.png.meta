@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -356,7 +356,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BigDoor_D_0: -8622068914663076059
+      BigDoor_D_1: 736341221838554842
+      BigDoor_D_2: -1789227461201164987
+      BigDoor_D_3: 8916850151135388014
+      BigDoor_D_4: 5123376888120290713
+      BigDoor_D_5: 2769434874649242625
+      BigDoor_D_6: -7042733148179107787
+      BigDoor_D_7: -8867103339890268674
+      BigDoor_D_8: -1338358232243132892
+      BigDoor_D_9: -5451311015176280068
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

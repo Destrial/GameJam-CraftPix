@@ -1,14 +1,18 @@
 using UnityEngine;
 
-public class FoodObject : CellObject
+namespace UnityLearn
 {
-    public int AmountGranted = 10;
-    public override void PlayerEntered()
+    public class FoodObject : CellObject
     {
-        
-        Destroy(gameObject);
-      
-        //increase food
-        GameManager.Instance.ChangeFood(AmountGranted);
+        public int AmountGranted = 10;
+
+        public override void PlayerEntered()
+        {
+
+            Destroy(gameObject);
+
+            //increase food
+            GameManager.Instance.ChangeFood(AmountGranted);
+        }
     }
 }

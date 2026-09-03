@@ -49,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -236,7 +236,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      D_Blood_0: 4431076299745332275
+      D_Blood_1: 8391342602348113241
+      D_Blood_2: -2863444434701455226
+      D_Blood_3: 7638684097654154514
+      D_Blood_4: -1127138625155061418
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

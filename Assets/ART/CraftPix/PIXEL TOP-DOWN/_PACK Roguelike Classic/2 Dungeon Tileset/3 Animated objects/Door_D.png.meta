@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -260,7 +260,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Door_D_0: -461005019669807480
+      Door_D_1: -1282459776956947965
+      Door_D_2: -110043514628190002
+      Door_D_3: -3581084724044132647
+      Door_D_4: -4863274960498446069
+      Door_D_5: 6564490176965893127
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

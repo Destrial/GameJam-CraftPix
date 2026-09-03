@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -212,7 +212,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chest2_S_0: 2643102277725915141
+      Chest2_S_1: 3658972166253262737
+      Chest2_S_2: 1381588749194303383
+      Chest2_S_3: 7520484957932619250
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

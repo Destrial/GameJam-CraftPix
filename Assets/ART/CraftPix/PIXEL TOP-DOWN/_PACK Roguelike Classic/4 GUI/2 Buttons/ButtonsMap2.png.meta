@@ -178,7 +178,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -1268,7 +1268,55 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ButtonsMap2_0: 7276217012113637118
+      ButtonsMap2_1: 5300192814967360615
+      ButtonsMap2_10: -6755433382003188261
+      ButtonsMap2_11: -9066028508035460745
+      ButtonsMap2_12: -8957704734270191383
+      ButtonsMap2_13: 8175914378162358620
+      ButtonsMap2_14: -1742713231113211405
+      ButtonsMap2_15: 7111036089840761301
+      ButtonsMap2_16: -5119694576725860064
+      ButtonsMap2_17: 5044354888889772955
+      ButtonsMap2_18: -1217425490808480921
+      ButtonsMap2_19: 167464478560213148
+      ButtonsMap2_2: 3342778092313030604
+      ButtonsMap2_20: -2697464299955392944
+      ButtonsMap2_21: 4396798445186170556
+      ButtonsMap2_22: 6600723224610732172
+      ButtonsMap2_23: -1680208984326134947
+      ButtonsMap2_24: 9035942806090039544
+      ButtonsMap2_25: -5838887411722036982
+      ButtonsMap2_26: 5767800162149712126
+      ButtonsMap2_27: 505074253528452804
+      ButtonsMap2_28: 8616036076537033138
+      ButtonsMap2_29: -3459404946629817169
+      ButtonsMap2_3: -5504296670849901821
+      ButtonsMap2_30: -3561500021920254414
+      ButtonsMap2_31: -6046745942532644647
+      ButtonsMap2_32: 6878539944609655945
+      ButtonsMap2_33: -8258246710599069086
+      ButtonsMap2_34: -9172078460348536530
+      ButtonsMap2_35: 7968915253920023880
+      ButtonsMap2_36: 2887068647051497758
+      ButtonsMap2_37: -2839918680382365779
+      ButtonsMap2_38: 6410196464582316633
+      ButtonsMap2_39: -3096986610780746797
+      ButtonsMap2_4: 6953360983724408680
+      ButtonsMap2_40: 1015270486267739271
+      ButtonsMap2_41: -5532607916684126207
+      ButtonsMap2_42: 8940323284956923591
+      ButtonsMap2_43: 2838571753951724851
+      ButtonsMap2_44: 626649196026127898
+      ButtonsMap2_45: 3398955031875427580
+      ButtonsMap2_46: -5899766508843944089
+      ButtonsMap2_47: 7051003919044420923
+      ButtonsMap2_5: 22616756879499689
+      ButtonsMap2_6: -5064460316770048915
+      ButtonsMap2_7: 1255744385771523849
+      ButtonsMap2_8: 832791449819484260
+      ButtonsMap2_9: 1245469612623373860
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

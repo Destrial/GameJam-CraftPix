@@ -100,7 +100,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -644,7 +644,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TileMap5_0: -4273976107894374760
+      TileMap5_1: 7258107054615445791
+      TileMap5_10: -1244703114189552187
+      TileMap5_11: 7441639800336293562
+      TileMap5_12: -5382774875671986814
+      TileMap5_13: 1196131516326883795
+      TileMap5_14: -4276867169809908210
+      TileMap5_15: -2182321608391313835
+      TileMap5_16: 4341477949028728814
+      TileMap5_17: 1507383890098475711
+      TileMap5_18: -4943090861431865195
+      TileMap5_19: -5644629534331685643
+      TileMap5_2: 3650065183061175265
+      TileMap5_20: -3524849635864353288
+      TileMap5_21: -6300251976472541203
+      TileMap5_3: -2015053780569225690
+      TileMap5_4: 1024560317311248176
+      TileMap5_5: -7099622910719677596
+      TileMap5_6: -1599849501063001325
+      TileMap5_7: 2981375541423249876
+      TileMap5_8: -4996965722810925221
+      TileMap5_9: 7885958004150580375
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

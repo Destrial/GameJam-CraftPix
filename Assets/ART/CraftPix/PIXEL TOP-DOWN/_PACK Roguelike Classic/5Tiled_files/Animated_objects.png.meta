@@ -343,7 +343,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -2588,7 +2588,110 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Animated_objects_0: -6753082073175136350
+      Animated_objects_1: 4682762073298511618
+      Animated_objects_10: 7064866138584929767
+      Animated_objects_100: 5803632802170183995
+      Animated_objects_101: -8452525494601409043
+      Animated_objects_102: 8434719056392443537
+      Animated_objects_11: 6497220523634459294
+      Animated_objects_12: 6340381744373260812
+      Animated_objects_13: 879488825467366222
+      Animated_objects_14: 2957073568020072224
+      Animated_objects_15: -22633924164909025
+      Animated_objects_16: 7219729056707571172
+      Animated_objects_17: 5970955383309028103
+      Animated_objects_18: 7948148392337320465
+      Animated_objects_19: -1609412331780087379
+      Animated_objects_2: -7510799058878326544
+      Animated_objects_20: 84367354525178517
+      Animated_objects_21: 1298295073001433283
+      Animated_objects_22: -6374654843322652638
+      Animated_objects_23: -1752243444548043909
+      Animated_objects_24: 5810332031244455055
+      Animated_objects_25: 5577619141025636448
+      Animated_objects_26: 3382991638558324460
+      Animated_objects_27: -4040810035383478932
+      Animated_objects_28: -3504376667490384108
+      Animated_objects_29: -1564804061134914632
+      Animated_objects_3: 1356099948948184447
+      Animated_objects_30: 8077846690070714209
+      Animated_objects_31: -3074967083132153298
+      Animated_objects_32: -3322494872631374209
+      Animated_objects_33: -4003595947352873770
+      Animated_objects_34: -5683735535486665615
+      Animated_objects_35: 5566554374611216419
+      Animated_objects_36: 7223548408720666867
+      Animated_objects_37: -8098524443775219361
+      Animated_objects_38: 5099754316237415465
+      Animated_objects_39: 4753051241248221920
+      Animated_objects_4: 8829000443624798463
+      Animated_objects_40: 1857743769175300715
+      Animated_objects_41: 5573063442149989413
+      Animated_objects_42: 5823028834951940202
+      Animated_objects_43: -5339091920633630381
+      Animated_objects_44: 183637258492265564
+      Animated_objects_45: -7013195781217249752
+      Animated_objects_46: 7108573751155827715
+      Animated_objects_47: 6966956510856005977
+      Animated_objects_48: 656177938172674689
+      Animated_objects_49: -921978089404428660
+      Animated_objects_5: 5136758153458048110
+      Animated_objects_50: 1385243604914372853
+      Animated_objects_51: 5688740233060497103
+      Animated_objects_52: 5922927171212335416
+      Animated_objects_53: 8118477402463435037
+      Animated_objects_54: -4593607361340909359
+      Animated_objects_55: 4093902132373270234
+      Animated_objects_56: -6172740203063061246
+      Animated_objects_57: -3891470984105840262
+      Animated_objects_58: -7773389839565575417
+      Animated_objects_59: -8046047638228267559
+      Animated_objects_6: 5619091599236626059
+      Animated_objects_60: -8494379827139394334
+      Animated_objects_61: 3113309467766267710
+      Animated_objects_62: 5139455629088873791
+      Animated_objects_63: -1090142312287841495
+      Animated_objects_64: -9056407720461969535
+      Animated_objects_65: 2329142699481090346
+      Animated_objects_66: 739587176941008764
+      Animated_objects_67: 5525049904038600425
+      Animated_objects_68: 5378601082636166006
+      Animated_objects_69: 2357080266246200209
+      Animated_objects_7: -1921395925472425623
+      Animated_objects_70: -5620621858733788705
+      Animated_objects_71: -6035387786097754891
+      Animated_objects_72: 2113694993052961163
+      Animated_objects_73: 2317257435702854300
+      Animated_objects_74: 2520896858373196532
+      Animated_objects_75: -1863505970794462581
+      Animated_objects_76: -1896060060630848857
+      Animated_objects_77: 1941351301246443540
+      Animated_objects_78: 5317341210068264019
+      Animated_objects_79: 8280589255204382659
+      Animated_objects_8: 4916762618032186353
+      Animated_objects_80: -6465197900546636908
+      Animated_objects_81: -6882108685797532438
+      Animated_objects_82: -983460933072024633
+      Animated_objects_83: -5867899298472382818
+      Animated_objects_84: -879942581278218824
+      Animated_objects_85: 4042323491121441420
+      Animated_objects_86: 5011556008144911864
+      Animated_objects_87: -7908798810303315839
+      Animated_objects_88: 7563529462149113830
+      Animated_objects_89: -6260708225978125679
+      Animated_objects_9: 1162904983464979844
+      Animated_objects_90: -8127650507986196625
+      Animated_objects_91: 245020728333571058
+      Animated_objects_92: 3524818273908963493
+      Animated_objects_93: -8378476446211128828
+      Animated_objects_94: -1935380036885462678
+      Animated_objects_95: -423803922789611713
+      Animated_objects_96: 8348030540302742808
+      Animated_objects_97: 4166576696996334034
+      Animated_objects_98: 7988704782247911486
+      Animated_objects_99: 1090432899146883004
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

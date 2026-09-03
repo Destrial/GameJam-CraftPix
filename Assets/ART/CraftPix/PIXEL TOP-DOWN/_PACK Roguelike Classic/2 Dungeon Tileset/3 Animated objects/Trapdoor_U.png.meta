@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -260,7 +260,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Trapdoor_U_0: 7295156942412472675
+      Trapdoor_U_1: -4063226091003238321
+      Trapdoor_U_2: 1842620192812187626
+      Trapdoor_U_3: -8532274084250755029
+      Trapdoor_U_4: -8602080395659384371
+      Trapdoor_U_5: -1795180175806926332
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
