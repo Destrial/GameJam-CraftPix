@@ -873,6 +873,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3843351288733793645, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
+      propertyPath: _timeNextMove
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843351288733793645, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
+      propertyPath: _waitInputTime
+      value: 0.4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
