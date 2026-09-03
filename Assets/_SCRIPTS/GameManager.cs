@@ -66,7 +66,7 @@ namespace Destrial
             BoardManager.Clean();
             BoardManager.Init();
             PlayerController.Spawn(BoardManager, new Vector2Int(1, 1));
-
+            PlayerController.Init();
             m_CurrentLevel++;
         }
 

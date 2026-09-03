@@ -57,6 +57,7 @@ namespace Destrial
             m_IsMoving = false;
             m_Animator.SetBool("Moving", false);
             m_IsGameOver = false;
+
         }
 
 
