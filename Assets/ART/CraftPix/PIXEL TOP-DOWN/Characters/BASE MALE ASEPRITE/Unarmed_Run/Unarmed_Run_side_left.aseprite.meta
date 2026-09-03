@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 76
       width: 46
       height: 26
-    spriteID: 140e909acd1fe4b4b8cede4381a5eff3
+    spriteID: 55fdb64557dac724386fcbf6433652c8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 110
       width: 46
       height: 26
-    spriteID: a8a89fed3c64ff24d998cbf4d88b0168
+    spriteID: 47b1475fb2980a04891f515cf6f465d4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 144
       width: 46
       height: 26
-    spriteID: 235307f071322124a88ef9a06736e40b
+    spriteID: d4fde878516d84d4da3ce6307e14425a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 46
       height: 28
-    spriteID: 413fdee68e55d9842bb6f4f77d9130ad
+    spriteID: 2e8e81ad781c2764fbc686dae9f8d6d4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 178
       width: 46
       height: 26
-    spriteID: 0f7cfcb60b8e72a48ad83d16645cbba9
+    spriteID: 4d9ce9e0ab25a654aae24d60aeb73598
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 212
       width: 46
       height: 26
-    spriteID: 573f897729237f04da4697b056653123
+    spriteID: 805b890b472911149a99563473a103e3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 4
       width: 46
       height: 26
-    spriteID: 1fdf71da8d7335b41a0f7abe7d89557c
+    spriteID: dd8ba4d912924004ba4dcfac118de23c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 40
       width: 46
       height: 28
-    spriteID: 3f8d0b3db229b3f4e9b657d15111040d
+    spriteID: 74cc0e68b9fd2b445b334d076dccd84a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -295,7 +295,7 @@ ScriptedImporter:
         y: 17
         width: 46
         height: 26
-      spriteId: 140e909acd1fe4b4b8cede4381a5eff3
+      spriteId: 55fdb64557dac724386fcbf6433652c8
     - name: Unarmed_Run_side_left_Frame_1
       frameIndex: 1
       cellRect:
@@ -303,7 +303,7 @@ ScriptedImporter:
         y: 17
         width: 46
         height: 26
-      spriteId: a8a89fed3c64ff24d998cbf4d88b0168
+      spriteId: 47b1475fb2980a04891f515cf6f465d4
     - name: Unarmed_Run_side_left_Frame_2
       frameIndex: 2
       cellRect:
@@ -311,7 +311,7 @@ ScriptedImporter:
         y: 17
         width: 46
         height: 26
-      spriteId: 235307f071322124a88ef9a06736e40b
+      spriteId: d4fde878516d84d4da3ce6307e14425a
     - name: Unarmed_Run_side_left_Frame_3
       frameIndex: 3
       cellRect:
@@ -319,7 +319,7 @@ ScriptedImporter:
         y: 17
         width: 46
         height: 28
-      spriteId: 413fdee68e55d9842bb6f4f77d9130ad
+      spriteId: 2e8e81ad781c2764fbc686dae9f8d6d4
     - name: Unarmed_Run_side_left_Frame_4
       frameIndex: 4
       cellRect:
@@ -327,7 +327,7 @@ ScriptedImporter:
         y: 17
         width: 46
         height: 26
-      spriteId: 0f7cfcb60b8e72a48ad83d16645cbba9
+      spriteId: 4d9ce9e0ab25a654aae24d60aeb73598
     - name: Unarmed_Run_side_left_Frame_5
       frameIndex: 5
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         y: 17
         width: 46
         height: 26
-      spriteId: 573f897729237f04da4697b056653123
+      spriteId: 805b890b472911149a99563473a103e3
     - name: Unarmed_Run_side_left_Frame_6
       frameIndex: 6
       cellRect:
@@ -343,7 +343,7 @@ ScriptedImporter:
         y: 17
         width: 46
         height: 26
-      spriteId: 1fdf71da8d7335b41a0f7abe7d89557c
+      spriteId: dd8ba4d912924004ba4dcfac118de23c
     - name: Unarmed_Run_side_left_Frame_7
       frameIndex: 7
       cellRect:
@@ -351,7 +351,7 @@ ScriptedImporter:
         y: 17
         width: 46
         height: 28
-      spriteId: 3f8d0b3db229b3f4e9b657d15111040d
+      spriteId: 74cc0e68b9fd2b445b334d076dccd84a
     linkedCells: []
     parentIndex: -1
   platformSettings: []

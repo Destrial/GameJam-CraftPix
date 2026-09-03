@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 207
       width: 269
       height: 194
-    spriteID: c4725d984bd31ce4a90a358ba3fd549d
+    spriteID: 3db695fecd8343b469ce68e1e243b3ae
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 409
       width: 269
       height: 194
-    spriteID: b503f74bbb56e4d419e38068b0f6fbd4
+    spriteID: 26d00d84ffe73e24c8631e9b4c9d6c56
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 269
       height: 195
-    spriteID: 44deeea7f9a3d344497ba02846d3b1c3
+    spriteID: d17d4a575dce6c640a87a71db3afd998
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 611
       width: 269
       height: 194
-    spriteID: 17ca07f0bb78e3d43a0d9e0bab0f23e5
+    spriteID: f3b2cb3a7fd730c4dad305c7daad633e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -215,7 +215,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 194
-      spriteId: c4725d984bd31ce4a90a358ba3fd549d
+      spriteId: 3db695fecd8343b469ce68e1e243b3ae
     - name: orc2_left_idle_Frame_1
       frameIndex: 1
       cellRect:
@@ -223,7 +223,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 194
-      spriteId: b503f74bbb56e4d419e38068b0f6fbd4
+      spriteId: 26d00d84ffe73e24c8631e9b4c9d6c56
     - name: orc2_left_idle_Frame_2
       frameIndex: 2
       cellRect:
@@ -231,7 +231,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 195
-      spriteId: 44deeea7f9a3d344497ba02846d3b1c3
+      spriteId: d17d4a575dce6c640a87a71db3afd998
     - name: orc2_left_idle_Frame_3
       frameIndex: 3
       cellRect:
@@ -239,7 +239,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 194
-      spriteId: 17ca07f0bb78e3d43a0d9e0bab0f23e5
+      spriteId: f3b2cb3a7fd730c4dad305c7daad633e
     linkedCells: []
     parentIndex: -1
   platformSettings: []

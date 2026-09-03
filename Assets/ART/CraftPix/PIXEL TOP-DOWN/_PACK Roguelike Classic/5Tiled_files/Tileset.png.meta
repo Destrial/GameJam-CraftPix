@@ -117,7 +117,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -477,21 +477,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tileset_0: 5441223297315994465
-      Tileset_1: -3309781605116015348
-      Tileset_10: -8025435653959805260
-      Tileset_11: 4938342473259674171
-      Tileset_12: -6315978382755026507
-      Tileset_13: -1010255394613501995
-      Tileset_14: -7933298228110686459
-      Tileset_2: -6108889420429456849
-      Tileset_3: 5682393469540925955
-      Tileset_4: 2403724249865808194
-      Tileset_5: 8040196581939011165
-      Tileset_6: -6056380807486736462
-      Tileset_7: -8480404140891905064
-      Tileset_8: -72156938504300551
-      Tileset_9: 7769453424612927293
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

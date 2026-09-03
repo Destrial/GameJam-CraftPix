@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 86
       width: 23
       height: 18
-    spriteID: f98dc2627b72c6d4d9ec818ea39e9367
+    spriteID: f453c9d80c349d647876f04ab8da1d8f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 86
       width: 21
       height: 14
-    spriteID: f20507f5cf136cc4eb2eb15d87736453
+    spriteID: e229451b10d6b674ab09dbb4f1ef76d5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 112
       width: 18
       height: 11
-    spriteID: 772ba1d5e6451634f82d649fac9c9789
+    spriteID: cbe437d848e561e41b8b5d8ccc233138
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 86
       width: 18
       height: 18
-    spriteID: 09a28e7f8fa8c1d478419ef0cc6a0037
+    spriteID: 7aee582164cc4984f94257f68172ad2c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 4
       width: 23
       height: 22
-    spriteID: d7b26ef55100ba643902b0b5eb85632e
+    spriteID: 2044facb70ced764b8fb9704651ce8e1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 47
       width: 27
       height: 24
-    spriteID: 22da44cc87ab45e42bc2d823613d9726
+    spriteID: eca6de92822ad8e47abb976cd29770dd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 86
       width: 33
       height: 27
-    spriteID: 077af7483bb06054a8e001d3ee0788f1
+    spriteID: 3da30a63c4867284dbfe2280dd015da8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 47
       width: 34
       height: 29
-    spriteID: 048318995669fcb4a87638bfb25e0479
+    spriteID: 8f91d316e2aacea4092fdbeda5343a22
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -290,7 +290,7 @@ ScriptedImporter:
       y: 4
       width: 37
       height: 35
-    spriteID: 54c1b62f99e1aed47a72070971413ed7
+    spriteID: 8d1b8e95d46a4844c9764d623a4f0761
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -310,7 +310,7 @@ ScriptedImporter:
       y: 47
       width: 39
       height: 31
-    spriteID: f3bc6d5d3914f8843b5aa8ac82d2aa70
+    spriteID: eabc8e6809b1af948b13d93a56eef6ae
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -330,7 +330,7 @@ ScriptedImporter:
       y: 4
       width: 41
       height: 35
-    spriteID: 28a19b2bf3518bf45984f11da4601648
+    spriteID: 4d9ac1d2bdc29b14abf16376fa5b5874
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -355,7 +355,7 @@ ScriptedImporter:
         y: 22
         width: 23
         height: 18
-      spriteId: f98dc2627b72c6d4d9ec818ea39e9367
+      spriteId: f453c9d80c349d647876f04ab8da1d8f
     - name: Slime2_Attack_back_Frame_1
       frameIndex: 1
       cellRect:
@@ -363,7 +363,7 @@ ScriptedImporter:
         y: 22
         width: 21
         height: 14
-      spriteId: f20507f5cf136cc4eb2eb15d87736453
+      spriteId: e229451b10d6b674ab09dbb4f1ef76d5
     - name: Slime2_Attack_back_Frame_2
       frameIndex: 2
       cellRect:
@@ -371,7 +371,7 @@ ScriptedImporter:
         y: 22
         width: 18
         height: 11
-      spriteId: 772ba1d5e6451634f82d649fac9c9789
+      spriteId: cbe437d848e561e41b8b5d8ccc233138
     - name: Slime2_Attack_back_Frame_3
       frameIndex: 3
       cellRect:
@@ -379,7 +379,7 @@ ScriptedImporter:
         y: 21
         width: 18
         height: 18
-      spriteId: 09a28e7f8fa8c1d478419ef0cc6a0037
+      spriteId: 7aee582164cc4984f94257f68172ad2c
     - name: Slime2_Attack_back_Frame_4
       frameIndex: 4
       cellRect:
@@ -387,7 +387,7 @@ ScriptedImporter:
         y: 21
         width: 23
         height: 22
-      spriteId: d7b26ef55100ba643902b0b5eb85632e
+      spriteId: 2044facb70ced764b8fb9704651ce8e1
     - name: Slime2_Attack_back_Frame_5
       frameIndex: 5
       cellRect:
@@ -395,7 +395,7 @@ ScriptedImporter:
         y: 20
         width: 27
         height: 24
-      spriteId: 22da44cc87ab45e42bc2d823613d9726
+      spriteId: eca6de92822ad8e47abb976cd29770dd
     - name: Slime2_Attack_back_Frame_6
       frameIndex: 6
       cellRect:
@@ -403,7 +403,7 @@ ScriptedImporter:
         y: 19
         width: 33
         height: 27
-      spriteId: 077af7483bb06054a8e001d3ee0788f1
+      spriteId: 3da30a63c4867284dbfe2280dd015da8
     - name: Slime2_Attack_back_Frame_7
       frameIndex: 7
       cellRect:
@@ -411,7 +411,7 @@ ScriptedImporter:
         y: 18
         width: 34
         height: 29
-      spriteId: 048318995669fcb4a87638bfb25e0479
+      spriteId: 8f91d316e2aacea4092fdbeda5343a22
     - name: Slime2_Attack_back_Frame_8
       frameIndex: 8
       cellRect:
@@ -419,7 +419,7 @@ ScriptedImporter:
         y: 16
         width: 37
         height: 35
-      spriteId: 54c1b62f99e1aed47a72070971413ed7
+      spriteId: 8d1b8e95d46a4844c9764d623a4f0761
     - name: Slime2_Attack_back_Frame_9
       frameIndex: 9
       cellRect:
@@ -427,7 +427,7 @@ ScriptedImporter:
         y: 21
         width: 39
         height: 31
-      spriteId: f3bc6d5d3914f8843b5aa8ac82d2aa70
+      spriteId: eabc8e6809b1af948b13d93a56eef6ae
     - name: Slime2_Attack_back_Frame_10
       frameIndex: 10
       cellRect:
@@ -435,7 +435,7 @@ ScriptedImporter:
         y: 19
         width: 41
         height: 35
-      spriteId: 28a19b2bf3518bf45984f11da4601648
+      spriteId: 4d9ac1d2bdc29b14abf16376fa5b5874
     linkedCells: []
     parentIndex: -1
   platformSettings: []

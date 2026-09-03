@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 78
       width: 20
       height: 27
-    spriteID: d6ab7ae8b3aeb05469e6345119d2edc3
+    spriteID: a301e2925114eba4f89063945380e91c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 44
       width: 22
       height: 26
-    spriteID: 0eb0e09046d503a4dae819d6a17d5874
+    spriteID: eeb385b78289b2f40bc9f4c016468168
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 22
       height: 23
-    spriteID: 4950434dc820fb34d902b9c06314d3b1
+    spriteID: 04f22dddef6201049841b5929000edf5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 90
       width: 25
       height: 29
-    spriteID: 15d11829d56c7cb41b5d8ed8581078c3
+    spriteID: 0cdfc6ae576553648a5dbca899631816
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 4
       width: 33
       height: 32
-    spriteID: 43d2703c0c17c144d8a97b43ef562445
+    spriteID: 15fb3d28ed342ae41a16b3b7f432aae4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 4
       width: 32
       height: 35
-    spriteID: 98babef2d8085dc4fb9d1be31fd84449
+    spriteID: 16c96ce4d5d18ed49a70298909b907b3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 47
       width: 30
       height: 35
-    spriteID: e10f2d6b6247b1241a0f644c594ee81e
+    spriteID: 6dc2ce2dba203a94a92d7488cb2e0e7a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 35
       width: 15
       height: 27
-    spriteID: fea8d60ae011c9e4e9d8e006b293a2d7
+    spriteID: 489aaeada45283949b0389831f8eef17
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -295,7 +295,7 @@ ScriptedImporter:
         y: 17
         width: 20
         height: 27
-      spriteId: d6ab7ae8b3aeb05469e6345119d2edc3
+      spriteId: a301e2925114eba4f89063945380e91c
     - name: Sword_Run_Attack_back_Frame_1
       frameIndex: 1
       cellRect:
@@ -303,7 +303,7 @@ ScriptedImporter:
         y: 17
         width: 22
         height: 26
-      spriteId: 0eb0e09046d503a4dae819d6a17d5874
+      spriteId: eeb385b78289b2f40bc9f4c016468168
     - name: Sword_Run_Attack_back_Frame_2
       frameIndex: 2
       cellRect:
@@ -311,7 +311,7 @@ ScriptedImporter:
         y: 17
         width: 22
         height: 23
-      spriteId: 4950434dc820fb34d902b9c06314d3b1
+      spriteId: 04f22dddef6201049841b5929000edf5
     - name: Sword_Run_Attack_back_Frame_3
       frameIndex: 3
       cellRect:
@@ -319,7 +319,7 @@ ScriptedImporter:
         y: 17
         width: 25
         height: 29
-      spriteId: 15d11829d56c7cb41b5d8ed8581078c3
+      spriteId: 0cdfc6ae576553648a5dbca899631816
     - name: Sword_Run_Attack_back_Frame_4
       frameIndex: 4
       cellRect:
@@ -327,7 +327,7 @@ ScriptedImporter:
         y: 17
         width: 33
         height: 32
-      spriteId: 43d2703c0c17c144d8a97b43ef562445
+      spriteId: 15fb3d28ed342ae41a16b3b7f432aae4
     - name: Sword_Run_Attack_back_Frame_5
       frameIndex: 5
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         y: 17
         width: 32
         height: 35
-      spriteId: 98babef2d8085dc4fb9d1be31fd84449
+      spriteId: 16c96ce4d5d18ed49a70298909b907b3
     - name: Sword_Run_Attack_back_Frame_6
       frameIndex: 6
       cellRect:
@@ -343,7 +343,7 @@ ScriptedImporter:
         y: 17
         width: 30
         height: 35
-      spriteId: e10f2d6b6247b1241a0f644c594ee81e
+      spriteId: 6dc2ce2dba203a94a92d7488cb2e0e7a
     - name: Sword_Run_Attack_back_Frame_7
       frameIndex: 7
       cellRect:
@@ -351,7 +351,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 27
-      spriteId: fea8d60ae011c9e4e9d8e006b293a2d7
+      spriteId: 489aaeada45283949b0389831f8eef17
     linkedCells: []
     parentIndex: -1
   platformSettings: []

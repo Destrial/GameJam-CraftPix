@@ -76,7 +76,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -114,7 +114,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -453,20 +453,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Enchanced_impact_2_0: -2839014535910269307
-      Enchanced_impact_2_1: -6667201269289361166
-      Enchanced_impact_2_10: 6766202725748365774
-      Enchanced_impact_2_11: -1506268966166179247
-      Enchanced_impact_2_12: -7442155359518690505
-      Enchanced_impact_2_13: 3264620148711368250
-      Enchanced_impact_2_2: -7987127885240784116
-      Enchanced_impact_2_3: 6813636782234115556
-      Enchanced_impact_2_4: -1214721072178220503
-      Enchanced_impact_2_5: -1829272044962239281
-      Enchanced_impact_2_6: 8645622124350094118
-      Enchanced_impact_2_7: -3022870153826334212
-      Enchanced_impact_2_8: 3223357464619583525
-      Enchanced_impact_2_9: 2769502399912327473
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -108,7 +108,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -405,18 +405,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Cyborg_attack3_0: -1360609648184034393
-      Cyborg_attack3_1: -4459649139179864793
-      Cyborg_attack3_10: -8801710209099867170
-      Cyborg_attack3_11: -5734336656586061721
-      Cyborg_attack3_2: -3828937323175773418
-      Cyborg_attack3_3: -8258084153299360998
-      Cyborg_attack3_4: 2553643604654567049
-      Cyborg_attack3_5: -834172504199224220
-      Cyborg_attack3_6: -4201858924359692740
-      Cyborg_attack3_7: -3288670019328891817
-      Cyborg_attack3_8: 3926419084321972092
-      Cyborg_attack3_9: -8364969994899206595
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

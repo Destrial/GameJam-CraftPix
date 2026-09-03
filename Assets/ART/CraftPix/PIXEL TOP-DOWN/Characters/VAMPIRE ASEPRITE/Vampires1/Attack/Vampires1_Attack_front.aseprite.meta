@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 23
       height: 29
-    spriteID: 4a1032f04962c2143a6fac69d61c48b7
+    spriteID: 04be25d364430a840a7fd5082edf36a5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 160
       width: 23
       height: 38
-    spriteID: 1f468ea0e29d42b40860a47331afb61d
+    spriteID: 51e6eb382ba3a6e42bbd6e14c5867f65
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 110
       width: 25
       height: 42
-    spriteID: cafcda0cec972b74e8f52760437c6f92
+    spriteID: 3b1a7276d5130d04297745067c8ba428
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 30
       height: 45
-    spriteID: 8ba6c35a5e49cca43aa441d461004c94
+    spriteID: 05be2412ed1b6ec469e2a1d9b9c669ab
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 57
       width: 28
       height: 45
-    spriteID: d100abd4d4b20a84faf32b348ed3a202
+    spriteID: ec32762fb341b5d469ffbace4da1a0e0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 4
       width: 34
       height: 38
-    spriteID: 901844151363f3241b296fa34c337b74
+    spriteID: a23b283db6dbf5e4c9cf4b7316ff0a0d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 206
       width: 27
       height: 32
-    spriteID: 07b3a30860a904b45baa2462d31746da
+    spriteID: 99821efd6ae62b14fa578d167a66ff44
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 167
       width: 31
       height: 27
-    spriteID: 89071bd5a8baca047a7d69f9392e25ec
+    spriteID: ed5a6f833d3557342a42180e920f7833
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -290,7 +290,7 @@ ScriptedImporter:
       y: 202
       width: 27
       height: 30
-    spriteID: a4b10a64dd9dca042a029f0e7788f657
+    spriteID: a05bdf53631cc174c88ba3f5985f8e15
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -310,7 +310,7 @@ ScriptedImporter:
       y: 50
       width: 31
       height: 33
-    spriteID: 3b6fec19e562af648a13506e1a798db9
+    spriteID: 694bb84b3c715c849bff435bad4c3c2a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -330,7 +330,7 @@ ScriptedImporter:
       y: 130
       width: 29
       height: 29
-    spriteID: 94a2d7994e9f08340b0a9b4944526a40
+    spriteID: 3aff852f81ce51a45b2103f65134be55
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -350,7 +350,7 @@ ScriptedImporter:
       y: 91
       width: 31
       height: 31
-    spriteID: c5c435673897b154d8f31608820e1eb9
+    spriteID: 029bfccf7f98aef43913fe9d83adc4c2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -375,7 +375,7 @@ ScriptedImporter:
         y: 17
         width: 23
         height: 29
-      spriteId: 4a1032f04962c2143a6fac69d61c48b7
+      spriteId: 04be25d364430a840a7fd5082edf36a5
     - name: Vampires1_Attack_front_Frame_1
       frameIndex: 1
       cellRect:
@@ -383,7 +383,7 @@ ScriptedImporter:
         y: 17
         width: 23
         height: 38
-      spriteId: 1f468ea0e29d42b40860a47331afb61d
+      spriteId: 51e6eb382ba3a6e42bbd6e14c5867f65
     - name: Vampires1_Attack_front_Frame_2
       frameIndex: 2
       cellRect:
@@ -391,7 +391,7 @@ ScriptedImporter:
         y: 15
         width: 25
         height: 42
-      spriteId: cafcda0cec972b74e8f52760437c6f92
+      spriteId: 3b1a7276d5130d04297745067c8ba428
     - name: Vampires1_Attack_front_Frame_3
       frameIndex: 3
       cellRect:
@@ -399,7 +399,7 @@ ScriptedImporter:
         y: 13
         width: 30
         height: 45
-      spriteId: 8ba6c35a5e49cca43aa441d461004c94
+      spriteId: 05be2412ed1b6ec469e2a1d9b9c669ab
     - name: Vampires1_Attack_front_Frame_4
       frameIndex: 4
       cellRect:
@@ -407,7 +407,7 @@ ScriptedImporter:
         y: 14
         width: 28
         height: 45
-      spriteId: d100abd4d4b20a84faf32b348ed3a202
+      spriteId: ec32762fb341b5d469ffbace4da1a0e0
     - name: Vampires1_Attack_front_Frame_5
       frameIndex: 5
       cellRect:
@@ -415,7 +415,7 @@ ScriptedImporter:
         y: 17
         width: 34
         height: 38
-      spriteId: 901844151363f3241b296fa34c337b74
+      spriteId: a23b283db6dbf5e4c9cf4b7316ff0a0d
     - name: Vampires1_Attack_front_Frame_6
       frameIndex: 6
       cellRect:
@@ -423,7 +423,7 @@ ScriptedImporter:
         y: 17
         width: 27
         height: 32
-      spriteId: 07b3a30860a904b45baa2462d31746da
+      spriteId: 99821efd6ae62b14fa578d167a66ff44
     - name: Vampires1_Attack_front_Frame_7
       frameIndex: 7
       cellRect:
@@ -431,7 +431,7 @@ ScriptedImporter:
         y: 17
         width: 31
         height: 27
-      spriteId: 89071bd5a8baca047a7d69f9392e25ec
+      spriteId: ed5a6f833d3557342a42180e920f7833
     - name: Vampires1_Attack_front_Frame_8
       frameIndex: 8
       cellRect:
@@ -439,7 +439,7 @@ ScriptedImporter:
         y: 17
         width: 27
         height: 30
-      spriteId: a4b10a64dd9dca042a029f0e7788f657
+      spriteId: a05bdf53631cc174c88ba3f5985f8e15
     - name: Vampires1_Attack_front_Frame_9
       frameIndex: 9
       cellRect:
@@ -447,7 +447,7 @@ ScriptedImporter:
         y: 17
         width: 31
         height: 33
-      spriteId: 3b6fec19e562af648a13506e1a798db9
+      spriteId: 694bb84b3c715c849bff435bad4c3c2a
     - name: Vampires1_Attack_front_Frame_10
       frameIndex: 10
       cellRect:
@@ -455,7 +455,7 @@ ScriptedImporter:
         y: 17
         width: 29
         height: 29
-      spriteId: 94a2d7994e9f08340b0a9b4944526a40
+      spriteId: 3aff852f81ce51a45b2103f65134be55
     - name: Vampires1_Attack_front_Frame_11
       frameIndex: 11
       cellRect:
@@ -463,7 +463,7 @@ ScriptedImporter:
         y: 16
         width: 31
         height: 31
-      spriteId: c5c435673897b154d8f31608820e1eb9
+      spriteId: 029bfccf7f98aef43913fe9d83adc4c2
     linkedCells: []
     parentIndex: -1
   platformSettings: []

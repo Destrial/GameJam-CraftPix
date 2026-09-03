@@ -199,7 +199,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -237,7 +237,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1437,61 +1437,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ground_grass_0: 5502795034155475378
-      Ground_grass_1: -2251466177505222750
-      Ground_grass_10: -8811370582989986236
-      Ground_grass_11: -4200162803458102188
-      Ground_grass_12: 5459025715605557507
-      Ground_grass_13: -3091132489865057506
-      Ground_grass_14: -2224343646793282830
-      Ground_grass_15: 3956958141855476242
-      Ground_grass_16: 3397947996529845714
-      Ground_grass_17: 5929542750759947156
-      Ground_grass_18: -6171212275755789605
-      Ground_grass_19: 903040975479428263
-      Ground_grass_2: -1748119628516117565
-      Ground_grass_20: -6246069008347126426
-      Ground_grass_21: -2789964375084809460
-      Ground_grass_22: -6845141232409710994
-      Ground_grass_23: -7874356648736506187
-      Ground_grass_24: -2883741277689450049
-      Ground_grass_25: 921050283965485773
-      Ground_grass_26: 5271215498600857279
-      Ground_grass_27: -267888349907256101
-      Ground_grass_28: -6452218009086904174
-      Ground_grass_29: -8267048188551292822
-      Ground_grass_3: -6482172795945983204
-      Ground_grass_30: -6146940929012185159
-      Ground_grass_31: 5144990463651980890
-      Ground_grass_32: 2508374685874484965
-      Ground_grass_33: -6996246667853127652
-      Ground_grass_34: -4064828353698871587
-      Ground_grass_35: -8554912486953707406
-      Ground_grass_36: 8235294080457597098
-      Ground_grass_37: 5161394497751539557
-      Ground_grass_38: -7989334656545445311
-      Ground_grass_39: 8146823420534726431
-      Ground_grass_4: -2619844873426456350
-      Ground_grass_40: 1624446577923597904
-      Ground_grass_41: -5358412107876620326
-      Ground_grass_42: -4240682047660809258
-      Ground_grass_43: -5443147955829537162
-      Ground_grass_44: -2560245290234482510
-      Ground_grass_45: 2565110959810889069
-      Ground_grass_46: 3079063372904292691
-      Ground_grass_47: 319957214648287223
-      Ground_grass_48: -3072916920254033266
-      Ground_grass_49: -1987384309486288061
-      Ground_grass_5: 8841198834173213278
-      Ground_grass_50: 6949348824335320114
-      Ground_grass_51: -813313389053952907
-      Ground_grass_52: 3930343498902451244
-      Ground_grass_53: -2338889615351237596
-      Ground_grass_54: 3523605389442028019
-      Ground_grass_6: 7824777992109083675
-      Ground_grass_7: -6839457230033695196
-      Ground_grass_8: -6215050968337864674
-      Ground_grass_9: -4109232325697531856
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

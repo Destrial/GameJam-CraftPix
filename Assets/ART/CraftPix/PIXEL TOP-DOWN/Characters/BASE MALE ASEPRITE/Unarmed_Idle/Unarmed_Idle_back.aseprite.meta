@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 15
       height: 25
-    spriteID: 140dc9830181b1943b00fa3602639bfb
+    spriteID: 4c20a809eac019649b5c1754d7ceb1c5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 37
       width: 15
       height: 25
-    spriteID: 1feef20798d04204e9751e02ec1e00cc
+    spriteID: d759bacc3df8bcd4cbbb02b8c9533f1e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 70
       width: 15
       height: 25
-    spriteID: 09a9bbedf3c5e4c4ca29e5b8f849f210
+    spriteID: 0a882e02dad08a844bb98a9cf8659f9f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 15
       height: 25
-    spriteID: e04522f5a5a31cc42a248b9064aae273
+    spriteID: f37c411807c49c24192ef3f5e8cb745a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -215,7 +215,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 25
-      spriteId: 140dc9830181b1943b00fa3602639bfb
+      spriteId: 4c20a809eac019649b5c1754d7ceb1c5
     - name: Unarmed_Idle_back_Frame_1
       frameIndex: 1
       cellRect:
@@ -223,7 +223,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 25
-      spriteId: 1feef20798d04204e9751e02ec1e00cc
+      spriteId: d759bacc3df8bcd4cbbb02b8c9533f1e
     - name: Unarmed_Idle_back_Frame_2
       frameIndex: 2
       cellRect:
@@ -231,7 +231,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 25
-      spriteId: 09a9bbedf3c5e4c4ca29e5b8f849f210
+      spriteId: 0a882e02dad08a844bb98a9cf8659f9f
     - name: Unarmed_Idle_back_Frame_3
       frameIndex: 3
       cellRect:
@@ -239,7 +239,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 25
-      spriteId: e04522f5a5a31cc42a248b9064aae273
+      spriteId: f37c411807c49c24192ef3f5e8cb745a
     linkedCells: []
     parentIndex: -1
   platformSettings: []

@@ -208,7 +208,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -246,7 +246,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1509,64 +1509,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Circle_menu_0: 4338315001795487859
-      Circle_menu_1: 6606367682412767159
-      Circle_menu_10: 3138118324261027955
-      Circle_menu_11: 6321875534573465944
-      Circle_menu_12: 6567770986561102662
-      Circle_menu_13: 1942205897860588833
-      Circle_menu_14: 5099040871729617693
-      Circle_menu_15: -6049002145811201720
-      Circle_menu_16: 6566912800861731949
-      Circle_menu_17: -5777566261405397800
-      Circle_menu_18: -4137986670522551725
-      Circle_menu_19: 6030408536329867224
-      Circle_menu_2: 331704905161904021
-      Circle_menu_20: 496841993596249838
-      Circle_menu_21: 4559203826338611780
-      Circle_menu_22: 939060328026688406
-      Circle_menu_23: 5363747462949005930
-      Circle_menu_24: 2920612001617068727
-      Circle_menu_25: 4934552408806564624
-      Circle_menu_26: -1895743903595380794
-      Circle_menu_27: -6341675141814434732
-      Circle_menu_28: 3015340891244644265
-      Circle_menu_29: -959264648729537672
-      Circle_menu_3: -7586195673865732670
-      Circle_menu_30: 1101754962845952093
-      Circle_menu_31: -857115063036938779
-      Circle_menu_32: -6177038574091173968
-      Circle_menu_33: 3667064765139727549
-      Circle_menu_34: 5980551033734243631
-      Circle_menu_35: 2172042704903330786
-      Circle_menu_36: -1581394468032106382
-      Circle_menu_37: -8369547123586657644
-      Circle_menu_38: 6519190929727653930
-      Circle_menu_39: 3605249943430155902
-      Circle_menu_4: -2147039295904541502
-      Circle_menu_40: 6204406605780924419
-      Circle_menu_41: -4201636888871789734
-      Circle_menu_42: -3335767851016229669
-      Circle_menu_43: -5640276810024737841
-      Circle_menu_44: 2517570965502314016
-      Circle_menu_45: -3829430382797219894
-      Circle_menu_46: 6566881227892227518
-      Circle_menu_47: -1187232223438047301
-      Circle_menu_48: -8867794624938665551
-      Circle_menu_49: 9182901556039907844
-      Circle_menu_5: 5179331385715376089
-      Circle_menu_50: -6303473570746137826
-      Circle_menu_51: -1571719150514067970
-      Circle_menu_52: 5085355579974274531
-      Circle_menu_53: 8383702958528118598
-      Circle_menu_54: 734123327734587000
-      Circle_menu_55: 4933040787116291713
-      Circle_menu_56: -5249552344608439660
-      Circle_menu_57: -7152690126914242344
-      Circle_menu_6: -8519498169286505225
-      Circle_menu_7: 7939963032302815366
-      Circle_menu_8: 925530328215651520
-      Circle_menu_9: 928134212369473939
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 15
       height: 25
-    spriteID: 02a4402361a2f4a49851c2177676e68d
+    spriteID: a69822824968d824e8e00b4e6c167df8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 64
       width: 15
       height: 23
-    spriteID: 10274a841fa7b6447b5e2e2f21bc1c09
+    spriteID: ed1f160efdc9ff84aad7665b30d79f80
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 16
       height: 22
-    spriteID: 55c41f72cfb76a642a71e977494ca466
+    spriteID: bc1eb9a51098b55419ff3c17b5dc4da0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 34
       width: 16
       height: 22
-    spriteID: aa04122bc0fb90b4f8ee22677c4a6cc2
+    spriteID: 040b2f3707ecf4d40be372139d730f70
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 95
       width: 15
       height: 23
-    spriteID: bbd518071f3fb0f40875ea4f80b576c0
+    spriteID: 28612427c60a5dd44b7df23f94deac45
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -235,7 +235,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 25
-      spriteId: 02a4402361a2f4a49851c2177676e68d
+      spriteId: a69822824968d824e8e00b4e6c167df8
     - name: Unarmed_Hurt_front_Frame_1
       frameIndex: 1
       cellRect:
@@ -243,7 +243,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 23
-      spriteId: 10274a841fa7b6447b5e2e2f21bc1c09
+      spriteId: ed1f160efdc9ff84aad7665b30d79f80
     - name: Unarmed_Hurt_front_Frame_2
       frameIndex: 2
       cellRect:
@@ -251,7 +251,7 @@ ScriptedImporter:
         y: 17
         width: 16
         height: 22
-      spriteId: 55c41f72cfb76a642a71e977494ca466
+      spriteId: bc1eb9a51098b55419ff3c17b5dc4da0
     - name: Unarmed_Hurt_front_Frame_3
       frameIndex: 3
       cellRect:
@@ -259,7 +259,7 @@ ScriptedImporter:
         y: 17
         width: 16
         height: 22
-      spriteId: aa04122bc0fb90b4f8ee22677c4a6cc2
+      spriteId: 040b2f3707ecf4d40be372139d730f70
     - name: Unarmed_Hurt_front_Frame_4
       frameIndex: 4
       cellRect:
@@ -267,7 +267,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 23
-      spriteId: bbd518071f3fb0f40875ea4f80b576c0
+      spriteId: 28612427c60a5dd44b7df23f94deac45
     linkedCells: []
     parentIndex: -1
   platformSettings: []

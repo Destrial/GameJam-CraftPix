@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -108,7 +108,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -405,18 +405,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Magic Arrow_0: 6333653222134828502
-      Magic Arrow_1: 2992046970766736313
-      Magic Arrow_10: 6656222373904642841
-      Magic Arrow_11: -2193518243553613228
-      Magic Arrow_2: 4461527717585489115
-      Magic Arrow_3: -8599339443414195575
-      Magic Arrow_4: -6141928624292374822
-      Magic Arrow_5: 8470885192964181831
-      Magic Arrow_6: -330742760660372785
-      Magic Arrow_7: 1083290603665989471
-      Magic Arrow_8: -7133324450223283092
-      Magic Arrow_9: -2044044390135104339
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

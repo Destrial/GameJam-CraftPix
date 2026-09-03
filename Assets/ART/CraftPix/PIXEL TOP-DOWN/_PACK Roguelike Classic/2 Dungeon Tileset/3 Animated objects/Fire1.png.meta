@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -309,14 +309,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fire1_0: -2085297131118140966
-      Fire1_1: 2469033851445598716
-      Fire1_2: 3242852554281066579
-      Fire1_3: -3312327535390791081
-      Fire1_4: 1033412679963994307
-      Fire1_5: 1601381086964363177
-      Fire1_6: 8325545706620066509
-      Fire1_7: 1755033254961316109
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

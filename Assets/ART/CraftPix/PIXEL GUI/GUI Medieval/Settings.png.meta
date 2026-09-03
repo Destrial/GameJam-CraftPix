@@ -247,7 +247,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -285,7 +285,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1821,77 +1821,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Settings_0: 7886631795410796208
-      Settings_1: 2060365850352298717
-      Settings_10: 5979319488669157797
-      Settings_11: 7874571875356549792
-      Settings_12: 6122820620049608315
-      Settings_13: -759279763087290901
-      Settings_14: -8848913993922813425
-      Settings_15: 7097481160894154331
-      Settings_16: 294743518218107822
-      Settings_17: 872156924944012935
-      Settings_18: 8599605192133292346
-      Settings_19: 4214879178814042315
-      Settings_2: -5339635570483323969
-      Settings_20: -362717058644540347
-      Settings_21: 5149482387588508710
-      Settings_22: -187486148762048030
-      Settings_23: -5889220722732925402
-      Settings_24: -7990452516170691554
-      Settings_25: 2219846662026266402
-      Settings_26: -8008029708754915026
-      Settings_27: 9116879590901196186
-      Settings_28: -3784782500970839234
-      Settings_29: 6706167827044026708
-      Settings_3: -2495782739550021130
-      Settings_30: -1500646853672674349
-      Settings_31: 3243614158103243792
-      Settings_32: 8519340813396575176
-      Settings_33: 6301286399452098580
-      Settings_34: 2192497927867904047
-      Settings_35: -8487467646463760187
-      Settings_36: -4918111152905469725
-      Settings_37: 1670066635636560675
-      Settings_38: 2350920394033416457
-      Settings_39: 5390998197824483355
-      Settings_4: 8154524474551060708
-      Settings_40: 2233521443295592279
-      Settings_41: -2093202725083576868
-      Settings_42: -5731465314773269258
-      Settings_43: -4241717153216521532
-      Settings_44: 8237637334529939219
-      Settings_45: 1468118491441777345
-      Settings_46: -5178341949952758613
-      Settings_47: -795262977799583192
-      Settings_48: 2361785356229011269
-      Settings_49: -6165679001918185597
-      Settings_5: -2226280032217487599
-      Settings_50: -1443885515281375394
-      Settings_51: -2328903697730412030
-      Settings_52: -4608456368403263264
-      Settings_53: -3894952870437591622
-      Settings_54: 8589698670566516285
-      Settings_55: 542560300537898705
-      Settings_56: 3275236705022683769
-      Settings_57: 7014184239425969521
-      Settings_58: 6959421419024273282
-      Settings_59: 6574252911950830115
-      Settings_6: -8712572062712792050
-      Settings_60: -2246939817438930145
-      Settings_61: 7576837751959012098
-      Settings_62: 7406847363480945366
-      Settings_63: -3071970588773052267
-      Settings_64: -5602312546525234989
-      Settings_65: -1305541839610428632
-      Settings_66: -1587863437479916718
-      Settings_67: 6685963406241323843
-      Settings_68: -4683010666936118348
-      Settings_69: 4083375250330486218
-      Settings_7: 5928216156305086978
-      Settings_70: 9177905594933469099
-      Settings_8: 3401984468843792782
-      Settings_9: -2237156868746455556
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

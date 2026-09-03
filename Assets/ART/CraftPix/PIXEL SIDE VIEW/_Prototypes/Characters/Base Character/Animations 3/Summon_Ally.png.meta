@@ -76,7 +76,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -114,7 +114,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -453,20 +453,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Summon_Ally_0: 8857176311997114554
-      Summon_Ally_1: -1794733268261994206
-      Summon_Ally_10: 5304610587703282546
-      Summon_Ally_11: -6092218943717178133
-      Summon_Ally_12: 7483141509364635996
-      Summon_Ally_13: 8159841380669817018
-      Summon_Ally_2: 3495942947583190981
-      Summon_Ally_3: 7782353606994232522
-      Summon_Ally_4: 6583873423511032259
-      Summon_Ally_5: -2518399821496469172
-      Summon_Ally_6: 6705189542267792290
-      Summon_Ally_7: -3808635044996434438
-      Summon_Ally_8: 6710519309596886825
-      Summon_Ally_9: -5702887891444777258
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

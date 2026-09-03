@@ -138,7 +138,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -645,28 +645,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      TileMap6_0: -5626260546477920251
-      TileMap6_1: -1674925719720645166
-      TileMap6_10: -3215948165454627950
-      TileMap6_11: 444275181518930695
-      TileMap6_12: 4686653318465835793
-      TileMap6_13: -8876155721323378131
-      TileMap6_14: 6860750494486266340
-      TileMap6_15: 4754438204327389902
-      TileMap6_16: -8897620099360073823
-      TileMap6_17: -7232710034939855360
-      TileMap6_18: 8110621430933619383
-      TileMap6_19: -4315530004996138684
-      TileMap6_2: 8704223971827004080
-      TileMap6_20: 4705713279185939761
-      TileMap6_21: -6521979938335031034
-      TileMap6_3: 478959954472054294
-      TileMap6_4: 7321860120816680064
-      TileMap6_5: 616388203233393686
-      TileMap6_6: 4517735503291973028
-      TileMap6_7: -7747576654163768930
-      TileMap6_8: 1919530573853657153
-      TileMap6_9: 8359825649051829547
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

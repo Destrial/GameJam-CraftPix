@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 269
       height: 199
-    spriteID: 4f192c526577f0d4aa0c654d80f4c7d9
+    spriteID: 5cf8e8d4de480c24c89b0117d37f2835
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 4
       width: 263
       height: 198
-    spriteID: 5c7c1a9f742fc1848834f6ecfb496472
+    spriteID: 1d1f929c459b0bd4fa7fc8332d63c65a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 263
       height: 197
-    spriteID: 9a82e334e03314d45a0eec4962212fbf
+    spriteID: b752036da4ab04e45b56073f9ee71333
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 211
       width: 263
       height: 192
-    spriteID: 0bf072b0678899140b88e8af3ccfc1f2
+    spriteID: f7b9d14fbb8e04646b38a5f6b4ab8974
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 211
       width: 264
       height: 190
-    spriteID: 9e41670711cde0a4da38626071424670
+    spriteID: 0ed92beaaf07c4b4281d532f375141d2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 211
       width: 264
       height: 183
-    spriteID: 29040a944b1b76848badb883cc88dadb
+    spriteID: 5985aefeeedd58f4098dc42b5ffbfe34
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 411
       width: 264
       height: 180
-    spriteID: 96d632a0965f8704bbfc3a5fbbaf7ce3
+    spriteID: 0c371ed54c0963a4f9a5d6c32c244d88
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 411
       width: 264
       height: 179
-    spriteID: 260af4ef373f359428a4f03322b64888
+    spriteID: a6e2d6bf243171942908429a96ab7f71
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -295,7 +295,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 199
-      spriteId: 4f192c526577f0d4aa0c654d80f4c7d9
+      spriteId: 5cf8e8d4de480c24c89b0117d37f2835
     - name: orc3_back_death_Frame_1
       frameIndex: 1
       cellRect:
@@ -303,7 +303,7 @@ ScriptedImporter:
         y: -142
         width: 263
         height: 198
-      spriteId: 5c7c1a9f742fc1848834f6ecfb496472
+      spriteId: 1d1f929c459b0bd4fa7fc8332d63c65a
     - name: orc3_back_death_Frame_2
       frameIndex: 2
       cellRect:
@@ -311,7 +311,7 @@ ScriptedImporter:
         y: -142
         width: 263
         height: 197
-      spriteId: 9a82e334e03314d45a0eec4962212fbf
+      spriteId: b752036da4ab04e45b56073f9ee71333
     - name: orc3_back_death_Frame_3
       frameIndex: 3
       cellRect:
@@ -319,7 +319,7 @@ ScriptedImporter:
         y: -142
         width: 263
         height: 192
-      spriteId: 0bf072b0678899140b88e8af3ccfc1f2
+      spriteId: f7b9d14fbb8e04646b38a5f6b4ab8974
     - name: orc3_back_death_Frame_4
       frameIndex: 4
       cellRect:
@@ -327,7 +327,7 @@ ScriptedImporter:
         y: -142
         width: 264
         height: 190
-      spriteId: 9e41670711cde0a4da38626071424670
+      spriteId: 0ed92beaaf07c4b4281d532f375141d2
     - name: orc3_back_death_Frame_5
       frameIndex: 5
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         y: -142
         width: 264
         height: 183
-      spriteId: 29040a944b1b76848badb883cc88dadb
+      spriteId: 5985aefeeedd58f4098dc42b5ffbfe34
     - name: orc3_back_death_Frame_6
       frameIndex: 6
       cellRect:
@@ -343,7 +343,7 @@ ScriptedImporter:
         y: -142
         width: 264
         height: 180
-      spriteId: 96d632a0965f8704bbfc3a5fbbaf7ce3
+      spriteId: 0c371ed54c0963a4f9a5d6c32c244d88
     - name: orc3_back_death_Frame_7
       frameIndex: 7
       cellRect:
@@ -351,7 +351,7 @@ ScriptedImporter:
         y: -142
         width: 264
         height: 179
-      spriteId: 260af4ef373f359428a4f03322b64888
+      spriteId: a6e2d6bf243171942908429a96ab7f71
     linkedCells: []
     parentIndex: -1
   platformSettings: []

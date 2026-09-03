@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 405
       width: 264
       height: 194
-    spriteID: 27c5e520abfca9549a475d83ee465938
+    spriteID: c681f7ef976aa384c93270c347cdc979
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 204
       width: 262
       height: 193
-    spriteID: 7d108dfd52f0c09488d75398306ff405
+    spriteID: b004e81be99a6b0438b1faac2f8e65b1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 274
       height: 187
-    spriteID: 990123e7d75d1de49856950606b75f05
+    spriteID: 465739cc5197d0d42ba4659f041d9554
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 282
       height: 191
-    spriteID: 2dd44afb5548c62419ad24a2be78af96
+    spriteID: dbc8e764c21c37f4bb7ba9d0ec8bd010
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 4
       width: 282
       height: 192
-    spriteID: e79b31cac15be1b4f8f441a3f91427a9
+    spriteID: 91df0d79afd586e42b24023a388fe55c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 204
       width: 277
       height: 193
-    spriteID: 7608f7f07d2d44d4ca96f14990c9eda0
+    spriteID: e9f90fbbfa0ed024894b9f5fe2b21eee
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 405
       width: 266
       height: 194
-    spriteID: 4cfacbf21240032449432148456cc77e
+    spriteID: e56fb22f84e2bfd48923b8896bc6dd2f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 405
       width: 265
       height: 194
-    spriteID: bf0fe54d3472e3a4b8bb72efc10bb9a7
+    spriteID: 789c0dc5a60417e40ba5256b8fb23332
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -295,7 +295,7 @@ ScriptedImporter:
         y: -142
         width: 264
         height: 194
-      spriteId: 27c5e520abfca9549a475d83ee465938
+      spriteId: c681f7ef976aa384c93270c347cdc979
     - name: orc2_front_attack_Frame_1
       frameIndex: 1
       cellRect:
@@ -303,7 +303,7 @@ ScriptedImporter:
         y: -142
         width: 262
         height: 193
-      spriteId: 7d108dfd52f0c09488d75398306ff405
+      spriteId: b004e81be99a6b0438b1faac2f8e65b1
     - name: orc2_front_attack_Frame_2
       frameIndex: 2
       cellRect:
@@ -311,7 +311,7 @@ ScriptedImporter:
         y: -142
         width: 274
         height: 187
-      spriteId: 990123e7d75d1de49856950606b75f05
+      spriteId: 465739cc5197d0d42ba4659f041d9554
     - name: orc2_front_attack_Frame_3
       frameIndex: 3
       cellRect:
@@ -319,7 +319,7 @@ ScriptedImporter:
         y: -142
         width: 282
         height: 191
-      spriteId: 2dd44afb5548c62419ad24a2be78af96
+      spriteId: dbc8e764c21c37f4bb7ba9d0ec8bd010
     - name: orc2_front_attack_Frame_4
       frameIndex: 4
       cellRect:
@@ -327,7 +327,7 @@ ScriptedImporter:
         y: -142
         width: 282
         height: 192
-      spriteId: e79b31cac15be1b4f8f441a3f91427a9
+      spriteId: 91df0d79afd586e42b24023a388fe55c
     - name: orc2_front_attack_Frame_5
       frameIndex: 5
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         y: -142
         width: 277
         height: 193
-      spriteId: 7608f7f07d2d44d4ca96f14990c9eda0
+      spriteId: e9f90fbbfa0ed024894b9f5fe2b21eee
     - name: orc2_front_attack_Frame_6
       frameIndex: 6
       cellRect:
@@ -343,7 +343,7 @@ ScriptedImporter:
         y: -142
         width: 266
         height: 194
-      spriteId: 4cfacbf21240032449432148456cc77e
+      spriteId: e56fb22f84e2bfd48923b8896bc6dd2f
     - name: orc2_front_attack_Frame_7
       frameIndex: 7
       cellRect:
@@ -351,7 +351,7 @@ ScriptedImporter:
         y: -142
         width: 265
         height: 194
-      spriteId: bf0fe54d3472e3a4b8bb72efc10bb9a7
+      spriteId: 789c0dc5a60417e40ba5256b8fb23332
     linkedCells: []
     parentIndex: -1
   platformSettings: []

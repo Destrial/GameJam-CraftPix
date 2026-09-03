@@ -199,7 +199,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -237,7 +237,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1437,61 +1437,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Open_book_bookmarks1_0: 3680496894474561271
-      Open_book_bookmarks1_1: -6105337452187463498
-      Open_book_bookmarks1_10: 727130916388724035
-      Open_book_bookmarks1_11: 2482571152458448149
-      Open_book_bookmarks1_12: -3018670482137920250
-      Open_book_bookmarks1_13: -6950819444576618574
-      Open_book_bookmarks1_14: -2278939330085562124
-      Open_book_bookmarks1_15: 6232872189691221919
-      Open_book_bookmarks1_16: -5481007482141313625
-      Open_book_bookmarks1_17: -5367386554008535168
-      Open_book_bookmarks1_18: 3712373128511879056
-      Open_book_bookmarks1_19: -7175267468766294894
-      Open_book_bookmarks1_2: -1993143515910015815
-      Open_book_bookmarks1_20: 5111037054647540201
-      Open_book_bookmarks1_21: -809398736154883770
-      Open_book_bookmarks1_22: -2606901390159022176
-      Open_book_bookmarks1_23: 5170107269560422403
-      Open_book_bookmarks1_24: -4926044892088542901
-      Open_book_bookmarks1_25: 4054775424179956866
-      Open_book_bookmarks1_26: -4069514053164477580
-      Open_book_bookmarks1_27: 1694778258964436406
-      Open_book_bookmarks1_28: -343876499246485259
-      Open_book_bookmarks1_29: -4205233317864396521
-      Open_book_bookmarks1_3: -4344096066954633870
-      Open_book_bookmarks1_30: 589939295661402609
-      Open_book_bookmarks1_31: 3766985001939053448
-      Open_book_bookmarks1_32: 3050820823117368695
-      Open_book_bookmarks1_33: 102736351343698085
-      Open_book_bookmarks1_34: 64541289212157128
-      Open_book_bookmarks1_35: -5203204861750945411
-      Open_book_bookmarks1_36: -7383908937643231898
-      Open_book_bookmarks1_37: -2117670270729379655
-      Open_book_bookmarks1_38: -6425305538638621594
-      Open_book_bookmarks1_39: -4293103317483144332
-      Open_book_bookmarks1_4: 7173405275009168675
-      Open_book_bookmarks1_40: -3367745847554546318
-      Open_book_bookmarks1_41: 1973873054960719659
-      Open_book_bookmarks1_42: -9137959281861976892
-      Open_book_bookmarks1_43: 5607251130058611971
-      Open_book_bookmarks1_44: 6240368060831047768
-      Open_book_bookmarks1_45: -5501584476406229039
-      Open_book_bookmarks1_46: -1262483884630649733
-      Open_book_bookmarks1_47: -8320603071717567279
-      Open_book_bookmarks1_48: -6666379834063156929
-      Open_book_bookmarks1_49: -4551218132927358608
-      Open_book_bookmarks1_5: -5039291079530873960
-      Open_book_bookmarks1_50: -6626050502091688994
-      Open_book_bookmarks1_51: 749824911093062699
-      Open_book_bookmarks1_52: 2517220750557403575
-      Open_book_bookmarks1_53: 3108440460542951117
-      Open_book_bookmarks1_54: 1429583529414526621
-      Open_book_bookmarks1_6: 4954501918306540696
-      Open_book_bookmarks1_7: -444807027827871090
-      Open_book_bookmarks1_8: -4331592619980793692
-      Open_book_bookmarks1_9: -7681306774936440596
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

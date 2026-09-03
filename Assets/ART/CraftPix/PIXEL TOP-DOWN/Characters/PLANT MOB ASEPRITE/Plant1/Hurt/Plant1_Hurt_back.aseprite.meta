@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 29
       height: 37
-    spriteID: 43df1be87a173dd4fa6e73bcbf50bdad
+    spriteID: d8d84ede0e8d50f4bbb34fe6a83955da
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 49
       width: 29
       height: 35
-    spriteID: 8968e7113537a434e8360b2987e6fdf5
+    spriteID: 8b1c0703b583f494b94ed53ec16d4b2a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 45
       width: 27
       height: 32
-    spriteID: 45c9b33e735c4c446a338e1d15faafd7
+    spriteID: b811ba69f60801341a01d21548238505
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 92
       width: 29
       height: 31
-    spriteID: f9e836ba234382c48b2eb7c66d208a11
+    spriteID: 0fafc9480c00898439a97c3981dcb637
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 4
       width: 27
       height: 33
-    spriteID: f6c4aae486a7c094592d797c7d171316
+    spriteID: 3ebeb19917ad2f14189e15d694bea961
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -235,7 +235,7 @@ ScriptedImporter:
         y: 13
         width: 29
         height: 37
-      spriteId: 43df1be87a173dd4fa6e73bcbf50bdad
+      spriteId: d8d84ede0e8d50f4bbb34fe6a83955da
     - name: Plant1_Hurt_back_Frame_1
       frameIndex: 1
       cellRect:
@@ -243,7 +243,7 @@ ScriptedImporter:
         y: 13
         width: 29
         height: 35
-      spriteId: 8968e7113537a434e8360b2987e6fdf5
+      spriteId: 8b1c0703b583f494b94ed53ec16d4b2a
     - name: Plant1_Hurt_back_Frame_2
       frameIndex: 2
       cellRect:
@@ -251,7 +251,7 @@ ScriptedImporter:
         y: 13
         width: 27
         height: 32
-      spriteId: 45c9b33e735c4c446a338e1d15faafd7
+      spriteId: b811ba69f60801341a01d21548238505
     - name: Plant1_Hurt_back_Frame_3
       frameIndex: 3
       cellRect:
@@ -259,7 +259,7 @@ ScriptedImporter:
         y: 13
         width: 29
         height: 31
-      spriteId: f9e836ba234382c48b2eb7c66d208a11
+      spriteId: 0fafc9480c00898439a97c3981dcb637
     - name: Plant1_Hurt_back_Frame_4
       frameIndex: 4
       cellRect:
@@ -267,7 +267,7 @@ ScriptedImporter:
         y: 13
         width: 27
         height: 33
-      spriteId: f6c4aae486a7c094592d797c7d171316
+      spriteId: 3ebeb19917ad2f14189e15d694bea961
     linkedCells: []
     parentIndex: -1
   platformSettings: []

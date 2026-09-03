@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 269
       height: 194
-    spriteID: 369f25bf47f4d4a4a8654683a508ea27
+    spriteID: 16ae44f7c1fe7e2478c3aab99433cb22
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 410
       width: 269
       height: 188
-    spriteID: 1d5f06f4953c00c4cb1bc2d8c3b442e3
+    spriteID: efe88438377988b47a280948946699eb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 208
       width: 269
       height: 193
-    spriteID: 2ca590c3bea547948ad6b3c379ed242f
+    spriteID: 62b0e77033c2310458b9ef8ff880dbcb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 269
       height: 196
-    spriteID: d3e5325a3b6ae7e46872f4c446011735
+    spriteID: b84346ae11ff2bf488b7dc7819835373
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 208
       width: 269
       height: 194
-    spriteID: 570bb442d2b87714ea26b14490e3d558
+    spriteID: dd3d34fda1a91434faa2b1c50b0c0e6c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 410
       width: 269
       height: 188
-    spriteID: a7b360d6d385c5149aae3380d2234075
+    spriteID: 39145c34d9aa3dd429be0c60d9fe8a7b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 208
       width: 269
       height: 193
-    spriteID: 3645628b915a3bd47a2d14493d8bb407
+    spriteID: c5c2ba95af6a047498d75a3b53bf7ed8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 4
       width: 269
       height: 196
-    spriteID: df5f1390468de18498dbecce00642aa5
+    spriteID: fb8dea7888e8d2b4d84af778158697e3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -295,7 +295,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 194
-      spriteId: 369f25bf47f4d4a4a8654683a508ea27
+      spriteId: 16ae44f7c1fe7e2478c3aab99433cb22
     - name: orc2_right_run_Frame_1
       frameIndex: 1
       cellRect:
@@ -303,7 +303,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 188
-      spriteId: 1d5f06f4953c00c4cb1bc2d8c3b442e3
+      spriteId: efe88438377988b47a280948946699eb
     - name: orc2_right_run_Frame_2
       frameIndex: 2
       cellRect:
@@ -311,7 +311,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 193
-      spriteId: 2ca590c3bea547948ad6b3c379ed242f
+      spriteId: 62b0e77033c2310458b9ef8ff880dbcb
     - name: orc2_right_run_Frame_3
       frameIndex: 3
       cellRect:
@@ -319,7 +319,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 196
-      spriteId: d3e5325a3b6ae7e46872f4c446011735
+      spriteId: b84346ae11ff2bf488b7dc7819835373
     - name: orc2_right_run_Frame_4
       frameIndex: 4
       cellRect:
@@ -327,7 +327,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 194
-      spriteId: 570bb442d2b87714ea26b14490e3d558
+      spriteId: dd3d34fda1a91434faa2b1c50b0c0e6c
     - name: orc2_right_run_Frame_5
       frameIndex: 5
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 188
-      spriteId: a7b360d6d385c5149aae3380d2234075
+      spriteId: 39145c34d9aa3dd429be0c60d9fe8a7b
     - name: orc2_right_run_Frame_6
       frameIndex: 6
       cellRect:
@@ -343,7 +343,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 193
-      spriteId: 3645628b915a3bd47a2d14493d8bb407
+      spriteId: c5c2ba95af6a047498d75a3b53bf7ed8
     - name: orc2_right_run_Frame_7
       frameIndex: 7
       cellRect:
@@ -351,7 +351,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 196
-      spriteId: df5f1390468de18498dbecce00642aa5
+      spriteId: fb8dea7888e8d2b4d84af778158697e3
     linkedCells: []
     parentIndex: -1
   platformSettings: []

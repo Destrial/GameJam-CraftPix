@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 259
       height: 194
-    spriteID: 87abfbf7adc984d4492bf442d59fe959
+    spriteID: 4c4c2ef7afe18ee4fb2ef1fa63b889ee
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 410
       width: 259
       height: 188
-    spriteID: 74d42597561295d4a9b4e3c3d22daeff
+    spriteID: d062bdec15132ad4c90d09f7815c26ba
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 208
       width: 259
       height: 193
-    spriteID: 8936ecdeb10da754d9752c78a6363e4d
+    spriteID: 2e2456a0e613d1d449041d2f324cc417
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 259
       height: 196
-    spriteID: 5cd56c0069b8a034bbcd344f45ab0b0f
+    spriteID: 3d9e2f2a8cb8c9646b2376d54aa5d686
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 208
       width: 259
       height: 194
-    spriteID: 269fab365e354be48b86414f40351e27
+    spriteID: bed7fb908b93c6f4499b35c78c0128a4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 410
       width: 259
       height: 188
-    spriteID: 10f5892f368d224409119cb75228e099
+    spriteID: 77a134f0d351d7a44ba2be5fb9719b77
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 208
       width: 259
       height: 193
-    spriteID: 5c7159dac9a1c3a49b0d71854340cf5f
+    spriteID: 7da6df1caa5fbdf439d168a946671025
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 4
       width: 259
       height: 196
-    spriteID: 885851d8279a57c4ea45737bbafbe898
+    spriteID: 802a229b0c74c204c8eead1adde42516
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -295,7 +295,7 @@ ScriptedImporter:
         y: -142
         width: 259
         height: 194
-      spriteId: 87abfbf7adc984d4492bf442d59fe959
+      spriteId: 4c4c2ef7afe18ee4fb2ef1fa63b889ee
     - name: orc2_left_run_Frame_1
       frameIndex: 1
       cellRect:
@@ -303,7 +303,7 @@ ScriptedImporter:
         y: -142
         width: 259
         height: 188
-      spriteId: 74d42597561295d4a9b4e3c3d22daeff
+      spriteId: d062bdec15132ad4c90d09f7815c26ba
     - name: orc2_left_run_Frame_2
       frameIndex: 2
       cellRect:
@@ -311,7 +311,7 @@ ScriptedImporter:
         y: -142
         width: 259
         height: 193
-      spriteId: 8936ecdeb10da754d9752c78a6363e4d
+      spriteId: 2e2456a0e613d1d449041d2f324cc417
     - name: orc2_left_run_Frame_3
       frameIndex: 3
       cellRect:
@@ -319,7 +319,7 @@ ScriptedImporter:
         y: -142
         width: 259
         height: 196
-      spriteId: 5cd56c0069b8a034bbcd344f45ab0b0f
+      spriteId: 3d9e2f2a8cb8c9646b2376d54aa5d686
     - name: orc2_left_run_Frame_4
       frameIndex: 4
       cellRect:
@@ -327,7 +327,7 @@ ScriptedImporter:
         y: -142
         width: 259
         height: 194
-      spriteId: 269fab365e354be48b86414f40351e27
+      spriteId: bed7fb908b93c6f4499b35c78c0128a4
     - name: orc2_left_run_Frame_5
       frameIndex: 5
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         y: -142
         width: 259
         height: 188
-      spriteId: 10f5892f368d224409119cb75228e099
+      spriteId: 77a134f0d351d7a44ba2be5fb9719b77
     - name: orc2_left_run_Frame_6
       frameIndex: 6
       cellRect:
@@ -343,7 +343,7 @@ ScriptedImporter:
         y: -142
         width: 259
         height: 193
-      spriteId: 5c7159dac9a1c3a49b0d71854340cf5f
+      spriteId: 7da6df1caa5fbdf439d168a946671025
     - name: orc2_left_run_Frame_7
       frameIndex: 7
       cellRect:
@@ -351,7 +351,7 @@ ScriptedImporter:
         y: -142
         width: 259
         height: 196
-      spriteId: 885851d8279a57c4ea45737bbafbe898
+      spriteId: 802a229b0c74c204c8eead1adde42516
     linkedCells: []
     parentIndex: -1
   platformSettings: []

@@ -283,7 +283,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -321,7 +321,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -2109,89 +2109,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rocky Area Objects_0: 8708942681956149696
-      Rocky Area Objects_1: 954995463589878591
-      Rocky Area Objects_10: 487902495699509537
-      Rocky Area Objects_11: -3600128814092468152
-      Rocky Area Objects_12: -3707381179805778455
-      Rocky Area Objects_13: 9120759294514771987
-      Rocky Area Objects_14: -5556767054053611977
-      Rocky Area Objects_15: 1926076561311350746
-      Rocky Area Objects_16: -3111374147478685654
-      Rocky Area Objects_17: -3462988363896851149
-      Rocky Area Objects_18: -478396640815653091
-      Rocky Area Objects_19: -3154733193631397597
-      Rocky Area Objects_2: 5089431465916306551
-      Rocky Area Objects_20: 3935128462411709123
-      Rocky Area Objects_21: 5116773337169747752
-      Rocky Area Objects_22: -2705494968595440405
-      Rocky Area Objects_23: 7343992086641075901
-      Rocky Area Objects_24: 2264597031096616116
-      Rocky Area Objects_25: -977511282339835666
-      Rocky Area Objects_26: 3712576011548258717
-      Rocky Area Objects_27: 2192560150865370944
-      Rocky Area Objects_28: 7573166768918866922
-      Rocky Area Objects_29: 6007895750053364597
-      Rocky Area Objects_3: -1900741301721433609
-      Rocky Area Objects_30: -4675792474243805276
-      Rocky Area Objects_31: -3806362072622733143
-      Rocky Area Objects_32: 1227202036953573287
-      Rocky Area Objects_33: -5735603322100335028
-      Rocky Area Objects_34: 7259569815685891494
-      Rocky Area Objects_35: 242637763068898687
-      Rocky Area Objects_36: 6676623615086176810
-      Rocky Area Objects_37: 604409682636961432
-      Rocky Area Objects_38: -4845197123391405539
-      Rocky Area Objects_39: 2642589198425318687
-      Rocky Area Objects_4: 2223318875143438537
-      Rocky Area Objects_40: -2698560059747340749
-      Rocky Area Objects_41: -5512148433234706300
-      Rocky Area Objects_42: 6280958162496794159
-      Rocky Area Objects_43: 3025339008316684657
-      Rocky Area Objects_44: -2227008285679126448
-      Rocky Area Objects_45: -2518058501726658540
-      Rocky Area Objects_46: 5202058528327531675
-      Rocky Area Objects_47: 3184406985031978838
-      Rocky Area Objects_48: 2330544083581918908
-      Rocky Area Objects_49: 5562368159139957512
-      Rocky Area Objects_5: 6315788218262452504
-      Rocky Area Objects_50: 8425594203087724063
-      Rocky Area Objects_51: 35513938971151419
-      Rocky Area Objects_52: 1801627776570862723
-      Rocky Area Objects_53: 3673828111059053046
-      Rocky Area Objects_54: 4282892091020207407
-      Rocky Area Objects_55: -5218043616971059634
-      Rocky Area Objects_56: 7459716818722103657
-      Rocky Area Objects_57: -8553460365055577653
-      Rocky Area Objects_58: 1017836813001663970
-      Rocky Area Objects_59: 4349171754290987140
-      Rocky Area Objects_6: 3964175969800824676
-      Rocky Area Objects_60: 2908123889282838895
-      Rocky Area Objects_61: 5784589384427497913
-      Rocky Area Objects_62: 3879088728308420323
-      Rocky Area Objects_63: 5571776217905701789
-      Rocky Area Objects_64: -788670485831653623
-      Rocky Area Objects_65: 3537992126127577589
-      Rocky Area Objects_66: -3107388004327640593
-      Rocky Area Objects_67: 2288228645127610009
-      Rocky Area Objects_68: 8015793230801789934
-      Rocky Area Objects_69: 4167570209575614922
-      Rocky Area Objects_7: 1806208784555818609
-      Rocky Area Objects_70: -2860384916344626745
-      Rocky Area Objects_71: 8086757705093202067
-      Rocky Area Objects_72: -8500138007489043445
-      Rocky Area Objects_73: 4599851606712079489
-      Rocky Area Objects_74: 9046440638394766001
-      Rocky Area Objects_75: 5780992573450617804
-      Rocky Area Objects_76: -6327031947355247865
-      Rocky Area Objects_77: -3765962057728367366
-      Rocky Area Objects_78: 3055080484926375543
-      Rocky Area Objects_79: 3411665325991244597
-      Rocky Area Objects_8: 8062970297871252287
-      Rocky Area Objects_80: -3883411972721474678
-      Rocky Area Objects_81: -8673713746782748132
-      Rocky Area Objects_82: -4112391208241136970
-      Rocky Area Objects_9: 4053740188418667914
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

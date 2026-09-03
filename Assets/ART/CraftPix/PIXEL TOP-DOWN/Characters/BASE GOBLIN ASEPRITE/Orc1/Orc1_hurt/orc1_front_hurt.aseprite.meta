@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 204
       width: 269
       height: 192
-    spriteID: f9f5603ee4348f343bf266eb197e5792
+    spriteID: e8b987b370498fa4a8bc00f7e61315ee
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 204
       width: 269
       height: 192
-    spriteID: 6db6a5b61580295499ef3fb161a8d458
+    spriteID: eaad10aa840952e42acbaa83bf408350
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 270
       height: 192
-    spriteID: 7fba127d2a7cd2548836d9279c66d494
+    spriteID: 6d144e581beac4c419738dd33059f851
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 270
       height: 192
-    spriteID: a62b85955c90e7c43ac98acbebf7bd5d
+    spriteID: 22aaaad6c8f4e1640b1ab2a6d8a906a6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 4
       width: 270
       height: 192
-    spriteID: 7bdafd6ab1e7a7745a074c27dfa1882e
+    spriteID: afbd6420e6c53e94689a1b40e17901b1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 204
       width: 269
       height: 192
-    spriteID: 07c1e627fc9070a40ab27fdba7f350c7
+    spriteID: ea27329108a334247b1f1d458437bc32
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -255,7 +255,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 192
-      spriteId: f9f5603ee4348f343bf266eb197e5792
+      spriteId: e8b987b370498fa4a8bc00f7e61315ee
     - name: orc1_front_hurt_Frame_1
       frameIndex: 1
       cellRect:
@@ -263,7 +263,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 192
-      spriteId: 6db6a5b61580295499ef3fb161a8d458
+      spriteId: eaad10aa840952e42acbaa83bf408350
     - name: orc1_front_hurt_Frame_2
       frameIndex: 2
       cellRect:
@@ -271,7 +271,7 @@ ScriptedImporter:
         y: -142
         width: 270
         height: 192
-      spriteId: 7fba127d2a7cd2548836d9279c66d494
+      spriteId: 6d144e581beac4c419738dd33059f851
     - name: orc1_front_hurt_Frame_3
       frameIndex: 3
       cellRect:
@@ -279,7 +279,7 @@ ScriptedImporter:
         y: -142
         width: 270
         height: 192
-      spriteId: a62b85955c90e7c43ac98acbebf7bd5d
+      spriteId: 22aaaad6c8f4e1640b1ab2a6d8a906a6
     - name: orc1_front_hurt_Frame_4
       frameIndex: 4
       cellRect:
@@ -287,7 +287,7 @@ ScriptedImporter:
         y: -142
         width: 270
         height: 192
-      spriteId: 7bdafd6ab1e7a7745a074c27dfa1882e
+      spriteId: afbd6420e6c53e94689a1b40e17901b1
     - name: orc1_front_hurt_Frame_5
       frameIndex: 5
       cellRect:
@@ -295,7 +295,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 192
-      spriteId: 07c1e627fc9070a40ab27fdba7f350c7
+      spriteId: ea27329108a334247b1f1d458437bc32
     linkedCells: []
     parentIndex: -1
   platformSettings: []

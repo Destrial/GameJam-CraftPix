@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 39
       width: 17
       height: 30
-    spriteID: 4001adb206fb42447b34047d5d7d2f5d
+    spriteID: 01e188bfb5677784f98ff84732efde9e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 4
       width: 21
       height: 27
-    spriteID: e257f3859d1870641a21163180d10378
+    spriteID: a2cc25f2d0a6ae44aacafc92612d4e0f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 40
       width: 24
       height: 29
-    spriteID: 36a9491ac0d3460408ed9fe9f727dcca
+    spriteID: d22b3a90f22588a4bb964cbbc0c00f1b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 28
       height: 28
-    spriteID: 7b62d0f26f142c44a8a7e162f722de3a
+    spriteID: 8bed9cc83deb5fa4d89ddced779c55b0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 82
       width: 31
       height: 29
-    spriteID: 00be786006a1c334ea8a0fb63f6fedcf
+    spriteID: beee459559cc7ce478e71a436d451c08
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 4
       width: 31
       height: 32
-    spriteID: 992717340b16ff447852def4b030de66
+    spriteID: 8929847f041725f4aaba0f5520f7f81b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 44
       width: 31
       height: 30
-    spriteID: 3b2a69f3d112a1e4988e54609fd6698d
+    spriteID: 38dc14e037070c545b8a7d5c40e1eee4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 77
       width: 21
       height: 31
-    spriteID: 351a12aeeb502ed4c9c33c72892409fd
+    spriteID: 269df2c613666304b8db2d0aa2f86e96
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -295,7 +295,7 @@ ScriptedImporter:
         y: 17
         width: 17
         height: 30
-      spriteId: 4001adb206fb42447b34047d5d7d2f5d
+      spriteId: 01e188bfb5677784f98ff84732efde9e
     - name: Swordsman_lvl2_Run_Attack_side_right_Frame_1
       frameIndex: 1
       cellRect:
@@ -303,7 +303,7 @@ ScriptedImporter:
         y: 17
         width: 21
         height: 27
-      spriteId: e257f3859d1870641a21163180d10378
+      spriteId: a2cc25f2d0a6ae44aacafc92612d4e0f
     - name: Swordsman_lvl2_Run_Attack_side_right_Frame_2
       frameIndex: 2
       cellRect:
@@ -311,7 +311,7 @@ ScriptedImporter:
         y: 17
         width: 24
         height: 29
-      spriteId: 36a9491ac0d3460408ed9fe9f727dcca
+      spriteId: d22b3a90f22588a4bb964cbbc0c00f1b
     - name: Swordsman_lvl2_Run_Attack_side_right_Frame_3
       frameIndex: 3
       cellRect:
@@ -319,7 +319,7 @@ ScriptedImporter:
         y: 17
         width: 28
         height: 28
-      spriteId: 7b62d0f26f142c44a8a7e162f722de3a
+      spriteId: 8bed9cc83deb5fa4d89ddced779c55b0
     - name: Swordsman_lvl2_Run_Attack_side_right_Frame_4
       frameIndex: 4
       cellRect:
@@ -327,7 +327,7 @@ ScriptedImporter:
         y: 17
         width: 31
         height: 29
-      spriteId: 00be786006a1c334ea8a0fb63f6fedcf
+      spriteId: beee459559cc7ce478e71a436d451c08
     - name: Swordsman_lvl2_Run_Attack_side_right_Frame_5
       frameIndex: 5
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         y: 16
         width: 31
         height: 32
-      spriteId: 992717340b16ff447852def4b030de66
+      spriteId: 8929847f041725f4aaba0f5520f7f81b
     - name: Swordsman_lvl2_Run_Attack_side_right_Frame_6
       frameIndex: 6
       cellRect:
@@ -343,7 +343,7 @@ ScriptedImporter:
         y: 17
         width: 31
         height: 30
-      spriteId: 3b2a69f3d112a1e4988e54609fd6698d
+      spriteId: 38dc14e037070c545b8a7d5c40e1eee4
     - name: Swordsman_lvl2_Run_Attack_side_right_Frame_7
       frameIndex: 7
       cellRect:
@@ -351,7 +351,7 @@ ScriptedImporter:
         y: 17
         width: 21
         height: 31
-      spriteId: 351a12aeeb502ed4c9c33c72892409fd
+      spriteId: 269df2c613666304b8db2d0aa2f86e96
     linkedCells: []
     parentIndex: -1
   platformSettings: []

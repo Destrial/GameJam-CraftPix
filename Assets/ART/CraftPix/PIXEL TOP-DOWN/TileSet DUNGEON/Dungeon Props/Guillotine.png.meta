@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -108,7 +108,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -405,18 +405,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Guillotine_0: -2703505985120436073
-      Guillotine_1: -6701256601056110766
-      Guillotine_10: 5638048744382968000
-      Guillotine_11: 184208340702070044
-      Guillotine_2: 3865433746087138920
-      Guillotine_3: 362659695812678123
-      Guillotine_4: 6074889202060812631
-      Guillotine_5: 29444795392291996
-      Guillotine_6: 520386731669881639
-      Guillotine_7: 1200805231626371040
-      Guillotine_8: 996916309148725967
-      Guillotine_9: 6397977117848570957
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

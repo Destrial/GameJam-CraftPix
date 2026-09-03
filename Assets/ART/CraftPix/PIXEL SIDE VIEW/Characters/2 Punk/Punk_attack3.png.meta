@@ -67,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -105,7 +105,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -381,17 +381,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Punk_attack3_0: -507709921326249272
-      Punk_attack3_1: -5018502091075246203
-      Punk_attack3_10: -3362774321358245886
-      Punk_attack3_2: -827088177789686455
-      Punk_attack3_3: 555851121021904019
-      Punk_attack3_4: -3525009449754966869
-      Punk_attack3_5: -6657007708786328833
-      Punk_attack3_6: 2618619173555043068
-      Punk_attack3_7: 568690364581067506
-      Punk_attack3_8: -4792491785603461915
-      Punk_attack3_9: -7163389290656966605
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

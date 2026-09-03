@@ -85,7 +85,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -123,7 +123,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -525,23 +525,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Portal2_Start_0: -4969751008568389860
-      Portal2_Start_1: -245803289834979931
-      Portal2_Start_10: -2982045242401336795
-      Portal2_Start_11: 8766678378081852221
-      Portal2_Start_12: 2791732649385517555
-      Portal2_Start_13: 7128383002258653330
-      Portal2_Start_14: -1363245925364190174
-      Portal2_Start_15: 3377540203941010006
-      Portal2_Start_16: 7352999210655599675
-      Portal2_Start_2: 8808199187078581862
-      Portal2_Start_3: 5586559733511925655
-      Portal2_Start_4: -6560106669381007565
-      Portal2_Start_5: -8737050623798296594
-      Portal2_Start_6: -4434738753966501684
-      Portal2_Start_7: -5882131146635335918
-      Portal2_Start_8: 5214745955088088812
-      Portal2_Start_9: 3816290390015984810
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

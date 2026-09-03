@@ -88,7 +88,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,7 +126,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -549,24 +549,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Road3_ground_0: -3620962450752492392
-      Road3_ground_1: 9170898076633079672
-      Road3_ground_10: 1054591875679741113
-      Road3_ground_11: -5245338827023788075
-      Road3_ground_12: 2207957114260052419
-      Road3_ground_13: -7826591654519427427
-      Road3_ground_14: 3423722293953836554
-      Road3_ground_15: -4077799299419587609
-      Road3_ground_16: -4539706585016739092
-      Road3_ground_17: 1480813190492360480
-      Road3_ground_2: 4096601912238697114
-      Road3_ground_3: -2617482814135468475
-      Road3_ground_4: 1436333795241276025
-      Road3_ground_5: 4494141393525956257
-      Road3_ground_6: 8872532379711127868
-      Road3_ground_7: -2729079533063660013
-      Road3_ground_8: 7372375110482590572
-      Road3_ground_9: -5911072749074088304
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

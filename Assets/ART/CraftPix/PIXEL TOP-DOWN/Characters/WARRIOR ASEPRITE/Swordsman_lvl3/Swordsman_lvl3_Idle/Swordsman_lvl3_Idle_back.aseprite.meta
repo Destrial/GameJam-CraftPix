@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 20
       height: 27
-    spriteID: 6a9c0f64f098ad1468019ef5586dfe94
+    spriteID: 54d74aed32578464dbfe54e3106667ab
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 39
       width: 20
       height: 27
-    spriteID: 187628316531b4443b1c5e6100d97ee1
+    spriteID: 6da57051213d7ab4daa866bce840f97f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 74
       width: 20
       height: 27
-    spriteID: 675acb940e778fe48846a0ea711c8df4
+    spriteID: 7bc7f5a4066c7b74caa04d791aadb78c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 20
       height: 27
-    spriteID: 2531496371a3cc7409759956e6d5c0d2
+    spriteID: b016555d1c5cee2429d4d0860c81fc5b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -215,7 +215,7 @@ ScriptedImporter:
         y: 17
         width: 20
         height: 27
-      spriteId: 6a9c0f64f098ad1468019ef5586dfe94
+      spriteId: 54d74aed32578464dbfe54e3106667ab
     - name: Swordsman_lvl3_Idle_back_Frame_1
       frameIndex: 1
       cellRect:
@@ -223,7 +223,7 @@ ScriptedImporter:
         y: 17
         width: 20
         height: 27
-      spriteId: 187628316531b4443b1c5e6100d97ee1
+      spriteId: 6da57051213d7ab4daa866bce840f97f
     - name: Swordsman_lvl3_Idle_back_Frame_2
       frameIndex: 2
       cellRect:
@@ -231,7 +231,7 @@ ScriptedImporter:
         y: 17
         width: 20
         height: 27
-      spriteId: 675acb940e778fe48846a0ea711c8df4
+      spriteId: 7bc7f5a4066c7b74caa04d791aadb78c
     - name: Swordsman_lvl3_Idle_back_Frame_3
       frameIndex: 3
       cellRect:
@@ -239,7 +239,7 @@ ScriptedImporter:
         y: 17
         width: 20
         height: 27
-      spriteId: 2531496371a3cc7409759956e6d5c0d2
+      spriteId: b016555d1c5cee2429d4d0860c81fc5b
     linkedCells: []
     parentIndex: -1
   platformSettings: []

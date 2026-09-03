@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 38
       width: 21
       height: 27
-    spriteID: 2cdb43dc61685c84386090818ec5c480
+    spriteID: 0de99caab7dae2d4f8ea4caf6dcb096d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 4
       width: 24
       height: 26
-    spriteID: dabbc4f3933961f4c9062fca2d59bf99
+    spriteID: b3995d0f41ba25f4b839c7b9d1f21177
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 26
       height: 23
-    spriteID: b295a758a6ccb6d409c681f7dba63e35
+    spriteID: 0c7451e83bffb3b47b74852dd66609c0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 35
       width: 26
       height: 21
-    spriteID: 9ce354c9365a9d74d96c4fbdd04a61b6
+    spriteID: 0d9c041d8edde4b419be72104ef607ff
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 64
       width: 26
       height: 18
-    spriteID: 67fd6efc48abbe24490e0ed9e9c39b71
+    spriteID: a3031ce567f72664f9e4ade5804ad505
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 90
       width: 26
       height: 17
-    spriteID: 80139224f0edd4a43b86c2ecff94bd68
+    spriteID: 542d13295e86fb9458236d619a88f54f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 4
       width: 26
       height: 17
-    spriteID: 7b6f1e69e08b49d4f801f8619d8f1e2c
+    spriteID: c7ba3d47dda40cd40bbd2ff1d42b4bab
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -275,7 +275,7 @@ ScriptedImporter:
         y: 17
         width: 21
         height: 27
-      spriteId: 2cdb43dc61685c84386090818ec5c480
+      spriteId: 0de99caab7dae2d4f8ea4caf6dcb096d
     - name: Swordsman_lvl1_Death_back_Frame_1
       frameIndex: 1
       cellRect:
@@ -283,7 +283,7 @@ ScriptedImporter:
         y: 17
         width: 24
         height: 26
-      spriteId: dabbc4f3933961f4c9062fca2d59bf99
+      spriteId: b3995d0f41ba25f4b839c7b9d1f21177
     - name: Swordsman_lvl1_Death_back_Frame_2
       frameIndex: 2
       cellRect:
@@ -291,7 +291,7 @@ ScriptedImporter:
         y: 17
         width: 26
         height: 23
-      spriteId: b295a758a6ccb6d409c681f7dba63e35
+      spriteId: 0c7451e83bffb3b47b74852dd66609c0
     - name: Swordsman_lvl1_Death_back_Frame_3
       frameIndex: 3
       cellRect:
@@ -299,7 +299,7 @@ ScriptedImporter:
         y: 17
         width: 26
         height: 21
-      spriteId: 9ce354c9365a9d74d96c4fbdd04a61b6
+      spriteId: 0d9c041d8edde4b419be72104ef607ff
     - name: Swordsman_lvl1_Death_back_Frame_4
       frameIndex: 4
       cellRect:
@@ -307,7 +307,7 @@ ScriptedImporter:
         y: 17
         width: 26
         height: 18
-      spriteId: 67fd6efc48abbe24490e0ed9e9c39b71
+      spriteId: a3031ce567f72664f9e4ade5804ad505
     - name: Swordsman_lvl1_Death_back_Frame_5
       frameIndex: 5
       cellRect:
@@ -315,7 +315,7 @@ ScriptedImporter:
         y: 17
         width: 26
         height: 17
-      spriteId: 80139224f0edd4a43b86c2ecff94bd68
+      spriteId: 542d13295e86fb9458236d619a88f54f
     - name: Swordsman_lvl1_Death_back_Frame_6
       frameIndex: 6
       cellRect:
@@ -323,7 +323,7 @@ ScriptedImporter:
         y: 17
         width: 26
         height: 17
-      spriteId: 7b6f1e69e08b49d4f801f8619d8f1e2c
+      spriteId: c7ba3d47dda40cd40bbd2ff1d42b4bab
     linkedCells: []
     parentIndex: -1
   platformSettings: []

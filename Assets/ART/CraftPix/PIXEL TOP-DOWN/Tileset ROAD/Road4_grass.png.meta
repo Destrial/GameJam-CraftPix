@@ -88,7 +88,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,7 +126,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -549,24 +549,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Road4_grass_0: 782760880122323902
-      Road4_grass_1: -6512925485013400078
-      Road4_grass_10: -966439232603179280
-      Road4_grass_11: -6214287805675782205
-      Road4_grass_12: 8130868259393016590
-      Road4_grass_13: -7019729169276509387
-      Road4_grass_14: -8232208136356707407
-      Road4_grass_15: -4235478815133515697
-      Road4_grass_16: 4636625794503033767
-      Road4_grass_17: -5585027648704424122
-      Road4_grass_2: -4185485821552218861
-      Road4_grass_3: 9094243568112625479
-      Road4_grass_4: -3354330436331390658
-      Road4_grass_5: -9064196013802041146
-      Road4_grass_6: 3109899558859118606
-      Road4_grass_7: -3560326810267761576
-      Road4_grass_8: -5769734383462855349
-      Road4_grass_9: -2278361386253098027
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

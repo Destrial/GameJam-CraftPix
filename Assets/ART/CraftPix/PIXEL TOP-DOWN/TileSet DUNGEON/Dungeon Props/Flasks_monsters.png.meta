@@ -106,7 +106,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -144,7 +144,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -693,30 +693,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Flasks_monsters_0: -4347097446864797076
-      Flasks_monsters_1: -2659088272306767095
-      Flasks_monsters_10: 7198513229700449993
-      Flasks_monsters_11: -5840729251330355958
-      Flasks_monsters_12: 5369935355763174463
-      Flasks_monsters_13: -2395745502480745193
-      Flasks_monsters_14: -887762121562600544
-      Flasks_monsters_15: -4353876731787943993
-      Flasks_monsters_16: -446617184340699087
-      Flasks_monsters_17: 1431169840106142811
-      Flasks_monsters_18: 1662396026472201987
-      Flasks_monsters_19: -4126052755414778779
-      Flasks_monsters_2: 5561581755302063482
-      Flasks_monsters_20: -5808856587900559663
-      Flasks_monsters_21: -1023059979423747146
-      Flasks_monsters_22: 8455657628603745621
-      Flasks_monsters_23: 5196753031303929116
-      Flasks_monsters_3: -501272081390608322
-      Flasks_monsters_4: -7158582594984736501
-      Flasks_monsters_5: -6677496249865259869
-      Flasks_monsters_6: 2212748828628181064
-      Flasks_monsters_7: 5284376812884839287
-      Flasks_monsters_8: -3430461634369048902
-      Flasks_monsters_9: 2316151179906284636
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

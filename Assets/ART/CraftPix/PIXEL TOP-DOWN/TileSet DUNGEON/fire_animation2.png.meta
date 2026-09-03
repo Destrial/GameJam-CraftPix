@@ -88,7 +88,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,7 +126,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -549,24 +549,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fire_animation2_0: 7457898849070156403
-      fire_animation2_1: -6205515954121075453
-      fire_animation2_10: 1345120450249137630
-      fire_animation2_11: 8007963363641288697
-      fire_animation2_12: 9081455251082315214
-      fire_animation2_13: -2929077035095802016
-      fire_animation2_14: -4618729491785122912
-      fire_animation2_15: 5789506983370548545
-      fire_animation2_16: -7206521265220756087
-      fire_animation2_17: -2680147296748589825
-      fire_animation2_2: -1704357797399710597
-      fire_animation2_3: 3122655143602342741
-      fire_animation2_4: -5565151816953339628
-      fire_animation2_5: 1972985562857032967
-      fire_animation2_6: 7734794942079549178
-      fire_animation2_7: -7641408703102358652
-      fire_animation2_8: -8368115229960529448
-      fire_animation2_9: -3253981810064845659
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

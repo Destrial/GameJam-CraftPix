@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 40
       width: 27
       height: 31
-    spriteID: aec1015313d1e9546ab963ee00822bdb
+    spriteID: 4f548db8ce3d32e4f8dc3a73b87af319
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 40
       width: 27
       height: 29
-    spriteID: 16441ebf5947bd541867dc3aa317dc07
+    spriteID: 8f7aef92176e0c64b88fd883da24d0ba
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 33
       height: 28
-    spriteID: 56b6d7f1841211f4fab5ae80f901017f
+    spriteID: 75fbe6048bd1d3b4085753747a82a511
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 40
       width: 27
       height: 29
-    spriteID: e8cb647cd109d3e4d841def7eed52bc3
+    spriteID: f798977eb7a92b7488ade66bc6d7cde8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -215,7 +215,7 @@ ScriptedImporter:
         y: 17
         width: 27
         height: 31
-      spriteId: aec1015313d1e9546ab963ee00822bdb
+      spriteId: 4f548db8ce3d32e4f8dc3a73b87af319
     - name: Vampires2_Hurt_back_Frame_1
       frameIndex: 1
       cellRect:
@@ -223,7 +223,7 @@ ScriptedImporter:
         y: 17
         width: 27
         height: 29
-      spriteId: 16441ebf5947bd541867dc3aa317dc07
+      spriteId: 8f7aef92176e0c64b88fd883da24d0ba
     - name: Vampires2_Hurt_back_Frame_2
       frameIndex: 2
       cellRect:
@@ -231,7 +231,7 @@ ScriptedImporter:
         y: 17
         width: 33
         height: 28
-      spriteId: 56b6d7f1841211f4fab5ae80f901017f
+      spriteId: 75fbe6048bd1d3b4085753747a82a511
     - name: Vampires2_Hurt_back_Frame_3
       frameIndex: 3
       cellRect:
@@ -239,7 +239,7 @@ ScriptedImporter:
         y: 17
         width: 27
         height: 29
-      spriteId: e8cb647cd109d3e4d841def7eed52bc3
+      spriteId: f798977eb7a92b7488ade66bc6d7cde8
     linkedCells: []
     parentIndex: -1
   platformSettings: []

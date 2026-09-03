@@ -3,11 +3,11 @@ guid: b42fe48ddac0849488177fb5fce949b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2762994460352253160
-    second: U_Hurt_0
+      213: -7317946025030696907
+    second: U_Hurt 1_0
   - first:
-      213: 7893196330604600849
-    second: U_Hurt_1
+      213: -8057558185430768685
+    second: U_Hurt 1_1
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -78,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: U_Hurt_0
+      name: U_Hurt 1_0
       rect:
         serializedVersion: 2
         x: 8
@@ -127,14 +127,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ec0bad92d0285620800000000000000
-      internalID: 2762994460352253160
+      spriteID: 5304094ccde617a90800000000000000
+      internalID: -7317946025030696907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: U_Hurt_1
+      name: U_Hurt 1_1
       rect:
         serializedVersion: 2
         x: 37
@@ -148,8 +148,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11e9a142e344a8d60800000000000000
-      internalID: 7893196330604600849
+      spriteID: 3d3ab58658dcd2090800000000000000
+      internalID: -8057558185430768685
       vertices: []
       indices: 
       edges: []
@@ -165,8 +165,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      U_Hurt_0: 2762994460352253160
-      U_Hurt_1: 7893196330604600849
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

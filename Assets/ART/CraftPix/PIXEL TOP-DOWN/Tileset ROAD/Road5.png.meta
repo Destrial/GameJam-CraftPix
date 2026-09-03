@@ -79,7 +79,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -117,7 +117,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -477,21 +477,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Road5_0: 6934399939707434234
-      Road5_1: -5537479870883462098
-      Road5_10: 5223679046769815974
-      Road5_11: 8242325151844076939
-      Road5_12: -7158559626149118510
-      Road5_13: 6026419152924148442
-      Road5_14: -7468865761803511418
-      Road5_2: -6508273324673772439
-      Road5_3: -5612252930825327284
-      Road5_4: 5725010510896263446
-      Road5_5: -7933186870228673924
-      Road5_6: 7106569565947840431
-      Road5_7: 925768164505885809
-      Road5_8: -8109833670800963481
-      Road5_9: -2281228850147784215
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

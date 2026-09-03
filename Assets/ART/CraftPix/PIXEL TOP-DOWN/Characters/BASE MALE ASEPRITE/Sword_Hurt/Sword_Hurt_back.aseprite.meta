@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 20
       height: 25
-    spriteID: e41fff1506dfaab4fa55c6ba60396a15
+    spriteID: 75cb0c5f5cd8b1447a0decf0ba796b83
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 64
       width: 20
       height: 23
-    spriteID: d89c25436b5bac04a90e38eebfc2e483
+    spriteID: 96e2a61fa72447e4ca5cdfa15769a90d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 21
       height: 22
-    spriteID: 101e6ed3ee6865c47906be18ac08fa0f
+    spriteID: dfda9cbe070cf6e448495694e4ef800d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 34
       width: 21
       height: 22
-    spriteID: fe11b4b2f643a0943a93b7348e81a85f
+    spriteID: e9df764b236e6e04ebb9f11582cce2fd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 95
       width: 20
       height: 23
-    spriteID: 143b361ba201ae24da3d29085e5e3da3
+    spriteID: 45579451403778c4c9b28dd0a4159598
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -235,7 +235,7 @@ ScriptedImporter:
         y: 17
         width: 20
         height: 25
-      spriteId: e41fff1506dfaab4fa55c6ba60396a15
+      spriteId: 75cb0c5f5cd8b1447a0decf0ba796b83
     - name: Sword_Hurt_back_Frame_1
       frameIndex: 1
       cellRect:
@@ -243,7 +243,7 @@ ScriptedImporter:
         y: 17
         width: 20
         height: 23
-      spriteId: d89c25436b5bac04a90e38eebfc2e483
+      spriteId: 96e2a61fa72447e4ca5cdfa15769a90d
     - name: Sword_Hurt_back_Frame_2
       frameIndex: 2
       cellRect:
@@ -251,7 +251,7 @@ ScriptedImporter:
         y: 17
         width: 21
         height: 22
-      spriteId: 101e6ed3ee6865c47906be18ac08fa0f
+      spriteId: dfda9cbe070cf6e448495694e4ef800d
     - name: Sword_Hurt_back_Frame_3
       frameIndex: 3
       cellRect:
@@ -259,7 +259,7 @@ ScriptedImporter:
         y: 17
         width: 21
         height: 22
-      spriteId: fe11b4b2f643a0943a93b7348e81a85f
+      spriteId: e9df764b236e6e04ebb9f11582cce2fd
     - name: Sword_Hurt_back_Frame_4
       frameIndex: 4
       cellRect:
@@ -267,7 +267,7 @@ ScriptedImporter:
         y: 17
         width: 20
         height: 23
-      spriteId: 143b361ba201ae24da3d29085e5e3da3
+      spriteId: 45579451403778c4c9b28dd0a4159598
     linkedCells: []
     parentIndex: -1
   platformSettings: []

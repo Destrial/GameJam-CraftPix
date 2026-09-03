@@ -61,7 +61,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -99,7 +99,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -333,15 +333,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Descending_Ladder_0: 1040412954202923675
-      Descending_Ladder_1: -8360259132986453371
-      Descending_Ladder_2: -908519622700433817
-      Descending_Ladder_3: -6572133169416271453
-      Descending_Ladder_4: -8721504753772201493
-      Descending_Ladder_5: -7752690849819395129
-      Descending_Ladder_6: 8271676850491934063
-      Descending_Ladder_7: -5356199600005252939
-      Descending_Ladder_8: 1997179455126230986
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

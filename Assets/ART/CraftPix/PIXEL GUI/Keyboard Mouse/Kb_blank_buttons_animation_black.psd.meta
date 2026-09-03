@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -309,14 +309,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Kb_blank_buttons_animation_black_0: 3971027264802137303
-      Kb_blank_buttons_animation_black_1: -445846830095147598
-      Kb_blank_buttons_animation_black_2: -6272616335244994468
-      Kb_blank_buttons_animation_black_3: -3739030713942486725
-      Kb_blank_buttons_animation_black_4: 6758451510028730706
-      Kb_blank_buttons_animation_black_5: -3876527630891516730
-      Kb_blank_buttons_animation_black_6: 1242059018252980491
-      Kb_blank_buttons_animation_black_7: 1021402801129925007
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

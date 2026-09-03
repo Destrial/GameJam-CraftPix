@@ -168,7 +168,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -885,38 +885,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ScrollingMap_0: 7288978462263603231
-      ScrollingMap_1: 3138929939429143993
-      ScrollingMap_10: -5541462893716594270
-      ScrollingMap_11: -8635860563531925935
-      ScrollingMap_12: 6336000541548936238
-      ScrollingMap_13: -3038614558484531783
-      ScrollingMap_14: -7221273703695429923
-      ScrollingMap_15: -8940697460647114994
-      ScrollingMap_16: 3253040110573669690
-      ScrollingMap_17: -7067624677494061851
-      ScrollingMap_18: -1724690641644848436
-      ScrollingMap_19: 6077632974062655723
-      ScrollingMap_2: -5691865604938152385
-      ScrollingMap_20: -7711486166057730459
-      ScrollingMap_21: -2482077066900676690
-      ScrollingMap_22: -2772739673731445527
-      ScrollingMap_23: 4410903648310926542
-      ScrollingMap_24: 7582000811744462494
-      ScrollingMap_25: -8498781462734488824
-      ScrollingMap_26: 541629466813095797
-      ScrollingMap_27: -1366020605868859224
-      ScrollingMap_28: -2841270621732351444
-      ScrollingMap_29: 6689097121357896351
-      ScrollingMap_3: 5053999180466795055
-      ScrollingMap_30: -995955659762220601
-      ScrollingMap_31: -105728557841047073
-      ScrollingMap_4: -3056325627534326603
-      ScrollingMap_5: -2690058288550529501
-      ScrollingMap_6: -8178417313871473503
-      ScrollingMap_7: -9220084160390953791
-      ScrollingMap_8: 439572475981788367
-      ScrollingMap_9: -4543971033892280572
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -88,7 +88,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,7 +126,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -549,24 +549,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Desiccation_0: -1132496558200847426
-      Desiccation_1: -9097131063370515423
-      Desiccation_10: 970169406854118755
-      Desiccation_11: 1229699732508185264
-      Desiccation_12: -3114311926203939002
-      Desiccation_13: 5948197473925418531
-      Desiccation_14: 8201147069042315135
-      Desiccation_15: 480769667160595492
-      Desiccation_16: -1551728172552988483
-      Desiccation_17: -1164920838792908473
-      Desiccation_2: 4526764928983333664
-      Desiccation_3: -8163854517540248142
-      Desiccation_4: 6093385859317205550
-      Desiccation_5: 4268095641689781188
-      Desiccation_6: -3870783742799148938
-      Desiccation_7: -7811837819985146325
-      Desiccation_8: 3732520120170317909
-      Desiccation_9: -6116032468880106487
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

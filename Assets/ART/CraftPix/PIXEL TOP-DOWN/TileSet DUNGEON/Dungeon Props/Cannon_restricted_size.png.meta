@@ -271,7 +271,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -309,7 +309,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -2013,85 +2013,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Cannon_restricted_size_0: 8281394884492759723
-      Cannon_restricted_size_1: 4933923492042074554
-      Cannon_restricted_size_10: -4637160752013953419
-      Cannon_restricted_size_11: 5993483773017942341
-      Cannon_restricted_size_12: -5769580599211923916
-      Cannon_restricted_size_13: -7003811221445038889
-      Cannon_restricted_size_14: -6868978570960177346
-      Cannon_restricted_size_15: 6329219458814700976
-      Cannon_restricted_size_16: 3290606700236774430
-      Cannon_restricted_size_17: -5767999606633923027
-      Cannon_restricted_size_18: 5170015414380440819
-      Cannon_restricted_size_19: -5787636589288904987
-      Cannon_restricted_size_2: -3482413295365655253
-      Cannon_restricted_size_20: 3293075394496884040
-      Cannon_restricted_size_21: -1772721108018562457
-      Cannon_restricted_size_22: -8384303491848791372
-      Cannon_restricted_size_23: 1740824090918436777
-      Cannon_restricted_size_24: 5154502791862614007
-      Cannon_restricted_size_25: 6611231752807784537
-      Cannon_restricted_size_26: 7572056350336928212
-      Cannon_restricted_size_27: 7539399733536012873
-      Cannon_restricted_size_28: 8760861650769295759
-      Cannon_restricted_size_29: -3884370306400246644
-      Cannon_restricted_size_3: -4233738401923536636
-      Cannon_restricted_size_30: 3183946323196818506
-      Cannon_restricted_size_31: 4790029746203058118
-      Cannon_restricted_size_32: 6740629155614823415
-      Cannon_restricted_size_33: 2459218566243070227
-      Cannon_restricted_size_34: 4427608375569587725
-      Cannon_restricted_size_35: 8850171969017176041
-      Cannon_restricted_size_36: -3493820368483228120
-      Cannon_restricted_size_37: -6420792118902251792
-      Cannon_restricted_size_38: 643284733002413647
-      Cannon_restricted_size_39: -7477951754853210594
-      Cannon_restricted_size_4: 7075037134148533171
-      Cannon_restricted_size_40: -7540182138864197033
-      Cannon_restricted_size_41: -2224801842736738565
-      Cannon_restricted_size_42: -866784654019946961
-      Cannon_restricted_size_43: -7614659574157944025
-      Cannon_restricted_size_44: 5009144121550059904
-      Cannon_restricted_size_45: 4271717564954359884
-      Cannon_restricted_size_46: 6666460771167811853
-      Cannon_restricted_size_47: 3742459812108824607
-      Cannon_restricted_size_48: 27046929187878247
-      Cannon_restricted_size_49: -1716574463677212355
-      Cannon_restricted_size_5: -5571972929065688680
-      Cannon_restricted_size_50: -4990472762270996666
-      Cannon_restricted_size_51: -469606944352706999
-      Cannon_restricted_size_52: 6095680006170367311
-      Cannon_restricted_size_53: -5198421580906024992
-      Cannon_restricted_size_54: -4948523116648324386
-      Cannon_restricted_size_55: -3004498145142423841
-      Cannon_restricted_size_56: 7037534720174449918
-      Cannon_restricted_size_57: 6534959374952586587
-      Cannon_restricted_size_58: -2678826040659605143
-      Cannon_restricted_size_59: -2748155998170197346
-      Cannon_restricted_size_6: -508525784707662068
-      Cannon_restricted_size_60: -550741184962311169
-      Cannon_restricted_size_61: 125494154707572952
-      Cannon_restricted_size_62: -8900961567684776432
-      Cannon_restricted_size_63: -5560618182464445073
-      Cannon_restricted_size_64: -1456828594867501351
-      Cannon_restricted_size_65: -4109291204240869045
-      Cannon_restricted_size_66: -1059491011122738704
-      Cannon_restricted_size_67: -2816173060503096912
-      Cannon_restricted_size_68: 7162208309168399330
-      Cannon_restricted_size_69: -5329661621636582223
-      Cannon_restricted_size_7: -149017145369315840
-      Cannon_restricted_size_70: 4783927087237947134
-      Cannon_restricted_size_71: -4814884356292884850
-      Cannon_restricted_size_72: -7105240112748603665
-      Cannon_restricted_size_73: -4715247852283964511
-      Cannon_restricted_size_74: 452255841302387213
-      Cannon_restricted_size_75: 5432494381917553115
-      Cannon_restricted_size_76: 1655652983706202191
-      Cannon_restricted_size_77: -6342398227854907551
-      Cannon_restricted_size_78: 3921128442702909975
-      Cannon_restricted_size_8: -4536540833850547827
-      Cannon_restricted_size_9: 3077164632305490144
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -76,7 +76,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -114,7 +114,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -453,20 +453,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Teleport_Character_1_0: 8758791141188662392
-      Teleport_Character_1_1: 7848436934708175544
-      Teleport_Character_1_10: -7818421986084888111
-      Teleport_Character_1_11: 8134355779618746452
-      Teleport_Character_1_12: 2548678594791779449
-      Teleport_Character_1_13: 8133857385243602326
-      Teleport_Character_1_2: 8027803833928473032
-      Teleport_Character_1_3: -8277926790790594751
-      Teleport_Character_1_4: -1002853971035577669
-      Teleport_Character_1_5: -2162526910598186451
-      Teleport_Character_1_6: -7391576528592258471
-      Teleport_Character_1_7: -168638397298494367
-      Teleport_Character_1_8: 7630212449727519018
-      Teleport_Character_1_9: 8794677065435388802
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

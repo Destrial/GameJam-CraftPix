@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 259
       height: 199
-    spriteID: d3cea8057ea33b1479fe8fcebd7bc57b
+    spriteID: d75cb7a6cad99c44b951015712714365
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 4
       width: 259
       height: 200
-    spriteID: 50b606a0ab5c0584b97bfc8df7ebe1e1
+    spriteID: 42842111f72619a48b07d89aa0c269cd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 419
       width: 259
       height: 195
-    spriteID: dd330cfe5f295bd46b3ebd8101a78ae5
+    spriteID: 9f64f9404ed0fb748a39befac2746d62
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 212
       width: 259
       height: 198
-    spriteID: 00b742e7b00dc794aac66ab66bca9b0c
+    spriteID: 5deca98635f9f4b4480ca802240a9ee3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 212
       width: 259
       height: 199
-    spriteID: 9a4a28c1ce7ff9e45b65d1a1d5a0db50
+    spriteID: ed5dccd5d693a224381deacf828ca203
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 419
       width: 259
       height: 195
-    spriteID: adbf4b1c86d0e2b4ba2bb1e11dbbba44
+    spriteID: 3eeda4edbaa5c9e46b4c3eae3b62bc51
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 212
       width: 259
       height: 199
-    spriteID: 84fc7b19455366c458d0c7b5b86d02b1
+    spriteID: 4c6039330fc1d05448d5c54851660f60
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 4
       width: 259
       height: 200
-    spriteID: dd1e281c64dc563479ac4ddc4120ac42
+    spriteID: 49d959261d9a4d440b39096400254553
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -295,7 +295,7 @@ ScriptedImporter:
         y: -142
         width: 259
         height: 199
-      spriteId: d3cea8057ea33b1479fe8fcebd7bc57b
+      spriteId: d75cb7a6cad99c44b951015712714365
     - name: orc3_left_run_attack_Frame_1
       frameIndex: 1
       cellRect:
@@ -303,7 +303,7 @@ ScriptedImporter:
         y: -142
         width: 259
         height: 200
-      spriteId: 50b606a0ab5c0584b97bfc8df7ebe1e1
+      spriteId: 42842111f72619a48b07d89aa0c269cd
     - name: orc3_left_run_attack_Frame_2
       frameIndex: 2
       cellRect:
@@ -311,7 +311,7 @@ ScriptedImporter:
         y: -142
         width: 259
         height: 195
-      spriteId: dd330cfe5f295bd46b3ebd8101a78ae5
+      spriteId: 9f64f9404ed0fb748a39befac2746d62
     - name: orc3_left_run_attack_Frame_3
       frameIndex: 3
       cellRect:
@@ -319,7 +319,7 @@ ScriptedImporter:
         y: -142
         width: 259
         height: 198
-      spriteId: 00b742e7b00dc794aac66ab66bca9b0c
+      spriteId: 5deca98635f9f4b4480ca802240a9ee3
     - name: orc3_left_run_attack_Frame_4
       frameIndex: 4
       cellRect:
@@ -327,7 +327,7 @@ ScriptedImporter:
         y: -142
         width: 259
         height: 199
-      spriteId: 9a4a28c1ce7ff9e45b65d1a1d5a0db50
+      spriteId: ed5dccd5d693a224381deacf828ca203
     - name: orc3_left_run_attack_Frame_5
       frameIndex: 5
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         y: -142
         width: 259
         height: 195
-      spriteId: adbf4b1c86d0e2b4ba2bb1e11dbbba44
+      spriteId: 3eeda4edbaa5c9e46b4c3eae3b62bc51
     - name: orc3_left_run_attack_Frame_6
       frameIndex: 6
       cellRect:
@@ -343,7 +343,7 @@ ScriptedImporter:
         y: -142
         width: 259
         height: 199
-      spriteId: 84fc7b19455366c458d0c7b5b86d02b1
+      spriteId: 4c6039330fc1d05448d5c54851660f60
     - name: orc3_left_run_attack_Frame_7
       frameIndex: 7
       cellRect:
@@ -351,7 +351,7 @@ ScriptedImporter:
         y: -142
         width: 259
         height: 200
-      spriteId: dd1e281c64dc563479ac4ddc4120ac42
+      spriteId: 49d959261d9a4d440b39096400254553
     linkedCells: []
     parentIndex: -1
   platformSettings: []

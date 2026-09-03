@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -102,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -357,16 +357,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Aerial_Charge_0: 5320527039392479292
-      Aerial_Charge_1: 288687773953406351
-      Aerial_Charge_2: 6127282710691526340
-      Aerial_Charge_3: 3752553181177152218
-      Aerial_Charge_4: 816583650272702629
-      Aerial_Charge_5: -9009403012740813367
-      Aerial_Charge_6: -6625300488435893127
-      Aerial_Charge_7: -8961156548256243255
-      Aerial_Charge_8: -8327253850643982620
-      Aerial_Charge_9: 8171678057707477063
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

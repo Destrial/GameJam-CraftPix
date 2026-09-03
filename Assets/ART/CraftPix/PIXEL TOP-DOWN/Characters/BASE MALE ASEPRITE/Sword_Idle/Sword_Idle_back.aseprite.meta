@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 20
       height: 25
-    spriteID: 1e09e921bc116f64ca18c317332c2507
+    spriteID: de041a801022e104c9b34537d98c17fe
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 37
       width: 20
       height: 25
-    spriteID: b78089e6319de9c46af6be7e3d6eff0a
+    spriteID: ca4fd5581b64fb64d81537f74fa72025
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 70
       width: 20
       height: 25
-    spriteID: 13d615f50055a544792974892ec1105b
+    spriteID: 9db67aa0b3ed9e54185b505a64a82ad2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 20
       height: 25
-    spriteID: 9258a952582d9c24887950bd3ceb8a6f
+    spriteID: d2ee175a82f56f143a73f9556e241288
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -215,7 +215,7 @@ ScriptedImporter:
         y: 17
         width: 20
         height: 25
-      spriteId: 1e09e921bc116f64ca18c317332c2507
+      spriteId: de041a801022e104c9b34537d98c17fe
     - name: Sword_Idle_back_Frame_1
       frameIndex: 1
       cellRect:
@@ -223,7 +223,7 @@ ScriptedImporter:
         y: 17
         width: 20
         height: 25
-      spriteId: b78089e6319de9c46af6be7e3d6eff0a
+      spriteId: ca4fd5581b64fb64d81537f74fa72025
     - name: Sword_Idle_back_Frame_2
       frameIndex: 2
       cellRect:
@@ -231,7 +231,7 @@ ScriptedImporter:
         y: 17
         width: 20
         height: 25
-      spriteId: 13d615f50055a544792974892ec1105b
+      spriteId: 9db67aa0b3ed9e54185b505a64a82ad2
     - name: Sword_Idle_back_Frame_3
       frameIndex: 3
       cellRect:
@@ -239,7 +239,7 @@ ScriptedImporter:
         y: 17
         width: 20
         height: 25
-      spriteId: 9258a952582d9c24887950bd3ceb8a6f
+      spriteId: d2ee175a82f56f143a73f9556e241288
     linkedCells: []
     parentIndex: -1
   platformSettings: []

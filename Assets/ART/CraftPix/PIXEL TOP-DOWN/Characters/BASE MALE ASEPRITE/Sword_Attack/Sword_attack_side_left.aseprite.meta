@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 97
       width: 232
       height: 79
-    spriteID: db7470241dc53864db573cfc33d92693
+    spriteID: 691c4635ce1c3424dadc29d9a6e812d3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 97
       width: 232
       height: 80
-    spriteID: 5e4ff91dc6bfec142b9a9d4db129a68e
+    spriteID: f30ccfc70383efe498b107bb23c2d2aa
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 272
       width: 232
       height: 76
-    spriteID: aaeca7f6bd651854ea8d4999e8504c14
+    spriteID: 26a085a8317baaf40843fbdb10264d06
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 185
       width: 232
       height: 79
-    spriteID: 4cfccb6a61376b445a14cf09ba3bf655
+    spriteID: 95e251a1fbcc16a43b05e6d4a8680e4c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 185
       width: 232
       height: 79
-    spriteID: 39a78fe955baeec4fa15f4a4eaa249bb
+    spriteID: 4f9f5b2ecf9d89840b6bc397b001b0c5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 4
       width: 232
       height: 85
-    spriteID: c1f3c67b55c66cd4aaa1aa8cc7d6d408
+    spriteID: ce70e3d70d4d65f40a25aa169790bac5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 4
       width: 232
       height: 84
-    spriteID: 15455099d6adb1840ab8add65acf836f
+    spriteID: 4224a3cfc32a9d342ba7bdb44e126552
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 272
       width: 232
       height: 79
-    spriteID: cc4978f342689584e9ff66490a2e335d
+    spriteID: 67cccd7d9d43c6e4bb3cd4b70f11f2bc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -295,7 +295,7 @@ ScriptedImporter:
         y: -37
         width: 232
         height: 79
-      spriteId: db7470241dc53864db573cfc33d92693
+      spriteId: 691c4635ce1c3424dadc29d9a6e812d3
     - name: Sword_attack_side_left_Frame_1
       frameIndex: 1
       cellRect:
@@ -303,7 +303,7 @@ ScriptedImporter:
         y: -37
         width: 232
         height: 80
-      spriteId: 5e4ff91dc6bfec142b9a9d4db129a68e
+      spriteId: f30ccfc70383efe498b107bb23c2d2aa
     - name: Sword_attack_side_left_Frame_2
       frameIndex: 2
       cellRect:
@@ -311,7 +311,7 @@ ScriptedImporter:
         y: -32
         width: 232
         height: 76
-      spriteId: aaeca7f6bd651854ea8d4999e8504c14
+      spriteId: 26a085a8317baaf40843fbdb10264d06
     - name: Sword_attack_side_left_Frame_3
       frameIndex: 3
       cellRect:
@@ -319,7 +319,7 @@ ScriptedImporter:
         y: -37
         width: 232
         height: 79
-      spriteId: 4cfccb6a61376b445a14cf09ba3bf655
+      spriteId: 95e251a1fbcc16a43b05e6d4a8680e4c
     - name: Sword_attack_side_left_Frame_4
       frameIndex: 4
       cellRect:
@@ -327,7 +327,7 @@ ScriptedImporter:
         y: -37
         width: 232
         height: 79
-      spriteId: 39a78fe955baeec4fa15f4a4eaa249bb
+      spriteId: 4f9f5b2ecf9d89840b6bc397b001b0c5
     - name: Sword_attack_side_left_Frame_5
       frameIndex: 5
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         y: -37
         width: 232
         height: 85
-      spriteId: c1f3c67b55c66cd4aaa1aa8cc7d6d408
+      spriteId: ce70e3d70d4d65f40a25aa169790bac5
     - name: Sword_attack_side_left_Frame_6
       frameIndex: 6
       cellRect:
@@ -343,7 +343,7 @@ ScriptedImporter:
         y: -37
         width: 232
         height: 84
-      spriteId: 15455099d6adb1840ab8add65acf836f
+      spriteId: 4224a3cfc32a9d342ba7bdb44e126552
     - name: Sword_attack_side_left_Frame_7
       frameIndex: 7
       cellRect:
@@ -351,7 +351,7 @@ ScriptedImporter:
         y: -37
         width: 232
         height: 79
-      spriteId: cc4978f342689584e9ff66490a2e335d
+      spriteId: 67cccd7d9d43c6e4bb3cd4b70f11f2bc
     linkedCells: []
     parentIndex: -1
   platformSettings: []

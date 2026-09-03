@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 30
       height: 27
-    spriteID: a31415115aa0db743aacafd61552564b
+    spriteID: 8375b2ea04fea90458e2975e8e7a8173
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 4
       width: 30
       height: 27
-    spriteID: 7b1e508b67b5dae418da67e32edf12f8
+    spriteID: 03dcb718db3fa7943ac7a54a32a2fc49
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 39
       width: 27
       height: 22
-    spriteID: 9963a30c0c8a13541883c6febbded247
+    spriteID: 72167f2ca8e366449823a43f573fa98b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 39
       width: 27
       height: 25
-    spriteID: 68dff64e8f808f14c931daacfe2a4446
+    spriteID: c6809f1198dfaaa44a361868dec777f2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 4
       width: 29
       height: 26
-    spriteID: aef81ef3e62818b4bbd7298b03ce3f34
+    spriteID: 7cf736bf59d96344db6086a9c0a6a1d6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -235,7 +235,7 @@ ScriptedImporter:
         y: 22
         width: 30
         height: 27
-      spriteId: a31415115aa0db743aacafd61552564b
+      spriteId: 8375b2ea04fea90458e2975e8e7a8173
     - name: Slime2_Hurt_left_Frame_1
       frameIndex: 1
       cellRect:
@@ -243,7 +243,7 @@ ScriptedImporter:
         y: 22
         width: 30
         height: 27
-      spriteId: 7b1e508b67b5dae418da67e32edf12f8
+      spriteId: 03dcb718db3fa7943ac7a54a32a2fc49
     - name: Slime2_Hurt_left_Frame_2
       frameIndex: 2
       cellRect:
@@ -251,7 +251,7 @@ ScriptedImporter:
         y: 22
         width: 27
         height: 22
-      spriteId: 9963a30c0c8a13541883c6febbded247
+      spriteId: 72167f2ca8e366449823a43f573fa98b
     - name: Slime2_Hurt_left_Frame_3
       frameIndex: 3
       cellRect:
@@ -259,7 +259,7 @@ ScriptedImporter:
         y: 22
         width: 27
         height: 25
-      spriteId: 68dff64e8f808f14c931daacfe2a4446
+      spriteId: c6809f1198dfaaa44a361868dec777f2
     - name: Slime2_Hurt_left_Frame_4
       frameIndex: 4
       cellRect:
@@ -267,7 +267,7 @@ ScriptedImporter:
         y: 22
         width: 29
         height: 26
-      spriteId: aef81ef3e62818b4bbd7298b03ce3f34
+      spriteId: 7cf736bf59d96344db6086a9c0a6a1d6
     linkedCells: []
     parentIndex: -1
   platformSettings: []

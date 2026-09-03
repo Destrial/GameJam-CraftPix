@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 224
       height: 159
-    spriteID: 9ffd0211bb946e34da9d2dcce980279b
+    spriteID: e72cd22c51fd3be47b0445a8b0d601c2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 171
       width: 224
       height: 159
-    spriteID: 60794ec20089bb042b0ee5017342b561
+    spriteID: 0b496654ad0d33a41aaaa8e545b3a319
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -175,7 +175,7 @@ ScriptedImporter:
         y: 8
         width: 224
         height: 159
-      spriteId: 9ffd0211bb946e34da9d2dcce980279b
+      spriteId: e72cd22c51fd3be47b0445a8b0d601c2
     - name: pages_desappear_Frame_0
       frameIndex: 0
       cellRect:
@@ -183,7 +183,7 @@ ScriptedImporter:
         y: 8
         width: 224
         height: 159
-      spriteId: 60794ec20089bb042b0ee5017342b561
+      spriteId: 0b496654ad0d33a41aaaa8e545b3a319
     linkedCells: []
     parentIndex: -1
   platformSettings: []

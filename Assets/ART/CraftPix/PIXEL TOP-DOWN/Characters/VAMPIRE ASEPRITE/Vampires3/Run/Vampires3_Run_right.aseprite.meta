@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 150
       width: 28
       height: 37
-    spriteID: 4f018b77bfef0ca4a8e04f10fc717945
+    spriteID: 98a1e56973b283742b9e04f865c58fdd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 54
       width: 28
       height: 40
-    spriteID: 64fdf1c173f11c340aaa3c1a469e72a4
+    spriteID: 788d054ed14573f49a8e2bfdd3bdb34c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 28
       height: 42
-    spriteID: 1cd113cde9a983445ab009ec21d4215f
+    spriteID: c6d8fc4336924a647ad92a002d9699f4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 102
       width: 28
       height: 40
-    spriteID: 6c6f54652304bf04b8377f41ad4d8d0c
+    spriteID: d7e3d45b92c34584ea323a91d2cacb26
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 195
       width: 28
       height: 37
-    spriteID: b7fe6f5f094c0d648b7628f929e12626
+    spriteID: 488f86867f79c2641a5b3a2b91ca8bb3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 4
       width: 30
       height: 35
-    spriteID: ef989f08f248a9d43a45a381a7ad22f1
+    spriteID: 61c9f041a51515b4db4552430a79bf11
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 89
       width: 29
       height: 33
-    spriteID: 1ca2b1ae1bf1c2a49a0d55b9455a7e29
+    spriteID: d626ddddc5dbf9f48807ea0b40abc0aa
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 47
       width: 30
       height: 34
-    spriteID: a69af405066b6ba429349925a70007bc
+    spriteID: 22af11f1b505f1347a2b4bc5ac2e8efa
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -295,7 +295,7 @@ ScriptedImporter:
         y: 17
         width: 28
         height: 37
-      spriteId: 4f018b77bfef0ca4a8e04f10fc717945
+      spriteId: 98a1e56973b283742b9e04f865c58fdd
     - name: Vampires3_Run_right_Frame_1
       frameIndex: 1
       cellRect:
@@ -303,7 +303,7 @@ ScriptedImporter:
         y: 17
         width: 28
         height: 40
-      spriteId: 64fdf1c173f11c340aaa3c1a469e72a4
+      spriteId: 788d054ed14573f49a8e2bfdd3bdb34c
     - name: Vampires3_Run_right_Frame_2
       frameIndex: 2
       cellRect:
@@ -311,7 +311,7 @@ ScriptedImporter:
         y: 17
         width: 28
         height: 42
-      spriteId: 1cd113cde9a983445ab009ec21d4215f
+      spriteId: c6d8fc4336924a647ad92a002d9699f4
     - name: Vampires3_Run_right_Frame_3
       frameIndex: 3
       cellRect:
@@ -319,7 +319,7 @@ ScriptedImporter:
         y: 17
         width: 28
         height: 40
-      spriteId: 6c6f54652304bf04b8377f41ad4d8d0c
+      spriteId: d7e3d45b92c34584ea323a91d2cacb26
     - name: Vampires3_Run_right_Frame_4
       frameIndex: 4
       cellRect:
@@ -327,7 +327,7 @@ ScriptedImporter:
         y: 17
         width: 28
         height: 37
-      spriteId: b7fe6f5f094c0d648b7628f929e12626
+      spriteId: 488f86867f79c2641a5b3a2b91ca8bb3
     - name: Vampires3_Run_right_Frame_5
       frameIndex: 5
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         y: 17
         width: 30
         height: 35
-      spriteId: ef989f08f248a9d43a45a381a7ad22f1
+      spriteId: 61c9f041a51515b4db4552430a79bf11
     - name: Vampires3_Run_right_Frame_6
       frameIndex: 6
       cellRect:
@@ -343,7 +343,7 @@ ScriptedImporter:
         y: 17
         width: 29
         height: 33
-      spriteId: 1ca2b1ae1bf1c2a49a0d55b9455a7e29
+      spriteId: d626ddddc5dbf9f48807ea0b40abc0aa
     - name: Vampires3_Run_right_Frame_7
       frameIndex: 7
       cellRect:
@@ -351,7 +351,7 @@ ScriptedImporter:
         y: 17
         width: 30
         height: 34
-      spriteId: a69af405066b6ba429349925a70007bc
+      spriteId: 22af11f1b505f1347a2b4bc5ac2e8efa
     linkedCells: []
     parentIndex: -1
   platformSettings: []

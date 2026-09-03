@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 20
       height: 27
-    spriteID: d140125048436504ebdbf15984dd6738
+    spriteID: 1f062775a7a542e4f890126760c64e12
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 39
       width: 19
       height: 27
-    spriteID: 46e64050cc50b3542a938a1798f5439d
+    spriteID: f96616583da86ed468ecdc942202a37d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 74
       width: 19
       height: 26
-    spriteID: 6cb04b8e03237c4469b8ccd7e3ac0de8
+    spriteID: 3b616fa64c85a99498c2b522b45b41d5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 38
       width: 19
       height: 24
-    spriteID: 8e41491be6ab4504e932ff8dd33fb306
+    spriteID: 3ca3722cd82ecc9409f1cbf904e29620
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 4
       width: 19
       height: 26
-    spriteID: 4796cf4332d5dc1449058eb3ae093fb6
+    spriteID: e808074a366cfe54b86da6e9baa789b3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -235,7 +235,7 @@ ScriptedImporter:
         y: 17
         width: 20
         height: 27
-      spriteId: d140125048436504ebdbf15984dd6738
+      spriteId: 1f062775a7a542e4f890126760c64e12
     - name: Swordsman_lvl3_Hurt_front_Frame_1
       frameIndex: 1
       cellRect:
@@ -243,7 +243,7 @@ ScriptedImporter:
         y: 17
         width: 19
         height: 27
-      spriteId: 46e64050cc50b3542a938a1798f5439d
+      spriteId: f96616583da86ed468ecdc942202a37d
     - name: Swordsman_lvl3_Hurt_front_Frame_2
       frameIndex: 2
       cellRect:
@@ -251,7 +251,7 @@ ScriptedImporter:
         y: 17
         width: 19
         height: 26
-      spriteId: 6cb04b8e03237c4469b8ccd7e3ac0de8
+      spriteId: 3b616fa64c85a99498c2b522b45b41d5
     - name: Swordsman_lvl3_Hurt_front_Frame_3
       frameIndex: 3
       cellRect:
@@ -259,7 +259,7 @@ ScriptedImporter:
         y: 17
         width: 19
         height: 24
-      spriteId: 8e41491be6ab4504e932ff8dd33fb306
+      spriteId: 3ca3722cd82ecc9409f1cbf904e29620
     - name: Swordsman_lvl3_Hurt_front_Frame_4
       frameIndex: 4
       cellRect:
@@ -267,7 +267,7 @@ ScriptedImporter:
         y: 17
         width: 19
         height: 26
-      spriteId: 4796cf4332d5dc1449058eb3ae093fb6
+      spriteId: e808074a366cfe54b86da6e9baa789b3
     linkedCells: []
     parentIndex: -1
   platformSettings: []

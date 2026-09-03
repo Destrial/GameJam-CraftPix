@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 38
       width: 15
       height: 25
-    spriteID: 96da3af26633a934b83c31fb8329eb5b
+    spriteID: b74b77fabf7906242beefa4cc53ed9e6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 4
       width: 15
       height: 27
-    spriteID: ce633451d45d59a4ba812da824509e3c
+    spriteID: 963357a6f03fc074e804a178ed7afb86
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 74
       width: 15
       height: 26
-    spriteID: fc8c89fd144f2bd4a970641ab41226dd
+    spriteID: ccba078660d608841bb5c673ecea93ba
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 71
       width: 15
       height: 25
-    spriteID: ed6e5679b882b9647b7ac7a84c51d157
+    spriteID: ce1337c8129c05f449e60dc20e47b94b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 39
       width: 15
       height: 27
-    spriteID: debe11066b1403e45acf9117b85dc820
+    spriteID: 290130324a2338a4c893693d1cd9a4cf
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 4
       width: 15
       height: 26
-    spriteID: c1ab3ff6dcefcf34588834c328b9e057
+    spriteID: dd88a11d620817d45a9a0465333c93eb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -255,7 +255,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 25
-      spriteId: 96da3af26633a934b83c31fb8329eb5b
+      spriteId: b74b77fabf7906242beefa4cc53ed9e6
     - name: Unarmed_Walk_back_Frame_1
       frameIndex: 1
       cellRect:
@@ -263,7 +263,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 27
-      spriteId: ce633451d45d59a4ba812da824509e3c
+      spriteId: 963357a6f03fc074e804a178ed7afb86
     - name: Unarmed_Walk_back_Frame_2
       frameIndex: 2
       cellRect:
@@ -271,7 +271,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 26
-      spriteId: fc8c89fd144f2bd4a970641ab41226dd
+      spriteId: ccba078660d608841bb5c673ecea93ba
     - name: Unarmed_Walk_back_Frame_3
       frameIndex: 3
       cellRect:
@@ -279,7 +279,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 25
-      spriteId: ed6e5679b882b9647b7ac7a84c51d157
+      spriteId: ce1337c8129c05f449e60dc20e47b94b
     - name: Unarmed_Walk_back_Frame_4
       frameIndex: 4
       cellRect:
@@ -287,7 +287,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 27
-      spriteId: debe11066b1403e45acf9117b85dc820
+      spriteId: 290130324a2338a4c893693d1cd9a4cf
     - name: Unarmed_Walk_back_Frame_5
       frameIndex: 5
       cellRect:
@@ -295,7 +295,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 26
-      spriteId: c1ab3ff6dcefcf34588834c328b9e057
+      spriteId: dd88a11d620817d45a9a0465333c93eb
     linkedCells: []
     parentIndex: -1
   platformSettings: []

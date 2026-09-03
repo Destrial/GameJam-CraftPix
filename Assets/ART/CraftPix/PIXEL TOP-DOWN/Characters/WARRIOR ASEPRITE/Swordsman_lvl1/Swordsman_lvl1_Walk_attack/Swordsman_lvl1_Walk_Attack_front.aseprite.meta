@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 41
       width: 23
       height: 26
-    spriteID: 04542b37783c63241abca75fc6a56c5e
+    spriteID: 2c291773d2455b947a6330368674358e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 4
       width: 25
       height: 29
-    spriteID: 157868f45d3d99d43b62c6a191c99756
+    spriteID: 866db577c41aee8419c3afb1a0365e5f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 48
       width: 34
       height: 32
-    spriteID: a13cfa8916888834eb9defa3c23e3042
+    spriteID: bb4acf5331a157e47a41fd4a11b5b16d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 34
       height: 36
-    spriteID: feaca5918886cd84cb423a7411ab3e55
+    spriteID: 217492fd2ba8a954ba2526f6bc4704fa
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 88
       width: 30
       height: 35
-    spriteID: 50f41f651d0304549bda8607eacf9847
+    spriteID: 48e5efcfaa5299641b82be4b9319906f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 75
       width: 16
       height: 26
-    spriteID: 33788a8cdc8c8cd458ed12fa0a9d9ef7
+    spriteID: 3a07f10fad99407438d154cd4d7b32c4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -255,7 +255,7 @@ ScriptedImporter:
         y: 17
         width: 23
         height: 26
-      spriteId: 04542b37783c63241abca75fc6a56c5e
+      spriteId: 2c291773d2455b947a6330368674358e
     - name: Swordsman_lvl1_Walk_Attack_front_Frame_1
       frameIndex: 1
       cellRect:
@@ -263,7 +263,7 @@ ScriptedImporter:
         y: 12
         width: 25
         height: 29
-      spriteId: 157868f45d3d99d43b62c6a191c99756
+      spriteId: 866db577c41aee8419c3afb1a0365e5f
     - name: Swordsman_lvl1_Walk_Attack_front_Frame_2
       frameIndex: 2
       cellRect:
@@ -271,7 +271,7 @@ ScriptedImporter:
         y: 12
         width: 34
         height: 32
-      spriteId: a13cfa8916888834eb9defa3c23e3042
+      spriteId: bb4acf5331a157e47a41fd4a11b5b16d
     - name: Swordsman_lvl1_Walk_Attack_front_Frame_3
       frameIndex: 3
       cellRect:
@@ -279,7 +279,7 @@ ScriptedImporter:
         y: 8
         width: 34
         height: 36
-      spriteId: feaca5918886cd84cb423a7411ab3e55
+      spriteId: 217492fd2ba8a954ba2526f6bc4704fa
     - name: Swordsman_lvl1_Walk_Attack_front_Frame_4
       frameIndex: 4
       cellRect:
@@ -287,7 +287,7 @@ ScriptedImporter:
         y: 8
         width: 30
         height: 35
-      spriteId: 50f41f651d0304549bda8607eacf9847
+      spriteId: 48e5efcfaa5299641b82be4b9319906f
     - name: Swordsman_lvl1_Walk_Attack_front_Frame_5
       frameIndex: 5
       cellRect:
@@ -295,7 +295,7 @@ ScriptedImporter:
         y: 17
         width: 16
         height: 26
-      spriteId: 33788a8cdc8c8cd458ed12fa0a9d9ef7
+      spriteId: 3a07f10fad99407438d154cd4d7b32c4
     linkedCells: []
     parentIndex: -1
   platformSettings: []

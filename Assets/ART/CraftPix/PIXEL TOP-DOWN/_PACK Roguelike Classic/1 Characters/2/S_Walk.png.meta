@@ -261,12 +261,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      S_Walk_0: -6486419780738374814
-      S_Walk_1: 623712257120239520
-      S_Walk_2: 1556825751644493017
-      S_Walk_3: 3715194652417247120
-      S_Walk_4: 3171907327690987403
-      S_Walk_5: 8712610202006430328
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

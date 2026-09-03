@@ -79,7 +79,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -117,7 +117,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -477,21 +477,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ground_Slam_0: 2196294513339498744
-      Ground_Slam_1: 4726365623250336511
-      Ground_Slam_10: 4970001698969866643
-      Ground_Slam_11: -5735775263684792514
-      Ground_Slam_12: -9164903530128618212
-      Ground_Slam_13: 3589316645843237529
-      Ground_Slam_14: 8527528632704773891
-      Ground_Slam_2: 6253848758877919626
-      Ground_Slam_3: 1259337530513560311
-      Ground_Slam_4: 2827049590720690859
-      Ground_Slam_5: 1379758297095203491
-      Ground_Slam_6: 8422019529823375197
-      Ground_Slam_7: -8812352473608133128
-      Ground_Slam_8: -6831774925440213414
-      Ground_Slam_9: 1301152051766711791
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

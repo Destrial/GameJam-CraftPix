@@ -88,7 +88,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,7 +126,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -549,24 +549,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sells_full_0: -1680228398990388485
-      sells_full_1: -757815876340811063
-      sells_full_10: 8518083649659799671
-      sells_full_11: -4567239280725810956
-      sells_full_12: -7437168555430052427
-      sells_full_13: -5442589232302992798
-      sells_full_14: -8474307668729326472
-      sells_full_15: 2747173747927189115
-      sells_full_16: 6346936061260278673
-      sells_full_17: 1034538918185901282
-      sells_full_2: -7290498047251822154
-      sells_full_3: -3581582137917574206
-      sells_full_4: -6533693584203810150
-      sells_full_5: 2542975557801415027
-      sells_full_6: 3523278371608847706
-      sells_full_7: -8430792085789550563
-      sells_full_8: -4673665870543385674
-      sells_full_9: 476758094075762699
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

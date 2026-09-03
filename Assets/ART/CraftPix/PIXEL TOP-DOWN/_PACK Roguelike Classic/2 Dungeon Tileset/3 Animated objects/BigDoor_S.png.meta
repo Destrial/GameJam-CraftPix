@@ -99,7 +99,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -333,15 +333,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BigDoor_S_0: 8652515607064153784
-      BigDoor_S_1: 1731081185423980995
-      BigDoor_S_2: -7218307545915735165
-      BigDoor_S_3: -6887627687308887377
-      BigDoor_S_4: -4959466729620917843
-      BigDoor_S_5: -609392059624681392
-      BigDoor_S_6: -965247841656283844
-      BigDoor_S_7: -441897187456204076
-      BigDoor_S_8: -6636487329983992477
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

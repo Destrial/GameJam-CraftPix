@@ -3,23 +3,23 @@ guid: c886912c5afeb8049b5856b975a2c554
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6808733625049879353
-    second: D_Walk_0
+      213: -2241570578631840340
+    second: D_Walk 1_0
   - first:
-      213: 2958005836100429432
-    second: D_Walk_1
+      213: -3261765277663038167
+    second: D_Walk 1_1
   - first:
-      213: -1961275858478782969
-    second: D_Walk_2
+      213: -2156752385941735796
+    second: D_Walk 1_2
   - first:
-      213: 5229588018383845667
-    second: D_Walk_3
+      213: -2218208953981516457
+    second: D_Walk 1_3
   - first:
-      213: 833268405067969473
-    second: D_Walk_4
+      213: -6586727484777103186
+    second: D_Walk 1_4
   - first:
-      213: -2797495979863899995
-    second: D_Walk_5
+      213: 7942024401221912828
+    second: D_Walk 1_5
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -90,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -125,7 +125,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: D_Walk_0
+      name: D_Walk 1_0
       rect:
         serializedVersion: 2
         x: 10
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9331b53682b7d7e50800000000000000
-      internalID: 6808733625049879353
+      spriteID: cadaea16f6754e0e0800000000000000
+      internalID: -2241570578631840340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: D_Walk_1
+      name: D_Walk 1_1
       rect:
         serializedVersion: 2
         x: 41
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8766c40c2a2fc0920800000000000000
-      internalID: 2958005836100429432
+      spriteID: 925f034f2c1ebb2d0800000000000000
+      internalID: -3261765277663038167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: D_Walk_2
+      name: D_Walk 1_2
       rect:
         serializedVersion: 2
         x: 73
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 706a2dc7ff528c4e0800000000000000
-      internalID: -1961275858478782969
+      spriteID: c867777c12da112e0800000000000000
+      internalID: -2156752385941735796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: D_Walk_3
+      name: D_Walk 1_3
       rect:
         serializedVersion: 2
         x: 106
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 329786d589a339840800000000000000
-      internalID: 5229588018383845667
+      spriteID: 755475c75b65731e0800000000000000
+      internalID: -2218208953981516457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: D_Walk_4
+      name: D_Walk 1_4
       rect:
         serializedVersion: 2
         x: 137
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c3f1a6133d509b00800000000000000
-      internalID: 833268405067969473
+      spriteID: ea00f85204e3794a0800000000000000
+      internalID: -6586727484777103186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: D_Walk_5
+      name: D_Walk 1_5
       rect:
         serializedVersion: 2
         x: 169
@@ -244,8 +244,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a001a36a3c4d29d0800000000000000
-      internalID: -2797495979863899995
+      spriteID: cf801504d1db73e60800000000000000
+      internalID: 7942024401221912828
       vertices: []
       indices: 
       edges: []
@@ -261,12 +261,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      D_Walk_0: 6808733625049879353
-      D_Walk_1: 2958005836100429432
-      D_Walk_2: -1961275858478782969
-      D_Walk_3: 5229588018383845667
-      D_Walk_4: 833268405067969473
-      D_Walk_5: -2797495979863899995
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

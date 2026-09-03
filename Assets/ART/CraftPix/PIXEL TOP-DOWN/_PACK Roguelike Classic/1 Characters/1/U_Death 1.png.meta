@@ -3,26 +3,26 @@ guid: 7884abf6fec593443a03add87ed403d0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2637731397916345017
-    second: U_Death_0
+      213: -8360025766819508704
+    second: U_Death 1_0
   - first:
-      213: -5509347254950527449
-    second: U_Death_1
+      213: 6612274680977081770
+    second: U_Death 1_1
   - first:
-      213: 80754983531929008
-    second: U_Death_2
+      213: 871722179607847459
+    second: U_Death 1_2
   - first:
-      213: 1298241908746779396
-    second: U_Death_3
+      213: -580283471897727230
+    second: U_Death 1_3
   - first:
-      213: -2317196809264891249
-    second: U_Death_4
+      213: 4668481667048772316
+    second: U_Death 1_4
   - first:
-      213: -6494677814020538856
-    second: U_Death_5
+      213: -3101216927287055184
+    second: U_Death 1_5
   - first:
-      213: 1531127125101351425
-    second: U_Death_6
+      213: -6901246956223503470
+    second: U_Death 1_6
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -93,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: U_Death_0
+      name: U_Death 1_0
       rect:
         serializedVersion: 2
         x: 8
@@ -142,14 +142,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74d3d46d445e46bd0800000000000000
-      internalID: -2637731397916345017
+      spriteID: 02e4c9fbbd83bfb80800000000000000
+      internalID: -8360025766819508704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: U_Death_1
+      name: U_Death 1_1
       rect:
         serializedVersion: 2
         x: 37
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 72e76648cddda83b0800000000000000
-      internalID: -5509347254950527449
+      spriteID: aa5c2fcf9c483cb50800000000000000
+      internalID: 6612274680977081770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: U_Death_2
+      name: U_Death 1_2
       rect:
         serializedVersion: 2
         x: 66
@@ -184,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bd534bca36ee1100800000000000000
-      internalID: 80754983531929008
+      spriteID: 322ea5a24baf81c00800000000000000
+      internalID: 871722179607847459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: U_Death_3
+      name: U_Death 1_3
       rect:
         serializedVersion: 2
         x: 97
@@ -205,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40b706b3328440210800000000000000
-      internalID: 1298241908746779396
+      spriteID: 20f618cb14b62f7f0800000000000000
+      internalID: -580283471897727230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: U_Death_4
+      name: U_Death 1_4
       rect:
         serializedVersion: 2
         x: 130
@@ -226,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8af81d67c9a7dfd0800000000000000
-      internalID: -2317196809264891249
+      spriteID: cd29ddc6757c9c040800000000000000
+      internalID: 4668481667048772316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: U_Death_5
+      name: U_Death 1_5
       rect:
         serializedVersion: 2
         x: 164
@@ -247,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 81ef1bc30f44ed5a0800000000000000
-      internalID: -6494677814020538856
+      spriteID: 0bc60a5b2a346f4d0800000000000000
+      internalID: -3101216927287055184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: U_Death_6
+      name: U_Death 1_6
       rect:
         serializedVersion: 2
         x: 204
@@ -268,8 +268,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10291ad0208af3510800000000000000
-      internalID: 1531127125101351425
+      spriteID: 2936d0b2578d930a0800000000000000
+      internalID: -6901246956223503470
       vertices: []
       indices: 
       edges: []
@@ -285,13 +285,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      U_Death_0: -2637731397916345017
-      U_Death_1: -5509347254950527449
-      U_Death_2: 80754983531929008
-      U_Death_3: 1298241908746779396
-      U_Death_4: -2317196809264891249
-      U_Death_5: -6494677814020538856
-      U_Death_6: 1531127125101351425
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

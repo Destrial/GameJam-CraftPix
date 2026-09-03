@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 88
       width: 24
       height: 36
-    spriteID: 16ba9728bdd386f48806302c5153341c
+    spriteID: 2a343ff3087c1194b917265495d0ef74
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 132
       width: 21
       height: 40
-    spriteID: fb00af084b7c4d04d95c23a773928359
+    spriteID: 15479aa93c2f6f24bbd3c49ea51c36a5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 180
       width: 20
       height: 42
-    spriteID: 7280ccad51d68924b90757cf98f2bd0d
+    spriteID: 62274ab9d7070f8439247db170405871
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 21
       height: 40
-    spriteID: 4dd2269d7f8e42f4f99715c734c4f988
+    spriteID: 88701d640225b864b87e8a775b919a67
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 4
       width: 23
       height: 36
-    spriteID: 992d6d6585f6b6445904e1436270f81e
+    spriteID: 743f2359239439449a78b00cf9a6f327
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 4
       width: 30
       height: 34
-    spriteID: 0cb5ecd5f0af7e94c8511e47d352e685
+    spriteID: f61796180a0cae7498da8b66370e5fa2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 48
       width: 28
       height: 29
-    spriteID: a8b5837b6f22e174e9a953fd32f5b499
+    spriteID: 841146060e63a2d4499ac5c1c9518d07
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 46
       width: 30
       height: 34
-    spriteID: 26db48ef2e8cbef49ae86444c12420dd
+    spriteID: 0d76010b53abeb04a95038b58d69c947
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -295,7 +295,7 @@ ScriptedImporter:
         y: 17
         width: 24
         height: 36
-      spriteId: 16ba9728bdd386f48806302c5153341c
+      spriteId: 2a343ff3087c1194b917265495d0ef74
     - name: Vampires2_Run_right_Frame_1
       frameIndex: 1
       cellRect:
@@ -303,7 +303,7 @@ ScriptedImporter:
         y: 17
         width: 21
         height: 40
-      spriteId: fb00af084b7c4d04d95c23a773928359
+      spriteId: 15479aa93c2f6f24bbd3c49ea51c36a5
     - name: Vampires2_Run_right_Frame_2
       frameIndex: 2
       cellRect:
@@ -311,7 +311,7 @@ ScriptedImporter:
         y: 17
         width: 20
         height: 42
-      spriteId: 7280ccad51d68924b90757cf98f2bd0d
+      spriteId: 62274ab9d7070f8439247db170405871
     - name: Vampires2_Run_right_Frame_3
       frameIndex: 3
       cellRect:
@@ -319,7 +319,7 @@ ScriptedImporter:
         y: 17
         width: 21
         height: 40
-      spriteId: 4dd2269d7f8e42f4f99715c734c4f988
+      spriteId: 88701d640225b864b87e8a775b919a67
     - name: Vampires2_Run_right_Frame_4
       frameIndex: 4
       cellRect:
@@ -327,7 +327,7 @@ ScriptedImporter:
         y: 17
         width: 23
         height: 36
-      spriteId: 992d6d6585f6b6445904e1436270f81e
+      spriteId: 743f2359239439449a78b00cf9a6f327
     - name: Vampires2_Run_right_Frame_5
       frameIndex: 5
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         y: 17
         width: 30
         height: 34
-      spriteId: 0cb5ecd5f0af7e94c8511e47d352e685
+      spriteId: f61796180a0cae7498da8b66370e5fa2
     - name: Vampires2_Run_right_Frame_6
       frameIndex: 6
       cellRect:
@@ -343,7 +343,7 @@ ScriptedImporter:
         y: 17
         width: 28
         height: 29
-      spriteId: a8b5837b6f22e174e9a953fd32f5b499
+      spriteId: 841146060e63a2d4499ac5c1c9518d07
     - name: Vampires2_Run_right_Frame_7
       frameIndex: 7
       cellRect:
@@ -351,7 +351,7 @@ ScriptedImporter:
         y: 17
         width: 30
         height: 34
-      spriteId: 26db48ef2e8cbef49ae86444c12420dd
+      spriteId: 0d76010b53abeb04a95038b58d69c947
     linkedCells: []
     parentIndex: -1
   platformSettings: []

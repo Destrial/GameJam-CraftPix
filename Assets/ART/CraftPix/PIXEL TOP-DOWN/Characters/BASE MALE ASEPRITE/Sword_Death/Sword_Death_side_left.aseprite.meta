@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 35
       width: 16
       height: 25
-    spriteID: 76adc17db9b9d8340b5703073e5d89bc
+    spriteID: 295e4aefe12316446b2a2c196146357b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 4
       width: 22
       height: 23
-    spriteID: bc2f1109b4803f94a8c9432e26397275
+    spriteID: 838c5a2ece01db1458f0e2b036913e65
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 23
       height: 19
-    spriteID: 74199287e62195f4584614caaa6dfd1f
+    spriteID: 21f2c24b9c02bb44db70937dca3bbf83
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 103
       width: 23
       height: 13
-    spriteID: 94cb7ce45819cac468ea461cda393f0f
+    spriteID: 47fce8568891dcc46b08acfd102dd4ec
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 31
       width: 23
       height: 16
-    spriteID: e33e2438d42b380489f923b9b45bd5d1
+    spriteID: f58daadc6258c854facbb96dba1c9962
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 55
       width: 23
       height: 16
-    spriteID: 3f94b6fe9b8511f47aa91c648f32bb70
+    spriteID: e45bac4ce6fe22e48ae0c5ccf19c15d2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 79
       width: 23
       height: 16
-    spriteID: e0413a21649b73f43bf232c17ec7c46e
+    spriteID: 96ee2fbf5823f3f45979247927889287
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -275,7 +275,7 @@ ScriptedImporter:
         y: 17
         width: 16
         height: 25
-      spriteId: 76adc17db9b9d8340b5703073e5d89bc
+      spriteId: 295e4aefe12316446b2a2c196146357b
     - name: Sword_Death_side_left_Frame_1
       frameIndex: 1
       cellRect:
@@ -283,7 +283,7 @@ ScriptedImporter:
         y: 17
         width: 22
         height: 23
-      spriteId: bc2f1109b4803f94a8c9432e26397275
+      spriteId: 838c5a2ece01db1458f0e2b036913e65
     - name: Sword_Death_side_left_Frame_2
       frameIndex: 2
       cellRect:
@@ -291,7 +291,7 @@ ScriptedImporter:
         y: 17
         width: 23
         height: 19
-      spriteId: 74199287e62195f4584614caaa6dfd1f
+      spriteId: 21f2c24b9c02bb44db70937dca3bbf83
     - name: Sword_Death_side_left_Frame_3
       frameIndex: 3
       cellRect:
@@ -299,7 +299,7 @@ ScriptedImporter:
         y: 17
         width: 23
         height: 13
-      spriteId: 94cb7ce45819cac468ea461cda393f0f
+      spriteId: 47fce8568891dcc46b08acfd102dd4ec
     - name: Sword_Death_side_left_Frame_4
       frameIndex: 4
       cellRect:
@@ -307,7 +307,7 @@ ScriptedImporter:
         y: 17
         width: 23
         height: 16
-      spriteId: e33e2438d42b380489f923b9b45bd5d1
+      spriteId: f58daadc6258c854facbb96dba1c9962
     - name: Sword_Death_side_left_Frame_5
       frameIndex: 5
       cellRect:
@@ -315,7 +315,7 @@ ScriptedImporter:
         y: 17
         width: 23
         height: 16
-      spriteId: 3f94b6fe9b8511f47aa91c648f32bb70
+      spriteId: e45bac4ce6fe22e48ae0c5ccf19c15d2
     - name: Sword_Death_side_left_Frame_6
       frameIndex: 6
       cellRect:
@@ -323,7 +323,7 @@ ScriptedImporter:
         y: 17
         width: 23
         height: 16
-      spriteId: e0413a21649b73f43bf232c17ec7c46e
+      spriteId: 96ee2fbf5823f3f45979247927889287
     linkedCells: []
     parentIndex: -1
   platformSettings: []

@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 71
       width: 15
       height: 25
-    spriteID: 77a40629208b8eb4f9e29f905cc2a989
+    spriteID: b25a05525b8961d4d9eddc296a3aea2c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 38
       width: 15
       height: 27
-    spriteID: d3fc78043c989e14f943a0f11b52d8ba
+    spriteID: 8ef0546aedca9c8499c82b7cbed4f1c1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 17
       height: 26
-    spriteID: 4030087e05da0c04faf7ade8dee513d8
+    spriteID: 5699d882c30e63940af14e693a1e7390
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 16
       height: 25
-    spriteID: 0e0e3a7c1d5c61845945de8f7ec7c449
+    spriteID: 3e8139b49e0cf994d8a6ba24e40c72ce
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 37
       width: 15
       height: 26
-    spriteID: 235297d3daeb7b5489e88325df35421b
+    spriteID: 8c197df0966825b478096b5e7f152f8b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 73
       width: 15
       height: 27
-    spriteID: fff15015e70d8f548bef809ffba00ce4
+    spriteID: c09cdd2a4a53b0c4da7ae000dd950b54
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -255,7 +255,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 25
-      spriteId: 77a40629208b8eb4f9e29f905cc2a989
+      spriteId: b25a05525b8961d4d9eddc296a3aea2c
     - name: Sword_Walk_side_right_Frame_1
       frameIndex: 1
       cellRect:
@@ -263,7 +263,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 27
-      spriteId: d3fc78043c989e14f943a0f11b52d8ba
+      spriteId: 8ef0546aedca9c8499c82b7cbed4f1c1
     - name: Sword_Walk_side_right_Frame_2
       frameIndex: 2
       cellRect:
@@ -271,7 +271,7 @@ ScriptedImporter:
         y: 17
         width: 17
         height: 26
-      spriteId: 4030087e05da0c04faf7ade8dee513d8
+      spriteId: 5699d882c30e63940af14e693a1e7390
     - name: Sword_Walk_side_right_Frame_3
       frameIndex: 3
       cellRect:
@@ -279,7 +279,7 @@ ScriptedImporter:
         y: 17
         width: 16
         height: 25
-      spriteId: 0e0e3a7c1d5c61845945de8f7ec7c449
+      spriteId: 3e8139b49e0cf994d8a6ba24e40c72ce
     - name: Sword_Walk_side_right_Frame_4
       frameIndex: 4
       cellRect:
@@ -287,7 +287,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 26
-      spriteId: 235297d3daeb7b5489e88325df35421b
+      spriteId: 8c197df0966825b478096b5e7f152f8b
     - name: Sword_Walk_side_right_Frame_5
       frameIndex: 5
       cellRect:
@@ -295,7 +295,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 27
-      spriteId: fff15015e70d8f548bef809ffba00ce4
+      spriteId: c09cdd2a4a53b0c4da7ae000dd950b54
     linkedCells: []
     parentIndex: -1
   platformSettings: []

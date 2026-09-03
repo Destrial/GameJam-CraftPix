@@ -76,7 +76,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -114,7 +114,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -453,20 +453,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Leap_0: 4687906494181083203
-      Leap_1: 6638353751386677545
-      Leap_10: -3010325419371708992
-      Leap_11: 7067440113231396286
-      Leap_12: -6800610392525177559
-      Leap_13: -6876488525010379878
-      Leap_2: -1041419638650298139
-      Leap_3: 4559459253670690829
-      Leap_4: 4089301308430747092
-      Leap_5: 6457009658666716555
-      Leap_6: 6075863715842690618
-      Leap_7: 739103096331076025
-      Leap_8: 1031753461499112755
-      Leap_9: 2406386987154460502
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

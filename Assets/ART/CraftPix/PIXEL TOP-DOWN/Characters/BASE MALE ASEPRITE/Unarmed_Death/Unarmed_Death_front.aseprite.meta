@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 15
       height: 25
-    spriteID: 380f4804c8c701244849a78ff285c49e
+    spriteID: 572fa996e93daef4a94969f08b3581b4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 37
       width: 15
       height: 22
-    spriteID: f41ef0947d34d9045ab5e29c8430dcf9
+    spriteID: fb3acf8ee7b26cc4d9bd9ab8981ca6d2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 19
       height: 17
-    spriteID: c9e6aba0ca076d947a29d4ec43c9bbdf
+    spriteID: 1ebee7c0753ee9b4ab09fb8d8c1c8f74
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 95
       width: 17
       height: 11
-    spriteID: 91be55b5b1678424185a354862611ff5
+    spriteID: 299b241d4b3e20f4a8e2b92931d19832
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 29
       width: 19
       height: 14
-    spriteID: 55acf1e0fd3826f43be0138d374bebbd
+    spriteID: 45d07db2bf442c3448fdb8858b0d4cf2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 51
       width: 19
       height: 14
-    spriteID: bceff14c9e3c8fd4b8977c1e92a4eaa0
+    spriteID: e29ab9dfbe55a71449f713796604227d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 73
       width: 19
       height: 14
-    spriteID: 7fe8288a539ddb345b7b178011682b12
+    spriteID: 011d988cdfc2529439b5543d7728f7ba
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -275,7 +275,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 25
-      spriteId: 380f4804c8c701244849a78ff285c49e
+      spriteId: 572fa996e93daef4a94969f08b3581b4
     - name: Unarmed_Death_front_Frame_1
       frameIndex: 1
       cellRect:
@@ -283,7 +283,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 22
-      spriteId: f41ef0947d34d9045ab5e29c8430dcf9
+      spriteId: fb3acf8ee7b26cc4d9bd9ab8981ca6d2
     - name: Unarmed_Death_front_Frame_2
       frameIndex: 2
       cellRect:
@@ -291,7 +291,7 @@ ScriptedImporter:
         y: 17
         width: 19
         height: 17
-      spriteId: c9e6aba0ca076d947a29d4ec43c9bbdf
+      spriteId: 1ebee7c0753ee9b4ab09fb8d8c1c8f74
     - name: Unarmed_Death_front_Frame_3
       frameIndex: 3
       cellRect:
@@ -299,7 +299,7 @@ ScriptedImporter:
         y: 17
         width: 17
         height: 11
-      spriteId: 91be55b5b1678424185a354862611ff5
+      spriteId: 299b241d4b3e20f4a8e2b92931d19832
     - name: Unarmed_Death_front_Frame_4
       frameIndex: 4
       cellRect:
@@ -307,7 +307,7 @@ ScriptedImporter:
         y: 17
         width: 19
         height: 14
-      spriteId: 55acf1e0fd3826f43be0138d374bebbd
+      spriteId: 45d07db2bf442c3448fdb8858b0d4cf2
     - name: Unarmed_Death_front_Frame_5
       frameIndex: 5
       cellRect:
@@ -315,7 +315,7 @@ ScriptedImporter:
         y: 17
         width: 19
         height: 14
-      spriteId: bceff14c9e3c8fd4b8977c1e92a4eaa0
+      spriteId: e29ab9dfbe55a71449f713796604227d
     - name: Unarmed_Death_front_Frame_6
       frameIndex: 6
       cellRect:
@@ -323,7 +323,7 @@ ScriptedImporter:
         y: 17
         width: 19
         height: 14
-      spriteId: 7fe8288a539ddb345b7b178011682b12
+      spriteId: 011d988cdfc2529439b5543d7728f7ba
     linkedCells: []
     parentIndex: -1
   platformSettings: []

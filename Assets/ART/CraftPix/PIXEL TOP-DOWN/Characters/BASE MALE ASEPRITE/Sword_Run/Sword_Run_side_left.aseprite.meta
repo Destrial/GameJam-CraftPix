@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 76
       width: 46
       height: 26
-    spriteID: 9140c95fd4a8da24387c6c3232d0950c
+    spriteID: 2ca910a5c85210a4bad4f882f3a88955
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 110
       width: 46
       height: 26
-    spriteID: b8074239672a280428310e8d1c942463
+    spriteID: 80812bcfb50433e4f93bfa65d5039aff
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 144
       width: 46
       height: 26
-    spriteID: d1f12039a2c580b41b6492678d88ed7a
+    spriteID: 823563af1ecb0da47a9af8a05949eff9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 46
       height: 28
-    spriteID: 863a4a7f761e6b84ba906830f786a6c5
+    spriteID: 86b80d50b0dc2c34c91c752132ea572b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 178
       width: 46
       height: 26
-    spriteID: 87de5b7f13694734e8e1c21a88638783
+    spriteID: bd1ab6225be9f884fb48ab63d4d82736
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 212
       width: 46
       height: 26
-    spriteID: 23efd2be0a77e1c4e94c67dcbc414a8b
+    spriteID: 875e9a295adaf2b44b33e4c796d155bd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 4
       width: 46
       height: 26
-    spriteID: d92e659bfdbc0de4cae60b74e918be21
+    spriteID: 31245ae61dc5b884590dc45fe258b593
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 40
       width: 46
       height: 28
-    spriteID: 697049e3e28023b43bb896184503c93d
+    spriteID: 36f6c3494d7c93a43b1b57ddf5c50fea
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -295,7 +295,7 @@ ScriptedImporter:
         y: 17
         width: 46
         height: 26
-      spriteId: 9140c95fd4a8da24387c6c3232d0950c
+      spriteId: 2ca910a5c85210a4bad4f882f3a88955
     - name: Sword_Run_side_left_Frame_1
       frameIndex: 1
       cellRect:
@@ -303,7 +303,7 @@ ScriptedImporter:
         y: 17
         width: 46
         height: 26
-      spriteId: b8074239672a280428310e8d1c942463
+      spriteId: 80812bcfb50433e4f93bfa65d5039aff
     - name: Sword_Run_side_left_Frame_2
       frameIndex: 2
       cellRect:
@@ -311,7 +311,7 @@ ScriptedImporter:
         y: 17
         width: 46
         height: 26
-      spriteId: d1f12039a2c580b41b6492678d88ed7a
+      spriteId: 823563af1ecb0da47a9af8a05949eff9
     - name: Sword_Run_side_left_Frame_3
       frameIndex: 3
       cellRect:
@@ -319,7 +319,7 @@ ScriptedImporter:
         y: 17
         width: 46
         height: 28
-      spriteId: 863a4a7f761e6b84ba906830f786a6c5
+      spriteId: 86b80d50b0dc2c34c91c752132ea572b
     - name: Sword_Run_side_left_Frame_4
       frameIndex: 4
       cellRect:
@@ -327,7 +327,7 @@ ScriptedImporter:
         y: 17
         width: 46
         height: 26
-      spriteId: 87de5b7f13694734e8e1c21a88638783
+      spriteId: bd1ab6225be9f884fb48ab63d4d82736
     - name: Sword_Run_side_left_Frame_5
       frameIndex: 5
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         y: 17
         width: 46
         height: 26
-      spriteId: 23efd2be0a77e1c4e94c67dcbc414a8b
+      spriteId: 875e9a295adaf2b44b33e4c796d155bd
     - name: Sword_Run_side_left_Frame_6
       frameIndex: 6
       cellRect:
@@ -343,7 +343,7 @@ ScriptedImporter:
         y: 17
         width: 46
         height: 26
-      spriteId: d92e659bfdbc0de4cae60b74e918be21
+      spriteId: 31245ae61dc5b884590dc45fe258b593
     - name: Sword_Run_side_left_Frame_7
       frameIndex: 7
       cellRect:
@@ -351,7 +351,7 @@ ScriptedImporter:
         y: 17
         width: 46
         height: 28
-      spriteId: 697049e3e28023b43bb896184503c93d
+      spriteId: 36f6c3494d7c93a43b1b57ddf5c50fea
     linkedCells: []
     parentIndex: -1
   platformSettings: []

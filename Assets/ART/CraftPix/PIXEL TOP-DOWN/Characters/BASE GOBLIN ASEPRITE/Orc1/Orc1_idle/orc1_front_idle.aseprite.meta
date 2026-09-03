@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 406
       width: 269
       height: 192
-    spriteID: daee0ec0170b03e4299e22b8ffe30bc2
+    spriteID: fa89d46ddd58d094a88614216e69f973
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 4
       width: 269
       height: 193
-    spriteID: 50008c95e4921ef4e8c20454a34540ef
+    spriteID: 44834e0f31ec2e34583827a241b64991
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 205
       width: 269
       height: 193
-    spriteID: 64716cb3170cb364484c844a5d8c3fdc
+    spriteID: d52662c1d324a3a4e8e9456aba3b6783
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 606
       width: 269
       height: 192
-    spriteID: 62657a317cae9f7488dce53209b82fa1
+    spriteID: 8e6ddc355685afc4baf8128b808c0939
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -215,7 +215,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 192
-      spriteId: daee0ec0170b03e4299e22b8ffe30bc2
+      spriteId: fa89d46ddd58d094a88614216e69f973
     - name: orc1_front_idle_Frame_1
       frameIndex: 1
       cellRect:
@@ -223,7 +223,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 193
-      spriteId: 50008c95e4921ef4e8c20454a34540ef
+      spriteId: 44834e0f31ec2e34583827a241b64991
     - name: orc1_front_idle_Frame_2
       frameIndex: 2
       cellRect:
@@ -231,7 +231,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 193
-      spriteId: 64716cb3170cb364484c844a5d8c3fdc
+      spriteId: d52662c1d324a3a4e8e9456aba3b6783
     - name: orc1_front_idle_Frame_3
       frameIndex: 3
       cellRect:
@@ -239,7 +239,7 @@ ScriptedImporter:
         y: -142
         width: 269
         height: 192
-      spriteId: 62657a317cae9f7488dce53209b82fa1
+      spriteId: 8e6ddc355685afc4baf8128b808c0939
     linkedCells: []
     parentIndex: -1
   platformSettings: []

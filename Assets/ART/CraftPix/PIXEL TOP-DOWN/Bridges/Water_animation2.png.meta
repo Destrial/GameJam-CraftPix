@@ -361,7 +361,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -399,7 +399,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -2733,115 +2733,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Water_animation2_0: 1006262370084210630
-      Water_animation2_1: -491275763721209135
-      Water_animation2_10: -2739787235556192580
-      Water_animation2_100: 8130781854982456881
-      Water_animation2_101: -8850079481645628327
-      Water_animation2_102: 3137700804561468689
-      Water_animation2_103: -1460469560995388531
-      Water_animation2_104: -5402887129108982067
-      Water_animation2_105: 4714261258604473149
-      Water_animation2_106: 2287340275382947304
-      Water_animation2_107: -6589811751720346465
-      Water_animation2_108: -2229740765858264100
-      Water_animation2_11: -2112955970525285558
-      Water_animation2_12: 2793417361094470176
-      Water_animation2_13: -7493557580888257650
-      Water_animation2_14: 5739765967615289235
-      Water_animation2_15: -956606701284433400
-      Water_animation2_16: -4012426768627701634
-      Water_animation2_17: 115675819921414203
-      Water_animation2_18: 1706117101986886606
-      Water_animation2_19: -1728281300851033298
-      Water_animation2_2: -7120200980180755131
-      Water_animation2_20: 2149944025227384609
-      Water_animation2_21: 4862378258028139190
-      Water_animation2_22: -3164424477300505397
-      Water_animation2_23: -2174210662620747636
-      Water_animation2_24: -3505774937718543524
-      Water_animation2_25: 2109244959098743744
-      Water_animation2_26: 2255904259370606968
-      Water_animation2_27: 3140762272342889989
-      Water_animation2_28: -5221307902176048158
-      Water_animation2_29: 2361922505533650854
-      Water_animation2_3: 8577853295062669646
-      Water_animation2_30: 4747357951810896793
-      Water_animation2_31: 4954918120249568232
-      Water_animation2_32: 7117336795928565036
-      Water_animation2_33: -8239211713390624070
-      Water_animation2_34: 2313235128974836844
-      Water_animation2_35: 6417339605626388112
-      Water_animation2_36: 8034995768165826457
-      Water_animation2_37: -6299756957585860647
-      Water_animation2_38: -273717538967963268
-      Water_animation2_39: -5678146898360105752
-      Water_animation2_4: 6606016472426778616
-      Water_animation2_40: -6553126500079232267
-      Water_animation2_41: -3456729895376330207
-      Water_animation2_42: 599544923995818140
-      Water_animation2_43: 2274032167019928202
-      Water_animation2_44: -9188684338856354998
-      Water_animation2_45: 4541503964297261759
-      Water_animation2_46: -5566112817212523370
-      Water_animation2_47: -4472187584235278763
-      Water_animation2_48: 5858391501989930572
-      Water_animation2_49: 2665963916281470100
-      Water_animation2_5: 2694163055155537617
-      Water_animation2_50: -4425291376010124800
-      Water_animation2_51: 5212250001276731192
-      Water_animation2_52: -7789478335582663809
-      Water_animation2_53: 2436063280186411160
-      Water_animation2_54: -4499052462708176977
-      Water_animation2_55: -646378598523788110
-      Water_animation2_56: -7650455219168961223
-      Water_animation2_57: -5136276905790500763
-      Water_animation2_58: -2086347758609301754
-      Water_animation2_59: -3923346658801392810
-      Water_animation2_6: 8938274616364259362
-      Water_animation2_60: 683513243099100291
-      Water_animation2_61: -2297317473476960050
-      Water_animation2_62: -1057614481392793627
-      Water_animation2_63: -7795810406410041724
-      Water_animation2_64: -4216386934859338138
-      Water_animation2_65: 5672133192699239869
-      Water_animation2_66: 422814990653400279
-      Water_animation2_67: 1682112662176270688
-      Water_animation2_68: 5485495516402996762
-      Water_animation2_69: 8738604640282275817
-      Water_animation2_7: -8503697547652776296
-      Water_animation2_70: -1633230998853793922
-      Water_animation2_71: -6645307474363494037
-      Water_animation2_72: 8013483720916604230
-      Water_animation2_73: -4346122966074319801
-      Water_animation2_74: -5854193255020690361
-      Water_animation2_75: -6174604805713758318
-      Water_animation2_76: -7671909252180841470
-      Water_animation2_77: 1902200501513819189
-      Water_animation2_78: -6363744958130283423
-      Water_animation2_79: -1208162835297139839
-      Water_animation2_8: 7008775808024762306
-      Water_animation2_80: -631393775371180056
-      Water_animation2_81: -4973235203502460983
-      Water_animation2_82: 5945237500637949811
-      Water_animation2_83: 8348296615650675207
-      Water_animation2_84: 4891049578126040376
-      Water_animation2_85: 5036871817577505697
-      Water_animation2_86: -7927978881997235121
-      Water_animation2_87: -7249728888457389180
-      Water_animation2_88: -5305478411552513982
-      Water_animation2_89: 6081812113984954325
-      Water_animation2_9: 4791049755199373315
-      Water_animation2_90: 1143282620916497883
-      Water_animation2_91: -5523933669725537459
-      Water_animation2_92: 9010845481684263216
-      Water_animation2_93: 3228071392773825034
-      Water_animation2_94: 7007225676871497819
-      Water_animation2_95: -1812084089862657247
-      Water_animation2_96: -2922581879489519510
-      Water_animation2_97: 1757041514064515688
-      Water_animation2_98: 4388880987278960566
-      Water_animation2_99: 5039481034726217889
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

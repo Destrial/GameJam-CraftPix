@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 15
       height: 25
-    spriteID: cf10698d04d4ac64d9f2ee178e7aa469
+    spriteID: b5d839cc1fe0e0e47a5e074a37f03596
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 37
       width: 15
       height: 23
-    spriteID: e0f977aeb26b69143bd50df0e02c1ffb
+    spriteID: 6957564690ee83246914d941b95e052b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 99
       width: 15
       height: 22
-    spriteID: c13b866e3856d7a47b78889834ba364d
+    spriteID: ddde81f0a24609641a6712e87700f83b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 15
       height: 22
-    spriteID: 97d269751faf28e4b92c87416d497b9d
+    spriteID: 3f6fa892a5c96f64cb5f39f08ed63f24
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 68
       width: 15
       height: 23
-    spriteID: 09c0d4e0707f8164493d23c192ab4e43
+    spriteID: 1ffde4414a52a554fa7d69c3efc6b61b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -235,7 +235,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 25
-      spriteId: cf10698d04d4ac64d9f2ee178e7aa469
+      spriteId: b5d839cc1fe0e0e47a5e074a37f03596
     - name: Sword_Hurt_side_right_Frame_1
       frameIndex: 1
       cellRect:
@@ -243,7 +243,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 23
-      spriteId: e0f977aeb26b69143bd50df0e02c1ffb
+      spriteId: 6957564690ee83246914d941b95e052b
     - name: Sword_Hurt_side_right_Frame_2
       frameIndex: 2
       cellRect:
@@ -251,7 +251,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 22
-      spriteId: c13b866e3856d7a47b78889834ba364d
+      spriteId: ddde81f0a24609641a6712e87700f83b
     - name: Sword_Hurt_side_right_Frame_3
       frameIndex: 3
       cellRect:
@@ -259,7 +259,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 22
-      spriteId: 97d269751faf28e4b92c87416d497b9d
+      spriteId: 3f6fa892a5c96f64cb5f39f08ed63f24
     - name: Sword_Hurt_side_right_Frame_4
       frameIndex: 4
       cellRect:
@@ -267,7 +267,7 @@ ScriptedImporter:
         y: 17
         width: 15
         height: 23
-      spriteId: 09c0d4e0707f8164493d23c192ab4e43
+      spriteId: 1ffde4414a52a554fa7d69c3efc6b61b
     linkedCells: []
     parentIndex: -1
   platformSettings: []

@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 47
       height: 30
-    spriteID: 05f996c4aa021584c992c4f8b0721436
+    spriteID: 09545a0a5b1134148bdc719ee8ed8866
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 4
       width: 47
       height: 27
-    spriteID: be2b16161163f4b45b08fe75213c7fe1
+    spriteID: c3a801b2dbdaf434ea4f7d13b817a2f0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 156
       width: 47
       height: 29
-    spriteID: befde4e2ff91206468ab2dedca65964d
+    spriteID: bca04f3961c315840a8b8c49001a1225
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 42
       width: 47
       height: 30
-    spriteID: 91316371202b138499c8a84787bc9308
+    spriteID: 3487a77ac1e521e49b5a7e751e91dae1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 80
       width: 47
       height: 30
-    spriteID: 54f8dcfe066bcdf4cbfa383fd100c8dd
+    spriteID: 83ff7ee46eff69f4385b7885f1c6f4e3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 39
       width: 47
       height: 27
-    spriteID: c3e826dfc3bf9e94594ab956c0698c0f
+    spriteID: 2622422d5df9aa140baef6bd91f55304
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 193
       width: 47
       height: 29
-    spriteID: 89a0f478897a9754eadcf56e50cec9ed
+    spriteID: 4e29bc90a33cddd459550c725dc9cc9f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 118
       width: 47
       height: 30
-    spriteID: 962793d313297a24d802069a42ded28d
+    spriteID: c42eb9acf3ec0c449aac57ed702c7133
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -295,7 +295,7 @@ ScriptedImporter:
         y: 17
         width: 47
         height: 30
-      spriteId: 05f996c4aa021584c992c4f8b0721436
+      spriteId: 09545a0a5b1134148bdc719ee8ed8866
     - name: Swordsman_lvl3_Run_side_right_Frame_1
       frameIndex: 1
       cellRect:
@@ -303,7 +303,7 @@ ScriptedImporter:
         y: 17
         width: 47
         height: 27
-      spriteId: be2b16161163f4b45b08fe75213c7fe1
+      spriteId: c3a801b2dbdaf434ea4f7d13b817a2f0
     - name: Swordsman_lvl3_Run_side_right_Frame_2
       frameIndex: 2
       cellRect:
@@ -311,7 +311,7 @@ ScriptedImporter:
         y: 17
         width: 47
         height: 29
-      spriteId: befde4e2ff91206468ab2dedca65964d
+      spriteId: bca04f3961c315840a8b8c49001a1225
     - name: Swordsman_lvl3_Run_side_right_Frame_3
       frameIndex: 3
       cellRect:
@@ -319,7 +319,7 @@ ScriptedImporter:
         y: 17
         width: 47
         height: 30
-      spriteId: 91316371202b138499c8a84787bc9308
+      spriteId: 3487a77ac1e521e49b5a7e751e91dae1
     - name: Swordsman_lvl3_Run_side_right_Frame_4
       frameIndex: 4
       cellRect:
@@ -327,7 +327,7 @@ ScriptedImporter:
         y: 17
         width: 47
         height: 30
-      spriteId: 54f8dcfe066bcdf4cbfa383fd100c8dd
+      spriteId: 83ff7ee46eff69f4385b7885f1c6f4e3
     - name: Swordsman_lvl3_Run_side_right_Frame_5
       frameIndex: 5
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         y: 17
         width: 47
         height: 27
-      spriteId: c3e826dfc3bf9e94594ab956c0698c0f
+      spriteId: 2622422d5df9aa140baef6bd91f55304
     - name: Swordsman_lvl3_Run_side_right_Frame_6
       frameIndex: 6
       cellRect:
@@ -343,7 +343,7 @@ ScriptedImporter:
         y: 17
         width: 47
         height: 29
-      spriteId: 89a0f478897a9754eadcf56e50cec9ed
+      spriteId: 4e29bc90a33cddd459550c725dc9cc9f
     - name: Swordsman_lvl3_Run_side_right_Frame_7
       frameIndex: 7
       cellRect:
@@ -351,7 +351,7 @@ ScriptedImporter:
         y: 17
         width: 47
         height: 30
-      spriteId: 962793d313297a24d802069a42ded28d
+      spriteId: c42eb9acf3ec0c449aac57ed702c7133
     linkedCells: []
     parentIndex: -1
   platformSettings: []

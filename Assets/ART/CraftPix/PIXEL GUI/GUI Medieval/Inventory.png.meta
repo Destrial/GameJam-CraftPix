@@ -133,7 +133,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -171,7 +171,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -909,39 +909,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Inventory_0: 739905185230883310
-      Inventory_1: 5223370693312396623
-      Inventory_10: 6869799574784150816
-      Inventory_11: -7467943668291976704
-      Inventory_12: 6154510391789251421
-      Inventory_13: 6954150254032427501
-      Inventory_14: 2159158366179690892
-      Inventory_15: -3526832816626302041
-      Inventory_16: 3899455657371666750
-      Inventory_17: 7089385512954985418
-      Inventory_18: -8309026227576324564
-      Inventory_19: 716187651507184709
-      Inventory_2: 2955297733908575915
-      Inventory_20: 5962780575672658813
-      Inventory_21: 8331604878066833204
-      Inventory_22: -8973731641081011390
-      Inventory_23: -1497904077475050984
-      Inventory_24: 4082595788848827377
-      Inventory_25: -5710189734230448566
-      Inventory_26: 7118272307792908693
-      Inventory_27: -6970861730978716031
-      Inventory_28: 3297046867783284430
-      Inventory_29: -5634099216356379311
-      Inventory_3: 141063693582682956
-      Inventory_30: 2549406483797677747
-      Inventory_31: 6416978100492100098
-      Inventory_32: 130901334849560836
-      Inventory_4: 3567876534770325076
-      Inventory_5: 2296321019496089666
-      Inventory_6: -4910467378755017893
-      Inventory_7: -5604920543791102885
-      Inventory_8: 6112630769584023636
-      Inventory_9: -5280726875750141052
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
