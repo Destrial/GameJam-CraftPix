@@ -1,15 +1,15 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
 using UnityEngine.Serialization;
 
 namespace Destrial
 {
-
     public class PlayerController : MonoBehaviour
     {
         DestrialInputs _myInputs;
         private BoardManager _board;
-        
+
         public Vector2Int CellPosition;
         private Animator _animator;
         private bool _isGameOver;
@@ -18,23 +18,32 @@ namespace Destrial
         private Vector3 _moveTarget;
         [SerializeField] float _moveSpeed = 1;
         public BoardManager.CellData Cell;
+        private bool _isAttacking;
+        [SerializeField] float _attackSpeed = 0.4f;
+      
+        public enum PlayerState { Idle, Moving , Attacking , Grabbing, Sleeping, Stun}
 
+        public PlayerState MyState;
+        public PlayerState MyAction;
+
+       private bool _cantInput;
+      //  [SerializeField]
+      //  private float _waitInputTime;
         private void Awake()
         {
             _animator = GetComponent<Animator>();
             _myInputs = new DestrialInputs();
         }
+
         private void OnEnable()
         {
             _myInputs.Enable();
-            
         }
 
-      
+
         private void OnDisable()
         {
             _myInputs.Disable();
-        
         }
 
         public void Spawn(BoardManager boardManager, Vector2Int cell)
@@ -49,14 +58,13 @@ namespace Destrial
 
         public void MoveTo(Vector2Int cell, bool immediate)
         {
+          //  Debug.Log("Actual Moving to " + cell);
             CellPosition = cell;
 
             if (immediate)
             {
                 _isMoving = false;
                 transform.position = _board.CellToWorld(CellPosition);
-
-
             }
             else
             {
@@ -70,10 +78,12 @@ namespace Destrial
 
         public void Init()
         {
-            _isMoving = false;
+          
             _animator.SetBool("Moving", false);
             _isGameOver = false;
-
+            _isMoving = false;
+            MyState = PlayerState.Idle;
+            //_cantInput=false;
         }
 
 
@@ -88,73 +98,145 @@ namespace Destrial
 
                 return;
             }
-            if (_isMoving)
-            {
-                transform.position = Vector3.MoveTowards(transform.position, _moveTarget, _moveSpeed * Time.deltaTime);
-
-                if (transform.position == _moveTarget)
-                {
-                    _isMoving = false;
-                    _animator.SetBool("Moving", false);
-                    var cellData = _board.GetCellData(CellPosition);
-                    if (cellData.ContainedObject != null)
-                        cellData.ContainedObject.PlayerEntered();
-                }
-
-                return;
-            }
+            if (_cantInput) return;
             
-            Vector2 moveInput = _myInputs.Player.Move.ReadValue<Vector2>();
-            
-            Vector2Int newCellTarget = CellPosition;
             bool hasMoved = false;
+            Vector2 moveInput = _myInputs.Player.Move.ReadValue<Vector2>();
+            InputAction moveInputAction = _myInputs.Player.Move;
 
-            if (moveInput.y>0)
+            Vector2Int newCellTarget = CellPosition;
+            
+            
+            if (MyState==PlayerState.Idle) //Only new input if idle
             {
-                newCellTarget.y += 1;
-                hasMoved = true;
-            }
-            else if (moveInput.y<0)
-            {
-                newCellTarget.y -= 1;
-                hasMoved = true;
-            }
-            else if (moveInput.x>0)
-            {
-                newCellTarget.x += 1;
-                hasMoved = true;
-            }
-            else if (moveInput.x<0)
-            {
-                newCellTarget.x -= 1;
-                hasMoved = true;
-            }
 
-            if (hasMoved)
-            {
-                Debug.Log("Moving to " + newCellTarget);
-                //check if the new position is passable, then move there if it is.
-                BoardManager.CellData cellData = _board.GetCellData(newCellTarget);
-
-                if (cellData != null && cellData.Passable)
+               
+              
+                if (moveInputAction.IsPressed()) //Test if the player is pressing the move button
                 {
-                    GameManager.Instance.TurnManager.Tick();
-
-                    if (cellData.ContainedObject == null)
+                    if (moveInput.y > 0)
                     {
-                        MoveTo(newCellTarget, false);
+                        newCellTarget.y += 1;
+                        hasMoved = true;
                     }
-                    else if (cellData.ContainedObject.PlayerWantsToEnter())
+                    else if (moveInput.y < 0)
                     {
-                        MoveTo(newCellTarget, false);
-                        //Call PlayerEntered AFTER moving the player! Otherwise not in cell yet
-                        cellData.ContainedObject.PlayerEntered();
+                        newCellTarget.y -= 1;
+                        hasMoved = true;
+                    }
+                    else if (moveInput.x > 0)
+                    {
+                        newCellTarget.x += 1;
+                        hasMoved = true;
+                    }
+                    else if (moveInput.x < 0)
+                    {
+                        newCellTarget.x -= 1;
+                        hasMoved = true;
                     }
                 }
             }
 
+            
+            
            
+            switch (MyState)
+            {   
+                case PlayerState.Idle:
+                    if (hasMoved & !_isMoving & !_isAttacking)
+                    {
+                     //   Debug.Log("Want Moving to " + newCellTarget);
+                        //check if the new position is passable, then move there if it is.
+                        BoardManager.CellData cellData = _board.GetCellData(newCellTarget);
+
+                        if (cellData != null && cellData.Passable)
+                        {
+                          
+
+                            if (cellData.ContainedObject == null)
+                            {
+                                MoveTo(newCellTarget, false); 
+                                MyState = PlayerState.Moving;
+                                GameManager.Instance.TurnManager.Tick();
+                            }
+                            else if (cellData.ContainedObject.PlayerWantsToEnter()) // test can pass grab , enemy ,wall
+                            {
+                                MoveTo(newCellTarget, false);  //tick
+                                MyState = PlayerState.Moving;
+                                //Call PlayerEntered AFTER moving the player! Otherwise not in cell yet
+                                cellData.ContainedObject.PlayerEntered();  // only for grab
+                                GameManager.Instance.TurnManager.Tick();
+                                
+                            }
+                            else
+                            {
+                                MyState = PlayerState.Attacking; //wall or enemy
+                                _isAttacking = true;
+                                newCellTarget=CellPosition;
+                               // MoveTo(CellPosition, true); //stay in place
+                            }
+                        }
+                        else  if (cellData != null && !cellData.Passable)
+                        
+                        {
+                           // _cantInput = false; //hit a wall
+                        }
+                    }
+                    
+                    break;
+                
+                case PlayerState.Moving:
+                    if (_isMoving)
+                    {
+                        transform.position = Vector3.MoveTowards(transform.position, _moveTarget, _moveSpeed * Time.deltaTime);
+
+                        if (transform.position == _moveTarget)
+                        {
+                            _isMoving = false;
+                            MyState = PlayerState.Idle;
+                            _animator.SetBool("Moving", false);
+                            var cellData = _board.GetCellData(CellPosition);
+                            if (cellData.ContainedObject != null)
+                                cellData.ContainedObject.PlayerEntered();
+                            //_cantInput = false;
+                        }
+
+                        return;
+                    }
+                    break;
+                
+                case PlayerState.Attacking:
+                    if (_isAttacking)
+                    {
+                      //wait
+                      _cantInput = true;
+                      _isMoving = false;
+                      GameManager.Instance.TurnManager.Tick();
+                      StartCoroutine(StartTimerAttack());
+                     
+                    }
+                    break;
+                
+            }
+           
+          
+
+          
         }
+        
+       IEnumerator StartTimerAttack()
+        {
+               
+                yield return new WaitForSeconds(_attackSpeed);
+               _isAttacking = false;
+               
+               _isMoving = false;
+               MyState = PlayerState.Idle;
+               _cantInput = false;
+    
+        }
+
+        
 
         public void GameOver()
         {

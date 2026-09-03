@@ -359,7 +359,7 @@ MonoBehaviour:
   UIDoc: {fileID: 1995446974}
   BoardManager: {fileID: 1240575655}
   PlayerController: {fileID: 1504855376}
-  m_StartFood: 20
+  _startFood: 20
 --- !u!1 &1029152727
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,7 +739,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 836f8d2373e31b643b15febfe54e3051, type: 2}
   - {fileID: 11400000, guid: 4756261317754c343b316792299b32ba, type: 2}
   - {fileID: 11400000, guid: 582c77f407dd09d4f9e92c2cb7defc5d, type: 2}
-  EnemyNumber: 6
+  _enemyNumber: 6
   Player: {fileID: 1504855376}
 --- !u!4 &1504855374 stripped
 Transform:
@@ -856,6 +856,14 @@ PrefabInstance:
     - target: {fileID: 3722317598743108903, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843351288733793645, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
+      propertyPath: _timeNextMove
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843351288733793645, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
+      propertyPath: _waitInputTime
+      value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
