@@ -116,19 +116,19 @@ TextureImporter:
       name: S_Hurt_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 10
-        width: 17
-        height: 19
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cf18347551d83db00800000000000000
-      internalID: 852179877301027324
+      spriteID: 2b16a4c42221e1f479d2bcadfba6c482
+      internalID: 1552303148
       vertices: []
       indices: 
       edges: []
@@ -137,19 +137,19 @@ TextureImporter:
       name: S_Hurt_1
       rect:
         serializedVersion: 2
-        x: 38
-        y: 10
-        width: 20
-        height: 20
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1ffbebad0d4390b10800000000000000
-      internalID: 1948146385442226161
+      spriteID: 0a15a7f683925344c9ccb97b0667222a
+      internalID: -1307074252
       vertices: []
       indices: 
       edges: []
@@ -157,7 +157,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c56e3aa681e464e47abe15838fc14db8
     internalID: 0
     vertices: []
     indices: 
@@ -165,12 +165,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      U_Walk_0: -4009086310334153817
-      U_Walk_1: -2648376872383064187
-      U_Walk_2: -764003165941485920
-      U_Walk_3: 6818739885194633778
-      U_Walk_4: -5951623572059180443
-      U_Walk_5: -8036710771169646379
+      S_Hurt_0: 1552303148
+      S_Hurt_1: -1307074252
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
