@@ -294,7 +294,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Walk
+  m_Name: D Walk
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -346,13 +346,13 @@ AnimatorStateMachine:
     m_Position: {x: 445, y: 525, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2086602371039972352}
-    m_Position: {x: 480, y: 590, z: 0}
+    m_Position: {x: 0, y: -80, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4833800288661230326}
-    m_Position: {x: 515, y: 655, z: 0}
+    m_Position: {x: 450, y: -80, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3438318978779642858}
-    m_Position: {x: 550, y: 720, z: 0}
+    m_Position: {x: 230, y: -80, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6467634289459079327}
     m_Position: {x: 585, y: 785, z: 0}
@@ -436,7 +436,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Idle
+  m_Name: D Idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:

@@ -134,19 +134,19 @@ TextureImporter:
       name: U_Death_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 10
-        width: 16
-        height: 19
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 74d3d46d445e46bd0800000000000000
-      internalID: -2637731397916345017
+      spriteID: eaed583a2333cb14eb6b4cdd4278f9db
+      internalID: -1642018042
       vertices: []
       indices: 
       edges: []
@@ -155,19 +155,19 @@ TextureImporter:
       name: U_Death_1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 10
-        width: 21
-        height: 16
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 72e76648cddda83b0800000000000000
-      internalID: -5509347254950527449
+      spriteID: a2e6ebf8e2d315d45bc25da258f8dd79
+      internalID: 919910416
       vertices: []
       indices: 
       edges: []
@@ -176,19 +176,19 @@ TextureImporter:
       name: U_Death_2
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 0
-        width: 23
-        height: 20
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0bd534bca36ee1100800000000000000
-      internalID: 80754983531929008
+      spriteID: b5bdc841be572f24d8099b7a6e2946c9
+      internalID: -872112461
       vertices: []
       indices: 
       edges: []
@@ -197,19 +197,19 @@ TextureImporter:
       name: U_Death_3
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 0
-        width: 23
-        height: 19
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 40b706b3328440210800000000000000
-      internalID: 1298241908746779396
+      spriteID: 8ea631a04ee49bd4ba6483eaf427686b
+      internalID: -455795356
       vertices: []
       indices: 
       edges: []
@@ -218,19 +218,19 @@ TextureImporter:
       name: U_Death_4
       rect:
         serializedVersion: 2
-        x: 131
-        y: 9
-        width: 8
-        height: 9
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f8af81d67c9a7dfd0800000000000000
-      internalID: -2317196809264891249
+      spriteID: bee9c823985be354fb64ed575a5bbee9
+      internalID: 1969900280
       vertices: []
       indices: 
       edges: []
@@ -239,19 +239,19 @@ TextureImporter:
       name: U_Death_5
       rect:
         serializedVersion: 2
-        x: 135
+        x: 160
         y: 0
-        width: 17
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 81ef1bc30f44ed5a0800000000000000
-      internalID: -6494677814020538856
+      spriteID: 37491aac043a857429dcdea656e98c56
+      internalID: -1150688512
       vertices: []
       indices: 
       edges: []
@@ -260,19 +260,19 @@ TextureImporter:
       name: U_Death_6
       rect:
         serializedVersion: 2
-        x: 165
+        x: 192
         y: 0
-        width: 17
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 10291ad0208af3510800000000000000
-      internalID: 1531127125101351425
+      spriteID: 63a647dc88be2324f923f14747db7da3
+      internalID: -1862901927
       vertices: []
       indices: 
       edges: []
@@ -281,19 +281,19 @@ TextureImporter:
       name: U_Death_7
       rect:
         serializedVersion: 2
-        x: 204
-        y: 3
-        width: 37
-        height: 9
+        x: 224
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e6231fe4ca9378ac0800000000000000
-      internalID: -3853047543970581906
+      spriteID: 85062f764fdcc8d4e87dbe7cdcdcc697
+      internalID: 1597580967
       vertices: []
       indices: 
       edges: []
@@ -301,7 +301,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 035ce14d5d9b8484588bdf6ee19097a8
     internalID: 0
     vertices: []
     indices: 
@@ -309,12 +309,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      U_Walk_0: -4009086310334153817
-      U_Walk_1: -2648376872383064187
-      U_Walk_2: -764003165941485920
-      U_Walk_3: 6818739885194633778
-      U_Walk_4: -5951623572059180443
-      U_Walk_5: -8036710771169646379
+      U_Death_0: -1642018042
+      U_Death_1: 919910416
+      U_Death_2: -872112461
+      U_Death_3: -455795356
+      U_Death_4: 1969900280
+      U_Death_5: -1150688512
+      U_Death_6: -1862901927
+      U_Death_7: 1597580967
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
