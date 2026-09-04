@@ -82,6 +82,8 @@ namespace Destrial
             Vector2Int endCoord= new Vector2Int(Width - 2, Height - 2);
             ExitCellObject exito= Instantiate(ExitCellPrefab);
             
+            int numi = Random.Range(0, 3);
+            
             switch (PlayerSide)  //Place exit opposed to player side
             {
                 case RoomSide.Top:
@@ -119,13 +121,29 @@ namespace Destrial
           
            // Debug.Log("Player "+Width+"/"+Height+" position: " + endCoord);
            //PLACE EXIT 
-           AddObject(Instantiate(ExitCellPrefab), endCoord);
+           AddObject(exito, endCoord);
            _boardData[endCoord.x, endCoord.y].Passable = true;
             _emptyCellsList.Remove(endCoord);
 
             GenerateWall();
             GenerateFood();
             GenerateEnemy();
+        }
+
+        void AddExit(RoomSide side)
+        {
+            switch (side)
+            {
+
+                case RoomSide.Left:
+                    break;
+                case RoomSide.Right:
+                    break;
+                case RoomSide.Top:
+                    break;
+                case RoomSide.Bottom:
+                    break;
+            }
         }
 
         void GenerateFloor()
