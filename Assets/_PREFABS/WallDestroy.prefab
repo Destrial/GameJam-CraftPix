@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3010061435653394099}
-  - component: {fileID: 6722662554570960079}
+  - component: {fileID: 2230941929989740007}
   m_Layer: 0
   m_Name: WallDestroy
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6722662554570960079
+--- !u!114 &2230941929989740007
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,7 +41,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3957934330028507964}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c498ba89fbd9d0143b84bc0359e5dd7c, type: 3}
+  m_Script: {fileID: 11500000, guid: fcc51a0fa691df648af67f6787f3ac5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ObstacleTile: {fileID: 11400000, guid: c0810a669053bc14bb0aa68e3dad5b84, type: 2}

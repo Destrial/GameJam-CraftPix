@@ -445,8 +445,9 @@ namespace Destrial
 
                 _emptyCellsList.RemoveAt(randomIndex);
 
-
-                Enemy newEnemy = Instantiate(EnemyPrefab);
+            
+                //Ennemies
+                EnemyRat newEnemy = Instantiate(EnemyPrefab);
 
                 AddObject(newEnemy, coord);
             }

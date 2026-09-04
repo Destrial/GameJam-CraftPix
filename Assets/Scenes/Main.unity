@@ -425,7 +425,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.7578125
+  orthographic size: 0.703125
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -716,7 +716,7 @@ MonoBehaviour:
   FoodPrefab:
   - {fileID: 6147983007027712503, guid: b4f0338da3f8df54ca4cee94433e6ef8, type: 3}
   WallDestroyPrefab:
-  - {fileID: 6722662554570960079, guid: 0792015c13c9f914ea8a26c5f1de5c7d, type: 3}
+  - {fileID: 2230941929989740007, guid: 0792015c13c9f914ea8a26c5f1de5c7d, type: 3}
   EnemyPrefab: {fileID: 693187803061272142, guid: 73f788d51f95fb24caa8711a42e091b1, type: 3}
   Width: 12
   Height: 12
@@ -886,7 +886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3843351288733793645, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
       propertyPath: _moveSpeed
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3843351288733793645, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
       propertyPath: _timeNextMove
