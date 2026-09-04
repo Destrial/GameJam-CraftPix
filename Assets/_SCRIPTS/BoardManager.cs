@@ -4,11 +4,8 @@ using System.Collections.Generic;
 
 namespace Destrial
 {
-
-
     public class BoardManager : MonoBehaviour
     {
-
         public class CellData
         {
             public bool Passable;
@@ -16,24 +13,40 @@ namespace Destrial
         }
 
         private CellData[,] _boardData;
-
+        private bool CornerTOP_RIGHT;
+        private bool CornerTOP_LEFT;
+        private bool CornerBOTTOM_RIGHT;
+        private bool CornerBOTTOM_LEFT;
+        private Vector2Int _noRoomTOP_RIGHT;
+        private Vector2Int _noRoomTOP_LEFT;
+        private Vector2Int _noRoomBOTTOM_RIGHT;
+        private Vector2Int _noRoomBOTTOM_LEFT;
+        private bool[,] _noRoom;
 
         private Tilemap _tilemap;
         private Grid _grid;
 
         public ExitCellObject ExitCellPrefab;
         public FoodObject[] FoodPrefab;
-        public WallObject[] WallPrefab;
+        public WallObject[] WallDestroyPrefab;
         public Enemy EnemyPrefab;
         public int Width;
         public int Height;
 
         public Tile[] GroundTiles;
         public Tile[] WallTiles;
-
+     
+        
         [SerializeField] int _enemyNumber = 6;
         public PlayerController Player;
         private List<Vector2Int> _emptyCellsList;
+
+        [SerializeField] int RoomSizeMin;
+        [SerializeField] int RoomSizeMax;
+
+        [SerializeField] float CutRoomChance = 0.6f;
+        [SerializeField] float OneCornerChance = 0.5f;
+
 
         // Start is called before the first frame update
         public void Init()
@@ -41,14 +54,37 @@ namespace Destrial
             _tilemap = GetComponentInChildren<Tilemap>();
             _grid = GetComponentInChildren<Grid>();
 
+            Width = Random.Range(RoomSizeMin, RoomSizeMax + 1);
+            Height = Random.Range(RoomSizeMin, RoomSizeMax + 1);
             _boardData = new CellData[Width, Height];
+            _noRoom = new bool[Width, Height];
+
             _emptyCellsList = new List<Vector2Int>();
 
+            GenerateFloor();
+
+            //remove the starting point of the player! It's not empty, the player is there
+            _emptyCellsList.Remove(new Vector2Int(1, 1));
+
+            Vector2Int endCoord = new Vector2Int(Width - 2, Height - 2);
+            AddObject(Instantiate(ExitCellPrefab), endCoord);
+            _emptyCellsList.Remove(endCoord);
+
+            GenerateWall();
+            GenerateFood();
+            GenerateEnemy();
+        }
+
+        void GenerateFloor()
+        {
+            Tile tile;
+
+            //Fill Up with empty cells + border
             for (int y = 0; y < Height; ++y)
             {
                 for (int x = 0; x < Width; ++x)
                 {
-                    Tile tile;
+                    _noRoom[x, y] = false;
                     _boardData[x, y] = new CellData();
 
                     if (x == 0 || y == 0 || x == Width - 1 || y == Height - 1)
@@ -65,24 +101,188 @@ namespace Destrial
                     }
 
                     _tilemap.SetTile(new Vector3Int(x, y, 0), tile);
-
-                    //int tileNumber = Random.Range(0, GroundTiles.Length);
-                    //m_Tilemap.SetTile(new Vector3Int(x, y, 0), GroundTiles[tileNumber]);
                 }
             }
 
-            //remove the starting point of the player! It's not empty, the player is there
-            _emptyCellsList.Remove(new Vector2Int(1, 1));
+            GenerateCorners();
 
-            Vector2Int endCoord = new Vector2Int(Width - 2, Height - 2);
-            AddObject(Instantiate(ExitCellPrefab), endCoord);
-            _emptyCellsList.Remove(endCoord);
+            if (CornerBOTTOM_LEFT) //REMOVE BOTTOM LEFT
+            {
+                for (int y = 0; y < _noRoomBOTTOM_LEFT.y; ++y)
+                {
+                    for (int x = 0; x < _noRoomBOTTOM_LEFT.x; ++x)
+                    {
+                        if (x == _noRoomBOTTOM_LEFT.x - 1 || y == _noRoomBOTTOM_LEFT.y - 1)
+                        {
+                            tile = WallTiles[Random.Range(0, WallTiles.Length)];
+                            _tilemap.SetTile(new Vector3Int(x, y, 0), tile);
+                            _boardData[x, y].Passable = false;
+                            //this is a passable empty cell, add it to the list!
+                            _emptyCellsList.Remove(new Vector2Int(x, y));
+                        }
 
-            GenerateWall();
-            GenerateFood();
-            GenerateEnemy();
+                        else // remove all
+                        {
+                            _boardData[x, y].Passable = false;
+                            _emptyCellsList.Remove(new Vector2Int(x, y));
+                            _tilemap.SetTile(new Vector3Int(x, y, 0), null);
+                        }
+                    }
+                }
+            }
 
+            if (CornerTOP_LEFT) //REMOVE TOP LEFT
+            {
+                for (int y = Height - _noRoomTOP_LEFT.y; y < Height; ++y)
+                {
+                    for (int x = 0; x < _noRoomTOP_LEFT.x; ++x)
+                    {
+                        if (x == _noRoomTOP_LEFT.x - 1 || y == Height - _noRoomTOP_LEFT.y)
+                        {
+                            tile = WallTiles[Random.Range(0, WallTiles.Length)];
+                            _tilemap.SetTile(new Vector3Int(x, y, 0), tile);
+                            _boardData[x, y].Passable = false;
+                            //this is a passable empty cell, add it to the list!
+                            _emptyCellsList.Remove(new Vector2Int(x, y));
+                        }
 
+                        else // remove all
+                        {
+                            _boardData[x, y].Passable = false;
+                            _emptyCellsList.Remove(new Vector2Int(x, y));
+                            _tilemap.SetTile(new Vector3Int(x, y, 0), null);
+                        }
+                    }
+                }
+            }
+
+            if (CornerTOP_RIGHT) //REMOVE TOP RIGHT
+            {
+                for (int y = Height - _noRoomTOP_RIGHT.y; y < Height; ++y)
+                {
+                    for (int x = Width - _noRoomTOP_RIGHT.x; x < Width; ++x)
+                    {
+                        if (x == Width - _noRoomTOP_RIGHT.x || y == Height - _noRoomTOP_RIGHT.y)
+                        {
+                            tile = WallTiles[Random.Range(0, WallTiles.Length)];
+                            _tilemap.SetTile(new Vector3Int(x, y, 0), tile);
+                            _boardData[x, y].Passable = false;
+                            //this is a passable empty cell, add it to the list!
+                            _emptyCellsList.Remove(new Vector2Int(x, y));
+                        }
+
+                        else // remove all
+                        {
+                            _boardData[x, y].Passable = false;
+                            _emptyCellsList.Remove(new Vector2Int(x, y));
+                            _tilemap.SetTile(new Vector3Int(x, y, 0), null);
+                        }
+                    }
+                }
+            }
+
+            if (CornerBOTTOM_RIGHT) //REMOVE TOP RIGHT
+            {
+                for (int y = 0; y < _noRoomBOTTOM_RIGHT.y; ++y)
+                {
+                    for (int x = Width - _noRoomBOTTOM_RIGHT.x; x < Width; ++x)
+                    {
+                        if (x == Width - _noRoomBOTTOM_RIGHT.x || y == _noRoomBOTTOM_RIGHT.y - 1)
+                        {
+                            tile = WallTiles[Random.Range(0, WallTiles.Length)];
+                            _tilemap.SetTile(new Vector3Int(x, y, 0), tile);
+                            _boardData[x, y].Passable = false;
+                            //this is a passable empty cell, add it to the list!
+                            _emptyCellsList.Remove(new Vector2Int(x, y));
+                        }
+
+                        else // remove all
+                        {
+                            _boardData[x, y].Passable = false;
+                            _emptyCellsList.Remove(new Vector2Int(x, y));
+                            _tilemap.SetTile(new Vector3Int(x, y, 0), null);
+                        }
+                    }
+                }
+            }
+        }
+
+        void GenerateCorners()
+        {
+            CornerBOTTOM_LEFT = false;
+            CornerTOP_LEFT = false;
+            CornerTOP_RIGHT = false;
+            CornerBOTTOM_RIGHT = false;
+
+            //Corner Generate
+            float rand1 = Random.Range(0f, 1f);
+            rand1 = 0;
+            if (rand1 < CutRoomChance)
+            {
+                float rand2 = Random.Range(0f, 1f);
+                rand2 = 0;
+                if (rand2 < OneCornerChance)
+                {
+                    int RandWidth = Random.Range(3, Width / 2);
+                    int RandHeight = Random.Range(3, Height / 2);
+                    int rand3 = Random.Range(0, 4);
+                    Debug.Log(rand3);
+                    switch (rand3)
+                    {
+                        case 0: //BOOTOM LEFT
+                            CornerBOTTOM_LEFT = true;
+                            _noRoomBOTTOM_LEFT = new Vector2Int(RandWidth, RandHeight);
+                            for (int y = 0; y < _noRoomBOTTOM_LEFT.y; ++y)
+                            {
+                                for (int x = 0; x < _noRoomBOTTOM_LEFT.x; ++x)
+                                {
+                                    _noRoom[x, y] = true;
+                                }
+                            }
+
+                            break;
+
+                        case 1:
+                            CornerTOP_LEFT = true;
+                            _noRoomTOP_LEFT = new Vector2Int(RandWidth, RandHeight);
+                            for (int y = Height - _noRoomTOP_LEFT.y; y < Height; ++y)
+                            {
+                                for (int x = 0; x < _noRoomTOP_LEFT.x; ++x)
+                                {
+                                    _noRoom[x, y] = true;
+                                }
+                            }
+
+                            break;
+
+                        case 2:
+                            CornerTOP_RIGHT = true;
+                            _noRoomTOP_RIGHT = new Vector2Int(RandWidth, RandHeight);
+                            for (int y = Height - _noRoomTOP_RIGHT.y; y < Height; ++y)
+                            {
+                                for (int x = Width - _noRoomTOP_RIGHT.x; x < Width; ++x)
+                                {
+                                    _noRoom[x, y] = true;
+                                }
+                            }
+
+                            break;
+
+                        case 3:
+                            CornerBOTTOM_RIGHT = true;
+                            _noRoomBOTTOM_RIGHT = new Vector2Int(RandWidth, RandHeight);
+                            for (int y = 0; y < _noRoomBOTTOM_RIGHT.y; ++y)
+                            {
+                                for (int x = Width - _noRoomBOTTOM_RIGHT.x; x < Width; ++x)
+                                {
+                                    _noRoom[x, y] = true;
+                                }
+                            }
+
+                            break;
+                    }
+                }
+            }
         }
 
         public Vector3 CellToWorld(Vector2Int cellIndex)
@@ -128,8 +328,8 @@ namespace Destrial
 
                 _emptyCellsList.RemoveAt(randomIndex);
 
-                int numi = Random.Range(0, WallPrefab.Length);
-                WallObject newWall = Instantiate(WallPrefab[numi]);
+                int numi = Random.Range(0, WallDestroyPrefab.Length);
+                WallObject newWall = Instantiate(WallDestroyPrefab[numi]);
 
                 AddObject(newWall, coord);
             }

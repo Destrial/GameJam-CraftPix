@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3010061435653394099}
   - component: {fileID: 6722662554570960079}
   m_Layer: 0
-  m_Name: Wall1
+  m_Name: WallDestroy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c498ba89fbd9d0143b84bc0359e5dd7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObstacleTile: {fileID: 11400000, guid: 371a040a3ac667242b1168d4a084256a, type: 2}
+  ObstacleTile: {fileID: 11400000, guid: c0810a669053bc14bb0aa68e3dad5b84, type: 2}
   MaxHealth: 3
