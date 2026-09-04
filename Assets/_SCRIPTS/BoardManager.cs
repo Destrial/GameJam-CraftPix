@@ -53,6 +53,7 @@ namespace Destrial
         public enum RoomSide { Top, Bottom, Left, Right }
         
         public RoomSide PlayerSide;
+        private List<RoomSide> _exitSides;
 
         private void OnEnable()
         {
@@ -77,40 +78,48 @@ namespace Destrial
             GenerateFloor();
 
             //remove the starting point of the player! It's not empty, the player is there
+            _exitSides = new List<RoomSide>();
+            _exitSides.Add(RoomSide.Bottom);
+            _exitSides.Add(RoomSide.Top);
+            _exitSides.Add(RoomSide.Left);
+            _exitSides.Add(RoomSide.Right);
             
+            _exitSides.Remove(PlayerSide);
 
-            Vector2Int endCoord= new Vector2Int(Width - 2, Height - 2);
-            ExitCellObject exito= Instantiate(ExitCellPrefab);
+
+          
             
             int numi = Random.Range(0, 3);
+
+            for (int i = 0; i < numi; i++)
+            {
+                AddExit();
+                Debug.Log("Exit Added");
+            }
             
-            switch (PlayerSide)  //Place exit opposed to player side
+            switch (PlayerSide)  //Place player next to entrance
             {
                 case RoomSide.Top:
-                    endCoord = new Vector2Int(Width/2, 0); 
-                    exito.RoomSide= RoomSide.Bottom;
+                  
                     GameManager.Instance.PlayerSpawnPosition = new Vector2Int(Width / 2, Height - 1);
                     _tilemap.SetTile(new Vector3Int(Width / 2, Height,0), EntranceTile);
                   
                     _emptyCellsList.Remove(GameManager.Instance.PlayerSpawnPosition);
                     break;
                 case RoomSide.Bottom:
-                    endCoord = new Vector2Int(Width/2, Height-1);
-                    exito.RoomSide= RoomSide.Top;
+                   
                     GameManager.Instance.PlayerSpawnPosition=new Vector2Int(Width/2, 1);
                     _tilemap.SetTile(new Vector3Int(Width / 2, 0,0), EntranceTile);
                     _emptyCellsList.Remove(GameManager.Instance.PlayerSpawnPosition);
                     break;
                 case RoomSide.Left:
-                    endCoord = new Vector2Int(0, Height/2);
-                    exito.RoomSide= RoomSide.Right;
+                  
                     GameManager.Instance.PlayerSpawnPosition=new Vector2Int(1, Height/2);
                     _tilemap.SetTile(new Vector3Int(0, Height/2,0), EntranceTile);
                     
                     break;
                 case RoomSide.Right:     
-                    endCoord = new Vector2Int(Width-1, Height/2);
-                    exito.RoomSide= RoomSide.Left;
+                  
                     GameManager.Instance.PlayerSpawnPosition=new Vector2Int(Width-1, Height/2);
                     
                     _tilemap.SetTile(new Vector3Int(Width, Height/2,0), EntranceTile);
@@ -119,31 +128,47 @@ namespace Destrial
                     break;
             }
           
-           // Debug.Log("Player "+Width+"/"+Height+" position: " + endCoord);
-           //PLACE EXIT 
-           AddObject(exito, endCoord);
-           _boardData[endCoord.x, endCoord.y].Passable = true;
-            _emptyCellsList.Remove(endCoord);
-
+         
             GenerateWall();
             GenerateFood();
             GenerateEnemy();
         }
 
-        void AddExit(RoomSide side)
+        void AddExit()
         {
-            switch (side)
+            Vector2Int endCoord= new Vector2Int(Width - 2, Height - 2);
+            ExitCellObject exito= Instantiate(ExitCellPrefab);
+            
+            RoomSide choice = _exitSides[Random.Range(0, _exitSides.Count)];
+            _exitSides.Remove(choice);
+            
+            switch (choice)
             {
 
                 case RoomSide.Left:
+                    endCoord = new Vector2Int(0, Height/2);
+                    exito.RoomSide= RoomSide.Right;
                     break;
                 case RoomSide.Right:
+                    endCoord = new Vector2Int(0, Height/2);
+                    exito.RoomSide= RoomSide.Right;
                     break;
                 case RoomSide.Top:
+                    endCoord = new Vector2Int(Width/2, Height-1);
+                    exito.RoomSide= RoomSide.Top;
                     break;
                 case RoomSide.Bottom:
+                    endCoord = new Vector2Int(Width/2, 0); 
+                    exito.RoomSide= RoomSide.Bottom;
+                   
                     break;
+
             }
+
+
+            AddObject(exito, endCoord);
+            _boardData[endCoord.x, endCoord.y].Passable = true;
+            _emptyCellsList.Remove(endCoord);
         }
 
         void GenerateFloor()
