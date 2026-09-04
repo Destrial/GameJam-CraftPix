@@ -122,19 +122,19 @@ TextureImporter:
       name: U_Idle_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 10
-        width: 14
-        height: 16
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f912114a5a47bbec0800000000000000
-      internalID: -3550115626480492129
+      spriteID: 1547dd340003fff4fbd9e112b9cc8ace
+      internalID: 1329303701
       vertices: []
       indices: 
       edges: []
@@ -143,19 +143,19 @@ TextureImporter:
       name: U_Idle_1
       rect:
         serializedVersion: 2
-        x: 42
-        y: 10
-        width: 12
-        height: 16
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5946c5e287185bf90800000000000000
-      internalID: -6938497297720515435
+      spriteID: ad9c8718827497d4cbd185bd75c00a29
+      internalID: 826548385
       vertices: []
       indices: 
       edges: []
@@ -164,19 +164,19 @@ TextureImporter:
       name: U_Idle_2
       rect:
         serializedVersion: 2
-        x: 73
-        y: 10
-        width: 14
-        height: 17
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 41a61ad82cbc050d0800000000000000
-      internalID: -3436022479223428588
+      spriteID: 3dd39cfaec675864b9642c19c6a43bbd
+      internalID: -858579254
       vertices: []
       indices: 
       edges: []
@@ -185,19 +185,19 @@ TextureImporter:
       name: U_Idle_3
       rect:
         serializedVersion: 2
-        x: 105
-        y: 10
-        width: 14
-        height: 16
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7f4b471fdf0fefde0800000000000000
-      internalID: -1297334669167774473
+      spriteID: 039dd46aa908d7640a8259013b188667
+      internalID: -1299486999
       vertices: []
       indices: 
       edges: []
@@ -205,7 +205,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 13b08ba51bae0234aa30daecaee064f2
     internalID: 0
     vertices: []
     indices: 
@@ -213,12 +213,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      U_Walk_0: -4009086310334153817
-      U_Walk_1: -2648376872383064187
-      U_Walk_2: -764003165941485920
-      U_Walk_3: 6818739885194633778
-      U_Walk_4: -5951623572059180443
-      U_Walk_5: -8036710771169646379
+      U_Idle_0: 1329303701
+      U_Idle_1: 826548385
+      U_Idle_2: -858579254
+      U_Idle_3: -1299486999
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

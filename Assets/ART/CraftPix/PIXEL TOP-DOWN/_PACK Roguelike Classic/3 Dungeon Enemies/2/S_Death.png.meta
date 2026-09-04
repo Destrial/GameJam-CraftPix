@@ -134,19 +134,19 @@ TextureImporter:
       name: S_Death_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 10
-        width: 16
-        height: 16
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7ea003cb40d1b5c20800000000000000
-      internalID: 3196180266723838695
+      spriteID: adcdf1b667116334b9a0b24d755c1512
+      internalID: -1634876268
       vertices: []
       indices: 
       edges: []
@@ -155,19 +155,19 @@ TextureImporter:
       name: S_Death_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 10
-        width: 17
-        height: 17
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d6014bcd9ad45fc30800000000000000
-      internalID: 4392502403517386861
+      spriteID: 4ef9684f7666d7b4796cf9d0e48101e4
+      internalID: 614215438
       vertices: []
       indices: 
       edges: []
@@ -176,19 +176,19 @@ TextureImporter:
       name: S_Death_2
       rect:
         serializedVersion: 2
-        x: 71
-        y: 12
-        width: 7
-        height: 10
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5da8ee1a610b05d00800000000000000
-      internalID: 959460331882449621
+      spriteID: 12a77cc44a4ff4549bc436ebce839014
+      internalID: 321236400
       vertices: []
       indices: 
       edges: []
@@ -197,19 +197,19 @@ TextureImporter:
       name: S_Death_3
       rect:
         serializedVersion: 2
-        x: 77
-        y: 10
-        width: 17
-        height: 14
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c57166bd7c9ec4580800000000000000
-      internalID: -8841434923846461604
+      spriteID: d253bba6b84503b489a7aa4cea505c26
+      internalID: 657570676
       vertices: []
       indices: 
       edges: []
@@ -218,19 +218,19 @@ TextureImporter:
       name: S_Death_4
       rect:
         serializedVersion: 2
-        x: 103
-        y: 12
-        width: 7
-        height: 9
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2bddb2b901660e6e0800000000000000
-      internalID: -1810334828694086222
+      spriteID: 931214d1c50b758449208f105525b873
+      internalID: -1311680792
       vertices: []
       indices: 
       edges: []
@@ -239,19 +239,19 @@ TextureImporter:
       name: S_Death_5
       rect:
         serializedVersion: 2
-        x: 109
-        y: 10
-        width: 17
-        height: 13
+        x: 160
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 22f9a78b02aa1bd00800000000000000
-      internalID: 986756850881568546
+      spriteID: 56fdd18afecd9fc4da0f9e6094e8a165
+      internalID: 1563659862
       vertices: []
       indices: 
       edges: []
@@ -260,19 +260,19 @@ TextureImporter:
       name: S_Death_6
       rect:
         serializedVersion: 2
-        x: 136
-        y: 10
-        width: 20
-        height: 11
+        x: 192
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5d7cfb24bbf2eec60800000000000000
-      internalID: 7849263681878607829
+      spriteID: 8f4707e3555a4c64989c63ffad956982
+      internalID: -90365382
       vertices: []
       indices: 
       edges: []
@@ -281,19 +281,19 @@ TextureImporter:
       name: S_Death_7
       rect:
         serializedVersion: 2
-        x: 169
-        y: 12
-        width: 79
-        height: 8
+        x: 224
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 55c1ba0072e002d50800000000000000
-      internalID: 6710379005459766357
+      spriteID: bc8727064a33d3541a3ce64a75a83bfc
+      internalID: 98705313
       vertices: []
       indices: 
       edges: []
@@ -301,7 +301,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2bbe66d8669b2204e8b8401490ced06c
     internalID: 0
     vertices: []
     indices: 
@@ -309,12 +309,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      U_Walk_0: -4009086310334153817
-      U_Walk_1: -2648376872383064187
-      U_Walk_2: -764003165941485920
-      U_Walk_3: 6818739885194633778
-      U_Walk_4: -5951623572059180443
-      U_Walk_5: -8036710771169646379
+      S_Death_0: -1634876268
+      S_Death_1: 614215438
+      S_Death_2: 321236400
+      S_Death_3: 657570676
+      S_Death_4: -1311680792
+      S_Death_5: 1563659862
+      S_Death_6: -90365382
+      S_Death_7: 98705313
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

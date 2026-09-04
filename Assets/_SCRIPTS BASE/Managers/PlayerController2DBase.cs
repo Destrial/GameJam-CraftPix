@@ -22,7 +22,8 @@ namespace Destrial
         private Rigidbody2D rb; // Reference to the Rigidbody2D component attached to the player
         private Vector2 movement; // Stores the direction of player movement
 
-        private bool moving = false; //check if the player is in movement or not
+        
+        //private bool moving = false;    //check if the player is in movement or not (Currently useless)
 
        
 

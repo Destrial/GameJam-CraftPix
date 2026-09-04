@@ -5,18 +5,24 @@ using System.Collections;
 namespace Destrial
 {
 
-    public class EnemyRat : CellObject
+    public class Enemy : CellObject
     {
-        public int Health = 3;
-
-        private int _currentHealth;
-        
+        //First choose which enemy it is (NOT YET IMPLEMENTED)
+        public enum EnemyType {Rat, Goblin, BladeGoblin, ShamanGoblin}
         
         private Animator _animator;
-        private Vector2Int _newDirection;
+        private Vector2Int _newDirection; //Not used yet, WE NEEED DIRECTIONAL MOVEMENT
 
 
         [SerializeField] private GameObject _deathPrefab;
+        
+        
+        
+        
+        
+        public int Health = 3;
+
+        private int _currentHealth;
         
 
         private void Awake()
@@ -77,7 +83,7 @@ namespace Destrial
 
         void TurnHappened()
         {
-            //We added a public property that return the player current cell!
+            //Public property that returns the player current cell
             var playerCell = GameManager.Instance.PlayerController.CellPosition;
 
             int xDist = playerCell.x - _cell.x;
@@ -86,12 +92,18 @@ namespace Destrial
             int absXDist = Mathf.Abs(xDist);
             int absYDist = Mathf.Abs(yDist);
 
+            
             if ((xDist == 0 && absYDist == 1)
                 || (yDist == 0 && absXDist == 1))
             {
-                //we are adjacent to the player, attack!
+                //Enemy is adjacent to the player, attacks.
+                
+                //// /!\ MUST ADD CODE SO Enemy DOESN'T ATTACK IF PLAYER HIT HIM FIRST
+                //
+                _animator.SetTrigger("Attack");
                 GameManager.Instance.ChangeFood(-3);
             }
+            
             else
             {
                 if (absXDist > absYDist)

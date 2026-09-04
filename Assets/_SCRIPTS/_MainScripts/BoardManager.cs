@@ -33,7 +33,7 @@ namespace Destrial
         public WallObject[] WallDestroyPrefab;
         
         //Enemies
-        public EnemyRat EnemyPrefab;
+        public Enemy EnemyPrefab;
         
         
         public int Width;
@@ -447,7 +447,7 @@ namespace Destrial
 
             
                 //Ennemies
-                EnemyRat newEnemy = Instantiate(EnemyPrefab);
+                Enemy newEnemy = Instantiate(EnemyPrefab);
 
                 AddObject(newEnemy, coord);
             }
