@@ -1,6 +1,8 @@
+using System;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using System.Collections.Generic;
+using Random = UnityEngine.Random;
 
 namespace Destrial
 {
@@ -35,7 +37,8 @@ namespace Destrial
 
         public Tile[] GroundTiles;
         public Tile[] WallTiles;
-     
+        public Tile EntranceTile;
+        private Vector2Int _entranceCoord;
         
         [SerializeField] int _enemyNumber = 6;
         public PlayerController Player;
@@ -47,6 +50,16 @@ namespace Destrial
         [SerializeField] float CutRoomChance = 0.6f;
         [SerializeField] float OneCornerChance = 0.5f;
 
+        public enum RoomSide { Top, Bottom, Left, Right }
+        
+        public RoomSide PlayerSide;
+
+        private void OnEnable()
+        {
+            
+            PlayerSide = RoomSide.Bottom;
+          
+        }
 
         // Start is called before the first frame update
         public void Init()
@@ -64,10 +77,50 @@ namespace Destrial
             GenerateFloor();
 
             //remove the starting point of the player! It's not empty, the player is there
-            _emptyCellsList.Remove(new Vector2Int(1, 1));
+            
 
-            Vector2Int endCoord = new Vector2Int(Width - 2, Height - 2);
-            AddObject(Instantiate(ExitCellPrefab), endCoord);
+            Vector2Int endCoord= new Vector2Int(Width - 2, Height - 2);
+            ExitCellObject exito= Instantiate(ExitCellPrefab);
+            
+            switch (PlayerSide)  //Place exit opposed to player side
+            {
+                case RoomSide.Top:
+                    endCoord = new Vector2Int(Width/2, 0); 
+                    exito.RoomSide= RoomSide.Bottom;
+                    GameManager.Instance.PlayerSpawnPosition = new Vector2Int(Width / 2, Height - 1);
+                    _tilemap.SetTile(new Vector3Int(Width / 2, Height,0), EntranceTile);
+                  
+                    _emptyCellsList.Remove(GameManager.Instance.PlayerSpawnPosition);
+                    break;
+                case RoomSide.Bottom:
+                    endCoord = new Vector2Int(Width/2, Height-1);
+                    exito.RoomSide= RoomSide.Top;
+                    GameManager.Instance.PlayerSpawnPosition=new Vector2Int(Width/2, 1);
+                    _tilemap.SetTile(new Vector3Int(Width / 2, 0,0), EntranceTile);
+                    _emptyCellsList.Remove(GameManager.Instance.PlayerSpawnPosition);
+                    break;
+                case RoomSide.Left:
+                    endCoord = new Vector2Int(0, Height/2);
+                    exito.RoomSide= RoomSide.Right;
+                    GameManager.Instance.PlayerSpawnPosition=new Vector2Int(1, Height/2);
+                    _tilemap.SetTile(new Vector3Int(0, Height/2,0), EntranceTile);
+                    
+                    break;
+                case RoomSide.Right:     
+                    endCoord = new Vector2Int(Width-1, Height/2);
+                    exito.RoomSide= RoomSide.Left;
+                    GameManager.Instance.PlayerSpawnPosition=new Vector2Int(Width-1, Height/2);
+                    
+                    _tilemap.SetTile(new Vector3Int(Width, Height/2,0), EntranceTile);
+                    
+                    _emptyCellsList.Remove(GameManager.Instance.PlayerSpawnPosition);
+                    break;
+            }
+          
+           // Debug.Log("Player "+Width+"/"+Height+" position: " + endCoord);
+           //PLACE EXIT 
+           AddObject(Instantiate(ExitCellPrefab), endCoord);
+           _boardData[endCoord.x, endCoord.y].Passable = true;
             _emptyCellsList.Remove(endCoord);
 
             GenerateWall();
@@ -216,7 +269,7 @@ namespace Destrial
 
             //Corner Generate
             float rand1 = Random.Range(0f, 1f);
-            rand1 = 0;
+           
             if (rand1 < CutRoomChance)
             {
                 float rand2 = Random.Range(0f, 1f);
@@ -226,7 +279,7 @@ namespace Destrial
                     int RandWidth = Random.Range(3, Width / 2);
                     int RandHeight = Random.Range(3, Height / 2);
                     int rand3 = Random.Range(0, 4);
-                    Debug.Log(rand3);
+                  
                     switch (rand3)
                     {
                         case 0: //BOOTOM LEFT

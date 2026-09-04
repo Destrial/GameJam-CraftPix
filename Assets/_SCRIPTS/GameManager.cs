@@ -19,6 +19,8 @@ namespace Destrial
         [SerializeField] private int _startFood = 20;
         private int _currentLevel = 0;
 
+        public Vector2Int PlayerSpawnPosition;
+
         public TurnManager TurnManager { get; private set; }
 
         private void Awake()
@@ -58,14 +60,14 @@ namespace Destrial
             BoardManager.Init();
 
             PlayerController.Init();
-            PlayerController.Spawn(BoardManager, new Vector2Int(1, 1));
+            PlayerController.Spawn(BoardManager, PlayerSpawnPosition);
         }
 
         public void NewLevel()
         {
             BoardManager.Clean();
             BoardManager.Init();
-            PlayerController.Spawn(BoardManager, new Vector2Int(1, 1));
+            PlayerController.Spawn(BoardManager, PlayerSpawnPosition);
             PlayerController.Init();
             _currentLevel++;
         }
