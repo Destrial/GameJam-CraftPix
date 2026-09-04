@@ -267,6 +267,7 @@ namespace Destrial
 
         public void GameOver()
         {
+            _animator.SetBool("Death", true);
             _isGameOver = true;
         }
     }
