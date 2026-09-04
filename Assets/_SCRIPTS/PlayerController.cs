@@ -21,7 +21,7 @@ namespace Destrial
         private bool _isAttacking;
         [SerializeField] float _attackSpeed = 0.4f;
       
-        public enum PlayerState { Idle, Moving , Attacking , Grabbing, Sleeping, Stun}
+        public enum PlayerState { Idle, Moving , Attacking , Throwing, Grabbing, Sleeping, Stun}
 
         public PlayerState MyState;
         public PlayerState MyAction;

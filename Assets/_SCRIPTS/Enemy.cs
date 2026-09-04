@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+
 
 namespace Destrial
 {
@@ -8,9 +10,19 @@ namespace Destrial
         public int Health = 3;
 
         private int _currentHealth;
+        
+        
+        private Animator _animator;
+        private Vector2Int _newDirection;
+
+
+        [SerializeField] private GameObject _deathPrefab;
+        
 
         private void Awake()
         {
+            _animator = GetComponent<Animator>();
+            
             GameManager.Instance.TurnManager.OnTick += TurnHappened;
         }
 
@@ -31,11 +43,13 @@ namespace Destrial
 
             if (_currentHealth <= 0)
             {
+               Instantiate(_deathPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }
 
             return false;
         }
+        
 
         bool MoveTo(Vector2Int coord)
         {
@@ -76,7 +90,7 @@ namespace Destrial
                 || (yDist == 0 && absXDist == 1))
             {
                 //we are adjacent to the player, attack!
-                GameManager.Instance.ChangeFood(3);
+                GameManager.Instance.ChangeFood(-3);
             }
             else
             {
