@@ -5,7 +5,7 @@ using System.Collections;
 namespace Destrial
 {
 
-    public class Enemy : CellObject
+    public class EnemyRat : CellObject
     {
         public int Health = 3;
 

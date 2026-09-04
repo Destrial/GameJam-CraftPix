@@ -31,7 +31,11 @@ namespace Destrial
         public ExitCellObject ExitCellPrefab;
         public FoodObject[] FoodPrefab;
         public WallObject[] WallDestroyPrefab;
-        public Enemy EnemyPrefab;
+        
+        //Enemies
+        public EnemyRat EnemyPrefab;
+        
+        
         public int Width;
         public int Height;
 
