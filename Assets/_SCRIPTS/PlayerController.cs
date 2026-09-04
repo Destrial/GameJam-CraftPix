@@ -21,7 +21,7 @@ namespace Destrial
         private bool _isAttacking;
         [SerializeField] float _attackSpeed = 0.4f;
       
-        public enum PlayerState { Idle, Moving , Attacking , Throwing, Grabbing, Sleeping, Stun}
+        public enum PlayerState { Idle, Moving , Attacking , Throwing, Grabbing, Sleeping, Stun, Death}
 
         public PlayerState MyState;
         public PlayerState MyAction;
@@ -48,6 +48,15 @@ namespace Destrial
         {
             _myInputs.Disable();
         }
+        
+        
+        public void GameOver()
+        {
+            _animator.SetBool("Death", true);
+            _isGameOver = true;
+            MyState = PlayerState.Death;
+        }
+        
 
         public void Spawn(BoardManager boardManager, Vector2Int cell)
         {
@@ -82,6 +91,8 @@ namespace Destrial
             _animator.SetBool("ContinuousWalk", true);
             _animator.SetBool("Moving", _isMoving);
         }
+        
+        
 
         public void Init()
         {
@@ -263,12 +274,6 @@ namespace Destrial
     
         }
 
-        
-
-        public void GameOver()
-        {
-            _animator.SetBool("Death", true);
-            _isGameOver = true;
-        }
+       
     }
 }
