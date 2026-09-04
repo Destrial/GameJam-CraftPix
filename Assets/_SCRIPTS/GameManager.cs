@@ -16,7 +16,7 @@ namespace Destrial
         public BoardManager BoardManager;
         public PlayerController PlayerController;
         private int _foodAmount = 100;
-        [SerializeField] private int _startFood = 20;
+        [SerializeField] private int _startFood = 40;
         private int _currentLevel = 0;
 
         public Vector2Int PlayerSpawnPosition;
@@ -74,7 +74,7 @@ namespace Destrial
 
         void OnTurnHappen()
         {
-            ChangeFood(-1);
+            //ChangeFood(-1);
         }
 
         public void ChangeFood(int amount)
