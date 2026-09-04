@@ -16,6 +16,7 @@ namespace Destrial
 
         public override void PlayerEntered()
         {
+            GameManager.Instance.PlayerController.MyState = PlayerController.PlayerState.ChangeRoom;
             switch (RoomSide)
             {
                 case BoardManager.RoomSide.Bottom:
@@ -32,6 +33,7 @@ namespace Destrial
 
                     break;
             }
+            
             GameManager.Instance.NewLevel();
         }
     }

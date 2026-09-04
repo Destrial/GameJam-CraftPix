@@ -93,20 +93,20 @@ namespace Destrial
 
           
             
-            int numi = Random.Range(0, 3);
+            int numi = Random.Range(1, 4);
 
             for (int i = 0; i < numi; i++)
             {
                 AddExit();
-                Debug.Log("Exit Added");
+                Debug.Log("Exit"+i+" / "+numi);
             }
             
             switch (PlayerSide)  //Place player next to entrance
             {
                 case RoomSide.Top:
                   
-                    GameManager.Instance.PlayerSpawnPosition = new Vector2Int(Width / 2, Height - 1);
-                    _tilemap.SetTile(new Vector3Int(Width / 2, Height,0), EntranceTile);
+                    GameManager.Instance.PlayerSpawnPosition = new Vector2Int(Width / 2, Height - 2);
+                    _tilemap.SetTile(new Vector3Int(Width / 2, Height-1,0), EntranceTile);
                   
                     _emptyCellsList.Remove(GameManager.Instance.PlayerSpawnPosition);
                     break;
@@ -120,13 +120,13 @@ namespace Destrial
                   
                     GameManager.Instance.PlayerSpawnPosition=new Vector2Int(1, Height/2);
                     _tilemap.SetTile(new Vector3Int(0, Height/2,0), EntranceTile);
-                    
+                    _emptyCellsList.Remove(GameManager.Instance.PlayerSpawnPosition);
                     break;
                 case RoomSide.Right:     
                   
-                    GameManager.Instance.PlayerSpawnPosition=new Vector2Int(Width-1, Height/2);
+                    GameManager.Instance.PlayerSpawnPosition=new Vector2Int(Width-2, Height/2);
                     
-                    _tilemap.SetTile(new Vector3Int(Width, Height/2,0), EntranceTile);
+                    _tilemap.SetTile(new Vector3Int(Width-1, Height/2,0), EntranceTile);
                     
                     _emptyCellsList.Remove(GameManager.Instance.PlayerSpawnPosition);
                     break;
@@ -151,10 +151,10 @@ namespace Destrial
 
                 case RoomSide.Left:
                     endCoord = new Vector2Int(0, Height/2);
-                    exito.RoomSide= RoomSide.Right;
+                    exito.RoomSide= RoomSide.Left;
                     break;
                 case RoomSide.Right:
-                    endCoord = new Vector2Int(0, Height/2);
+                    endCoord = new Vector2Int(Width-1, Height/2);
                     exito.RoomSide= RoomSide.Right;
                     break;
                 case RoomSide.Top:

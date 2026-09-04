@@ -21,7 +21,7 @@ namespace Destrial
         private bool _isAttacking;
         [SerializeField] float _attackSpeed = 0.4f;
       
-        public enum PlayerState { Idle, Moving , Attacking , Throwing, Grabbing, Sleeping, Stun, Death}
+        public enum PlayerState { Idle, Moving , Attacking , Throwing, Grabbing, Sleeping, Stun, Death, ChangeRoom}
 
         public PlayerState MyState;
         public PlayerState MyAction;
@@ -99,13 +99,17 @@ namespace Destrial
             _animator.SetFloat("mov_x", 0);
             _animator.SetFloat("mov_y", 0);
             _animator.SetBool("Moving", false);
-
+            _moveTarget=transform.position;
             _isGameOver = false;
             _isMoving = false;
             MyState = PlayerState.Idle;
-            //_cantInput=false;
+            _cantInput=true;
+            transform.localScale = new Vector3(1, 1, 1);  
+            StartCoroutine(StartTimerAttack());
+            
         }
 
+        
 
         public void Update()
         {
@@ -129,7 +133,7 @@ namespace Destrial
             
             if (MyState==PlayerState.Idle) //Only new input if idle
             {
-
+                
                
               
                 if (moveInputAction.IsPressed()) //Test if the player is pressing the move button

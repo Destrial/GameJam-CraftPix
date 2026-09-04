@@ -59,16 +59,21 @@ namespace Destrial
             BoardManager.Clean();
             BoardManager.Init();
 
-            PlayerController.Init();
+          
             PlayerController.Spawn(BoardManager, PlayerSpawnPosition);
+            PlayerController.Init();
         }
 
         public void NewLevel()
         {
+           
             BoardManager.Clean();
             BoardManager.Init();
+           
+         
             PlayerController.Spawn(BoardManager, PlayerSpawnPosition);
             PlayerController.Init();
+         //   Debug.Log(""+PlayerController.CellPosition+"/"+PlayerSpawnPosition);
             _currentLevel++;
         }
 
