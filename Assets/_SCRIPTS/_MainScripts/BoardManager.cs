@@ -519,7 +519,7 @@ namespace Destrial
         public Vector2Int FindMove(Vector2Int startPos, Vector2Int targetPos)
         {
             Vector2Int nextMove;
-            // Execute path calculation
+            // Execute path calculation (The most important part)
             List<Vector2Int> finalPath = _pathfinder.FindPath(_boardData, startPos, targetPos, allowDiagonal: false);
 
             if (finalPath != null)
