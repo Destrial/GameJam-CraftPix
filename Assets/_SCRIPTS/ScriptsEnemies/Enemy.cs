@@ -4,32 +4,42 @@ using System.Collections;
 
 namespace Destrial
 {
-
     public class Enemy : CellObject
     {
         //First choose which enemy it is (NOT YET IMPLEMENTED)
-        public enum EnemyType {Rat, Goblin, BladeGoblin, ShamanGoblin}
-        
-        private Animator _animator;
-        private Vector2Int _newDirection; //Not used yet, WE NEEED DIRECTIONAL MOVEMENT
+        public enum EnemyType
+        {
+            Rat,
+            Goblin,
+            BladeGoblin,
+            ShamanGoblin
+        }
 
 
         [SerializeField] private GameObject _deathPrefab;
-        
-        
-        
-        
-        
+
+//public Vector2Int CellPosition;
+
+        private Animator _animator;
+        private bool _isMoving;
+
+        private Vector2Int _newCellTarget;
+        private Vector2Int _newDirection;
+        [SerializeField] float _moveSpeed = 1;
+        BoardManager _board;
+        BoardManager.CellData Cell;
+        Vector3 _moveTarget;
+
         public int Health = 3;
 
         private int _currentHealth;
-        
+
 
         private void Awake()
         {
             _animator = GetComponent<Animator>();
-            
-            GameManager.Instance.TurnManager.OnTick += TurnHappened;  //EVENT
+
+            GameManager.Instance.TurnManager.OnTick += TurnHappened; //EVENT
         }
 
         private void OnDestroy()
@@ -37,10 +47,35 @@ namespace Destrial
             GameManager.Instance.TurnManager.OnTick -= TurnHappened;
         }
 
+        void Update()
+        {
+            if (_isMoving)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, _moveTarget, _moveSpeed * Time.deltaTime);
+
+                if (transform.position == _moveTarget)
+                {
+                    _isMoving = false;
+                 //   MyState = PlayerState.Idle;
+                            
+                    _animator.SetFloat("mov_x", _newDirection.x);
+                    _animator.SetFloat("mov_y", _newDirection.y);
+                    _animator.SetBool("Moving", false);
+                 
+
+                    //_cantInput = false;
+                }
+
+                return;
+            }
+        }
+
         public override void Init(Vector2Int coord)
         {
             base.Init(coord);
             _currentHealth = Health;
+            _board = GameManager.Instance.BoardManager;
+            Cell = _board.GetCellData(coord);
         }
 
         public override bool PlayerWantsToEnter()
@@ -49,13 +84,14 @@ namespace Destrial
 
             if (_currentHealth <= 0)
             {
-               Instantiate(_deathPrefab, transform.position, Quaternion.identity);
+                Instantiate(_deathPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }
 
             return false;
         }
-        
+
+        /*
 
         bool MoveTo(Vector2Int coord)
         {
@@ -81,6 +117,30 @@ namespace Destrial
 
             return true;
         }
+        */
+        public void GoMoveTo(Vector2Int cell, bool immediate)
+        {
+            _cell = cell;
+
+
+            if (immediate)
+            {
+                _isMoving = false;
+                transform.position = _board.CellToWorld(_cell);
+            }
+            else
+            {
+                _isMoving = true;
+                _moveTarget = _board.CellToWorld(_cell);
+            }
+
+            Cell = _board.GetCellData(cell);
+
+            _animator.SetFloat("mov_x", _newDirection.x);
+            _animator.SetFloat("mov_y", _newDirection.y);
+            _animator.SetBool("ContinuousWalk", true);
+            _animator.SetBool("Moving", _isMoving);
+        }
 
         void TurnHappened()
         {
@@ -93,65 +153,29 @@ namespace Destrial
             int absXDist = Mathf.Abs(xDist);
             int absYDist = Mathf.Abs(yDist);
 
-            
+
             if ((xDist == 0 && absYDist == 1)
                 || (yDist == 0 && absXDist == 1))
             {
                 //Enemy is adjacent to the player, attacks.
-                
+
                 //// /!\ MUST ADD CODE SO Enemy DOESN'T ATTACK IF PLAYER HIT HIM FIRST
                 //
                 _animator.SetTrigger("Attack");
                 GameManager.Instance.ChangeFood(-3);
             }
-            
+
             else
             {
-                if (absXDist > absYDist)
+               _newCellTarget = _board.FindMove(_cell,  playerCell);
+
+                if (_newCellTarget != Vector2Int.zero)
                 {
-                    if (!TryMoveInX(xDist))
-                    {
-                        //if our move was not successful (so no move and not attack)
-                        //we try to move along Y
-                        TryMoveInY(yDist);
-                    }
-                }
-                else
-                {
-                    if (!TryMoveInY(yDist))
-                    {
-                        TryMoveInX(xDist);
-                    }
+                    _newDirection.x= _newCellTarget.x - _cell.x;
+                    _newDirection.y = _newCellTarget.y - _cell.y;
+                    GoMoveTo(_newCellTarget, false);
                 }
             }
-        }
-
-        bool TryMoveInX(int xDist)
-        {
-            //try to get closer in x
-
-            //player to our right
-            if (xDist > 0)
-            {
-                return MoveTo(_cell + Vector2Int.right);
-            }
-
-            //player to our left
-            return MoveTo(_cell + Vector2Int.left);
-        }
-
-        bool TryMoveInY(int yDist)
-        {
-            //try to get closer in y
-
-            //player on top
-            if (yDist > 0)
-            {
-                return MoveTo(_cell + Vector2Int.up);
-            }
-
-            //player below
-            return MoveTo(_cell + Vector2Int.down);
         }
     }
 }

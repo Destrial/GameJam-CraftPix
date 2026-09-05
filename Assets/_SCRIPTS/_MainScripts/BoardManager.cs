@@ -525,7 +525,7 @@ namespace Destrial
             if (finalPath != null)
             {
                
-                nextMove = finalPath[finalPath.Count - 1];
+                nextMove = finalPath[0];
                 Debug.Log($"Next Step -> X: {nextMove.x}, Y: {nextMove.y}");
             }
             else
