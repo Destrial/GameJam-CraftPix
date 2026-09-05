@@ -40,8 +40,24 @@ namespace Destrial
         public int Height;
 
         public Tile[] GroundTiles;
-        public Tile[] WallTiles;
+       // public Tile[] WallTiles;
         public Tile EntranceTile;
+        
+        public RuleTile AutoTile;
+        
+        public Tile[] WallHTiles;
+        public Tile[] WallVTiles;
+        public Tile WallCornerUR;
+        public Tile WallCornerUL;
+        public Tile WallCornerDL;
+        public Tile WallCornerDR;
+        public Tile WallCorner;
+        
+        public Tile WallTopVert;
+        public Tile WallBottomVert;
+        
+        public Tile WallRightHor;
+        public Tile WallLeftHor;
         private Vector2Int _entranceCoord;
         
         [SerializeField] int _enemyNumber = 6;
@@ -178,7 +194,7 @@ namespace Destrial
         void GenerateFloor()
         {
             Tile tile;
-
+          
             //Fill Up with empty cells + border
             for (int y = 0; y < Height; ++y)
             {
@@ -189,8 +205,9 @@ namespace Destrial
 
                     if (x == 0 || y == 0 || x == Width - 1 || y == Height - 1)
                     {
-                        tile = WallTiles[Random.Range(0, WallTiles.Length)];
+                      //  tile = WallTiles[Random.Range(0, WallTiles.Length)];
                         _boardData[x, y].Passable = false;
+                        _tilemap.SetTile(new Vector3Int(x, y, 0), AutoTile);
                     }
                     else
                     {
@@ -198,9 +215,10 @@ namespace Destrial
                         _boardData[x, y].Passable = true;
                         //this is a passable empty cell, add it to the list!
                         _emptyCellsList.Add(new Vector2Int(x, y));
+                        _tilemap.SetTile(new Vector3Int(x, y, 0), tile);
                     }
 
-                    _tilemap.SetTile(new Vector3Int(x, y, 0), tile);
+                   
                 }
             }
 
@@ -214,8 +232,8 @@ namespace Destrial
                     {
                         if (x == _noRoomBOTTOM_LEFT.x - 1 || y == _noRoomBOTTOM_LEFT.y - 1)
                         {
-                            tile = WallTiles[Random.Range(0, WallTiles.Length)];
-                            _tilemap.SetTile(new Vector3Int(x, y, 0), tile);
+                           // tile = WallTiles[Random.Range(0, WallTiles.Length)];
+                            _tilemap.SetTile(new Vector3Int(x, y, 0), AutoTile);
                             _boardData[x, y].Passable = false;
                             //this is a passable empty cell, add it to the list!
                             _emptyCellsList.Remove(new Vector2Int(x, y));
@@ -239,8 +257,8 @@ namespace Destrial
                     {
                         if (x == _noRoomTOP_LEFT.x - 1 || y == Height - _noRoomTOP_LEFT.y)
                         {
-                            tile = WallTiles[Random.Range(0, WallTiles.Length)];
-                            _tilemap.SetTile(new Vector3Int(x, y, 0), tile);
+                            //tile = WallTiles[Random.Range(0, WallTiles.Length)];
+                            _tilemap.SetTile(new Vector3Int(x, y, 0), AutoTile);
                             _boardData[x, y].Passable = false;
                             //this is a passable empty cell, add it to the list!
                             _emptyCellsList.Remove(new Vector2Int(x, y));
@@ -264,8 +282,8 @@ namespace Destrial
                     {
                         if (x == Width - _noRoomTOP_RIGHT.x || y == Height - _noRoomTOP_RIGHT.y)
                         {
-                            tile = WallTiles[Random.Range(0, WallTiles.Length)];
-                            _tilemap.SetTile(new Vector3Int(x, y, 0), tile);
+                          //  tile = WallTiles[Random.Range(0, WallTiles.Length)];
+                            _tilemap.SetTile(new Vector3Int(x, y, 0), AutoTile);
                             _boardData[x, y].Passable = false;
                             //this is a passable empty cell, add it to the list!
                             _emptyCellsList.Remove(new Vector2Int(x, y));
@@ -289,8 +307,8 @@ namespace Destrial
                     {
                         if (x == Width - _noRoomBOTTOM_RIGHT.x || y == _noRoomBOTTOM_RIGHT.y - 1)
                         {
-                            tile = WallTiles[Random.Range(0, WallTiles.Length)];
-                            _tilemap.SetTile(new Vector3Int(x, y, 0), tile);
+                           // tile = WallTiles[Random.Range(0, WallTiles.Length)];
+                            _tilemap.SetTile(new Vector3Int(x, y, 0), AutoTile);
                             _boardData[x, y].Passable = false;
                             //this is a passable empty cell, add it to the list!
                             _emptyCellsList.Remove(new Vector2Int(x, y));

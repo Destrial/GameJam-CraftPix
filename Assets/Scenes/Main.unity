@@ -284,15 +284,145 @@ Tilemap:
   m_Enabled: 1
   m_Tiles: {}
   m_AnimatedTiles: {}
-  m_TileAssetArray: []
-  m_TileSpriteArray: []
-  m_TileMatrixArray: []
-  m_TileColorArray: []
+  m_TileAssetArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  m_TileSpriteArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  m_TileMatrixArray:
+  - m_RefCount: 0
+    m_Data:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: -1.4712374e-30
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 1.68e-43
+      e20: 0
+      e21: 0
+      e22: 0
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 0
+  - m_RefCount: 0
+    m_Data:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: -1.4724306e-30
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 1.68e-43
+      e20: 0
+      e21: 0
+      e22: -2.1626839e-32
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 4.591e-41
+      e33: 0
+  - m_RefCount: 0
+    m_Data:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: -1.4724306e-30
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 1.68e-43
+      e20: 0
+      e21: 0
+      e22: -2.1626839e-32
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 4.591e-41
+      e33: 0
+  - m_RefCount: 0
+    m_Data:
+      e00: 0
+      e01: 0
+      e02: 0
+      e03: -1.4724306e-30
+      e10: 0
+      e11: 0
+      e12: 0
+      e13: 1.68e-43
+      e20: 0
+      e21: 0
+      e22: -2.1626839e-32
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 4.591e-41
+      e33: 0
+  - m_RefCount: 0
+    m_Data:
+      e00: 1e-45
+      e01: 0
+      e02: -4.0000076
+      e03: -4.0000076
+      e10: 1e-45
+      e11: 0
+      e12: 8.25e-43
+      e13: 8.25e-43
+      e20: -4.8105696e-32
+      e21: -8.669299e+9
+      e22: 1.8449417e-28
+      e23: -8.669299e+9
+      e30: 4.591e-41
+      e31: 8.28e-43
+      e32: 8.27e-43
+      e33: 8.28e-43
+  m_TileColorArray:
+  - m_RefCount: 0
+    m_Data: {r: 4.237e-41, g: 4.237e-41, b: 4.237e-41, a: 4.237e-41}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: 0, y: 0, z: 0}
-  m_Size: {x: 0, y: 0, z: 1}
+  m_Origin: {x: -9, y: -6, z: 0}
+  m_Size: {x: 20, y: 10, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -730,17 +860,26 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 26be801acba46ca479576a302c98f0cf, type: 2}
   - {fileID: 11400000, guid: 8f3462a36b0a4464aa41e712e53b2aaa, type: 2}
   - {fileID: 11400000, guid: b86de09a01a65d54b9e345898bf8b4b7, type: 2}
-  WallTiles:
-  - {fileID: 11400000, guid: c917b8d3030db7f4bb886a26e1f072d7, type: 2}
-  - {fileID: 11400000, guid: 5cb29bb2037d12f45a477cd8ef37eab7, type: 2}
-  - {fileID: 11400000, guid: 028e0921a3163ca4788a9b8530999cf8, type: 2}
+  EntranceTile: {fileID: 11400000, guid: da9d4e5b98a77e349bd2a04fa5ac0c41, type: 2}
+  AutoTile: {fileID: 11400000, guid: d64f09563f02a6f4ea7d2cf084b8e990, type: 2}
+  WallHTiles:
+  - {fileID: 11400000, guid: cbab5cd2211d94646aade8ae86f26233, type: 2}
   - {fileID: 11400000, guid: beaa826680c24be4fa06f1d47b7b2d59, type: 2}
   - {fileID: 11400000, guid: 943894f90da396c42898922c10b4db62, type: 2}
-  - {fileID: 11400000, guid: f0e3bef7194952d498fc2addd8a12727, type: 2}
-  - {fileID: 11400000, guid: 836f8d2373e31b643b15febfe54e3051, type: 2}
-  - {fileID: 11400000, guid: 4756261317754c343b316792299b32ba, type: 2}
-  - {fileID: 11400000, guid: 582c77f407dd09d4f9e92c2cb7defc5d, type: 2}
-  EntranceTile: {fileID: 11400000, guid: da9d4e5b98a77e349bd2a04fa5ac0c41, type: 2}
+  - {fileID: 11400000, guid: d31d6c8c8a30f744b9dfb5dd05d5775e, type: 2}
+  WallVTiles:
+  - {fileID: 11400000, guid: d6f7b7f2d85380a4ca6684fa07ffd043, type: 2}
+  - {fileID: 11400000, guid: 54b039b6021f1b04c8e1ecccba3dc81e, type: 2}
+  - {fileID: 11400000, guid: 5fb96f12798c9b546992a3b39f7517cd, type: 2}
+  WallCornerUR: {fileID: 11400000, guid: e7815b1735497754e937c570b33ef11f, type: 2}
+  WallCornerUL: {fileID: 11400000, guid: 6bef86c4ceb41084d8e7a090b914c549, type: 2}
+  WallCornerDL: {fileID: 11400000, guid: 921b4d5caef33b846aa9aac5b7662d48, type: 2}
+  WallCornerDR: {fileID: 11400000, guid: 5df6beff3753e2a4d96b1b73358051fa, type: 2}
+  WallCorner: {fileID: 11400000, guid: 5fb96f12798c9b546992a3b39f7517cd, type: 2}
+  WallTopVert: {fileID: 0}
+  WallBottomVert: {fileID: 0}
+  WallRightHor: {fileID: 0}
+  WallLeftHor: {fileID: 0}
   _enemyNumber: 6
   Player: {fileID: 1504855376}
   RoomSizeMin: 8

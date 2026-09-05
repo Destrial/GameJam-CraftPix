@@ -30,6 +30,8 @@ namespace UnityLearn
         public Tile[] GroundTiles;
         public Tile[] WallTiles;
 
+       
+        
         [SerializeField] int EnemyNumber = 6;
         public PlayerController Player;
         private List<Vector2Int> m_EmptyCellsList;
