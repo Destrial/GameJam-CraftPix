@@ -117,18 +117,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 11
-        width: 22
-        height: 11
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f311615001eb98080800000000000000
-      internalID: -9184600989031329473
+      spriteID: 0760867a435321e4189421bd5d387f9e
+      internalID: -1816796444
       vertices: []
       indices: 
       edges: []
@@ -137,19 +137,19 @@ TextureImporter:
       name: R_Hurt_1
       rect:
         serializedVersion: 2
-        x: 31
-        y: 10
-        width: 24
-        height: 11
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fe0571598db2b3fa0800000000000000
-      internalID: -5820009884231970577
+      spriteID: ad416dbc6f622e54a97a9d02e8e5e2a6
+      internalID: -354808520
       vertices: []
       indices: 
       edges: []
@@ -157,7 +157,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c59c8ede97fc86147afcec3593a37e9c
     internalID: 0
     vertices: []
     indices: 
@@ -165,12 +165,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      U_Walk_0: -4009086310334153817
-      U_Walk_1: -2648376872383064187
-      U_Walk_2: -764003165941485920
-      U_Walk_3: 6818739885194633778
-      U_Walk_4: -5951623572059180443
-      U_Walk_5: -8036710771169646379
+      R_Hurt_0: -1816796444
+      R_Hurt_1: -354808520
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
