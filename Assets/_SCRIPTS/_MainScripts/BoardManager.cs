@@ -13,7 +13,7 @@ namespace Destrial
             public bool Passable;
             public CellObject ContainedObject;
         }
-
+        private BoardPathfinding _pathfinder = new BoardPathfinding();
         private CellData[,] _boardData;
         private bool CornerTOP_RIGHT;
         private bool CornerTOP_LEFT;
@@ -514,6 +514,26 @@ namespace Destrial
                     SetCellTile(new Vector2Int(x, y), null);
                 }
             }
+        }
+        
+        public Vector2Int FindMove(Vector2Int startPos, Vector2Int targetPos)
+        {
+            Vector2Int nextMove;
+            // Execute path calculation
+            List<Vector2Int> finalPath = _pathfinder.FindPath(_boardData, startPos, targetPos, allowDiagonal: false);
+
+            if (finalPath != null)
+            {
+               
+                nextMove = finalPath[finalPath.Count - 1];
+                Debug.Log($"Next Step -> X: {nextMove.x}, Y: {nextMove.y}");
+            }
+            else
+            {
+                return Vector2Int.zero;
+            }
+
+            return nextMove;
         }
     }
 }

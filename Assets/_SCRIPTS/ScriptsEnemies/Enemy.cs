@@ -29,7 +29,7 @@ namespace Destrial
         {
             _animator = GetComponent<Animator>();
             
-            GameManager.Instance.TurnManager.OnTick += TurnHappened;
+            GameManager.Instance.TurnManager.OnTick += TurnHappened;  //EVENT
         }
 
         private void OnDestroy()
@@ -59,6 +59,7 @@ namespace Destrial
 
         bool MoveTo(Vector2Int coord)
         {
+            Debug.Log("LL:" + coord);
             var board = GameManager.Instance.BoardManager;
             var targetCell = board.GetCellData(coord);
 
