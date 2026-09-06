@@ -15,6 +15,11 @@ namespace Destrial
             //increase food
             GameManager.Instance.ChangeFood(AmountGranted);
         }
+
+        public override void RatEntered()
+        {
+            Destroy(gameObject);
+        }
     }
 
 }

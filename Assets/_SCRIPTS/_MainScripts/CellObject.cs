@@ -17,6 +17,11 @@ namespace Destrial
         {
 
         }
+        
+        public virtual void RatEntered()
+        {
+
+        }
 
         public virtual bool PlayerWantsToEnter()
         {

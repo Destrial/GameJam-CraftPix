@@ -122,9 +122,15 @@ namespace Destrial
         {
             _board.FreeBoard(_cell,true);
         
-          
+           
             var currentCell = _board.GetCellData(_cell);
+            
+            
             var targetCell = _board.GetCellData(cell);
+            if (targetCell.ContainedObject != null)
+            {
+                targetCell.ContainedObject.RatEntered();
+            }
            
             //remove enemy from current cell
             currentCell.ContainedObject = null;
