@@ -9,19 +9,21 @@ namespace Destrial
         public static GameManager Instance { get; private set; } // SINGLETON
 
         public UIDocument UIDoc;
-        private Label _foodLabel;
+        private Label _healthLabel;
         private VisualElement _gameOverPanel;
         private Label _gameOverMessage;
 
         public BoardManager BoardManager;
         public PlayerController PlayerController;
-        private int _foodAmount = 100;
-        [SerializeField] private int _startFood = 40;
+        private int _CurrentHealthAmount = 100;
+        [SerializeField] private int _startingHealth = 40;
         private int _currentLevel = 0;
 
         public Vector2Int PlayerSpawnPosition;
 
         public TurnManager TurnManager { get; private set; }
+        
+        
 
         private void Awake()
         {
@@ -40,21 +42,22 @@ namespace Destrial
             TurnManager = new TurnManager();
             TurnManager.OnTick += OnTurnHappen;
 
-            _foodLabel = UIDoc.rootVisualElement.Q<Label>("FoodLabel");
+            _healthLabel = UIDoc.rootVisualElement.Q<Label>("HealthLabel");
 
             _gameOverPanel = UIDoc.rootVisualElement.Q<VisualElement>("GameOverPanel");
             _gameOverMessage = _gameOverPanel.Q<Label>("GameOverMessage");
 
             StartNewGame();
         }
+        
 
         public void StartNewGame()
         {
             _gameOverPanel.style.visibility = Visibility.Hidden;
 
             _currentLevel = 1;
-            _foodAmount = _startFood;
-            _foodLabel.text = "Food : " + _foodAmount;
+            _CurrentHealthAmount = _startingHealth;
+            _healthLabel.text = "Health : " + _CurrentHealthAmount;
 
             BoardManager.Clean();
             BoardManager.Init();
@@ -84,10 +87,10 @@ namespace Destrial
 
         public void ChangeFood(int amount)
         {
-            _foodAmount += amount;
-            _foodLabel.text = "Food : " + _foodAmount;
+            _CurrentHealthAmount += amount;
+            _healthLabel.text = "Health : " + _CurrentHealthAmount;
 
-            if (_foodAmount <= 0)
+            if (_CurrentHealthAmount <= 0)
             {
                 PlayerController.GameOver();
                 _gameOverPanel.style.visibility = Visibility.Visible;
