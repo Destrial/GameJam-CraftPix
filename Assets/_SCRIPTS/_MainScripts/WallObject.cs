@@ -6,11 +6,13 @@ namespace Destrial
 
     public class WallObject : CellObject
     {
-        public Tile ObstacleTile;
-        public Tile DestroyTile1;
-        public Tile DestroyTile2;
+       // public Tile ObstacleTile;
+       
+        [SerializeField] SpriteRenderer _spriteRenderer;
+        public Sprite DestroySprite1;
+        public Sprite DestroySprite2;
         public int MaxHealth = 3;
-
+        public int PlayerDmg = 3;
         private int _healthPoint;
         private Tile _originalTile;
 
@@ -18,11 +20,12 @@ namespace Destrial
 
         public override void Init(Vector2Int cell)
         {
+          
             base.Init(cell);
             _healthPoint = MaxHealth;
             myPos = cell;
             _originalTile = GameManager.Instance.BoardManager.GetCellTile(cell);
-            GameManager.Instance.BoardManager.SetCellTile(cell, ObstacleTile);
+          //  GameManager.Instance.BoardManager.SetCellTile(cell, ObstacleTile);
         }
 
         public override bool PlayerWantsToEnter()
@@ -30,11 +33,17 @@ namespace Destrial
             _healthPoint -= 1;
             if (_healthPoint == 2)
             {
-                GameManager.Instance.BoardManager.SetCellTile(myPos, DestroyTile1);
+                _spriteRenderer.sprite = DestroySprite1;
+                GameManager.Instance.ChangeLife(-PlayerDmg);
+                GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg);
+                //GameManager.Instance.BoardManager.SetCellTile(myPos, DestroyTile1);
             }
             else if (_healthPoint == 1)
             {
-                GameManager.Instance.BoardManager.SetCellTile(myPos, DestroyTile2);
+                _spriteRenderer.sprite = DestroySprite2;
+                GameManager.Instance.ChangeLife(-PlayerDmg);
+                GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg);
+               // GameManager.Instance.BoardManager.SetCellTile(myPos, DestroyTile2);
             }
 
             if (_healthPoint > 0)
@@ -42,7 +51,7 @@ namespace Destrial
                 return false;
             }
 
-            GameManager.Instance.BoardManager.SetCellTile(_cell, _originalTile);
+          //  GameManager.Instance.BoardManager.SetCellTile(_cell, _originalTile);
             GameManager.Instance.BoardManager.FreeBoard(_cell,true);
             Destroy(gameObject);
             return true;

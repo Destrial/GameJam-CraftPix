@@ -31,7 +31,7 @@ namespace Destrial
         Vector3 _moveTarget;
 
         public int Health = 3;
-
+        public int Damage = 5;
         private int _currentHealth;
 
 
@@ -182,8 +182,8 @@ namespace Destrial
                 //// /!\ MUST ADD CODE SO Enemy DOESN'T ATTACK IF PLAYER HIT HIM FIRST
                 //
                 _animator.SetTrigger("Attack");
-                GameManager.Instance.ChangeFood(-3);
-                GameManager.Instance.BoardManager.Player.GetHurt(3);
+                GameManager.Instance.ChangeLife(-Damage);
+                GameManager.Instance.BoardManager.Player.GetHurt(-Damage);
             }
 
             else
