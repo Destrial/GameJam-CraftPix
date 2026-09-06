@@ -61,6 +61,7 @@ namespace Destrial
                     _animator.SetFloat("mov_x", _newDirection.x);
                     _animator.SetFloat("mov_y", _newDirection.y);
                     _animator.SetBool("Moving", false);
+                    _animator.SetBool("ContinuousWalk", false);
                  
 
                     //_cantInput = false;
@@ -81,9 +82,10 @@ namespace Destrial
         public override bool PlayerWantsToEnter()
         {
             _currentHealth -= 1;
-
+            _animator.SetTrigger("Hurt");
             if (_currentHealth <= 0)
             {
+                _animator.SetTrigger("Die");
                 Instantiate(_deathPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }
@@ -181,6 +183,7 @@ namespace Destrial
                 //
                 _animator.SetTrigger("Attack");
                 GameManager.Instance.ChangeFood(-3);
+                GameManager.Instance.BoardManager.Player.GetHurt(3);
             }
 
             else

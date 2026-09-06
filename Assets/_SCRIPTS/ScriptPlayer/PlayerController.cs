@@ -57,6 +57,11 @@ namespace Destrial
             MyState = PlayerState.Death;
         }
         
+        public void GetHurt(int amout)
+        {
+            _animator.SetTrigger("Hurt");
+          
+        }
 
         public void Spawn(BoardManager boardManager, Vector2Int cell)
         {
