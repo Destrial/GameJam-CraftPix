@@ -43,6 +43,7 @@ namespace Destrial
             }
 
             GameManager.Instance.BoardManager.SetCellTile(_cell, _originalTile);
+            GameManager.Instance.BoardManager.FreeBoard(_cell,true);
             Destroy(gameObject);
             return true;
         }

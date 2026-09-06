@@ -15,6 +15,7 @@ namespace Destrial
         }
         private BoardPathfinding _pathfinder = new BoardPathfinding();
         private CellData[,] _boardData;
+        private bool[,] _boardDataPath;
         private bool CornerTOP_RIGHT;
         private bool CornerTOP_LEFT;
         private bool CornerBOTTOM_RIGHT;
@@ -45,19 +46,7 @@ namespace Destrial
         
         public RuleTile AutoTile;
         
-        public Tile[] WallHTiles;
-        public Tile[] WallVTiles;
-        public Tile WallCornerUR;
-        public Tile WallCornerUL;
-        public Tile WallCornerDL;
-        public Tile WallCornerDR;
-        public Tile WallCorner;
-        
-        public Tile WallTopVert;
-        public Tile WallBottomVert;
-        
-        public Tile WallRightHor;
-        public Tile WallLeftHor;
+     
         private Vector2Int _entranceCoord;
         
         [SerializeField] int _enemyNumber = 6;
@@ -91,6 +80,7 @@ namespace Destrial
             Width = Random.Range(RoomSizeMin, RoomSizeMax + 1);
             Height = Random.Range(RoomSizeMin, RoomSizeMax + 1);
             _boardData = new CellData[Width, Height];
+            _boardDataPath = new bool[Width, Height];
             _noRoom = new bool[Width, Height];
 
             _emptyCellsList = new List<Vector2Int>();
@@ -185,9 +175,10 @@ namespace Destrial
 
             }
 
-
-            AddObject(exito, endCoord);
             _boardData[endCoord.x, endCoord.y].Passable = true;
+          
+            AddObject(exito, endCoord,true);
+         
             _emptyCellsList.Remove(endCoord);
         }
 
@@ -207,12 +198,14 @@ namespace Destrial
                     {
                       //  tile = WallTiles[Random.Range(0, WallTiles.Length)];
                         _boardData[x, y].Passable = false;
+                        _boardDataPath[x, y] = false;
                         _tilemap.SetTile(new Vector3Int(x, y, 0), AutoTile);
                     }
                     else
                     {
                         tile = GroundTiles[Random.Range(0, GroundTiles.Length)];
                         _boardData[x, y].Passable = true;
+                        _boardDataPath[x, y] = true;
                         //this is a passable empty cell, add it to the list!
                         _emptyCellsList.Add(new Vector2Int(x, y));
                         _tilemap.SetTile(new Vector3Int(x, y, 0), tile);
@@ -235,6 +228,7 @@ namespace Destrial
                            // tile = WallTiles[Random.Range(0, WallTiles.Length)];
                             _tilemap.SetTile(new Vector3Int(x, y, 0), AutoTile);
                             _boardData[x, y].Passable = false;
+                            _boardDataPath[x, y] = false;
                             //this is a passable empty cell, add it to the list!
                             _emptyCellsList.Remove(new Vector2Int(x, y));
                         }
@@ -242,6 +236,7 @@ namespace Destrial
                         else // remove all
                         {
                             _boardData[x, y].Passable = false;
+                            _boardDataPath[x, y] = false;
                             _emptyCellsList.Remove(new Vector2Int(x, y));
                             _tilemap.SetTile(new Vector3Int(x, y, 0), null);
                         }
@@ -260,6 +255,7 @@ namespace Destrial
                             //tile = WallTiles[Random.Range(0, WallTiles.Length)];
                             _tilemap.SetTile(new Vector3Int(x, y, 0), AutoTile);
                             _boardData[x, y].Passable = false;
+                            _boardDataPath[x, y] = false;
                             //this is a passable empty cell, add it to the list!
                             _emptyCellsList.Remove(new Vector2Int(x, y));
                         }
@@ -267,6 +263,7 @@ namespace Destrial
                         else // remove all
                         {
                             _boardData[x, y].Passable = false;
+                            _boardDataPath[x, y] = false;
                             _emptyCellsList.Remove(new Vector2Int(x, y));
                             _tilemap.SetTile(new Vector3Int(x, y, 0), null);
                         }
@@ -285,6 +282,7 @@ namespace Destrial
                           //  tile = WallTiles[Random.Range(0, WallTiles.Length)];
                             _tilemap.SetTile(new Vector3Int(x, y, 0), AutoTile);
                             _boardData[x, y].Passable = false;
+                            _boardDataPath[x, y] = false;
                             //this is a passable empty cell, add it to the list!
                             _emptyCellsList.Remove(new Vector2Int(x, y));
                         }
@@ -292,6 +290,7 @@ namespace Destrial
                         else // remove all
                         {
                             _boardData[x, y].Passable = false;
+                            _boardDataPath[x, y] = false;
                             _emptyCellsList.Remove(new Vector2Int(x, y));
                             _tilemap.SetTile(new Vector3Int(x, y, 0), null);
                         }
@@ -310,6 +309,7 @@ namespace Destrial
                            // tile = WallTiles[Random.Range(0, WallTiles.Length)];
                             _tilemap.SetTile(new Vector3Int(x, y, 0), AutoTile);
                             _boardData[x, y].Passable = false;
+                            _boardDataPath[x, y] = false;
                             //this is a passable empty cell, add it to the list!
                             _emptyCellsList.Remove(new Vector2Int(x, y));
                         }
@@ -317,6 +317,7 @@ namespace Destrial
                         else // remove all
                         {
                             _boardData[x, y].Passable = false;
+                            _boardDataPath[x, y] = false;
                             _emptyCellsList.Remove(new Vector2Int(x, y));
                             _tilemap.SetTile(new Vector3Int(x, y, 0), null);
                         }
@@ -432,7 +433,7 @@ namespace Destrial
                 int numi = Random.Range(0, FoodPrefab.Length);
                 FoodObject newFood = Instantiate(FoodPrefab[numi]);
 
-                AddObject(newFood, coord);
+                AddObject(newFood, coord,true);
             }
         }
 
@@ -449,7 +450,7 @@ namespace Destrial
                 int numi = Random.Range(0, WallDestroyPrefab.Length);
                 WallObject newWall = Instantiate(WallDestroyPrefab[numi]);
 
-                AddObject(newWall, coord);
+                AddObject(newWall, coord,false);
             }
         }
 
@@ -467,7 +468,7 @@ namespace Destrial
                 //Ennemies
                 Enemy newEnemy = Instantiate(EnemyPrefab);
 
-                AddObject(newEnemy, coord);
+                AddObject(newEnemy, coord,false);
             }
         }
 
@@ -482,13 +483,21 @@ namespace Destrial
             return _tilemap.GetTile<Tile>(new Vector3Int(cellIndex.x, cellIndex.y, 0));
         }
 
-        void AddObject(CellObject obj, Vector2Int coord)
+        void AddObject(CellObject obj, Vector2Int coord,bool isPassable)
         {
             CellData data = _boardData[coord.x, coord.y];
             obj.transform.position = CellToWorld(coord);
             data.ContainedObject = obj;
             obj.Init(coord);
+            _boardDataPath[coord.x, coord.y]=isPassable;
         }
+
+        public void FreeBoard(Vector2Int coord,bool isPassable)
+        {
+          
+            _boardDataPath[coord.x, coord.y]=isPassable;
+        }
+      
 
         public void Clean()
         {
@@ -501,6 +510,7 @@ namespace Destrial
             {
                 for (int x = 0; x < Width; ++x)
                 {
+                   
                     var cellData = _boardData[x, y];
 
                     if (cellData.ContainedObject != null)
@@ -514,13 +524,14 @@ namespace Destrial
                     SetCellTile(new Vector2Int(x, y), null);
                 }
             }
+            
         }
         
         public Vector2Int FindMove(Vector2Int startPos, Vector2Int targetPos)
         {
             Vector2Int nextMove;
             // Execute path calculation (The most important part)
-            List<Vector2Int> finalPath = _pathfinder.FindPath(_boardData, startPos, targetPos, allowDiagonal: false);
+            List<Vector2Int> finalPath = _pathfinder.FindPath(_boardDataPath, startPos, targetPos, allowDiagonal: false);
 
             if (finalPath != null)
             {

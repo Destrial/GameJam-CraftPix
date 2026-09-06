@@ -120,9 +120,20 @@ namespace Destrial
         */
         public void GoMoveTo(Vector2Int cell, bool immediate)
         {
+            _board.FreeBoard(_cell,true);
+        
+          
+            var currentCell = _board.GetCellData(_cell);
+            var targetCell = _board.GetCellData(cell);
+           
+            //remove enemy from current cell
+            currentCell.ContainedObject = null;
+            //add it to the next cell
+            targetCell.ContainedObject = this;
+           
+            
             _cell = cell;
-
-
+          
             if (immediate)
             {
                 _isMoving = false;
@@ -140,6 +151,7 @@ namespace Destrial
             _animator.SetFloat("mov_y", _newDirection.y);
             _animator.SetBool("ContinuousWalk", true);
             _animator.SetBool("Moving", _isMoving);
+            _board.FreeBoard(_cell,false);
         }
 
         void TurnHappened()

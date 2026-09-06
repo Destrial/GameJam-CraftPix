@@ -30,7 +30,7 @@ namespace Destrial
         /// Calculates the shortest path between two points on your _boardData grid.
         /// Returns a list of Vector2Int coordinates from start to end, or null if blocked.
         /// </summary>
-        public List<Vector2Int> FindPath(BoardManager.CellData[,] boardData, Vector2Int startPos, Vector2Int endPos,
+        public List<Vector2Int> FindPath(bool[,] boardData, Vector2Int startPos, Vector2Int endPos,
             bool allowDiagonal = false)
         {
             int width = boardData.GetLength(0);
@@ -39,7 +39,7 @@ namespace Destrial
             // Validation bounds check
             if (startPos.x < 0 || startPos.x >= width || startPos.y < 0 || startPos.y >= height) return null;
             if (endPos.x < 0 || endPos.x >= width || endPos.y < 0 || endPos.y >= height) return null;
-            if (!boardData[endPos.x, endPos.y].Passable) return null; // Destination is blocked
+            if (!boardData[endPos.x, endPos.y]) return null; // Destination is blocked
 
             // Runtime node tracker matrix
             AStarNode[,] nodeGrid = new AStarNode[width, height];
@@ -129,7 +129,7 @@ namespace Destrial
             return (dX + dY) * MOVE_STRAIGHT_COST;
         }
 
-        private List<AStarNode> GetNeighbors(AStarNode[,] nodeGrid, AStarNode curr, BoardManager.CellData[,] board, int w, int h,
+        private List<AStarNode> GetNeighbors(AStarNode[,] nodeGrid, AStarNode curr, bool[,] board, int w, int h,
             bool allowDiagonal)
         {
             List<AStarNode> neighbors = new List<AStarNode>();
@@ -148,7 +148,7 @@ namespace Destrial
                     // Ensure it is inside the board boundaries and Passable
                     if (checkX >= 0 && checkX < w && checkY >= 0 && checkY < h)
                     {
-                        if (board[checkX, checkY].Passable)
+                        if (board[checkX, checkY])
                         {
                             neighbors.Add(nodeGrid[checkX, checkY]);
                         }
