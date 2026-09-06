@@ -9,7 +9,7 @@ namespace Destrial
         public static GameManager Instance { get; private set; } // SINGLETON
 
         public UIDocument UIDoc;
-        private Label _healthLabel;
+        private Label _foodLabel;
         private VisualElement _gameOverPanel;
         private Label _gameOverMessage;
 
@@ -42,7 +42,7 @@ namespace Destrial
             TurnManager = new TurnManager();
             TurnManager.OnTick += OnTurnHappen;
 
-            _healthLabel = UIDoc.rootVisualElement.Q<Label>("HealthLabel");
+            _foodLabel = UIDoc.rootVisualElement.Q<Label>("FoodLabel");
 
             _gameOverPanel = UIDoc.rootVisualElement.Q<VisualElement>("GameOverPanel");
             _gameOverMessage = _gameOverPanel.Q<Label>("GameOverMessage");
@@ -57,7 +57,7 @@ namespace Destrial
 
             _currentLevel = 1;
             _CurrentHealthAmount = _startingHealth;
-            _healthLabel.text = "Health : " + _CurrentHealthAmount;
+            _foodLabel.text = "Health : " + _CurrentHealthAmount;
 
             BoardManager.Clean();
             BoardManager.Init();
@@ -88,7 +88,7 @@ namespace Destrial
         public void ChangeFood(int amount)
         {
             _CurrentHealthAmount += amount;
-            _healthLabel.text = "Health : " + _CurrentHealthAmount;
+            _foodLabel.text = "Health : " + _CurrentHealthAmount;
 
             if (_CurrentHealthAmount <= 0)
             {
