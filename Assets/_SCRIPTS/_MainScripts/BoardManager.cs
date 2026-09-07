@@ -84,7 +84,8 @@ namespace Destrial
             _noRoom = new bool[Width, Height];
 
             _emptyCellsList = new List<Vector2Int>();
-
+            GameManager.Instance.Enemies = new HashSet<Enemy>();
+            GameManager.Instance.Enemies.Clear();
             GenerateFloor();
 
             //remove the starting point of the player! It's not empty, the player is there
@@ -469,6 +470,7 @@ namespace Destrial
                 Enemy newEnemy = Instantiate(EnemyPrefab);
 
                 AddObject(newEnemy, coord,false);
+              //  GameManager.Instance.Enemies.Add(newEnemy);
             }
         }
 
@@ -525,9 +527,11 @@ namespace Destrial
                 }
             }
             
+        
+            
         }
         
-        public Vector2Int FindMove(Vector2Int startPos, Vector2Int targetPos)
+        public Vector2Int FindNextMove(Vector2Int startPos, Vector2Int targetPos)
         {
             Vector2Int nextMove;
             // Execute path calculation (The most important part)
@@ -537,7 +541,7 @@ namespace Destrial
             {
                
                 nextMove = finalPath[0];
-                Debug.Log($"Next Step -> X: {nextMove.x}, Y: {nextMove.y}");
+            //    Debug.Log($"Next Step -> X: {nextMove.x}, Y: {nextMove.y}");
             }
             else
             {

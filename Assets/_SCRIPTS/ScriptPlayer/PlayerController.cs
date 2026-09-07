@@ -28,7 +28,7 @@ namespace Destrial
 
         private Vector2Int _newCellTarget;
         private Vector2Int _newDirection;
-
+        private InputAction attackInputAction;
        private bool _cantInput;
       //  [SerializeField]
       //  private float _waitInputTime;
@@ -41,12 +41,15 @@ namespace Destrial
         private void OnEnable()
         {
             _myInputs.Enable();
+            _myInputs.Player.Attack.performed += OnAttackPerformed;
+            
         }
 
 
         private void OnDisable()
         {
             _myInputs.Disable();
+            _myInputs.Player.Attack.performed -= OnAttackPerformed;
         }
         
         
@@ -61,6 +64,18 @@ namespace Destrial
         {
             _animator.SetTrigger("Hurt");
           
+        }
+
+        private void OnAttackPerformed(InputAction.CallbackContext context)
+        {
+            if (MyState.Equals(PlayerState.Idle) && !_isAttacking && !_isMoving)
+            {
+
+                DirectAttack();
+                    
+            
+            }
+
         }
 
         public void Spawn(BoardManager boardManager, Vector2Int cell)
@@ -127,6 +142,7 @@ namespace Destrial
 
                 return;
             }
+          //  Debug.Log("1"+ MyState);
             if (_cantInput) return;
             
             bool hasMoved = false;
@@ -171,7 +187,7 @@ namespace Destrial
             }
 
             
-            
+           // Debug.Log("2 "+MyState);
            
             switch (MyState)
             {   
@@ -199,7 +215,7 @@ namespace Destrial
                                 //Call PlayerEntered AFTER moving the player! Otherwise not in cell yet
                                 cellData.ContainedObject.PlayerEntered();  // only for grab
                                 GameManager.Instance.TurnManager.Tick();
-                                
+                                Debug.Log("Grabbing");
                             }
                             else
                             {
@@ -248,8 +264,10 @@ namespace Destrial
                     break;
                 
                 case PlayerState.Attacking:
+                   // Debug.Log("3");
                     if (_isAttacking)
                     {
+                     //   Debug.Log("4 aaaa");
                       //wait
                       _cantInput = true;
                       _isMoving = false;
@@ -269,6 +287,30 @@ namespace Destrial
           
 
           
+        }
+
+        void DirectAttack()
+        {
+            MyAction = PlayerState.Attacking;
+            MyState = PlayerState.Attacking;
+            _isAttacking = true;
+          
+            _newCellTarget=CellPosition+_newDirection;
+            BoardManager.CellData cellData = _board.GetCellData(_newCellTarget);
+            if (cellData.ContainedObject.PlayerWantsToEnter()) {}  //actual call on target damage
+            
+           // Debug.Log("Attacking");
+            
+            _cantInput = true;
+            _isMoving = false;
+            GameManager.Instance.TurnManager.Tick();
+            StartCoroutine(StartTimerAttack());
+                      
+            _animator.SetFloat("mov_x", _newDirection.x);
+            _animator.SetFloat("mov_y", _newDirection.y);
+            _animator.SetBool("ContinuousWalk", false);
+            _animator.SetTrigger("Attack");
+            
         }
         
        IEnumerator StartTimerAttack()

@@ -489,8 +489,10 @@ MonoBehaviour:
   UIDoc: {fileID: 1995446974}
   BoardManager: {fileID: 1240575655}
   PlayerController: {fileID: 1504855376}
-  _startFood: 20
+  _startingHealth: 40
   PlayerSpawnPosition: {x: 0, y: 0}
+  _attackSpeed: 1
+  _isAttacking: 0
 --- !u!1 &1029152727
 GameObject:
   m_ObjectHideFlags: 0
@@ -862,24 +864,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b86de09a01a65d54b9e345898bf8b4b7, type: 2}
   EntranceTile: {fileID: 11400000, guid: da9d4e5b98a77e349bd2a04fa5ac0c41, type: 2}
   AutoTile: {fileID: 11400000, guid: d64f09563f02a6f4ea7d2cf084b8e990, type: 2}
-  WallHTiles:
-  - {fileID: 11400000, guid: cbab5cd2211d94646aade8ae86f26233, type: 2}
-  - {fileID: 11400000, guid: beaa826680c24be4fa06f1d47b7b2d59, type: 2}
-  - {fileID: 11400000, guid: 943894f90da396c42898922c10b4db62, type: 2}
-  - {fileID: 11400000, guid: d31d6c8c8a30f744b9dfb5dd05d5775e, type: 2}
-  WallVTiles:
-  - {fileID: 11400000, guid: d6f7b7f2d85380a4ca6684fa07ffd043, type: 2}
-  - {fileID: 11400000, guid: 54b039b6021f1b04c8e1ecccba3dc81e, type: 2}
-  - {fileID: 11400000, guid: 5fb96f12798c9b546992a3b39f7517cd, type: 2}
-  WallCornerUR: {fileID: 11400000, guid: e7815b1735497754e937c570b33ef11f, type: 2}
-  WallCornerUL: {fileID: 11400000, guid: 6bef86c4ceb41084d8e7a090b914c549, type: 2}
-  WallCornerDL: {fileID: 11400000, guid: 921b4d5caef33b846aa9aac5b7662d48, type: 2}
-  WallCornerDR: {fileID: 11400000, guid: 5df6beff3753e2a4d96b1b73358051fa, type: 2}
-  WallCorner: {fileID: 11400000, guid: 5fb96f12798c9b546992a3b39f7517cd, type: 2}
-  WallTopVert: {fileID: 0}
-  WallBottomVert: {fileID: 0}
-  WallRightHor: {fileID: 0}
-  WallLeftHor: {fileID: 0}
   _enemyNumber: 6
   Player: {fileID: 1504855376}
   RoomSizeMin: 8

@@ -1,5 +1,7 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
+using System.Collections;
 
 namespace Destrial
 {
@@ -22,9 +24,10 @@ namespace Destrial
         public Vector2Int PlayerSpawnPosition;
 
         public TurnManager TurnManager { get; private set; }
-        
-        
 
+        public HashSet<Enemy> Enemies;
+        [SerializeField] private float _attackSpeed;
+       
         private void Awake()
         {
             if (Instance != null)
@@ -82,7 +85,7 @@ namespace Destrial
 
         void OnTurnHappen()
         {
-            //ChangeFood(-1);
+            StartCoroutine(StartTimerAttack());
         }
 
         public void ChangeLife(int amount)
@@ -98,6 +101,25 @@ namespace Destrial
                                          " levels";
 
             }
+        }
+        
+        IEnumerator StartTimerAttack()
+        {
+            foreach (Enemy enemy in Enemies)
+            {
+                enemy.TurnHappenedMove();
+
+            }
+
+            foreach (Enemy enemy in Enemies)
+            {
+                enemy.TurnHappenedAttack();
+                yield return new WaitForSeconds(_attackSpeed);
+
+            }
+            
+           
+    
         }
     }
 }

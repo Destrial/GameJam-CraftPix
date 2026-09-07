@@ -53,6 +53,8 @@ namespace Destrial
 
           //  GameManager.Instance.BoardManager.SetCellTile(_cell, _originalTile);
             GameManager.Instance.BoardManager.FreeBoard(_cell,true);
+            GameManager.Instance.ChangeLife(-PlayerDmg);
+            GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg);
             Destroy(gameObject);
             return true;
         }

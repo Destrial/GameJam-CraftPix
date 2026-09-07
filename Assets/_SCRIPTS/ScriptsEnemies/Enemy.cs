@@ -39,12 +39,12 @@ namespace Destrial
         {
             _animator = GetComponent<Animator>();
 
-            GameManager.Instance.TurnManager.OnTick += TurnHappened; //EVENT
+        //    GameManager.Instance.TurnManager.OnTick += TurnHappened; //EVENT
         }
 
         private void OnDestroy()
         {
-            GameManager.Instance.TurnManager.OnTick -= TurnHappened;
+          // GameManager.Instance.TurnManager.OnTick -= TurnHappened;
         }
 
         void Update()
@@ -77,6 +77,7 @@ namespace Destrial
             _currentHealth = Health;
             _board = GameManager.Instance.BoardManager;
             Cell = _board.GetCellData(coord);
+            GameManager.Instance.Enemies.Add(this);
         }
 
         public override bool PlayerWantsToEnter()
@@ -88,6 +89,7 @@ namespace Destrial
                 _animator.SetTrigger("Die");
                 Instantiate(_deathPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
+                GameManager.Instance.Enemies.Remove(this);
             }
 
             return false;
@@ -162,7 +164,35 @@ namespace Destrial
             _board.FreeBoard(_cell,false);
         }
 
-        void TurnHappened()
+        public void TurnHappenedMove()
+        {
+            var playerCell = GameManager.Instance.PlayerController.CellPosition;
+
+            int xDist = playerCell.x - _cell.x;
+            int yDist = playerCell.y - _cell.y;
+
+            int absXDist = Mathf.Abs(xDist);
+            int absYDist = Mathf.Abs(yDist);
+            
+            if ((xDist == 0 && absYDist == 1)
+                || (yDist == 0 && absXDist == 1))
+            {
+                    //have to attack player
+            }
+            else  //move towars player
+            {
+                _newCellTarget = _board.FindNextMove(_cell,  playerCell);
+
+                if (_newCellTarget != Vector2Int.zero)
+                {
+                    _newDirection.x= _newCellTarget.x - _cell.x;
+                    _newDirection.y = _newCellTarget.y - _cell.y;
+                    GoMoveTo(_newCellTarget, false);
+                }
+            }
+        }
+
+        public void TurnHappenedAttack()
         {
             //Public property that returns the player current cell
             var playerCell = GameManager.Instance.PlayerController.CellPosition;
@@ -186,17 +216,6 @@ namespace Destrial
                 GameManager.Instance.BoardManager.Player.GetHurt(-Damage);
             }
 
-            else
-            {
-               _newCellTarget = _board.FindMove(_cell,  playerCell);
-
-                if (_newCellTarget != Vector2Int.zero)
-                {
-                    _newDirection.x= _newCellTarget.x - _cell.x;
-                    _newDirection.y = _newCellTarget.y - _cell.y;
-                    GoMoveTo(_newCellTarget, false);
-                }
-            }
         }
     }
 }
