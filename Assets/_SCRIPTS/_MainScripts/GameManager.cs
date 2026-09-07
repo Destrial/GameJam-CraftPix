@@ -17,8 +17,8 @@ namespace Destrial
 
         public BoardManager BoardManager;
         public PlayerController PlayerController;
-        private int _CurrentHealthAmount = 100;
-        [SerializeField] private int _startingHealth = 40;
+
+        
         private int _currentLevel = 0;
 
         public Vector2Int PlayerSpawnPosition;
@@ -27,6 +27,26 @@ namespace Destrial
 
         public HashSet<Enemy> Enemies;
         [SerializeField] private float _attackSpeed;
+        
+        
+        
+        
+        
+        // STATS
+        private int _currentHealthAmount = 100;
+        [SerializeField] private int _startingHealth = 40;
+
+        private int _killAmount = 0;
+
+        private int _destroyAmount = 0;
+        public int CurrentHealthAmount
+        {
+            get { return _currentHealthAmount; }
+        }
+        //
+
+
+
        
         private void Awake()
         {
