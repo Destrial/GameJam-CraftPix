@@ -30,6 +30,10 @@ namespace Destrial
         private Vector2Int _newDirection;
         private InputAction attackInputAction;
        private bool _cantInput;
+       
+       
+       [SerializeField] private GameObject _bloodPrefab;
+       
       //  [SerializeField]
       //  private float _waitInputTime;
         private void Awake()
@@ -63,6 +67,7 @@ namespace Destrial
         public void GetHurt(int amout)
         {
             _animator.SetTrigger("Hurt");
+            Instantiate(_bloodPrefab, transform.position, Quaternion.identity);
           
         }
 
