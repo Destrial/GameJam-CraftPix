@@ -19,6 +19,8 @@ namespace Destrial
         [SerializeField] private EnemyType _myEnemyType;
         [SerializeField] private GameObject _deathPrefab;
         [SerializeField] private GameObject _bloodPrefab;
+        
+       
 
 //public Vector2Int CellPosition;
 
@@ -41,7 +43,7 @@ namespace Destrial
         [SerializeField] AudioClip[] _audioHurt;
       
         [SerializeField] AudioClip[] _audioImpact;
-
+    [SerializeField] SpriteRenderer _spriteRenderer;
 
         private void Awake()
         {
@@ -93,8 +95,8 @@ namespace Destrial
         {
             _currentHealth -= 1;
             _animator.SetTrigger("Hurt");
-            _audioSource.PlayOneShot(_audioImpact[Random.Range(0, _audioImpact.Length)]);
-            _audioSource.PlayOneShot(_audioHurt[Random.Range(0, _audioHurt.Length)]);
+            _audioSource.PlayOneShot(_audioImpact[Random.Range(0, _audioImpact.Length)],GameManager.Instance.sfxVolume);
+            _audioSource.PlayOneShot(_audioHurt[Random.Range(0, _audioHurt.Length)],GameManager.Instance.sfxVolume);
             Instantiate(_bloodPrefab, transform.position, Quaternion.identity);
 
             
@@ -178,7 +180,7 @@ namespace Destrial
             _animator.SetBool("ContinuousWalk", true);
             _animator.SetBool("Moving", _isMoving);
             _board.FreeBoard(_cell,false);
-            _audioSource.PlayOneShot(_audioMove[Random.Range(0, _audioMove.Length)]);
+            _audioSource.PlayOneShot(_audioMove[Random.Range(0, _audioMove.Length)],GameManager.Instance.sfxVolume);
         }
 
         public bool CanAttack()
@@ -208,12 +210,13 @@ namespace Destrial
         {
           
                 //Enemy is adjacent to the player, attacks.
-
+               
                 //// /!\ MUST ADD CODE SO Enemy DOESN'T ATTACK IF PLAYER HIT HIM FIRST
                 //
                 var playerCell = GameManager.Instance.PlayerController.CellPosition;
                 _newDirection= playerCell - _cell;
-                _audioSource.PlayOneShot(_audioAttack[Random.Range(0, _audioAttack.Length)]);
+                _board.PerformGridAttack(_cell,playerCell,this.transform, _spriteRenderer);
+                _audioSource.PlayOneShot(_audioAttack[Random.Range(0, _audioAttack.Length)],GameManager.Instance.sfxVolume);
                 _animator.SetFloat("mov_x", _newDirection.x);
                 _animator.SetFloat("mov_y", _newDirection.y);
                 _animator.SetTrigger("Attack");
@@ -235,7 +238,7 @@ namespace Destrial
             }
         }
         
-
+      
       
     }
 }

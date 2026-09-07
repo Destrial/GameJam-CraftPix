@@ -12,7 +12,7 @@ namespace Destrial
         public override void PlayerEntered()
         {
             GameManager.Instance.ChangeLife(AmountGranted);
-            GameManager.Instance.AudioPickup();
+            GameManager.Instance.AudioPickup(true);
 
             Destroy(gameObject);
 
@@ -23,6 +23,7 @@ namespace Destrial
         public override void RatEntered()
         {
             Destroy(gameObject);
+            GameManager.Instance.AudioPickup(false);
         }
     }
 

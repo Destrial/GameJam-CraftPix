@@ -52,9 +52,17 @@ namespace Destrial
        [SerializeField] AudioClip _audioLevelUp;
        [SerializeField] AudioClip _audioLose;
        [SerializeField] AudioClip[] _audioPickUp;
+       [SerializeField] AudioClip[] _audioBadPickUp;
        [SerializeField] AudioClip[] _audioMobDeath;
        [SerializeField] AudioClip[] _audioDestroy;
        [SerializeField] AudioClip _audioNextLevel;
+       
+       
+       public AudioClip musicClip;
+     
+
+       [Range(0f, 1f)] public float musicVolume = 0.5f;
+       [Range(0f, 1f)] public float sfxVolume = 1.0f;
         private void Awake()
         {
             if (Instance != null)
@@ -78,6 +86,11 @@ namespace Destrial
             _gameOverMessage = _gameOverPanel.Q<Label>("GameOverMessage");
 
             StartNewGame();
+            
+            _audioSource.clip = musicClip;
+            _audioSource.loop = true;
+            _audioSource.volume = musicVolume;
+            _audioSource.Play();
         }
         
 
@@ -106,7 +119,7 @@ namespace Destrial
          
             PlayerController.Spawn(BoardManager, PlayerSpawnPosition);
             PlayerController.Init();
-            _audioSource.PlayOneShot(_audioNextLevel);
+            _audioSource.PlayOneShot(_audioNextLevel, sfxVolume);
          //   Debug.Log(""+PlayerController.CellPosition+"/"+PlayerSpawnPosition);
             _currentLevel++;
         }
@@ -165,31 +178,38 @@ namespace Destrial
 
         public void MobDeath(Enemy.EnemyType typeMob)
         {
-            _audioSource.PlayOneShot(_audioMobDeath[Random.Range(0, _audioMobDeath.Length)]);
+            _audioSource.PlayOneShot(_audioMobDeath[Random.Range(0, _audioMobDeath.Length)], sfxVolume);
         }
         public void WallDestroyed()
         {
-            _audioSource.PlayOneShot(_audioDestroy[Random.Range(0, _audioDestroy.Length)]);
+            _audioSource.PlayOneShot(_audioDestroy[Random.Range(0, _audioDestroy.Length)], sfxVolume);
         }
-        public void AudioPickup()
+        public void AudioPickup(bool isGood)
         {
-            _audioSource.PlayOneShot(_audioPickUp[Random.Range(0, _audioPickUp.Length)]);
+            if (isGood)
+            {
+                _audioSource.PlayOneShot(_audioPickUp[Random.Range(0, _audioPickUp.Length)], sfxVolume);
+            }
+            else
+            {
+                _audioSource.PlayOneShot(_audioBadPickUp[Random.Range(0, _audioBadPickUp.Length)], sfxVolume);
+            }
         }
         public void AudioLoot()
         {
-            _audioSource.PlayOneShot(_audioDecaLoot);
+            _audioSource.PlayOneShot(_audioDecaLoot, sfxVolume);
         }
         public void AudioGrowth()
         {
-            _audioSource.PlayOneShot(_audioDecaGrowth);
+            _audioSource.PlayOneShot(_audioDecaGrowth, sfxVolume);
         }
         public void LevelUp()
         {
-            _audioSource.PlayOneShot(_audioLevelUp);
+            _audioSource.PlayOneShot(_audioLevelUp, sfxVolume);
         }
         public void GameOver()
         {
-            _audioSource.PlayOneShot(_audioLose);
+            _audioSource.PlayOneShot(_audioLose, sfxVolume);
         }
        
         

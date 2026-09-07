@@ -81,7 +81,7 @@ namespace Destrial
             _animator.SetBool("Death", true);
             _isGameOver = true;
             MyState = PlayerState.Death;
-            _audioSource.PlayOneShot(_audioDie);
+            _audioSource.PlayOneShot(_audioDie, GameManager.Instance.sfxVolume);
         }
 
         public void GetHurt(int amout)
@@ -89,7 +89,7 @@ namespace Destrial
             _animator.SetTrigger("Hurt");
             Debug.Log("hurt");
             Instantiate(_bloodPrefab, transform.position, Quaternion.identity);
-            _audioSource.PlayOneShot(_audioHurt[Random.Range(0, _audioHurt.Length)]);
+            _audioSource.PlayOneShot(_audioHurt[Random.Range(0, _audioHurt.Length)], GameManager.Instance.sfxVolume);
         }
 
         private void OnAttackPerformed(InputAction.CallbackContext context)
@@ -132,7 +132,7 @@ namespace Destrial
             _animator.SetFloat("mov_y", _newDirection.y);
             _animator.SetBool("ContinuousWalk", true);
             _animator.SetBool("Moving", _isMoving);
-            _audioSource.PlayOneShot(_audioMove[Random.Range(0, _audioMove.Length)]);
+            _audioSource.PlayOneShot(_audioMove[Random.Range(0, _audioMove.Length)], GameManager.Instance.sfxVolume);
         }
 
 
@@ -346,8 +346,9 @@ namespace Destrial
 
         IEnumerator StartTimerAttack()
         {
+         //   _board.PerformGridAttack(CellPosition,_newCellTarget);
             MyState = PlayerState.Wait;
-            _audioSource.PlayOneShot(_audioAttack[Random.Range(0, _audioAttack.Length)]);
+            _audioSource.PlayOneShot(_audioAttack[Random.Range(0, _audioAttack.Length)], GameManager.Instance.sfxVolume);
             Debug.Log("att");
             yield return new WaitForSeconds(_attackSpeed);
             _isAttacking = false;

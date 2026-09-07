@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using System.Collections.Generic;
 using Random = UnityEngine.Random;
+using DG.Tweening;
 
 namespace Destrial
 {
@@ -13,6 +14,7 @@ namespace Destrial
             public bool Passable;
             public CellObject ContainedObject;
         }
+
         private BoardPathfinding _pathfinder = new BoardPathfinding();
         private CellData[,] _boardData;
         private bool[,] _boardDataPath;
@@ -32,43 +34,60 @@ namespace Destrial
         public ExitCellObject ExitCellPrefab;
         public FoodObject[] FoodPrefab;
         public WallObject[] WallDestroyPrefab;
-        
+
+
+        [SerializeField] private float dashDuration = 0.1f;
+        [SerializeField] private float returnDuration = 0.12f;
+        [SerializeField] private Ease attackEase = Ease.InCubic;
+        [SerializeField] private Ease returnEase = Ease.OutQuad;
+        // Custom color targets
+        [SerializeField] private Color attackColor = Color.red;
+        [SerializeField] private Color normalColor = Color.white;
         //Enemies
         public Enemy EnemyPrefab;
-        
-        
         public int Width;
         public int Height;
 
         public Tile[] GroundTiles;
-       // public Tile[] WallTiles;
+
+        // public Tile[] WallTiles;
         public Tile EntranceTile;
-        
+
         public RuleTile AutoTile;
-        
-     
+
+
         private Vector2Int _entranceCoord;
-        
-        [SerializeField] int _enemyNumber = 6;
+
+        [SerializeField] int _enemyNumber =
+            6;
+
         public PlayerController Player;
         private List<Vector2Int> _emptyCellsList;
 
         [SerializeField] int RoomSizeMin;
+
         [SerializeField] int RoomSizeMax;
 
-        [SerializeField] float CutRoomChance = 0.6f;
-        [SerializeField] float OneCornerChance = 0.5f;
+        [SerializeField] float CutRoomChance =
+            0.6f;
 
-        public enum RoomSide { Top, Bottom, Left, Right }
-        
+        [SerializeField] float OneCornerChance =
+            0.5f;
+
+        public enum RoomSide
+        {
+            Top,
+            Bottom,
+            Left,
+            Right
+        }
+
         public RoomSide PlayerSide;
         private List<RoomSide> _exitSides;
 
         private void OnEnable()
         {
-            
             PlayerSide = RoomSide.Bottom;
-          
         }
 
         // Start is called before the first frame update
@@ -94,52 +113,50 @@ namespace Destrial
             _exitSides.Add(RoomSide.Top);
             _exitSides.Add(RoomSide.Left);
             _exitSides.Add(RoomSide.Right);
-            
+
             _exitSides.Remove(PlayerSide);
 
 
-          
-            
             int numi = Random.Range(1, 4);
 
             for (int i = 0; i < numi; i++)
             {
                 AddExit();
-              //  Debug.Log("Exit"+i+" / "+numi);
+                //  Debug.Log("Exit"+i+" / "+numi);
             }
-            
-            switch (PlayerSide)  //Place player next to entrance
+
+            switch (PlayerSide) //Place player next to entrance
             {
                 case RoomSide.Top:
-                  
+
                     GameManager.Instance.PlayerSpawnPosition = new Vector2Int(Width / 2, Height - 2);
-                    _tilemap.SetTile(new Vector3Int(Width / 2, Height-1,0), EntranceTile);
-                  
+                    _tilemap.SetTile(new Vector3Int(Width / 2, Height - 1, 0), EntranceTile);
+
                     _emptyCellsList.Remove(GameManager.Instance.PlayerSpawnPosition);
                     break;
                 case RoomSide.Bottom:
-                   
-                    GameManager.Instance.PlayerSpawnPosition=new Vector2Int(Width/2, 1);
-                    _tilemap.SetTile(new Vector3Int(Width / 2, 0,0), EntranceTile);
+
+                    GameManager.Instance.PlayerSpawnPosition = new Vector2Int(Width / 2, 1);
+                    _tilemap.SetTile(new Vector3Int(Width / 2, 0, 0), EntranceTile);
                     _emptyCellsList.Remove(GameManager.Instance.PlayerSpawnPosition);
                     break;
                 case RoomSide.Left:
-                  
-                    GameManager.Instance.PlayerSpawnPosition=new Vector2Int(1, Height/2);
-                    _tilemap.SetTile(new Vector3Int(0, Height/2,0), EntranceTile);
+
+                    GameManager.Instance.PlayerSpawnPosition = new Vector2Int(1, Height / 2);
+                    _tilemap.SetTile(new Vector3Int(0, Height / 2, 0), EntranceTile);
                     _emptyCellsList.Remove(GameManager.Instance.PlayerSpawnPosition);
                     break;
-                case RoomSide.Right:     
-                  
-                    GameManager.Instance.PlayerSpawnPosition=new Vector2Int(Width-2, Height/2);
-                    
-                    _tilemap.SetTile(new Vector3Int(Width-1, Height/2,0), EntranceTile);
-                    
+                case RoomSide.Right:
+
+                    GameManager.Instance.PlayerSpawnPosition = new Vector2Int(Width - 2, Height / 2);
+
+                    _tilemap.SetTile(new Vector3Int(Width - 1, Height / 2, 0), EntranceTile);
+
                     _emptyCellsList.Remove(GameManager.Instance.PlayerSpawnPosition);
                     break;
             }
-          
-         
+
+
             GenerateWall();
             GenerateFood();
             GenerateEnemy();
@@ -147,46 +164,44 @@ namespace Destrial
 
         void AddExit()
         {
-            Vector2Int endCoord= new Vector2Int(Width - 2, Height - 2);
-            ExitCellObject exito= Instantiate(ExitCellPrefab);
-            
+            Vector2Int endCoord = new Vector2Int(Width - 2, Height - 2);
+            ExitCellObject exito = Instantiate(ExitCellPrefab);
+
             RoomSide choice = _exitSides[Random.Range(0, _exitSides.Count)];
             _exitSides.Remove(choice);
-            
+
             switch (choice)
             {
-
                 case RoomSide.Left:
-                    endCoord = new Vector2Int(0, Height/2);
-                    exito.RoomSide= RoomSide.Left;
+                    endCoord = new Vector2Int(0, Height / 2);
+                    exito.RoomSide = RoomSide.Left;
                     break;
                 case RoomSide.Right:
-                    endCoord = new Vector2Int(Width-1, Height/2);
-                    exito.RoomSide= RoomSide.Right;
+                    endCoord = new Vector2Int(Width - 1, Height / 2);
+                    exito.RoomSide = RoomSide.Right;
                     break;
                 case RoomSide.Top:
-                    endCoord = new Vector2Int(Width/2, Height-1);
-                    exito.RoomSide= RoomSide.Top;
+                    endCoord = new Vector2Int(Width / 2, Height - 1);
+                    exito.RoomSide = RoomSide.Top;
                     break;
                 case RoomSide.Bottom:
-                    endCoord = new Vector2Int(Width/2, 0); 
-                    exito.RoomSide= RoomSide.Bottom;
-                   
-                    break;
+                    endCoord = new Vector2Int(Width / 2, 0);
+                    exito.RoomSide = RoomSide.Bottom;
 
+                    break;
             }
 
             _boardData[endCoord.x, endCoord.y].Passable = true;
-          
-            AddObject(exito, endCoord,true);
-         
+
+            AddObject(exito, endCoord, true);
+
             _emptyCellsList.Remove(endCoord);
         }
 
         void GenerateFloor()
         {
             Tile tile;
-          
+
             //Fill Up with empty cells + border
             for (int y = 0; y < Height; ++y)
             {
@@ -197,7 +212,7 @@ namespace Destrial
 
                     if (x == 0 || y == 0 || x == Width - 1 || y == Height - 1)
                     {
-                      //  tile = WallTiles[Random.Range(0, WallTiles.Length)];
+                        //  tile = WallTiles[Random.Range(0, WallTiles.Length)];
                         _boardData[x, y].Passable = false;
                         _boardDataPath[x, y] = false;
                         _tilemap.SetTile(new Vector3Int(x, y, 0), AutoTile);
@@ -211,8 +226,6 @@ namespace Destrial
                         _emptyCellsList.Add(new Vector2Int(x, y));
                         _tilemap.SetTile(new Vector3Int(x, y, 0), tile);
                     }
-
-                   
                 }
             }
 
@@ -226,7 +239,7 @@ namespace Destrial
                     {
                         if (x == _noRoomBOTTOM_LEFT.x - 1 || y == _noRoomBOTTOM_LEFT.y - 1)
                         {
-                           // tile = WallTiles[Random.Range(0, WallTiles.Length)];
+                            // tile = WallTiles[Random.Range(0, WallTiles.Length)];
                             _tilemap.SetTile(new Vector3Int(x, y, 0), AutoTile);
                             _boardData[x, y].Passable = false;
                             _boardDataPath[x, y] = false;
@@ -280,7 +293,7 @@ namespace Destrial
                     {
                         if (x == Width - _noRoomTOP_RIGHT.x || y == Height - _noRoomTOP_RIGHT.y)
                         {
-                          //  tile = WallTiles[Random.Range(0, WallTiles.Length)];
+                            //  tile = WallTiles[Random.Range(0, WallTiles.Length)];
                             _tilemap.SetTile(new Vector3Int(x, y, 0), AutoTile);
                             _boardData[x, y].Passable = false;
                             _boardDataPath[x, y] = false;
@@ -307,7 +320,7 @@ namespace Destrial
                     {
                         if (x == Width - _noRoomBOTTOM_RIGHT.x || y == _noRoomBOTTOM_RIGHT.y - 1)
                         {
-                           // tile = WallTiles[Random.Range(0, WallTiles.Length)];
+                            // tile = WallTiles[Random.Range(0, WallTiles.Length)];
                             _tilemap.SetTile(new Vector3Int(x, y, 0), AutoTile);
                             _boardData[x, y].Passable = false;
                             _boardDataPath[x, y] = false;
@@ -336,7 +349,7 @@ namespace Destrial
 
             //Corner Generate
             float rand1 = Random.Range(0f, 1f);
-           
+
             if (rand1 < CutRoomChance)
             {
                 float rand2 = Random.Range(0f, 1f);
@@ -346,7 +359,7 @@ namespace Destrial
                     int RandWidth = Random.Range(3, Width / 2);
                     int RandHeight = Random.Range(3, Height / 2);
                     int rand3 = Random.Range(0, 4);
-                  
+
                     switch (rand3)
                     {
                         case 0: //BOOTOM LEFT
@@ -434,7 +447,7 @@ namespace Destrial
                 int numi = Random.Range(0, FoodPrefab.Length);
                 FoodObject newFood = Instantiate(FoodPrefab[numi]);
 
-                AddObject(newFood, coord,true);
+                AddObject(newFood, coord, true);
             }
         }
 
@@ -451,7 +464,7 @@ namespace Destrial
                 int numi = Random.Range(0, WallDestroyPrefab.Length);
                 WallObject newWall = Instantiate(WallDestroyPrefab[numi]);
 
-                AddObject(newWall, coord,false);
+                AddObject(newWall, coord, false);
             }
         }
 
@@ -465,12 +478,12 @@ namespace Destrial
 
                 _emptyCellsList.RemoveAt(randomIndex);
 
-            
+
                 //Ennemies
                 Enemy newEnemy = Instantiate(EnemyPrefab);
 
-                AddObject(newEnemy, coord,false);
-              //  GameManager.Instance.Enemies.Add(newEnemy);
+                AddObject(newEnemy, coord, false);
+                //  GameManager.Instance.Enemies.Add(newEnemy);
             }
         }
 
@@ -485,21 +498,20 @@ namespace Destrial
             return _tilemap.GetTile<Tile>(new Vector3Int(cellIndex.x, cellIndex.y, 0));
         }
 
-        void AddObject(CellObject obj, Vector2Int coord,bool isPassable)
+        void AddObject(CellObject obj, Vector2Int coord, bool isPassable)
         {
             CellData data = _boardData[coord.x, coord.y];
             obj.transform.position = CellToWorld(coord);
             data.ContainedObject = obj;
             obj.Init(coord);
-            _boardDataPath[coord.x, coord.y]=isPassable;
+            _boardDataPath[coord.x, coord.y] = isPassable;
         }
 
-        public void FreeBoard(Vector2Int coord,bool isPassable)
+        public void FreeBoard(Vector2Int coord, bool isPassable)
         {
-          
-            _boardDataPath[coord.x, coord.y]=isPassable;
+            _boardDataPath[coord.x, coord.y] = isPassable;
         }
-      
+
 
         public void Clean()
         {
@@ -512,7 +524,6 @@ namespace Destrial
             {
                 for (int x = 0; x < Width; ++x)
                 {
-                   
                     var cellData = _boardData[x, y];
 
                     if (cellData.ContainedObject != null)
@@ -526,22 +537,19 @@ namespace Destrial
                     SetCellTile(new Vector2Int(x, y), null);
                 }
             }
-            
-        
-            
         }
-        
+
         public Vector2Int FindNextMove(Vector2Int startPos, Vector2Int targetPos)
         {
             Vector2Int nextMove;
             // Execute path calculation (The most important part)
-            List<Vector2Int> finalPath = _pathfinder.FindPath(_boardDataPath, startPos, targetPos, allowDiagonal: false);
+            List<Vector2Int> finalPath =
+                _pathfinder.FindPath(_boardDataPath, startPos, targetPos, allowDiagonal: false);
 
             if (finalPath != null)
             {
-               
                 nextMove = finalPath[0];
-            //    Debug.Log($"Next Step -> X: {nextMove.x}, Y: {nextMove.y}");
+                //    Debug.Log($"Next Step -> X: {nextMove.x}, Y: {nextMove.y}");
             }
             else
             {
@@ -549,6 +557,42 @@ namespace Destrial
             }
 
             return nextMove;
+        }
+
+
+        public void PerformGridAttack(Vector2Int attackerCell, Vector2Int targetCell, Transform attacker, SpriteRenderer sprite)
+        {
+            // 1. Get the world positions using your custom conversion method
+            Vector3 startWorldPos = CellToWorld(attackerCell);
+            Vector3 targetWorldPos = CellToWorld(targetCell);
+
+            // 2. Find the adjacent cell position by stepping 1 unit away from the target center
+            Vector3 direction = (targetWorldPos - startWorldPos).normalized;
+            float cellSize = _grid.cellSize.x;
+            Vector3 adjacentCellWorldPos = targetWorldPos - (direction * cellSize);
+
+            // 3. Interpolate exactly halfway between the adjacent cell and the target cell
+            Vector3 halfwayAttackPos = Vector3.Lerp(adjacentCellWorldPos, targetWorldPos, 0.5f);
+
+            // 4. Execute the high-speed Sequence
+            Sequence attackSequence = DOTween.Sequence();
+
+            // --- FORWARD DASH ---
+            // Join allows the movement and color change to happen simultaneously
+            attackSequence.Append(
+                attacker.transform.DOMove(halfwayAttackPos, dashDuration).SetEase(attackEase)
+            );
+            attackSequence.Join(
+                sprite.DOColor(attackColor, dashDuration).SetEase(attackEase)
+            );
+
+            // --- SNAP BACK ---
+            attackSequence.Append(
+                attacker.transform.DOMove(startWorldPos, returnDuration).SetEase(returnEase)
+            );
+            attackSequence.Join(
+                sprite.DOColor(normalColor, returnDuration).SetEase(returnEase)
+            );
         }
     }
 }

@@ -119,6 +119,7 @@ MonoBehaviour:
   _audioImpact:
   - {fileID: 8300000, guid: d0d6de5a0942df74fbf820e37546f58f, type: 3}
   - {fileID: 8300000, guid: 167b69a5f17902240bd83c5eb247d729, type: 3}
+  _spriteRenderer: {fileID: 4836855833132060402}
 --- !u!95 &4584223919479265450
 Animator:
   serializedVersion: 7

@@ -36,7 +36,7 @@ namespace Destrial
         public override bool PlayerWantsToEnter()
         {
             _healthPoint -= 1;
-            _audioSource.PlayOneShot(_audioImpact);
+            _audioSource.PlayOneShot(_audioImpact,GameManager.Instance.sfxVolume);
             if (_healthPoint == 2)
             {
                 _spriteRenderer.sprite = DestroySprite1;

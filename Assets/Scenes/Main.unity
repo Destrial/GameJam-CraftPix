@@ -502,11 +502,17 @@ MonoBehaviour:
   _audioPickUp:
   - {fileID: 8300000, guid: b284c3fdbe024eb499d1859c654e24ce, type: 3}
   - {fileID: 8300000, guid: d6307525abbce2949acd88e7a0926e9f, type: 3}
+  _audioBadPickUp:
+  - {fileID: 8300000, guid: 93b35d0eba3b46c47b5595cea813bc52, type: 3}
+  - {fileID: 8300000, guid: e61b6f34cefd05447a12642b28757846, type: 3}
   _audioMobDeath:
   - {fileID: 8300000, guid: b8028571b6cfc3941983ff27166aea60, type: 3}
   _audioDestroy:
   - {fileID: 8300000, guid: 9ec7e6d2dd965494b83d2b9bc9882fc2, type: 3}
   _audioNextLevel: {fileID: 8300000, guid: e741d823414a1bb4ca2e902a6899491e, type: 3}
+  musicClip: {fileID: 8300000, guid: 0e47c7371d76c1a48a8f0de7f4358ca9, type: 3}
+  musicVolume: 0.5
+  sfxVolume: 1
 --- !u!82 &754903446
 AudioSource:
   m_ObjectHideFlags: 0
@@ -959,6 +965,12 @@ MonoBehaviour:
   - {fileID: 6147983007027712503, guid: b4f0338da3f8df54ca4cee94433e6ef8, type: 3}
   WallDestroyPrefab:
   - {fileID: 2230941929989740007, guid: 0792015c13c9f914ea8a26c5f1de5c7d, type: 3}
+  dashDuration: 0.1
+  returnDuration: 0.12
+  attackEase: 8
+  returnEase: 6
+  attackColor: {r: 1, g: 0, b: 0, a: 1}
+  normalColor: {r: 1, g: 1, b: 1, a: 1}
   EnemyPrefab: {fileID: 693187803061272142, guid: 73f788d51f95fb24caa8711a42e091b1, type: 3}
   Width: 12
   Height: 12
