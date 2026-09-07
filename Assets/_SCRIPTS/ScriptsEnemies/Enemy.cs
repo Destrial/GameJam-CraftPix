@@ -17,6 +17,7 @@ namespace Destrial
 
 
         [SerializeField] private GameObject _deathPrefab;
+        [SerializeField] private GameObject _bloodPrefab;
 
 //public Vector2Int CellPosition;
 
@@ -84,12 +85,16 @@ namespace Destrial
         {
             _currentHealth -= 1;
             _animator.SetTrigger("Hurt");
+            Instantiate(_bloodPrefab, transform.position, Quaternion.identity);
+
+            
             if (_currentHealth <= 0)
             {
                 _animator.SetTrigger("Die");
                 Instantiate(_deathPrefab, transform.position, Quaternion.identity);
-                Destroy(gameObject);
                 GameManager.Instance.Enemies.Remove(this);
+                Destroy(gameObject);
+               
             }
 
             return false;

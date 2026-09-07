@@ -125,19 +125,19 @@ TextureImporter:
       name: U_Blood_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 10
-        width: 18
-        height: 12
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 53e02f7aeb7c66620800000000000000
-      internalID: 2767118642741120565
+      spriteID: 59bbfcc1a690c8f4aa94b940997b3778
+      internalID: -892952824
       vertices: []
       indices: 
       edges: []
@@ -146,19 +146,19 @@ TextureImporter:
       name: U_Blood_1
       rect:
         serializedVersion: 2
-        x: 33
-        y: 8
-        width: 11
-        height: 14
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: be7ae948ea1d98f30800000000000000
-      internalID: 4578421043678324715
+      spriteID: 208db45ad858c6f4a84fc151ec333521
+      internalID: 1479245411
       vertices: []
       indices: 
       edges: []
@@ -167,19 +167,19 @@ TextureImporter:
       name: U_Blood_2
       rect:
         serializedVersion: 2
-        x: 44
-        y: 3
-        width: 7
-        height: 16
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 80393e81ea01b5c90800000000000000
-      internalID: -7180126840984202488
+      spriteID: d24eb9b1caf8078478812d74b477a770
+      internalID: 1025754021
       vertices: []
       indices: 
       edges: []
@@ -188,40 +188,19 @@ TextureImporter:
       name: U_Blood_3
       rect:
         serializedVersion: 2
-        x: 50
-        y: 16
-        width: 11
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6240f2f40037f6390800000000000000
-      internalID: -7822907582553586650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: U_Blood_4
-      rect:
-        serializedVersion: 2
-        x: 51
+        x: 96
         y: 0
-        width: 77
-        height: 20
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4b5bceec91fa5d270800000000000000
-      internalID: 8274712415743817140
+      spriteID: 33b71932162acc34392d35976cac579e
+      internalID: -388693041
       vertices: []
       indices: 
       edges: []
@@ -229,7 +208,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e850d622351c961459957f870074f058
     internalID: 0
     vertices: []
     indices: 
@@ -237,12 +216,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      U_Walk_0: -4009086310334153817
-      U_Walk_1: -2648376872383064187
-      U_Walk_2: -764003165941485920
-      U_Walk_3: 6818739885194633778
-      U_Walk_4: -5951623572059180443
-      U_Walk_5: -8036710771169646379
+      U_Blood_0: -892952824
+      U_Blood_1: 1479245411
+      U_Blood_2: 1025754021
+      U_Blood_3: -388693041
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: c583126db2f3a164eaca1b71685f8f81
+guid: d97aa43bdd76d714db00c1fb5008198c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2617297012039754040
-    second: S_Blood_0
+      213: -8513689076009199176
+    second: R_Blood_0
   - first:
-      213: -8853307571229241377
-    second: S_Blood_1
+      213: -6274552205399707720
+    second: R_Blood_1
   - first:
-      213: -4790761323891149660
-    second: S_Blood_2
+      213: -7404222385440189115
+    second: R_Blood_2
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: S_Blood_0
+      name: R_Blood_0
       rect:
         serializedVersion: 2
         x: 0
@@ -130,14 +130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e06186d4579b1942b7554d4fb659236
-      internalID: 651699755
+      spriteID: 1a497882add49c041b10b33b557e8e88
+      internalID: -1571878489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Blood_1
+      name: R_Blood_1
       rect:
         serializedVersion: 2
         x: 32
@@ -151,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0b5d406ecfb4874fac6370c5db311dc
-      internalID: -783686782
+      spriteID: 100c4eb0956bfab4a9a373080e3e636f
+      internalID: -354745050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Blood_2
+      name: R_Blood_2
       rect:
         serializedVersion: 2
         x: 64
@@ -172,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39910e4c4f75b2b45af3514bf1eeba8e
-      internalID: 187843845
+      spriteID: 9bd7242fd1d9b16439510a382dfede9a
+      internalID: -302844963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Blood_3
+      name: R_Blood_3
       rect:
         serializedVersion: 2
         x: 96
@@ -193,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9527049506152840a4fb290ae782ab6
-      internalID: 369786161
+      spriteID: c93ca0efacd3a824bbb439476ab32ef1
+      internalID: 673572983
       vertices: []
       indices: 
       edges: []
@@ -202,7 +202,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 44491449b1592744ab11dedb8f8f0d72
+    spriteID: 1687808fbdfffe34aaa73ce22c449071
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +210,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      S_Blood_0: 651699755
-      S_Blood_1: -783686782
-      S_Blood_2: 187843845
-      S_Blood_3: 369786161
+      R_Blood_0: -1571878489
+      R_Blood_1: -354745050
+      R_Blood_2: -302844963
+      R_Blood_3: 673572983
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

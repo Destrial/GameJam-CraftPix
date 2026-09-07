@@ -27,7 +27,7 @@ namespace Destrial
 
         public HashSet<Enemy> Enemies;
         [SerializeField] private float _attackSpeed;
-        
+        bool isWaiting = false;
         
         
         
@@ -105,6 +105,7 @@ namespace Destrial
 
         void OnTurnHappen()
         {
+            
             StartCoroutine(StartTimerAttack());
         }
 
@@ -125,15 +126,20 @@ namespace Destrial
         
         IEnumerator StartTimerAttack()
         {
-            foreach (Enemy enemy in Enemies)
+           
+            foreach (Enemy enemy in new List<Enemy>(Enemies))
             {
                 enemy.TurnHappenedMove();
 
             }
 
-            foreach (Enemy enemy in Enemies)
+            foreach (Enemy enemy in new List<Enemy>(Enemies))
             {
-                enemy.TurnHappenedAttack();
+                if (enemy != null)
+                {
+                    enemy.TurnHappenedAttack();
+                }
+
                 yield return new WaitForSeconds(_attackSpeed);
 
             }

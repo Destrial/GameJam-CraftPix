@@ -489,10 +489,9 @@ MonoBehaviour:
   UIDoc: {fileID: 1995446974}
   BoardManager: {fileID: 1240575655}
   PlayerController: {fileID: 1504855376}
-  _startingHealth: 40
   PlayerSpawnPosition: {x: 0, y: 0}
   _attackSpeed: 1
-  _isAttacking: 0
+  _startingHealth: 40
 --- !u!1 &1029152727
 GameObject:
   m_ObjectHideFlags: 0

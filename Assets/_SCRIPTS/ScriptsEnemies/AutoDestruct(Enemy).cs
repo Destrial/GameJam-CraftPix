@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Destrial
 {
-    public class AutoDestruct : MonoBehaviour
+    public class AutoDestruct_Enemy : MonoBehaviour
     {
         private Animator _animator;
         
