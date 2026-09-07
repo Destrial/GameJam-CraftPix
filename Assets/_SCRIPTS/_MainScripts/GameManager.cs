@@ -79,8 +79,8 @@ namespace Destrial
             _gameOverPanel.style.visibility = Visibility.Hidden;
 
             _currentLevel = 1;
-            _CurrentHealthAmount = _startingHealth;
-            _lifeLabel.text = "Health : " + _CurrentHealthAmount;
+            _currentHealthAmount = _startingHealth;
+            _lifeLabel.text = "Health : " + _currentHealthAmount;
 
             BoardManager.Clean();
             BoardManager.Init();
@@ -110,10 +110,10 @@ namespace Destrial
 
         public void ChangeLife(int amount)
         {
-            _CurrentHealthAmount += amount;
-            _lifeLabel.text = "Health : " + _CurrentHealthAmount;
+            _currentHealthAmount += amount;
+            _lifeLabel.text = "Health : " + _currentHealthAmount;
 
-            if (_CurrentHealthAmount <= 0)
+            if (_currentHealthAmount <= 0)
             {
                 PlayerController.GameOver();
                 _gameOverPanel.style.visibility = Visibility.Visible;
