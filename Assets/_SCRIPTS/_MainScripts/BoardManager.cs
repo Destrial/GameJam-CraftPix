@@ -105,7 +105,7 @@ namespace Destrial
             for (int i = 0; i < numi; i++)
             {
                 AddExit();
-                Debug.Log("Exit"+i+" / "+numi);
+              //  Debug.Log("Exit"+i+" / "+numi);
             }
             
             switch (PlayerSide)  //Place player next to entrance

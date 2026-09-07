@@ -20,7 +20,7 @@ namespace Destrial
 
 
 
-            Debug.Log("Current turn count : " + _turnCount);
+          //  Debug.Log("Current turn count : " + _turnCount);
         }
     }
 }

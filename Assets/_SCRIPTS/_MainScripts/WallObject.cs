@@ -17,6 +17,11 @@ namespace Destrial
         private Tile _originalTile;
 
         private Vector2Int myPos;
+        
+        [SerializeField] AudioSource _audioSource;
+     
+        [SerializeField] AudioClip _audioImpact;
+       
 
         public override void Init(Vector2Int cell)
         {
@@ -31,6 +36,7 @@ namespace Destrial
         public override bool PlayerWantsToEnter()
         {
             _healthPoint -= 1;
+            _audioSource.PlayOneShot(_audioImpact);
             if (_healthPoint == 2)
             {
                 _spriteRenderer.sprite = DestroySprite1;
@@ -55,6 +61,7 @@ namespace Destrial
             GameManager.Instance.BoardManager.FreeBoard(_cell,true);
             GameManager.Instance.ChangeLife(-PlayerDmg);
             GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg);
+            GameManager.Instance.WallDestroyed();
             Destroy(gameObject);
             return true;
         }

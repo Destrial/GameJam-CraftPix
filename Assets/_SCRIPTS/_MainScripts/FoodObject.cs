@@ -7,13 +7,17 @@ namespace Destrial
     {
         public int AmountGranted = 10;
 
+        [SerializeField] AudioSource _audioSource;
+        [SerializeField] AudioClip[] _audioCrunch;
         public override void PlayerEntered()
         {
+            GameManager.Instance.ChangeLife(AmountGranted);
+            GameManager.Instance.AudioPickup();
 
             Destroy(gameObject);
 
             //increase food
-            GameManager.Instance.ChangeLife(AmountGranted);
+          
         }
 
         public override void RatEntered()

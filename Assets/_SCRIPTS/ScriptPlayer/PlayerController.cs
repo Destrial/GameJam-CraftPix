@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
 using UnityEngine.Serialization;
+using DG.Tweening;
 
 namespace Destrial
 {
@@ -41,15 +42,21 @@ namespace Destrial
         private Vector2Int _newCellTarget;
         private Vector2Int _newDirection;
         private InputAction attackInputAction;
-        private bool _cantInput;
+        //private bool _cantInput;
         public bool CantNewInput;
         [SerializeField] private GameObject _bloodPrefab;
+        [SerializeField] AudioSource _audioSource;
+        [SerializeField] AudioClip[] _audioMove;
+        [SerializeField] AudioClip[] _audioAttack;
+        [SerializeField] AudioClip[] _audioHurt;
+        [SerializeField] AudioClip _audioDie;
 
         //  [SerializeField]
         //  private float _waitInputTime;
         private void Awake()
         {
             _animator = GetComponent<Animator>();
+            _audioSource = GetComponent<AudioSource>();
             _myInputs = new DestrialInputs();
         }
 
@@ -57,7 +64,7 @@ namespace Destrial
         {
             _myInputs.Enable();
             _myInputs.Player.Attack.performed += OnAttackPerformed;
-            _cantInput = false;
+            
             CantNewInput = false;
         }
 
@@ -74,17 +81,20 @@ namespace Destrial
             _animator.SetBool("Death", true);
             _isGameOver = true;
             MyState = PlayerState.Death;
+            _audioSource.PlayOneShot(_audioDie);
         }
 
         public void GetHurt(int amout)
         {
             _animator.SetTrigger("Hurt");
+            Debug.Log("hurt");
             Instantiate(_bloodPrefab, transform.position, Quaternion.identity);
+            _audioSource.PlayOneShot(_audioHurt[Random.Range(0, _audioHurt.Length)]);
         }
 
         private void OnAttackPerformed(InputAction.CallbackContext context)
         {
-            if (MyState.Equals(PlayerState.Idle) && !_isAttacking && !_isMoving && !CantNewInput)
+            if (MyState.Equals(PlayerState.Idle) && !_isAttacking && !_isMoving)
             {
                 DirectAttack();
             }
@@ -122,23 +132,30 @@ namespace Destrial
             _animator.SetFloat("mov_y", _newDirection.y);
             _animator.SetBool("ContinuousWalk", true);
             _animator.SetBool("Moving", _isMoving);
+            _audioSource.PlayOneShot(_audioMove[Random.Range(0, _audioMove.Length)]);
         }
 
 
         public void Init()
         {
             _animator.SetFloat("mov_x", 0);
-            _animator.SetFloat("mov_y", 0);
+            _animator.SetFloat("mov_y", 1);
+            _newDirection = new Vector2Int(0, 1);
             _animator.SetBool("Moving", false);
             _moveTarget = transform.position;
             _isGameOver = false;
             _isMoving = false;
-            MyState = PlayerState.Idle;
-            _cantInput = true;
+            MyState = PlayerState.Wait;
+            Invoke("StartIdle", 0.5f);
+        //    _cantInput = true;
             transform.localScale = new Vector3(1, 1, 1);
-            StartCoroutine(StartTimerAttack());
+         //   StartCoroutine(StartTimerAttack());
         }
 
+        void StartIdle()
+        {
+            MyState = PlayerState.Idle;
+        }
 
         public void Update()
         {
@@ -157,7 +174,7 @@ namespace Destrial
                 return;
             }
             //  Debug.Log("1"+ MyState);
-            if (_cantInput) return;
+          //  if (_cantInput) return;
          
             bool hasMoved = false;
             Vector2 moveInput = _myInputs.Player.Move.ReadValue<Vector2>();
@@ -215,7 +232,7 @@ namespace Destrial
                             {
                                 MoveTo(_newCellTarget, false);
                                 MyState = PlayerState.Moving;
-                                GameManager.Instance.TurnManager.Tick();
+                              //  GameManager.Instance.TurnManager.Tick();
                             }
                             else if (cellData.ContainedObject.PlayerWantsToEnter()) // test can pass grab , enemy ,wall
                             {
@@ -223,8 +240,8 @@ namespace Destrial
                                 MyState = PlayerState.Moving;
                                 //Call PlayerEntered AFTER moving the player! Otherwise not in cell yet
                                 cellData.ContainedObject.PlayerEntered(); // only for grab
-                                GameManager.Instance.TurnManager.Tick();
-                                Debug.Log("Grabbing");
+                               // GameManager.Instance.TurnManager.Tick();
+                             //   Debug.Log("Grabbing");
                             }
                             else
                             {
@@ -237,6 +254,8 @@ namespace Destrial
                         else if (cellData != null && !cellData.Passable)
 
                         {
+                            _animator.SetFloat("mov_x", _newDirection.x);
+                            _animator.SetFloat("mov_y", _newDirection.y);
                             // _cantInput = false; //hit a wall
                             _animator.SetBool("ContinuousWalk", false);
                         }
@@ -266,6 +285,7 @@ namespace Destrial
                             var cellData = _board.GetCellData(CellPosition);
                             if (cellData.ContainedObject != null)
                                 cellData.ContainedObject.PlayerEntered();
+                            GameManager.Instance.TurnManager.Tick();
                             //_cantInput = false;
                         }
 
@@ -280,9 +300,9 @@ namespace Destrial
                     {
                         //   Debug.Log("4 aaaa");
                         //wait
-                        _cantInput = true;
-                        _isMoving = false;
-                        GameManager.Instance.TurnManager.Tick();
+                     //   _cantInput = true;
+                        
+                       
                         StartCoroutine(StartTimerAttack());
 
                         _animator.SetFloat("mov_x", _newDirection.x);
@@ -300,7 +320,7 @@ namespace Destrial
             MyAction = PlayerState.Attacking;
             MyState = PlayerState.Attacking;
             _isAttacking = true;
-
+            _isMoving = false;
             _newCellTarget = CellPosition + _newDirection;
             BoardManager.CellData cellData = _board.GetCellData(_newCellTarget);
             if (cellData.ContainedObject != null)
@@ -313,7 +333,7 @@ namespace Destrial
             }
             // Debug.Log("Attacking");
 
-            _cantInput = true;
+          //  _cantInput = true;
             _isMoving = false;
             GameManager.Instance.TurnManager.Tick();
             StartCoroutine(StartTimerAttack());
@@ -326,12 +346,16 @@ namespace Destrial
 
         IEnumerator StartTimerAttack()
         {
+            MyState = PlayerState.Wait;
+            _audioSource.PlayOneShot(_audioAttack[Random.Range(0, _audioAttack.Length)]);
+            Debug.Log("att");
             yield return new WaitForSeconds(_attackSpeed);
             _isAttacking = false;
-
             _isMoving = false;
-            MyState = PlayerState.Idle;
-            _cantInput = false;
+           // MyState = PlayerState.Idle;
+            GameManager.Instance.TurnManager.Tick();
+         
+          //  _cantInput = false;
         }
     }
 }

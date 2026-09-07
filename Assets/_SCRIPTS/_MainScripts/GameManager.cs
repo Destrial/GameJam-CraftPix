@@ -45,9 +45,16 @@ namespace Destrial
         }
         //
 
-
-
-       
+       [SerializeField] AudioSource _audioSource;
+       [SerializeField] AudioClip _audioDecaGrowth;
+       [SerializeField] AudioClip _audioDecaLoot;
+       [SerializeField] AudioClip _audioDecaDestroy;
+       [SerializeField] AudioClip _audioLevelUp;
+       [SerializeField] AudioClip _audioLose;
+       [SerializeField] AudioClip[] _audioPickUp;
+       [SerializeField] AudioClip[] _audioMobDeath;
+       [SerializeField] AudioClip[] _audioDestroy;
+       [SerializeField] AudioClip _audioNextLevel;
         private void Awake()
         {
             if (Instance != null)
@@ -99,6 +106,7 @@ namespace Destrial
          
             PlayerController.Spawn(BoardManager, PlayerSpawnPosition);
             PlayerController.Init();
+            _audioSource.PlayOneShot(_audioNextLevel);
          //   Debug.Log(""+PlayerController.CellPosition+"/"+PlayerSpawnPosition);
             _currentLevel++;
         }
@@ -127,9 +135,9 @@ namespace Destrial
         IEnumerator StartTimerAttack()
         {
           
-            //PlayerController.MyState = PlayerController.PlayerState.Wait;
+           PlayerController.MyState = PlayerController.PlayerState.Wait;
            
-
+   
             foreach (Enemy enemy in new List<Enemy>(Enemies))
             {
                 
@@ -151,8 +159,39 @@ namespace Destrial
 
             }
 
-            //PlayerController.MyState = PlayerController.PlayerState.Idle;
+            PlayerController.MyState = PlayerController.PlayerState.Idle;
           //  PlayerController.MyAction = PlayerController.PlayerState.Idle;
         }
+
+        public void MobDeath(Enemy.EnemyType typeMob)
+        {
+            _audioSource.PlayOneShot(_audioMobDeath[Random.Range(0, _audioMobDeath.Length)]);
+        }
+        public void WallDestroyed()
+        {
+            _audioSource.PlayOneShot(_audioDestroy[Random.Range(0, _audioDestroy.Length)]);
+        }
+        public void AudioPickup()
+        {
+            _audioSource.PlayOneShot(_audioPickUp[Random.Range(0, _audioPickUp.Length)]);
+        }
+        public void AudioLoot()
+        {
+            _audioSource.PlayOneShot(_audioDecaLoot);
+        }
+        public void AudioGrowth()
+        {
+            _audioSource.PlayOneShot(_audioDecaGrowth);
+        }
+        public void LevelUp()
+        {
+            _audioSource.PlayOneShot(_audioLevelUp);
+        }
+        public void GameOver()
+        {
+            _audioSource.PlayOneShot(_audioLose);
+        }
+       
+        
     }
 }

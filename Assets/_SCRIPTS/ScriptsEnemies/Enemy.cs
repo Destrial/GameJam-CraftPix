@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using DG.Tweening;
 
 
 namespace Destrial
@@ -15,7 +16,7 @@ namespace Destrial
             ShamanGoblin
         }
 
-
+        [SerializeField] private EnemyType _myEnemyType;
         [SerializeField] private GameObject _deathPrefab;
         [SerializeField] private GameObject _bloodPrefab;
 
@@ -34,11 +35,18 @@ namespace Destrial
         public int Health = 3;
         public int Damage = 5;
         private int _currentHealth;
+        [SerializeField] AudioSource _audioSource;
+        [SerializeField] AudioClip[] _audioMove;
+        [SerializeField] AudioClip[] _audioAttack;
+        [SerializeField] AudioClip[] _audioHurt;
+      
+        [SerializeField] AudioClip[] _audioImpact;
 
 
         private void Awake()
         {
             _animator = GetComponent<Animator>();
+            _audioSource = GetComponent<AudioSource>();
 
         //    GameManager.Instance.TurnManager.OnTick += TurnHappened; //EVENT
         }
@@ -85,12 +93,15 @@ namespace Destrial
         {
             _currentHealth -= 1;
             _animator.SetTrigger("Hurt");
+            _audioSource.PlayOneShot(_audioImpact[Random.Range(0, _audioImpact.Length)]);
+            _audioSource.PlayOneShot(_audioHurt[Random.Range(0, _audioHurt.Length)]);
             Instantiate(_bloodPrefab, transform.position, Quaternion.identity);
 
             
             if (_currentHealth <= 0)
             {
                 _animator.SetTrigger("Die");
+                GameManager.Instance.MobDeath(_myEnemyType);
                 Instantiate(_deathPrefab, transform.position, Quaternion.identity);
                 GameManager.Instance.Enemies.Remove(this);
                 Destroy(gameObject);
@@ -167,6 +178,7 @@ namespace Destrial
             _animator.SetBool("ContinuousWalk", true);
             _animator.SetBool("Moving", _isMoving);
             _board.FreeBoard(_cell,false);
+            _audioSource.PlayOneShot(_audioMove[Random.Range(0, _audioMove.Length)]);
         }
 
         public bool CanAttack()
@@ -201,12 +213,12 @@ namespace Destrial
                 //
                 var playerCell = GameManager.Instance.PlayerController.CellPosition;
                 _newDirection= playerCell - _cell;
-                
+                _audioSource.PlayOneShot(_audioAttack[Random.Range(0, _audioAttack.Length)]);
                 _animator.SetFloat("mov_x", _newDirection.x);
                 _animator.SetFloat("mov_y", _newDirection.y);
                 _animator.SetTrigger("Attack");
-                GameManager.Instance.ChangeLife(-Damage);
-                GameManager.Instance.BoardManager.Player.GetHurt(-Damage);
+                GameManager.Instance.ChangeLife(-Damage); //DAMAGE THE PLAYER
+                GameManager.Instance.BoardManager.Player.GetHurt(-Damage); // CHANGE UI
            
         }
 

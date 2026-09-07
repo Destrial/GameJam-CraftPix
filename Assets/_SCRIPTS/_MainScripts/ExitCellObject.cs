@@ -8,6 +8,7 @@ namespace Destrial
     {
         public Tile EndTile;
         public BoardManager.RoomSide RoomSide;
+      
         public override void Init(Vector2Int coord)
         {
             base.Init(coord);
@@ -33,7 +34,7 @@ namespace Destrial
 
                     break;
             }
-            
+           
             GameManager.Instance.NewLevel();
         }
     }
