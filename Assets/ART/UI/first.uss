@@ -15,9 +15,6 @@
     background-image: url('project://database/Assets/ART/CraftPix/PIXEL%20SIDE%20VIEW/_PACK%20Simple%20Plateformer/BackGrounds/PSD%20Modern%20City/1.psd?fileID=2800000&guid=bb2e2db40a636f54c865c13859eedc5c&type=3#1');
 }
 
-.fillbar unitylabel {
-}
-
 .fillbar .unity-text-element {
     -unity-font-definition: url('project://database/Assets/ART/CraftPix/PIXEL%20TOP-DOWN/_PACK%20Roguelike%20Classic/4%20GUI/TinyFontCraftpixPixel.otf?fileID=12800000&guid=e13aaaf568333dd44a94ca0dfd4e6a30&type=3#TinyFontCraftpixPixel');
 }
