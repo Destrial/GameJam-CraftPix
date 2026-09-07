@@ -80,7 +80,7 @@ namespace Destrial
             TurnManager = new TurnManager();
             TurnManager.OnTick += OnTurnHappen;
 
-            _lifeLabel = UIDoc.rootVisualElement.Q<Label>("FoodLabel");
+            _lifeLabel = UIDoc.rootVisualElement.Q<Label>("LifeLabel");
 
             _gameOverPanel = UIDoc.rootVisualElement.Q<VisualElement>("GameOverPanel");
             _gameOverMessage = _gameOverPanel.Q<Label>("GameOverMessage");
