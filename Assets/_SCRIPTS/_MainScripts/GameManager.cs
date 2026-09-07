@@ -129,7 +129,10 @@ namespace Destrial
            
             foreach (Enemy enemy in new List<Enemy>(Enemies))
             {
-                enemy.TurnHappenedMove();
+                if (enemy != null)
+                {
+                    enemy.TurnHappenedMove();
+                }
 
             }
 
