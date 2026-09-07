@@ -16,7 +16,7 @@ namespace Destrial
 
         public override void PlayerEntered()
         {
-            GameManager.Instance.PlayerController.MyState = PlayerController.PlayerState.ChangeRoom;
+            GameManager.Instance.PlayerController.MyState = PlayerController.PlayerState.Wait;
             switch (RoomSide)
             {
                 case BoardManager.RoomSide.Bottom:

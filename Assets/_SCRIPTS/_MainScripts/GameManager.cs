@@ -126,7 +126,8 @@ namespace Destrial
         
         IEnumerator StartTimerAttack()
         {
-           
+          //  PlayerController.PlayerState old=PlayerController.MyState;
+          //  PlayerController.MyState = PlayerController.PlayerState.Wait;
             foreach (Enemy enemy in new List<Enemy>(Enemies))
             {
                 if (enemy != null)
@@ -138,6 +139,7 @@ namespace Destrial
 
             foreach (Enemy enemy in new List<Enemy>(Enemies))
             {
+                
                 if (enemy != null)
                 {
                     enemy.TurnHappenedAttack();
@@ -146,9 +148,9 @@ namespace Destrial
                 yield return new WaitForSeconds(_attackSpeed);
 
             }
-            
-           
-    
+
+           // PlayerController.MyState = old;
+
         }
     }
 }
