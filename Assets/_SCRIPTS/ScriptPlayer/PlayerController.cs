@@ -297,9 +297,15 @@ namespace Destrial
           
             _newCellTarget=CellPosition+_newDirection;
             BoardManager.CellData cellData = _board.GetCellData(_newCellTarget);
-            if (cellData.ContainedObject.PlayerWantsToEnter()) {}  //actual call on target damage
-            
-           // Debug.Log("Attacking");
+            if (cellData.ContainedObject != null)
+            {
+                if (cellData.ContainedObject.PlayerWantsToEnter())
+                {
+                    //IMPORTANT  /!\
+                    // C est l enemy qui fait la logique de prendre des degats juste en testant ce booleen
+                } //actual call on target damage 
+            }
+            // Debug.Log("Attacking");
             
             _cantInput = true;
             _isMoving = false;
