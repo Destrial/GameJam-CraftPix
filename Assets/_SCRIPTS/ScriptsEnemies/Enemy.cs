@@ -30,7 +30,7 @@ namespace Destrial
         BoardManager _board;
         BoardManager.CellData Cell;
         Vector3 _moveTarget;
-
+      
         public int Health = 3;
         public int Damage = 5;
         private int _currentHealth;
@@ -169,7 +169,7 @@ namespace Destrial
             _board.FreeBoard(_cell,false);
         }
 
-        public void TurnHappenedMove()
+        public bool CanAttack()
         {
             var playerCell = GameManager.Instance.PlayerController.CellPosition;
 
@@ -178,49 +178,52 @@ namespace Destrial
 
             int absXDist = Mathf.Abs(xDist);
             int absYDist = Mathf.Abs(yDist);
-            
+
             if ((xDist == 0 && absYDist == 1)
                 || (yDist == 0 && absXDist == 1))
-            {
-                    //have to attack player
-            }
-            else  //move towars player
-            {
-                _newCellTarget = _board.FindNextMove(_cell,  playerCell);
 
-                if (_newCellTarget != Vector2Int.zero)
-                {
-                    _newDirection.x= _newCellTarget.x - _cell.x;
-                    _newDirection.y = _newCellTarget.y - _cell.y;
-                    GoMoveTo(_newCellTarget, false);
-                }
+            {
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
-
+        
+        
         public void TurnHappenedAttack()
         {
-            //Public property that returns the player current cell
-            var playerCell = GameManager.Instance.PlayerController.CellPosition;
-
-            int xDist = playerCell.x - _cell.x;
-            int yDist = playerCell.y - _cell.y;
-
-            int absXDist = Mathf.Abs(xDist);
-            int absYDist = Mathf.Abs(yDist);
-
-
-            if ((xDist == 0 && absYDist == 1)
-                || (yDist == 0 && absXDist == 1))
-            {
+          
                 //Enemy is adjacent to the player, attacks.
 
                 //// /!\ MUST ADD CODE SO Enemy DOESN'T ATTACK IF PLAYER HIT HIM FIRST
                 //
+                var playerCell = GameManager.Instance.PlayerController.CellPosition;
+                _newDirection= playerCell - _cell;
+                
+                _animator.SetFloat("mov_x", _newDirection.x);
+                _animator.SetFloat("mov_y", _newDirection.y);
                 _animator.SetTrigger("Attack");
                 GameManager.Instance.ChangeLife(-Damage);
                 GameManager.Instance.BoardManager.Player.GetHurt(-Damage);
-            }
-
+           
         }
+
+        public void TurnHappenedMove()
+        {
+            var playerCell = GameManager.Instance.PlayerController.CellPosition;
+            _newCellTarget = _board.FindNextMove(_cell,  playerCell);
+
+            if (_newCellTarget != Vector2Int.zero)
+            {
+                _newDirection.x= _newCellTarget.x - _cell.x;
+                _newDirection.y = _newCellTarget.y - _cell.y;
+                GoMoveTo(_newCellTarget, false);
+            }
+        }
+        
+
+      
     }
 }

@@ -22,7 +22,7 @@ namespace Destrial
         private int _currentLevel = 0;
 
         public Vector2Int PlayerSpawnPosition;
-
+     
         public TurnManager TurnManager { get; private set; }
 
         public HashSet<Enemy> Enemies;
@@ -126,31 +126,33 @@ namespace Destrial
         
         IEnumerator StartTimerAttack()
         {
-          //  PlayerController.PlayerState old=PlayerController.MyState;
-          //  PlayerController.MyState = PlayerController.PlayerState.Wait;
-            foreach (Enemy enemy in new List<Enemy>(Enemies))
-            {
-                if (enemy != null)
-                {
-                    enemy.TurnHappenedMove();
-                }
-
-            }
+          
+            //PlayerController.MyState = PlayerController.PlayerState.Wait;
+           
 
             foreach (Enemy enemy in new List<Enemy>(Enemies))
             {
                 
                 if (enemy != null)
                 {
-                    enemy.TurnHappenedAttack();
+                    if (enemy.CanAttack())
+                    {
+                        enemy.TurnHappenedAttack();
+                        yield return new WaitForSeconds(_attackSpeed);
+                        
+                    }
+                    else
+                    {
+                        enemy.TurnHappenedMove();
+                    }
+                   
                 }
 
-                yield return new WaitForSeconds(_attackSpeed);
 
             }
 
-           // PlayerController.MyState = old;
-
+            //PlayerController.MyState = PlayerController.PlayerState.Idle;
+          //  PlayerController.MyAction = PlayerController.PlayerState.Idle;
         }
     }
 }
