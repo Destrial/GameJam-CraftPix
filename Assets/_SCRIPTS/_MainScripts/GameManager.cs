@@ -10,16 +10,16 @@ namespace Destrial
     {
         public static GameManager Instance { get; private set; } // SINGLETON
 
-        public UIDocument UIDoc;
-        private Label _lifeLabel;
-        private VisualElement _gameOverPanel;
-        private Label _gameOverMessage;
+//public UIDocument UIDoc;
+      //  private Label _lifeLabel;
+      //  private VisualElement _gameOverPanel;
+      //  private Label _gameOverMessage;
 
         public BoardManager BoardManager;
         public PlayerController PlayerController;
 
         
-        private int _currentLevel = 0;
+        public int CurrentLevel = 0;
 
         public Vector2Int PlayerSpawnPosition;
      
@@ -30,7 +30,7 @@ namespace Destrial
         bool isWaiting = false;
         
         
-        
+        public UIManager MyUIManager;
         
         // STATS
         private int _currentHealthAmount = 100;
@@ -79,11 +79,14 @@ namespace Destrial
         {
             TurnManager = new TurnManager();
             TurnManager.OnTick += OnTurnHappen;
+            TurnManager.OnMobDie += OnMobDieHappen;
+            TurnManager.OnPickup += OnPickUpHappen;
+            TurnManager.OnDestroy += OnDestroyHappen;
 
-            _lifeLabel = UIDoc.rootVisualElement.Q<Label>("LifeLabel");
+          //  _lifeLabel = UIDoc.rootVisualElement.Q<Label>("LifeLabel");
 
-            _gameOverPanel = UIDoc.rootVisualElement.Q<VisualElement>("GameOverPanel");
-            _gameOverMessage = _gameOverPanel.Q<Label>("GameOverMessage");
+          //  _gameOverPanel = UIDoc.rootVisualElement.Q<VisualElement>("GameOverPanel");
+           // _gameOverMessage = _gameOverPanel.Q<Label>("GameOverMessage");
 
             StartNewGame();
             
@@ -96,12 +99,13 @@ namespace Destrial
 
         public void StartNewGame()
         {
-            _gameOverPanel.style.visibility = Visibility.Hidden;
-
-            _currentLevel = 1;
+         //   _gameOverPanel.style.visibility = Visibility.Hidden;
+        
+            CurrentLevel = 1;
             _currentHealthAmount = _startingHealth;
-            _lifeLabel.text = "Health : " + _currentHealthAmount;
-
+            MyUIManager.Init();
+          //  _lifeLabel.text = "Health : " + _currentHealthAmount;
+             
             BoardManager.Clean();
             BoardManager.Init();
 
@@ -121,7 +125,7 @@ namespace Destrial
             PlayerController.Init();
             _audioSource.PlayOneShot(_audioNextLevel, sfxVolume);
          //   Debug.Log(""+PlayerController.CellPosition+"/"+PlayerSpawnPosition);
-            _currentLevel++;
+            CurrentLevel++;
         }
 
         void OnTurnHappen()
@@ -130,17 +134,33 @@ namespace Destrial
             StartCoroutine(StartTimerAttack());
         }
 
+        void OnMobDieHappen()
+        {
+            MyUIManager.RefreshKills();
+        }
+
+        void OnPickUpHappen()
+        {
+            MyUIManager.RefreshPickup();
+        }
+
+        void OnDestroyHappen()
+        {
+            MyUIManager.RefreshDestroy();
+        }
+        
         public void ChangeLife(int amount)
         {
             _currentHealthAmount += amount;
-            _lifeLabel.text = "Health : " + _currentHealthAmount;
+            MyUIManager.ShowLife();
+         
+           // _lifeLabel.text = "Health : " + _currentHealthAmount;
 
             if (_currentHealthAmount <= 0)
             {
                 PlayerController.GameOver();
-                _gameOverPanel.style.visibility = Visibility.Visible;
-                _gameOverMessage.text = "<size=32>Game Over!</size>\n\nYou traveled through\n\n " + _currentLevel +
-                                         " levels";
+                MyUIManager.ShowGameOver();
+              
 
             }
         }
