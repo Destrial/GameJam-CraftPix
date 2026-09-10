@@ -40,7 +40,9 @@ namespace Destrial
 
         private int _destroyAmount = 0;
 
+        private int _foodComboAmount = 0;
         
+        private int _hitsTakenAmount = 0;
         //
 
        [SerializeField] AudioSource _audioSource;
