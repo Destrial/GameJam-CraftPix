@@ -91,7 +91,7 @@ namespace Destrial
             GameManager.Instance.Enemies.Add(this);
         }
 
-        public override bool PlayerWantsToEnter()
+        public override bool PlayerWantsToEnter()   
         {
             _currentHealth -= 1;
             _animator.SetTrigger("Hurt");
@@ -107,6 +107,7 @@ namespace Destrial
                 Instantiate(_deathPrefab, transform.position, Quaternion.identity);
                 GameManager.Instance.Enemies.Remove(this);
                 Destroy(gameObject);
+                GameManager.Instance.TurnManager.MobDie();
                
             }
 

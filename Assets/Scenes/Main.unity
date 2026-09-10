@@ -883,7 +883,7 @@ MonoBehaviour:
   PlayerController: {fileID: 1504855376}
   CurrentLevel: 0
   PlayerSpawnPosition: {x: 0, y: 0}
-  _attackSpeed: 1
+  _attackSpeed: 0.4
   MyUIManager: {fileID: 1625514469}
   _startingHealth: 40
   _audioSource: {fileID: 754903446}
@@ -1200,7 +1200,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.7578125
+  orthographic size: 0.9183673
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2417,6 +2417,10 @@ PrefabInstance:
     - target: {fileID: 3843351288733793645, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
       propertyPath: _moveSpeed
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843351288733793645, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
+      propertyPath: _attackSpeed
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 3843351288733793645, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
       propertyPath: _bloodPrefab

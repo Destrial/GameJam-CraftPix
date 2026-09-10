@@ -39,10 +39,8 @@ namespace Destrial
         private int _killAmount = 0;
 
         private int _destroyAmount = 0;
-        public int CurrentHealthAmount
-        {
-            get { return _currentHealthAmount; }
-        }
+
+        
         //
 
        [SerializeField] AudioSource _audioSource;
