@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 using System.Collections;
-
+using DG.Tweening;
 namespace Destrial
 {
 
@@ -65,7 +65,8 @@ namespace Destrial
 
         
        [SerializeField] AudioSource _audioSource;
-       [SerializeField] AudioClip _audioDecaGrowth;
+       [SerializeField] private AudioClip _audioDecaGrowth;
+           [SerializeField] AudioClip _audioDecaKill;
        [SerializeField] AudioClip _audioDecaLoot;
        [SerializeField] AudioClip _audioDecaDestroy;
        [SerializeField] AudioClip _audioLevelUp;
@@ -123,7 +124,7 @@ namespace Destrial
         {
          //   _gameOverPanel.style.visibility = Visibility.Hidden;
         
-         
+            DOTween.KillAll(complete: true); 
             RoomLevel = 1;
             PlayerCurrentHealth = _startingHealth;
             MaxHealth = _startingHealth;
@@ -213,7 +214,8 @@ namespace Destrial
             {
                 PlayerController.GameOver();
                 MyUIManager.ShowGameOver();
-          //    Debug.Log("GAME OVER: "+BoardManager.Player.MyState);
+                _audioSource.PlayOneShot(_audioLose, sfxVolume);
+          //  Debug.Log("GAME OVER: "+_audioLose+" "+sfxVolume);
 
             }
         }
@@ -282,26 +284,24 @@ namespace Destrial
         {
             PlayerLevel++;
              TurnManager.LevelUp(); //event
-             
+             Debug.Log("LEVEL UP"+_audioLevelUp );
              BoardManager.Player.MyState=PlayerController.PlayerState.Wait;
-             _audioSource.PlayOneShot(_audioLevelUp, sfxVolume);
+          
              MyUIManager.ShowLevelUp(true);
         }
-        public void GameOver()
-        {
-            _audioSource.PlayOneShot(_audioLose, sfxVolume);
-        }
+        
 
         public void AddDestroy()
         {
             DestroyAmount++;
             MyUIManager.RefreshDestroy();
             cumulDestroy++;
-            if (cumulDestroy > 10)
+            if (cumulDestroy == 10)
             {
                 cumulDestroy = 0;
                 AddXP();
                 AddMegaGROW();
+                _audioSource.PlayOneShot(_audioDecaDestroy, sfxVolume);
                 /// GO REWARD DESTROY
                 /// DROP ITEM
             }
@@ -313,13 +313,14 @@ namespace Destrial
             PickupAmount++;
             MyUIManager.RefreshPickup();
             cumulPickup++;
-            if (cumulPickup > 10)
+            if (cumulPickup == 10)
             {
                 cumulPickup = 0;
                 AddXP();
                 AddMegaGROW();
                 PlayerCurrentHealth = MaxHealth;
                 MyUIManager.ShowLife();
+                _audioSource.PlayOneShot(_audioDecaLoot, sfxVolume);
                 /// GO REWARDFULL HEALTH
                 /// FULL LIFE
                 /// 
@@ -337,8 +338,8 @@ namespace Destrial
             if (cumulKill > 10)
             {
                 cumulKill = 0;
+               _audioSource.PlayOneShot(_audioDecaKill, sfxVolume);
                 
-               
                 /// NEW HIT  SUPER COUP
                 /// ONE HIT KILLS
                 /// 
@@ -356,6 +357,7 @@ namespace Destrial
 //Debug.Log("LEVEL UP");
                 cumulXP = 0;
                 LevelUp();
+                _audioSource.PlayOneShot(_audioLevelUp, sfxVolume);
             }
         }
 
@@ -366,6 +368,7 @@ namespace Destrial
             if (AmountGrow > 3)
             {
                 AmountGrow = 0;
+                _audioSource.PlayOneShot(_audioDecaGrowth, sfxVolume);
                 //MEGA GROW
                 // INVULENRABILITY 10 TOURS + VITESSE x2 + ATTTX2
             }

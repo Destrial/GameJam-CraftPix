@@ -104,7 +104,7 @@ MonoBehaviour:
   _bloodPrefab: {fileID: 5565975253063727830, guid: a69cdc1eae230ae43b9deeb406acbd61, type: 3}
   _moveSpeed: 1
   Health: 3
-  Damage: 5
+  Damage: 3
   _audioSource: {fileID: 6626788376126874644}
   _audioMove:
   - {fileID: 8300000, guid: 2cfc26cea2bfe404dbdd8df862a79d40, type: 3}

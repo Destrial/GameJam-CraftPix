@@ -3415,7 +3415,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BoardManager: {fileID: 1240575655}
   PlayerController: {fileID: 1504855376}
-  CurrentLevel: 0
+  RoomLevel: 0
   PlayerSpawnPosition: {x: 0, y: 0}
   _attackSpeed: 0.4
   MyUIManager: {fileID: 1625514469}
@@ -3423,6 +3423,7 @@ MonoBehaviour:
   _startingHealth: 40
   MaxHealth: 0
   PlayerAttack: 0
+  PlayerLevel: 1
   PlayerDefense: 0
   PlayerSpeed: 1
   KillAmount: 0
@@ -3434,11 +3435,12 @@ MonoBehaviour:
   HitsTakenAmount: 0
   AmountGrow: 0
   _audioSource: {fileID: 754903446}
-  _audioDecaGrowth: {fileID: 8300000, guid: 00dedaf5bd043664cbb4ecfdd7340329, type: 3}
-  _audioDecaLoot: {fileID: 8300000, guid: 22b3f297d96318a46a0f51624fae3ca1, type: 3}
-  _audioDecaDestroy: {fileID: 8300000, guid: 22b3f297d96318a46a0f51624fae3ca1, type: 3}
-  _audioLevelUp: {fileID: 8300000, guid: 22b3f297d96318a46a0f51624fae3ca1, type: 3}
-  _audioLose: {fileID: 8300000, guid: e0a02abd62bfd084882313ca722a700a, type: 3}
+  _audioDecaGrowth: {fileID: 8300000, guid: 1385178b38939654080a030b6c33be69, type: 3}
+  _audioDecaKill: {fileID: 8300000, guid: 70d4f96ae77c88e4c992384fbd3185d7, type: 3}
+  _audioDecaLoot: {fileID: 8300000, guid: b8c6e6be473756b4e9f7e0c7fb0d087e, type: 3}
+  _audioDecaDestroy: {fileID: 8300000, guid: da6b17a1b4326bf479c82fed0e2413fa, type: 3}
+  _audioLevelUp: {fileID: 8300000, guid: f4e948deea6f0e44c971d005481b16bc, type: 3}
+  _audioLose: {fileID: 8300000, guid: 48286d092cbb86f4e8ba241105733eb6, type: 3}
   _audioPickUp:
   - {fileID: 8300000, guid: b284c3fdbe024eb499d1859c654e24ce, type: 3}
   - {fileID: 8300000, guid: d6307525abbce2949acd88e7a0926e9f, type: 3}
@@ -3451,7 +3453,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 9ec7e6d2dd965494b83d2b9bc9882fc2, type: 3}
   _audioNextLevel: {fileID: 8300000, guid: e741d823414a1bb4ca2e902a6899491e, type: 3}
   musicClip: {fileID: 8300000, guid: 0e47c7371d76c1a48a8f0de7f4358ca9, type: 3}
-  musicVolume: 0.5
+  musicVolume: 0.3
   sfxVolume: 1
 --- !u!82 &754903446
 AudioSource:
@@ -7566,7 +7568,7 @@ RectTransform:
   m_GameObject: {fileID: 2042382320}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 636650453}
@@ -7574,7 +7576,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -141.81}
+  m_AnchoredPosition: {x: 0, y: -189}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2042572950

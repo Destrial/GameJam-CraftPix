@@ -113,15 +113,17 @@ namespace Destrial
         {
             _gameOverPanel.SetActive(true);
             _gamePanel.SetActive(false);
-            _dieByTXT.text = "<size=32>Game Over!</size>\nYou are level " + _gameManager.PlayerLevel +
-                             " traveled through " + _gameManager.RoomLevel +
-                             " levels. You lastest " + _gameManager.TurnManager.TurnCount + " turns, receiving " +
+            _dieByTXT.text = "<size=44>Game Over!</size>\nYou traveled through " + _gameManager.RoomLevel +
+                             " rooms. You lastest " + _gameManager.TurnManager.TurnCount + " turns, receiving " +
                              _gameManager.HitsTakenAmount + " hits, and attacking " + _gameManager.AttacksAmount +
                              " times!";
+            _dieStatsTXT.text = "Player Level: "+ _gameManager.PlayerLevel+"\nKills: "+ _gameManager.KillAmount+"\nDestroys:"+ _gameManager.DestroyAmount+"\nPickup: "+ _gameManager.PickupAmount;
+            _dieMegaGrowthTXT.text = "Mega Growth : "+ _gameManager.AmountGrow;
         }
 
         public void RestartGame()
         {
+        
             _gameManager.StartNewGame();
         }
 
