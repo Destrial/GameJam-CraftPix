@@ -76,7 +76,7 @@ namespace Destrial
        [SerializeField] AudioClip[] _audioMobDeath;
        [SerializeField] AudioClip[] _audioDestroy;
        [SerializeField] AudioClip _audioNextLevel;
-       
+       [SerializeField] AudioClip[] _audioHit;
        
        public AudioClip musicClip;
      
@@ -197,7 +197,8 @@ namespace Destrial
             {
                 amount += PlayerDefense;
               
-            }
+            } 
+            BoardManager.Player.DMGTXT.Initialize(amount);
 
            
             PlayerCurrentHealth += amount;
@@ -284,7 +285,7 @@ namespace Destrial
         {
             PlayerLevel++;
              TurnManager.LevelUp(); //event
-             Debug.Log("LEVEL UP"+_audioLevelUp );
+         //    Debug.Log("LEVEL UP"+_audioLevelUp );
              BoardManager.Player.MyState=PlayerController.PlayerState.Wait;
           
              MyUIManager.ShowLevelUp(true);
@@ -373,6 +374,13 @@ namespace Destrial
                 // INVULENRABILITY 10 TOURS + VITESSE x2 + ATTTX2
             }
         }
-        
+
+
+        public void HitSound()
+        {
+            _audioSource.PlayOneShot(_audioHit[Random.Range(0, _audioHit.Length)], sfxVolume);
+        }
+
+       
     }
 }

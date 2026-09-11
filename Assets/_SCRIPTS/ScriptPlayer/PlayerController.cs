@@ -8,6 +8,7 @@ namespace Destrial
 {
     public class PlayerController : MonoBehaviour
     {
+        public DamageText DMGTXT;
         DestrialInputs _myInputs;
         InputAction _lookInputAction;
         InputAction _moveInputAction;

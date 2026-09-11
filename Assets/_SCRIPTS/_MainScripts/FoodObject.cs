@@ -24,6 +24,7 @@ namespace Destrial
         public override void RatEntered()
         {
             Destroy(gameObject);
+           
             GameManager.Instance.AudioPickup(false);
         }
     }

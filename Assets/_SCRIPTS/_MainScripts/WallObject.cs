@@ -41,15 +41,17 @@ namespace Destrial
             if (_healthPoint == 2)
             {
                 _spriteRenderer.sprite = DestroySprite1;
-                GameManager.Instance.ChangeLife(-PlayerDmg);
-                GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg,wallDir);
+                GameManager.Instance.HitSound();
+//GameManager.Instance.ChangeLife(-PlayerDmg);
+//GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg,wallDir);
                 //GameManager.Instance.BoardManager.SetCellTile(myPos, DestroyTile1);
             }
             else if (_healthPoint == 1)
             {
                 _spriteRenderer.sprite = DestroySprite2;
-                GameManager.Instance.ChangeLife(-PlayerDmg);
-                GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg,wallDir);
+                GameManager.Instance.HitSound();
+               // GameManager.Instance.ChangeLife(-PlayerDmg);
+            //    GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg,wallDir);
                // GameManager.Instance.BoardManager.SetCellTile(myPos, DestroyTile2);
             }
 
@@ -60,10 +62,12 @@ namespace Destrial
 
             //  GameManager.Instance.BoardManager.SetCellTile(_cell, _originalTile);
             GameManager.Instance.BoardManager.FreeBoard(_cell,true);
-            GameManager.Instance.ChangeLife(-PlayerDmg);
-            GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg,wallDir);
+          //  GameManager.Instance.ChangeLife(-PlayerDmg);
+         //   GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg,wallDir);
+            //TEST DROP
             GameManager.Instance.WallDestroyed();
             GameManager.Instance.AddDestroy();
+          
             
             
             Destroy(gameObject);

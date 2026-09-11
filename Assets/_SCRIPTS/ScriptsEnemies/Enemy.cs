@@ -20,7 +20,7 @@ namespace Destrial
         [SerializeField] private GameObject _deathPrefab;
         [SerializeField] private GameObject _bloodPrefab;
         
-        
+        public DamageText DMGTXT;
 
 //public Vector2Int CellPosition;
 
@@ -99,7 +99,7 @@ namespace Destrial
             _audioSource.PlayOneShot(_audioHurt[Random.Range(0, _audioHurt.Length)],GameManager.Instance.sfxVolume);
             _board.FlashSprite(_spriteRenderer);
             Instantiate(_bloodPrefab, transform.position, Quaternion.identity);
-
+            DMGTXT.Initialize(-GameManager.Instance.PlayerAttack);
             
             if (_currentHealth <= 0)
             {
@@ -155,6 +155,13 @@ namespace Destrial
             var targetCell = _board.GetCellData(cell);
             if (targetCell.ContainedObject != null)
             {
+               
+                if (targetCell.ContainedObject is FoodObject) //HEAL THE RAT
+                {
+                    FoodObject food = targetCell.ContainedObject as FoodObject;
+                    DMGTXT.Initialize(food.AmountGranted);
+                    _currentHealth = Health;
+                }
                 targetCell.ContainedObject.RatEntered();
             }
            
