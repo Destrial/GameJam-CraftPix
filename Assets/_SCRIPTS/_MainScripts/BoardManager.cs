@@ -14,7 +14,7 @@ namespace Destrial
             public bool Passable;
             public CellObject ContainedObject;
         }
-
+        private Tween _psychedelicTween;
         private BoardPathfinding _pathfinder = new BoardPathfinding();
         private CellData[,] _boardData;
         private bool[,] _boardDataPath;
@@ -611,6 +611,25 @@ namespace Destrial
             sprite.DOFade(0f, flashDuration)
                 .SetLoops(flashCount, LoopType.Yoyo)
                 .SetEase(Ease.Linear);
+        }
+        
+        public void StartPsychedelicEffect(SpriteRenderer sprite)
+        {
+      
+            // 1. Create a dummy float to animate from 0 to 1 (representing Hue)
+            float hueProgress = 0f;
+
+            // 2. Animate the float over 6 seconds, looping infinitely
+            _psychedelicTween = DOTween.To(() => hueProgress, x => hueProgress = x, 1f, 6)
+                .SetEase(Ease.Linear)
+                .SetLoops(-1, LoopType.Incremental) 
+                .OnUpdate(() =>
+                {
+                    // 3. Convert the progress into a fully saturated, bright HSV color
+                    // Multiplying by time/speed inside can make it cycle faster if desired
+                    float currentHue = hueProgress % 1f; 
+                    sprite.color = Color.HSVToRGB(currentHue, 1f, 1f);
+                });
         }
     }
 }

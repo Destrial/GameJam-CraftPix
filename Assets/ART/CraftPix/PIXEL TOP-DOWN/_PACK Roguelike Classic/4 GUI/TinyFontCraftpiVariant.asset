@@ -58,11 +58,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
-  m_Name: TinyFontCraftpixPixel SDF
+  m_Name: TinyFontCraftpiVariant
   m_EditorClassIdentifier: 
-  hashCode: -1848524381
+  hashCode: -2105347467
   material: {fileID: 6156210484940373738}
-  materialHashCode: 1291546019
+  materialHashCode: 531215797
   m_Version: 1.1.0
   m_SourceFontFileGUID: e13aaaf568333dd44a94ca0dfd4e6a30
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: e13aaaf568333dd44a94ca0dfd4e6a30, type: 3}
