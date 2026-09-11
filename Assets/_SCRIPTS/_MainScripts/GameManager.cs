@@ -36,13 +36,13 @@ namespace Destrial
         public int CurrentHealthAmount = 100;
         [SerializeField] private int _startingHealth = 40;
 
-        private int _killAmount = 0;
+        public int KillAmount = 0;
 
-        private int _destroyAmount = 0;
+        public int DestroyAmount = 0;
 
-        private int _foodComboAmount = 0;
+        public int FoodComboAmount = 0;
         
-        private int _hitsTakenAmount = 0;
+        public int HitsTakenAmount = 0;
         //
 
         

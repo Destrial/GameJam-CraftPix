@@ -103,6 +103,8 @@ namespace Destrial
             
             if (_currentHealth <= 0)
             {
+                GameManager.Instance.KillAmount += 1;
+                
                 _animator.SetTrigger("Die");
                 GameManager.Instance.MobDeath(_myEnemyType);
                 Instantiate(_deathPrefab, transform.position, Quaternion.identity);
