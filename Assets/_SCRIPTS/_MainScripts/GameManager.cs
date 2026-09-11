@@ -45,6 +45,7 @@ namespace Destrial
         private int _hitsTakenAmount = 0;
         //
 
+        
        [SerializeField] AudioSource _audioSource;
        [SerializeField] AudioClip _audioDecaGrowth;
        [SerializeField] AudioClip _audioDecaLoot;
