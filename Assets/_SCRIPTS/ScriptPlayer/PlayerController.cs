@@ -73,6 +73,7 @@ namespace Destrial
         {
             _myInputs.Disable();
             _myInputs.Player.Attack.performed -= OnAttackPerformed;
+            _myInputs.Player.Attack.performed -= OnAttackPerformed;
         }
 
 
@@ -83,11 +84,15 @@ namespace Destrial
             MyState = PlayerState.Death;
             _audioSource.PlayOneShot(_audioDie, GameManager.Instance.sfxVolume);
         }
-
-        public void GetHurt(int amout)
+        
+        public void GetHurt(int amount,Vector2Int modDir)
         {
             _animator.SetTrigger("Hurt");
-            Debug.Log("hurt");
+            _animator.SetFloat("mov_x", modDir.x);
+            _animator.SetFloat("mov_y", modDir.y);
+            _newDirection = modDir;
+            GameManager.Instance.ChangeLife(-amount); //DAMAGE THE PLAYER
+          //  Debug.Log("hurt");
             Instantiate(_bloodPrefab, transform.position, Quaternion.identity);
             _audioSource.PlayOneShot(_audioHurt[Random.Range(0, _audioHurt.Length)], GameManager.Instance.sfxVolume);
         }
@@ -141,6 +146,7 @@ namespace Destrial
             _animator.SetFloat("mov_x", 0);
             _animator.SetFloat("mov_y", 1);
             _newDirection = new Vector2Int(0, 1);
+            _animator.SetBool("Death", false);
             _animator.SetBool("Moving", false);
             _moveTarget = transform.position;
             _isGameOver = false;

@@ -35,20 +35,21 @@ namespace Destrial
 
         public override bool PlayerWantsToEnter()
         {
+            Vector2Int wallDir=_cell-GameManager.Instance.PlayerController.CellPosition;
             _healthPoint -= 1;
             _audioSource.PlayOneShot(_audioImpact,GameManager.Instance.sfxVolume);
             if (_healthPoint == 2)
             {
                 _spriteRenderer.sprite = DestroySprite1;
                 GameManager.Instance.ChangeLife(-PlayerDmg);
-                GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg);
+                GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg,wallDir);
                 //GameManager.Instance.BoardManager.SetCellTile(myPos, DestroyTile1);
             }
             else if (_healthPoint == 1)
             {
                 _spriteRenderer.sprite = DestroySprite2;
                 GameManager.Instance.ChangeLife(-PlayerDmg);
-                GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg);
+                GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg,wallDir);
                // GameManager.Instance.BoardManager.SetCellTile(myPos, DestroyTile2);
             }
 
@@ -60,7 +61,7 @@ namespace Destrial
           //  GameManager.Instance.BoardManager.SetCellTile(_cell, _originalTile);
             GameManager.Instance.BoardManager.FreeBoard(_cell,true);
             GameManager.Instance.ChangeLife(-PlayerDmg);
-            GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg);
+            GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg,wallDir);
             GameManager.Instance.WallDestroyed();
             Destroy(gameObject);
             return true;

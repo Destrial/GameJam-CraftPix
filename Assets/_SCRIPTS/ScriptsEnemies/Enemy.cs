@@ -216,13 +216,14 @@ namespace Destrial
                 //
                 var playerCell = GameManager.Instance.PlayerController.CellPosition;
                 _newDirection= playerCell - _cell;
+                Vector2Int modDir = _cell - playerCell;
                 _board.PerformGridAttack(_cell,playerCell,this.transform, _spriteRenderer);
                 _audioSource.PlayOneShot(_audioAttack[Random.Range(0, _audioAttack.Length)],GameManager.Instance.sfxVolume);
                 _animator.SetFloat("mov_x", _newDirection.x);
                 _animator.SetFloat("mov_y", _newDirection.y);
                 _animator.SetTrigger("Attack");
-                GameManager.Instance.ChangeLife(-Damage); //DAMAGE THE PLAYER
-                GameManager.Instance.BoardManager.Player.GetHurt(-Damage); // CHANGE UI
+           
+                GameManager.Instance.BoardManager.Player.GetHurt(-Damage,modDir); // CHANGE UI
            
         }
 
