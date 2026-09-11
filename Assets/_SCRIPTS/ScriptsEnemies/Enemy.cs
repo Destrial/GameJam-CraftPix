@@ -97,6 +97,7 @@ namespace Destrial
             _animator.SetTrigger("Hurt");
             _audioSource.PlayOneShot(_audioImpact[Random.Range(0, _audioImpact.Length)],GameManager.Instance.sfxVolume);
             _audioSource.PlayOneShot(_audioHurt[Random.Range(0, _audioHurt.Length)],GameManager.Instance.sfxVolume);
+            _board.FlashSprite(_spriteRenderer);
             Instantiate(_bloodPrefab, transform.position, Quaternion.identity);
 
             
@@ -223,7 +224,7 @@ namespace Destrial
                 _animator.SetFloat("mov_y", _newDirection.y);
                 _animator.SetTrigger("Attack");
            
-                GameManager.Instance.BoardManager.Player.GetHurt(-Damage,modDir); // CHANGE UI
+                GameManager.Instance.BoardManager.Player.GetHurt(Damage,modDir); // CHANGE UI
            
         }
 

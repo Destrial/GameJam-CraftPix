@@ -21,7 +21,7 @@ namespace Destrial
         public BoardManager.CellData Cell;
         private bool _isAttacking;
         [SerializeField] float _attackSpeed = 0.4f;
-
+        private SpriteRenderer _spriteRenderer;
         public enum PlayerState
         {
             Idle,
@@ -58,6 +58,7 @@ namespace Destrial
             _animator = GetComponent<Animator>();
             _audioSource = GetComponent<AudioSource>();
             _myInputs = new DestrialInputs();
+            _spriteRenderer= GetComponent<SpriteRenderer>();
         }
 
         private void OnEnable()
@@ -80,6 +81,7 @@ namespace Destrial
         public void GameOver()
         {
             _animator.SetBool("Death", true);
+            _spriteRenderer.color = new Color(0.345f,0.345f,0.345f); // gris
             _isGameOver = true;
             MyState = PlayerState.Death;
             _audioSource.PlayOneShot(_audioDie, GameManager.Instance.sfxVolume);
@@ -91,6 +93,8 @@ namespace Destrial
             _animator.SetFloat("mov_x", modDir.x);
             _animator.SetFloat("mov_y", modDir.y);
             _newDirection = modDir;
+           // Debug.Log("modflash"+_spriteRenderer.gameObject.name);
+            _board.FlashSprite(_spriteRenderer);
             GameManager.Instance.ChangeLife(-amount); //DAMAGE THE PLAYER
           //  Debug.Log("hurt");
             Instantiate(_bloodPrefab, transform.position, Quaternion.identity);
@@ -147,6 +151,7 @@ namespace Destrial
             _animator.SetFloat("mov_y", 1);
             _newDirection = new Vector2Int(0, 1);
             _animator.SetBool("Death", false);
+            _spriteRenderer.color = Color.white;
             _animator.SetBool("Moving", false);
             _moveTarget = transform.position;
             _isGameOver = false;

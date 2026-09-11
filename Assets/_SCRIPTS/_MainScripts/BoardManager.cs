@@ -39,10 +39,14 @@ namespace Destrial
         [SerializeField] private float dashDuration = 0.1f;
         [SerializeField] private float returnDuration = 0.12f;
         [SerializeField] private Ease attackEase = Ease.InCubic;
+
         [SerializeField] private Ease returnEase = Ease.OutQuad;
+
         // Custom color targets
         [SerializeField] private Color attackColor = Color.red;
+
         [SerializeField] private Color normalColor = Color.white;
+
         //Enemies
         public Enemy EnemyPrefab;
         public int Width;
@@ -560,7 +564,8 @@ namespace Destrial
         }
 
 
-        public void PerformGridAttack(Vector2Int attackerCell, Vector2Int targetCell, Transform attacker, SpriteRenderer sprite)
+        public void PerformGridAttack(Vector2Int attackerCell, Vector2Int targetCell, Transform attacker,
+            SpriteRenderer sprite)
         {
             // 1. Get the world positions using your custom conversion method
             Vector3 startWorldPos = CellToWorld(attackerCell);
@@ -593,6 +598,19 @@ namespace Destrial
             attackSequence.Join(
                 sprite.DOColor(normalColor, returnDuration).SetEase(returnEase)
             );
+        }
+
+        public void FlashSprite(SpriteRenderer sprite)
+        {
+            float flashDuration = 0.05f;
+            int flashCount = 6;
+            Color flashColor = sprite.color;
+            // 1. Set the initial starting state (Fully Transparent)
+            sprite.color = Color.white; 
+
+            sprite.DOFade(0f, flashDuration)
+                .SetLoops(flashCount, LoopType.Yoyo)
+                .SetEase(Ease.Linear);
         }
     }
 }
