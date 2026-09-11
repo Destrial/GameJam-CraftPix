@@ -58,6 +58,7 @@ namespace Destrial
         public int AttacksAmount = 0;
 
         public int HitsTakenAmount = 0;
+        
 
         
        [SerializeField] AudioSource _audioSource;
