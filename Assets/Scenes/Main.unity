@@ -4387,9 +4387,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<color=red>GOAL: Survive!</color>\n\nCOMMAND:\nWASD: MOVE\nLMB: ATTACK\nSPACE:
-    TURN\n\n<color=yellow>\nEVERY 10 ACTIONS SOMETHING HAPPEN!\n</color>\n<color=red><size=22>\nLEVEL
-    UP AND AIM FOR THE \nDECA GROWTH!!"
+  m_text: "<color=#FDAE33>GOAL: Survive!</color>\n\nCOMMAND:\nWASD: MOVE\nLMB: ATTACK\nSPACE:
+    TURN\n\n<color=#B55088>\nEVERY 10 ACTIONS, SOMETHING SPECIAL HAPPENS DEPENDING
+    ON WHAT YOU DID!\n</color>\n<color=#FDAE33><size=22>\nLEVEL UP AND AIM FOR THE
+    \nDECA GROWTH!!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f2c48c60f54a50a47ba5da71c6a4900d, type: 2}
   m_sharedMaterial: {fileID: 6156210484940373738, guid: f2c48c60f54a50a47ba5da71c6a4900d, type: 2}
@@ -6458,7 +6459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5189047, g: 0.497775, b: 0.8867924, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
