@@ -96,6 +96,7 @@ namespace Destrial
             _isGameOver = true;
             MyState = PlayerState.Death;
             _audioSource.PlayOneShot(_audioDie, GameManager.Instance.sfxVolume);
+            Debug.Log("GAME OVER player: "+_board.Player.MyState);
         }
         
         public void GetHurt(int amount,Vector2Int modDir)
@@ -107,7 +108,7 @@ namespace Destrial
            // Debug.Log("modflash"+_spriteRenderer.gameObject.name);
             _board.FlashSprite(_spriteRenderer);
             GameManager.Instance.ChangeLife(-amount); //DAMAGE THE PLAYER
-            Debug.Log("hurt "+amount);
+           // Debug.Log("hurt "+amount);
             Instantiate(_bloodPrefab, transform.position, Quaternion.identity);
             _audioSource.PlayOneShot(_audioHurt[Random.Range(0, _audioHurt.Length)], GameManager.Instance.sfxVolume);
         }
@@ -150,7 +151,8 @@ namespace Destrial
         {
             _board = boardManager;
             CellPosition = cell;
-
+          
+            
             //let's move to the right position...
             transform.position = _board.CellToWorld(cell);
             Cell = _board.GetCellData(cell);
@@ -204,7 +206,12 @@ namespace Destrial
 
         void StartIdle()
         {
-            MyState = PlayerState.Idle;
+            if (MyState != PlayerState.Death)
+            {
+                MyState = PlayerState.Idle;
+            }
+
+          
         }
 
         public void Update()
@@ -331,7 +338,10 @@ namespace Destrial
                         if (transform.position == _moveTarget)
                         {
                             _isMoving = false;
-                            MyState = PlayerState.Idle;
+                            if (MyState != PlayerState.Death)
+                            {
+                                MyState = PlayerState.Idle;
+                            }
 
                             _animator.SetFloat("mov_x", _newDirection.x);
                             _animator.SetFloat("mov_y", _newDirection.y);
@@ -415,10 +425,14 @@ namespace Destrial
             yield return new WaitForSeconds(_attackSpeed);
             _isAttacking = false;
             _isMoving = false;
-           // MyState = PlayerState.Idle;
-            GameManager.Instance.TurnManager.Tick();
-         
-          //  _cantInput = false;
+           // MyState = 
+           Debug.Log("EndAttack"+ MyState);
+           if (MyState != PlayerState.Death)
+           {
+               GameManager.Instance.TurnManager.Tick();
+           }
+
+           //  _cantInput = false;
         }
     }
 }

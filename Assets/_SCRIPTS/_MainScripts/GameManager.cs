@@ -151,9 +151,9 @@ namespace Destrial
             BoardManager.Clean();
             BoardManager.Init();
           
-          
-            PlayerController.Spawn(BoardManager, PlayerSpawnPosition);
             PlayerController.Init();
+            PlayerController.Spawn(BoardManager, PlayerSpawnPosition);
+           
         }
 
         public void NewLevel()
@@ -222,7 +222,7 @@ namespace Destrial
             {
                 PlayerController.GameOver();
                 MyUIManager.ShowGameOver();
-              
+              Debug.Log("GAME OVER: "+BoardManager.Player.MyState);
 
             }
         }
