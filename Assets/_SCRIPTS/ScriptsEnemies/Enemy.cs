@@ -93,7 +93,7 @@ namespace Destrial
 
         public override bool PlayerWantsToEnter()   
         {
-            _currentHealth -= GameManager.Instance.PlayerDMG;
+            _currentHealth -= GameManager.Instance.PlayerAttack;
             _animator.SetTrigger("Hurt");
             _audioSource.PlayOneShot(_audioImpact[Random.Range(0, _audioImpact.Length)],GameManager.Instance.sfxVolume);
             _audioSource.PlayOneShot(_audioHurt[Random.Range(0, _audioHurt.Length)],GameManager.Instance.sfxVolume);
@@ -103,9 +103,9 @@ namespace Destrial
             
             if (_currentHealth <= 0)
             {
-                GameManager.Instance.KillAmount += 1;
+                GameManager.Instance.AddKill();
                 
-                _animator.SetTrigger("Die");
+                
                 GameManager.Instance.MobDeath(_myEnemyType);
                 Instantiate(_deathPrefab, transform.position, Quaternion.identity);
                 GameManager.Instance.Enemies.Remove(this);

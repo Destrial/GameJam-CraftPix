@@ -14,11 +14,11 @@ namespace Destrial
         public event System.Action OnLevelUp;
         
         
-        private int _turnCount;
+        public int TurnCount;
 
         public TurnManager() //constructeur
         {
-            _turnCount = 1;
+            TurnCount = 1;
         }
 
         public void DestroyWall()
@@ -44,7 +44,7 @@ namespace Destrial
 
         public void Tick()
         {
-            _turnCount += 1;
+            TurnCount += 1;
             OnTick?.Invoke();
 
 

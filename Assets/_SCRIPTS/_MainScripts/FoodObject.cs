@@ -13,8 +13,8 @@ namespace Destrial
         {
             GameManager.Instance.ChangeLife(AmountGranted);
             GameManager.Instance.AudioPickup(true);
-            GameManager.Instance.FoodAmount += 1;
-
+           
+            GameManager.Instance.AddPickup();
             Destroy(gameObject);
 
             //increase food

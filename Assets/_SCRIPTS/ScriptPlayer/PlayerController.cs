@@ -398,6 +398,8 @@ namespace Destrial
             _animator.SetFloat("mov_y", _newDirection.y);
             _animator.SetBool("ContinuousWalk", false);
             _animator.SetTrigger("Attack");
+            GameManager.Instance.AttacksAmount++;
+            
         }
 
         IEnumerator StartTimerAttack()

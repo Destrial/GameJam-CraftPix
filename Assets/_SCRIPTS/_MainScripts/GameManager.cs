@@ -35,10 +35,12 @@ namespace Destrial
         // STATS
         public int PlayerCurrentHealth = 10;
         [SerializeField] private int _startingHealth = 20;
-
-        public int PlayerDMG = 1;
+        public int MaxHealth;
+        public int PlayerAttack = 1;
 
         public int PlayerDefense = 0;
+        
+        public int PlayerSpeed = 1;
         
         //public int ThrowDMG = 1;
 
@@ -47,18 +49,19 @@ namespace Destrial
         
         // Counters
         public int KillAmount = 0;
-
+        private int cumulKill;
         public int DestroyAmount = 0;
-
+        private int cumulDestroy;
         public int FoodAmount = 0;
         
         public int PickupAmount = 0;
-        
-        
+        private int cumulPickup;
+        public int XPAmount = 0;
+        private int cumulXP;
         public int AttacksAmount = 0;
 
         public int HitsTakenAmount = 0;
-        
+        public int AmountGrow = 0;
 
         
        [SerializeField] AudioSource _audioSource;
@@ -105,8 +108,8 @@ namespace Destrial
           //  _gameOverPanel = UIDoc.rootVisualElement.Q<VisualElement>("GameOverPanel");
            // _gameOverMessage = _gameOverPanel.Q<Label>("GameOverMessage");
 
-            StartNewGame();
-            
+          //  StartNewGame();
+            BoardManager.Player.MyState=PlayerController.PlayerState.Wait;
             _audioSource.clip = musicClip;
             _audioSource.loop = true;
             _audioSource.volume = musicVolume;
@@ -123,14 +126,31 @@ namespace Destrial
         {
          //   _gameOverPanel.style.visibility = Visibility.Hidden;
         
+         
             CurrentLevel = 1;
             PlayerCurrentHealth = _startingHealth;
+            MaxHealth = _startingHealth;
+            XPAmount = 0;
+            cumulXP = 0;
+            KillAmount = 0;
+            cumulKill = 0;
+            DestroyAmount = 0;
+            cumulDestroy = 0;
+            PickupAmount = 0;
+            cumulPickup = 0;
+            PlayerAttack = 1;
+            PlayerDefense = 0;
+            PlayerSpeed = 1;
+
+            AttacksAmount = 0;
+            HitsTakenAmount = 0;
+            
             MyUIManager.Init();
           //  _lifeLabel.text = "Health : " + _currentHealthAmount;
              
             BoardManager.Clean();
             BoardManager.Init();
-
+          
           
             PlayerController.Spawn(BoardManager, PlayerSpawnPosition);
             PlayerController.Init();
@@ -179,6 +199,12 @@ namespace Destrial
         
         public void ChangeLife(int amount)
         {
+            HitsTakenAmount++;
+            amount=amount-PlayerDefense;
+            if (amount < 0)
+            {
+                amount = 0;
+            }
             PlayerCurrentHealth += amount;
             MyUIManager.ShowLife();
          
@@ -259,7 +285,84 @@ namespace Destrial
         {
             _audioSource.PlayOneShot(_audioLose, sfxVolume);
         }
-       
+
+        public void AddDestroy()
+        {
+            DestroyAmount++;
+            MyUIManager.RefreshDestroy();
+            cumulDestroy++;
+            if (cumulDestroy > 10)
+            {
+                cumulDestroy = 0;
+                AddXP();
+                AddMegaGROW();
+                /// GO REWARD DESTROY
+                /// DROP ITEM
+            }
+
+        }
+
+        public void AddPickup()
+        {
+            PickupAmount++;
+            MyUIManager.RefreshPickup();
+            cumulPickup++;
+            if (cumulPickup > 10)
+            {
+                cumulPickup = 0;
+                AddXP();
+                AddMegaGROW();
+                PlayerCurrentHealth = MaxHealth;
+                MyUIManager.ShowLife();
+                /// GO REWARDFULL HEALTH
+                /// FULL LIFE
+                /// 
+
+            }
+        }
+
+        public void AddKill()
+        {
+            KillAmount++;
+            MyUIManager.RefreshKills();
+            cumulKill++;
+            AddXP();
+            AddMegaGROW();
+            if (cumulKill > 10)
+            {
+                cumulKill = 0;
+                
+               
+                /// NEW HIT  SUPER COUP
+                /// ONE HIT KILLS
+                /// 
+
+            }
+        }
+
+        void AddXP()
+        {
+            XPAmount++;
+            MyUIManager.RefreshXP();
+            cumulXP++;
+            if (cumulXP > 10)
+            {
+                cumulXP = 0;
+                LevelUp();
+            }
+        }
+
+        void AddMegaGROW()
+        {
+            AmountGrow++;
+            MyUIManager.RefreshGrow();
+            if (AmountGrow > 3)
+            {
+                AmountGrow = 0;
+                //MEGA GROW
+                // INVULENRABILITY 10 TOURS + VITESSE x2 + ATTTX2
+            }
+        }
         
     }
 }

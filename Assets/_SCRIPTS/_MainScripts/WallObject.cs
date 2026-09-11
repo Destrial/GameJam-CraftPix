@@ -63,7 +63,9 @@ namespace Destrial
             GameManager.Instance.ChangeLife(-PlayerDmg);
             GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg,wallDir);
             GameManager.Instance.WallDestroyed();
-            GameManager.Instance.DestroyAmount += 1;
+            GameManager.Instance.AddDestroy();
+            
+            
             Destroy(gameObject);
             return true;
         }
