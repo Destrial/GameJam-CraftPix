@@ -96,7 +96,8 @@ namespace Destrial
             _isGameOver = true;
             MyState = PlayerState.Death;
             _audioSource.PlayOneShot(_audioDie, GameManager.Instance.sfxVolume);
-            Debug.Log("GAME OVER player: "+_board.Player.MyState);
+           // Debug.Log("GAME OVER player: "+_board.Player.MyState);
+           _spriteRenderer.DOColor(Color.clear, 0.5f).SetDelay(2.1f).SetEase(Ease.OutCubic);
         }
         
         public void GetHurt(int amount,Vector2Int modDir)
@@ -195,6 +196,7 @@ namespace Destrial
             _moveTarget = transform.position;
             _isGameOver = false;
             _isMoving = false;
+            
             MyState = PlayerState.Wait;
             Invoke("StartIdle", 0.5f);
         //    _cantInput = true;
@@ -211,6 +213,7 @@ namespace Destrial
                 MyState = PlayerState.Idle;
             }
 
+          
           
         }
 
@@ -426,7 +429,7 @@ namespace Destrial
             _isAttacking = false;
             _isMoving = false;
            // MyState = 
-           Debug.Log("EndAttack"+ MyState);
+//Debug.Log("EndAttack"+ MyState);
            if (MyState != PlayerState.Death)
            {
                GameManager.Instance.TurnManager.Tick();

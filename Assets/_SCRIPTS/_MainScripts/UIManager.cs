@@ -60,6 +60,7 @@ namespace Destrial
         {
             _xpTXT.text = "" + _gameManager.XPAmount % 10f + "/10";
             _xpBAR.fillAmount = (_gameManager.XPAmount % 10f) / 10f;
+            _levelTXT.text = "" + _gameManager.PlayerLevel;
         }
 
 
@@ -96,6 +97,12 @@ namespace Destrial
 
         }
 
+
+        public void ShowLevelUp(bool show)
+        {
+            _levelUpPanel.SetActive(show);
+        }
+
         public void RefreshGrow()
         {
             //ui    
@@ -106,8 +113,8 @@ namespace Destrial
         {
             _gameOverPanel.SetActive(true);
             _gamePanel.SetActive(false);
-            _dieByTXT.text = "<size=32>Game Over!</size>\nYou are level " + _gameManager.CurrentLevel +
-                             " traveled through " + _gameManager.CurrentLevel +
+            _dieByTXT.text = "<size=32>Game Over!</size>\nYou are level " + _gameManager.PlayerLevel +
+                             " traveled through " + _gameManager.RoomLevel +
                              " levels. You lastest " + _gameManager.TurnManager.TurnCount + " turns, receiving " +
                              _gameManager.HitsTakenAmount + " hits, and attacking " + _gameManager.AttacksAmount +
                              " times!";
@@ -123,12 +130,16 @@ namespace Destrial
             _gameManager.MaxHealth = _gameManager.MaxHealth + 50;
             _gameManager.ChangeLife(50);
             ShowLife();
+           ShowLevelUp(false);
+           _gameManager.BoardManager.Player.MyState=PlayerController.PlayerState.Idle;
         }
 
         public void ChoiceAddAttack()
         {
             _gameManager.PlayerAttack++;
             RefreshAttack();
+            ShowLevelUp(false);
+            _gameManager.BoardManager.Player.MyState=PlayerController.PlayerState.Idle;
         }
 
 
@@ -137,6 +148,8 @@ namespace Destrial
         {
             _gameManager.PlayerDefense++;
             RefreshDefense();
+            ShowLevelUp(false);
+            _gameManager.BoardManager.Player.MyState=PlayerController.PlayerState.Idle;
 
         }
 

@@ -19,7 +19,7 @@ namespace Destrial
         public PlayerController PlayerController;
 
       
-        public int CurrentLevel = 0;
+        public int RoomLevel = 0;
 
         public Vector2Int PlayerSpawnPosition;
      
@@ -37,7 +37,7 @@ namespace Destrial
         [SerializeField] private int _startingHealth = 20;
         public int MaxHealth;
         public int PlayerAttack = 1;
-
+        public int PlayerLevel = 1;
         public int PlayerDefense = 0;
         
         public int PlayerSpeed = 1;
@@ -101,7 +101,7 @@ namespace Destrial
             TurnManager.OnMobDie += OnMobDieHappen;
             TurnManager.OnPickup += OnPickUpHappen;
             TurnManager.OnDestroy += OnDestroyHappen;
-            TurnManager.OnLevelUp += OnLevelUpHappen;
+          
 
           //  _lifeLabel = UIDoc.rootVisualElement.Q<Label>("LifeLabel");
 
@@ -117,17 +117,14 @@ namespace Destrial
         }
 
 
-        public void OnLevelUpHappen()
-        {
-            
-        }
+       
 
         public void StartNewGame()
         {
          //   _gameOverPanel.style.visibility = Visibility.Hidden;
         
          
-            CurrentLevel = 1;
+            RoomLevel = 1;
             PlayerCurrentHealth = _startingHealth;
             MaxHealth = _startingHealth;
             XPAmount = 0;
@@ -141,7 +138,7 @@ namespace Destrial
             PlayerAttack = 1;
             PlayerDefense = 0;
             PlayerSpeed = 1;
-
+            PlayerLevel = 1;
             AttacksAmount = 0;
             HitsTakenAmount = 0;
             
@@ -167,7 +164,7 @@ namespace Destrial
             PlayerController.Init();
             _audioSource.PlayOneShot(_audioNextLevel, sfxVolume);
          //   Debug.Log(""+PlayerController.CellPosition+"/"+PlayerSpawnPosition);
-            CurrentLevel++;
+            RoomLevel++;
         }
 
         void OnTurnHappen()
@@ -179,12 +176,6 @@ namespace Destrial
         void OnMobDieHappen()
         {
             MyUIManager.RefreshKills();
-
-            if (KillAmount == 10)
-            {
-                TurnManager.LevelUp();
-                
-            }
         }
 
         void OnPickUpHappen()
@@ -222,7 +213,7 @@ namespace Destrial
             {
                 PlayerController.GameOver();
                 MyUIManager.ShowGameOver();
-              Debug.Log("GAME OVER: "+BoardManager.Player.MyState);
+          //    Debug.Log("GAME OVER: "+BoardManager.Player.MyState);
 
             }
         }
@@ -253,9 +244,11 @@ namespace Destrial
 
 
             }
-
-            PlayerController.MyState = PlayerController.PlayerState.Idle;
-          //  PlayerController.MyAction = PlayerController.PlayerState.Idle;
+            if (PlayerController.MyState != PlayerController.PlayerState.Death)
+            {
+                PlayerController.MyState = PlayerController.PlayerState.Idle;
+            }
+            //  PlayerController.MyAction = PlayerController.PlayerState.Idle;
         }
 
         public void MobDeath(Enemy.EnemyType typeMob)
@@ -287,7 +280,12 @@ namespace Destrial
         }
         public void LevelUp()
         {
-            _audioSource.PlayOneShot(_audioLevelUp, sfxVolume);
+            PlayerLevel++;
+             TurnManager.LevelUp(); //event
+             
+             BoardManager.Player.MyState=PlayerController.PlayerState.Wait;
+             _audioSource.PlayOneShot(_audioLevelUp, sfxVolume);
+             MyUIManager.ShowLevelUp(true);
         }
         public void GameOver()
         {
@@ -353,8 +351,9 @@ namespace Destrial
             XPAmount++;
             MyUIManager.RefreshXP();
             cumulXP++;
-            if (cumulXP > 10)
+            if (cumulXP == 10)
             {
+//Debug.Log("LEVEL UP");
                 cumulXP = 0;
                 LevelUp();
             }
