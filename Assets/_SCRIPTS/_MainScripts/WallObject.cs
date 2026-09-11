@@ -58,11 +58,12 @@ namespace Destrial
                 return false;
             }
 
-          //  GameManager.Instance.BoardManager.SetCellTile(_cell, _originalTile);
+            //  GameManager.Instance.BoardManager.SetCellTile(_cell, _originalTile);
             GameManager.Instance.BoardManager.FreeBoard(_cell,true);
             GameManager.Instance.ChangeLife(-PlayerDmg);
             GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg,wallDir);
             GameManager.Instance.WallDestroyed();
+            GameManager.Instance.DestroyAmount += 1;
             Destroy(gameObject);
             return true;
         }
