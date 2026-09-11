@@ -106,7 +106,7 @@ namespace Destrial
            // Debug.Log("modflash"+_spriteRenderer.gameObject.name);
             _board.FlashSprite(_spriteRenderer);
             GameManager.Instance.ChangeLife(-amount); //DAMAGE THE PLAYER
-          //  Debug.Log("hurt");
+            Debug.Log("hurt "+amount);
             Instantiate(_bloodPrefab, transform.position, Quaternion.identity);
             _audioSource.PlayOneShot(_audioHurt[Random.Range(0, _audioHurt.Length)], GameManager.Instance.sfxVolume);
         }
@@ -365,6 +365,7 @@ namespace Destrial
                         _animator.SetFloat("mov_y", _newDirection.y);
                         _animator.SetBool("ContinuousWalk", false);
                         _animator.SetTrigger("Attack");
+                        GameManager.Instance.AttacksAmount++;
                     }
 
                     break;

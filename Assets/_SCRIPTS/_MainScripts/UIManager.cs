@@ -40,26 +40,26 @@ namespace Destrial
 
         public void RefreshKills()
         {
-            _killsTXT.text = "" + _gameManager.KillAmount % 10 + "/10";
-            _killsBAR.fillAmount = (_gameManager.KillAmount % 10) / 10;
+            _killsTXT.text = "" + _gameManager.KillAmount % 10f + "/10";
+            _killsBAR.fillAmount = (_gameManager.KillAmount % 10f) / 10f;
         }
 
         public void RefreshPickup()
         {
-            _pickupTXT.text = "" + _gameManager.PickupAmount % 10 + "/10";
-            _pickupBAR.fillAmount = (_gameManager.PickupAmount % 10) / 10;
+            _pickupTXT.text = "" + _gameManager.PickupAmount % 10f + "/10";
+            _pickupBAR.fillAmount = (_gameManager.PickupAmount % 10f) / 10f;
         }
 
         public void RefreshDestroy()
         {
-            _destroyTXT.text = "" + _gameManager.DestroyAmount % 10 + "/10";
-            _destroyBAR.fillAmount = (_gameManager.DestroyAmount % 10) / 10;
+            _destroyTXT.text = "" + _gameManager.DestroyAmount % 10f + "/10";
+            _destroyBAR.fillAmount = (_gameManager.DestroyAmount % 10f) / 10f;
         }
 
         public void RefreshXP()
         {
-            _xpTXT.text = "" + _gameManager.XPAmount % 10 + "/10";
-            _xpBAR.fillAmount = (_gameManager.XPAmount % 10) / 10;
+            _xpTXT.text = "" + _gameManager.XPAmount % 10f + "/10";
+            _xpBAR.fillAmount = (_gameManager.XPAmount % 10f) / 10f;
         }
 
 
@@ -67,7 +67,7 @@ namespace Destrial
         public void ShowLife()
         {
             _lifeTXT.text = "" + _gameManager.PlayerCurrentHealth;
-            _lifeBAR.fillAmount = _gameManager.MaxHealth / _gameManager.PlayerCurrentHealth;
+            _lifeBAR.fillAmount = _gameManager.PlayerCurrentHealth/_gameManager.MaxHealth ;
         }
 
         public void Init()
@@ -104,9 +104,9 @@ namespace Destrial
         {
             _gameOverPanel.SetActive(true);
             _gamePanel.SetActive(false);
-            _dieByTXT.text = "<size=32>Game Over!</size>\n\nYou are level " + _gameManager.CurrentLevel +
-                             " traveled through\n\n " + _gameManager.CurrentLevel +
-                             " levels\n You lastest " + _gameManager.TurnManager.TurnCount + " turns, receiving " +
+            _dieByTXT.text = "<size=32>Game Over!</size>\nYou are level " + _gameManager.CurrentLevel +
+                             " traveled through " + _gameManager.CurrentLevel +
+                             " levels. You lastest " + _gameManager.TurnManager.TurnCount + " turns, receiving " +
                              _gameManager.HitsTakenAmount + " hits, and attacking " + _gameManager.AttacksAmount +
                              " times!";
         }

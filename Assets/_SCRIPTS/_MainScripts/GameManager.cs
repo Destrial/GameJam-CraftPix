@@ -199,13 +199,21 @@ namespace Destrial
         
         public void ChangeLife(int amount)
         {
+           // Debug.Log("Before: "+amount+" "+PlayerDefense);
             HitsTakenAmount++;
-            amount=amount-PlayerDefense;
-            if (amount < 0)
+            if (amount < 0) // si degats 
             {
-                amount = 0;
+                amount += PlayerDefense;
+              
             }
+
+           
             PlayerCurrentHealth += amount;
+          //  Debug.Log("After: "+amount);
+            if (PlayerCurrentHealth > MaxHealth) // si trop de soin
+            {
+                PlayerCurrentHealth = MaxHealth;
+            }
             MyUIManager.ShowLife();
          
            // _lifeLabel.text = "Health : " + _currentHealthAmount;
