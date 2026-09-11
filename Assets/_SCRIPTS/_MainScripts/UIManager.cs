@@ -39,7 +39,7 @@ namespace Destrial
 
         public void ShowLife()
         {
-            _lifeTXT.text = "LIFE: " +  GameManager.Instance.CurrentHealthAmount;
+            _lifeTXT.text = "LIFE: " +  GameManager.Instance.PlayerCurrentHealth;
         }
 
         public void Init()

@@ -5,7 +5,7 @@ namespace Destrial
 
     public class FoodObject : CellObject
     {
-        public int AmountGranted = 10;
+        public int AmountGranted = 5;
 
         [SerializeField] AudioSource _audioSource;
         [SerializeField] AudioClip[] _audioCrunch;

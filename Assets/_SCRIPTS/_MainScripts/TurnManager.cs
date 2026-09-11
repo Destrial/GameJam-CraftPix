@@ -11,6 +11,8 @@ namespace Destrial
         public event System.Action OnPickup;
         public event System.Action OnDestroy;
         
+        public event System.Action OnLevelUp;
+        
         
         private int _turnCount;
 
@@ -24,6 +26,12 @@ namespace Destrial
             OnDestroy?.Invoke();
         }
 
+        
+        public void LevelUp()
+        {
+            OnLevelUp?.Invoke();
+        }
+        
         public void MobDie()
         {
             OnMobDie?.Invoke();

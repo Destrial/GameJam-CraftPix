@@ -20,7 +20,7 @@ namespace Destrial
         [SerializeField] private GameObject _deathPrefab;
         [SerializeField] private GameObject _bloodPrefab;
         
-       
+        
 
 //public Vector2Int CellPosition;
 
@@ -35,7 +35,7 @@ namespace Destrial
         Vector3 _moveTarget;
       
         public int Health = 3;
-        public int Damage = 5;
+        public int Damage = 2;
         private int _currentHealth;
         [SerializeField] AudioSource _audioSource;
         [SerializeField] AudioClip[] _audioMove;
@@ -93,7 +93,7 @@ namespace Destrial
 
         public override bool PlayerWantsToEnter()   
         {
-            _currentHealth -= 1;
+            _currentHealth -= GameManager.Instance.PlayerDMG;
             _animator.SetTrigger("Hurt");
             _audioSource.PlayOneShot(_audioImpact[Random.Range(0, _audioImpact.Length)],GameManager.Instance.sfxVolume);
             _audioSource.PlayOneShot(_audioHurt[Random.Range(0, _audioHurt.Length)],GameManager.Instance.sfxVolume);

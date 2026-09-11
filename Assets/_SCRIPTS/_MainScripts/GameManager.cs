@@ -33,9 +33,19 @@ namespace Destrial
         public UIManager MyUIManager;
         
         // STATS
-        public int CurrentHealthAmount = 100;
-        [SerializeField] private int _startingHealth = 40;
+        public int PlayerCurrentHealth = 10;
+        [SerializeField] private int _startingHealth = 20;
 
+        public int PlayerDMG = 1;
+
+        public int PlayerDefense = 0;
+        
+        //public int ThrowDMG = 1;
+
+        //public int PlayerSpeed = 1;    (Implement maybe later)
+
+        
+        // Counters
         public int KillAmount = 0;
 
         public int DestroyAmount = 0;
@@ -43,9 +53,8 @@ namespace Destrial
         public int FoodComboAmount = 0;
         
         public int AttacksAmount = 0;
-        
+
         public int HitsTakenAmount = 0;
-        //
 
         
        [SerializeField] AudioSource _audioSource;
@@ -85,6 +94,7 @@ namespace Destrial
             TurnManager.OnMobDie += OnMobDieHappen;
             TurnManager.OnPickup += OnPickUpHappen;
             TurnManager.OnDestroy += OnDestroyHappen;
+            TurnManager.OnLevelUp += OnLevelUpHappen;
 
           //  _lifeLabel = UIDoc.rootVisualElement.Q<Label>("LifeLabel");
 
@@ -98,14 +108,19 @@ namespace Destrial
             _audioSource.volume = musicVolume;
             _audioSource.Play();
         }
-        
+
+
+        public void OnLevelUpHappen()
+        {
+            
+        }
 
         public void StartNewGame()
         {
          //   _gameOverPanel.style.visibility = Visibility.Hidden;
         
             CurrentLevel = 1;
-            CurrentHealthAmount = _startingHealth;
+            PlayerCurrentHealth = _startingHealth;
             MyUIManager.Init();
           //  _lifeLabel.text = "Health : " + _currentHealthAmount;
              
@@ -140,6 +155,12 @@ namespace Destrial
         void OnMobDieHappen()
         {
             MyUIManager.RefreshKills();
+
+            if (KillAmount == 10)
+            {
+                TurnManager.LevelUp();
+                
+            }
         }
 
         void OnPickUpHappen()
@@ -154,12 +175,12 @@ namespace Destrial
         
         public void ChangeLife(int amount)
         {
-            CurrentHealthAmount += amount;
+            PlayerCurrentHealth += amount;
             MyUIManager.ShowLife();
          
            // _lifeLabel.text = "Health : " + _currentHealthAmount;
 
-            if (CurrentHealthAmount <= 0)
+            if (PlayerCurrentHealth <= 0)
             {
                 PlayerController.GameOver();
                 MyUIManager.ShowGameOver();
