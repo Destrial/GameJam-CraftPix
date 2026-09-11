@@ -42,6 +42,8 @@ namespace Destrial
 
         public int FoodComboAmount = 0;
         
+        public int AttacksAmount = 0;
+        
         public int HitsTakenAmount = 0;
         //
 
