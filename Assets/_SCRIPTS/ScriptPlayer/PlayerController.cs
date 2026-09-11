@@ -9,8 +9,11 @@ namespace Destrial
     public class PlayerController : MonoBehaviour
     {
         DestrialInputs _myInputs;
+        InputAction _lookInputAction;
+        InputAction _moveInputAction;
+       // InputAction _attackInputAction;
         private BoardManager _board;
-
+        [SerializeField] GameObject _DirShow;
         public Vector2Int CellPosition;
         private Animator _animator;
         private bool _isGameOver;
@@ -41,7 +44,7 @@ namespace Destrial
 
         private Vector2Int _newCellTarget;
         private Vector2Int _newDirection;
-        private InputAction attackInputAction;
+        
         //private bool _cantInput;
         public bool CantNewInput;
         [SerializeField] private GameObject _bloodPrefab;
@@ -58,14 +61,20 @@ namespace Destrial
             _animator = GetComponent<Animator>();
             _audioSource = GetComponent<AudioSource>();
             _myInputs = new DestrialInputs();
-            _spriteRenderer= GetComponent<SpriteRenderer>();
+            _spriteRenderer= GetComponent<SpriteRenderer>(); 
+            _moveInputAction = _myInputs.Player.Move;
+           // _attackInputAction = _myInputs.Player.Attack;
+            _lookInputAction = _myInputs.Player.Jump;
+            
         }
 
         private void OnEnable()
         {
             _myInputs.Enable();
             _myInputs.Player.Attack.performed += OnAttackPerformed;
-            
+            _myInputs.Player.Jump.performed += OnLookPerformed;
+            _myInputs.Player.Jump.canceled += OnStopLook;
+         
             CantNewInput = false;
         }
 
@@ -74,7 +83,8 @@ namespace Destrial
         {
             _myInputs.Disable();
             _myInputs.Player.Attack.performed -= OnAttackPerformed;
-            _myInputs.Player.Attack.performed -= OnAttackPerformed;
+            _myInputs.Player.Jump.performed -= OnLookPerformed;
+            _myInputs.Player.Jump.canceled -= OnStopLook;
         }
 
 
@@ -108,6 +118,32 @@ namespace Destrial
                 DirectAttack();
             }
         }
+        
+        private void OnLookPerformed(InputAction.CallbackContext context)
+        {
+            if (MyState.Equals(PlayerState.Idle) && !_isAttacking && !_isMoving)
+            {
+                ShowLook(_newDirection);
+            }
+        }
+        private void OnStopLook(InputAction.CallbackContext context)
+        {
+            
+            _DirShow.SetActive(false);
+            
+        }
+
+        void ShowLook(Vector2Int dir)
+        {
+            _DirShow.SetActive(true);
+            _DirShow.transform.position = _board.CellToWorld(CellPosition + dir);
+           
+        }
+        
+     
+
+
+    
 
         public void Spawn(BoardManager boardManager, Vector2Int cell)
         {
@@ -189,14 +225,15 @@ namespace Destrial
          
             bool hasMoved = false;
             Vector2 moveInput = _myInputs.Player.Move.ReadValue<Vector2>();
-            InputAction moveInputAction = _myInputs.Player.Move;
 
             _newCellTarget = CellPosition;
 
 
             if (MyState == PlayerState.Idle) //Only new input if idle
             {
-                if (moveInputAction.IsPressed()) //Test if the player is pressing the move button
+               
+                
+                if (_moveInputAction.IsPressed()) //Test if the player is pressing the move button
                 {
                     if (moveInput.y > 0)
                     {
@@ -221,6 +258,14 @@ namespace Destrial
                         _newCellTarget.x -= 1;
                         _newDirection = new Vector2Int(-1, 0);
                         hasMoved = true;
+                    }
+
+                    if (_lookInputAction.IsPressed()) //Test if the player is pressing the move button
+                    {
+                        ShowLook(_newDirection);
+                        _animator.SetFloat("mov_x", _newDirection.x);
+                        _animator.SetFloat("mov_y", _newDirection.y);
+                        hasMoved = false;
                     }
                 }
             }
@@ -360,7 +405,7 @@ namespace Destrial
          //   _board.PerformGridAttack(CellPosition,_newCellTarget);
             MyState = PlayerState.Wait;
             _audioSource.PlayOneShot(_audioAttack[Random.Range(0, _audioAttack.Length)], GameManager.Instance.sfxVolume);
-            Debug.Log("att");
+           // Debug.Log("att");
             yield return new WaitForSeconds(_attackSpeed);
             _isAttacking = false;
             _isMoving = false;
