@@ -66,8 +66,10 @@ namespace Destrial
 
         public void ShowLife()
         {
-            _lifeTXT.text = "" + _gameManager.PlayerCurrentHealth;
-            _lifeBAR.fillAmount = _gameManager.PlayerCurrentHealth/_gameManager.MaxHealth ;
+            float calc = (float)_gameManager.PlayerCurrentHealth/(float)_gameManager.MaxHealth;
+            _lifeTXT.text = "" + _gameManager.PlayerCurrentHealth+"/"+_gameManager.MaxHealth;
+            _lifeBAR.fillAmount = calc;
+         
         }
 
         public void Init()

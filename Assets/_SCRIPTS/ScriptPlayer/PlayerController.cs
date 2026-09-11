@@ -87,6 +87,7 @@ namespace Destrial
             _myInputs.Player.Jump.canceled -= OnStopLook;
         }
 
+      
 
         public void GameOver()
         {
@@ -196,7 +197,9 @@ namespace Destrial
             Invoke("StartIdle", 0.5f);
         //    _cantInput = true;
             transform.localScale = new Vector3(1, 1, 1);
-         //   StartCoroutine(StartTimerAttack());
+         //   
+         
+        
         }
 
         void StartIdle()
