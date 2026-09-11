@@ -18,7 +18,7 @@ namespace Destrial
         public BoardManager BoardManager;
         public PlayerController PlayerController;
 
-        
+      
         public int CurrentLevel = 0;
 
         public Vector2Int PlayerSpawnPosition;
@@ -33,7 +33,7 @@ namespace Destrial
         public UIManager MyUIManager;
         
         // STATS
-        private int _currentHealthAmount = 100;
+        public int CurrentHealthAmount = 100;
         [SerializeField] private int _startingHealth = 40;
 
         private int _killAmount = 0;
@@ -103,7 +103,7 @@ namespace Destrial
          //   _gameOverPanel.style.visibility = Visibility.Hidden;
         
             CurrentLevel = 1;
-            _currentHealthAmount = _startingHealth;
+            CurrentHealthAmount = _startingHealth;
             MyUIManager.Init();
           //  _lifeLabel.text = "Health : " + _currentHealthAmount;
              
@@ -152,12 +152,12 @@ namespace Destrial
         
         public void ChangeLife(int amount)
         {
-            _currentHealthAmount += amount;
+            CurrentHealthAmount += amount;
             MyUIManager.ShowLife();
          
            // _lifeLabel.text = "Health : " + _currentHealthAmount;
 
-            if (_currentHealthAmount <= 0)
+            if (CurrentHealthAmount <= 0)
             {
                 PlayerController.GameOver();
                 MyUIManager.ShowGameOver();
