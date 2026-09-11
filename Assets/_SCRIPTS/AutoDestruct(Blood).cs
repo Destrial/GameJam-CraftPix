@@ -9,6 +9,8 @@ namespace Destrial
         private Animator _animator;
         
         
+        public Vector2Int _BloodDirection;
+        
         [SerializeField] private float _timeToDestruct;
         
         

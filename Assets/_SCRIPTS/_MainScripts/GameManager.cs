@@ -50,7 +50,10 @@ namespace Destrial
 
         public int DestroyAmount = 0;
 
-        public int FoodComboAmount = 0;
+        public int FoodAmount = 0;
+        
+        public int PickupAmount = 0;
+        
         
         public int AttacksAmount = 0;
 
