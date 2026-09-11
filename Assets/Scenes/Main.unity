@@ -2950,6 +2950,7 @@ GameObject:
   - component: {fileID: 704353530}
   - component: {fileID: 704353529}
   - component: {fileID: 704353528}
+  - component: {fileID: 704353531}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -3071,6 +3072,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 704353526}
   m_CullTransparentMesh: 1
+--- !u!114 &704353531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704353526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd7c1177faecb9042a87978c15bcf06d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstSelectedButton: {fileID: 704353528}
 --- !u!1 &734769187
 GameObject:
   m_ObjectHideFlags: 0
@@ -8105,6 +8119,10 @@ PrefabInstance:
     - target: {fileID: 3722317598743108903, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311880065029726950, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
