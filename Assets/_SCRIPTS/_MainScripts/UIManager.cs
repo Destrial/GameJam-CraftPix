@@ -12,16 +12,27 @@ namespace Destrial
     {
         
         [SerializeField] GameObject _gameOverPanel;
+        [SerializeField] GameObject _levelUpPanel;
         [SerializeField] GameObject _gamePanel;
         [SerializeField] private TextMeshProUGUI _dieByTXT;
         [SerializeField] private TextMeshProUGUI _dieStatsTXT;
         [SerializeField] private TextMeshProUGUI _dieMegaGrowthTXT;
      
         [SerializeField] private TextMeshProUGUI _lifeTXT;
-        
-        
-      
+        [SerializeField] private TextMeshProUGUI _attackTXT;
+        [SerializeField] private TextMeshProUGUI _defTXT;
+        [SerializeField] private TextMeshProUGUI _levelTXT;
 
+        [SerializeField] private TextMeshProUGUI _killsTXT;
+        [SerializeField] private TextMeshProUGUI _destroyTXT;
+        [SerializeField] private TextMeshProUGUI _pickupTXT;
+        [SerializeField] private TextMeshProUGUI _xpTXT;
+      
+        [SerializeField] private Image _killsBAR;
+        [SerializeField] private Image _destroyBAR;
+        [SerializeField] private Image _pickupBAR;
+        [SerializeField] private Image _xpBAR;
+        [SerializeField] private Image _lifeBAR;
         public void RefreshKills()
         {
             
@@ -39,7 +50,7 @@ namespace Destrial
 
         public void ShowLife()
         {
-            _lifeTXT.text = "LIFE: " +  GameManager.Instance.PlayerCurrentHealth;
+            _lifeTXT.text = "" +  GameManager.Instance.PlayerCurrentHealth;
         }
 
         public void Init()
@@ -61,6 +72,16 @@ namespace Destrial
         public void RestartGame()
         {
             GameManager.Instance.StartNewGame();
+        }
+
+        public void ChoiceAddLife()
+        {
+        }
+        public void ChoiceAddAttack()
+        {
+        }
+        public void ChoiceAddDef()
+        {
         }
     }
 }
