@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d38164b406bce8408de24ceb8d9c018, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AmountGranted: 20
+  AmountGranted: 6
   _audioSource: {fileID: -5376796282459794978}
   _audioCrunch:
   - {fileID: 8300000, guid: b284c3fdbe024eb499d1859c654e24ce, type: 3}

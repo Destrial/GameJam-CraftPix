@@ -296,7 +296,7 @@ MonoBehaviour:
   DMGTXT: {fileID: 5755942989679140564}
   _moveSpeed: 1
   Health: 3
-  Damage: 3
+  Damage: 2
   _audioSource: {fileID: 6626788376126874644}
   _audioMove:
   - {fileID: 8300000, guid: 2cfc26cea2bfe404dbdd8df862a79d40, type: 3}

@@ -15,8 +15,9 @@ namespace Destrial
         public enum DecaType
         {
             DecaKill,
-            DecaPickup,
+            DecaLoot,
             DecaDestroy,
+            DecaLevelUP,
             
             DecaGrowth,
         }
@@ -35,7 +36,7 @@ namespace Destrial
         //USE A INSPIRATION
         private Sequence textSequence;
         
-        public void Initialize(string displayedText)
+        public void Initialize(DecaType deca)
         {
             /*
             if (displayedText = )   //CHANGE ENUM
@@ -57,7 +58,7 @@ namespace Destrial
             
             // 1. Set text and reset layout state
             gameObject.SetActive(true);
-            decaText.text = displayedText;  //CHANGE ENUM
+            decaText.text = deca.ToString();  //CHANGE ENUM
             decaText.alpha = 1f;
             transform.localScale = Vector3.one;
 

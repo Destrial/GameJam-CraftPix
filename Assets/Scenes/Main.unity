@@ -3000,8 +3000,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.38823533, g: 0.7803922, b: 0.3019608, a: 1}
-    m_PressedColor: {r: 0.2392157, g: 0.5372549, b: 0.2784314, a: 1}
+    m_HighlightedColor: {r: 0.9960785, g: 0.9960785, b: 0.9960785, a: 1}
+    m_PressedColor: {r: 0.54509807, g: 0.60784316, b: 0.7058824, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -3434,7 +3434,7 @@ MonoBehaviour:
   _attackSpeed: 0.4
   MyUIManager: {fileID: 1625514469}
   PlayerCurrentHealth: 10
-  _startingHealth: 40
+  _startingHealth: 20
   MaxHealth: 0
   PlayerAttack: 0
   PlayerLevel: 1
@@ -5019,7 +5019,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b86de09a01a65d54b9e345898bf8b4b7, type: 2}
   EntranceTile: {fileID: 11400000, guid: da9d4e5b98a77e349bd2a04fa5ac0c41, type: 2}
   AutoTile: {fileID: 11400000, guid: d64f09563f02a6f4ea7d2cf084b8e990, type: 2}
-  _enemyNumber: 6
+  _enemyNumber: 4
   Player: {fileID: 1504855376}
   RoomSizeMin: 8
   RoomSizeMax: 16
@@ -6772,8 +6772,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.9176471, g: 0.8313726, b: 0.6666667, a: 1}
-    m_HighlightedColor: {r: 0.38823533, g: 0.7803922, b: 0.3019608, a: 1}
-    m_PressedColor: {r: 0.2392157, g: 0.5372549, b: 0.2784314, a: 1}
+    m_HighlightedColor: {r: 0.9960785, g: 0.9960785, b: 0.9960785, a: 1}
+    m_PressedColor: {r: 0.54509807, g: 0.60784316, b: 0.7058824, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -7201,7 +7201,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "<color=#BE492E>GOAL: Survive!</color>\n\nCOMMAND:\nWASD: MOVE\nLMB: ATTACK\nSPACE:
-    TURN\n<color=#68376C>\nEVERY 10 ACTIONS, SOMETHING SPECIAL HAPPENS DEPENDING
+    TURN\n<color=#3D2630>\nEVERY 10 ACTIONS, SOMETHING SPECIAL HAPPENS DEPENDING
     ON WHAT YOU DID!</color>\n<color=#BE492E><size=22>\nLEVEL UP AND AIM FOR THE
     \nDECA GROWTH!!"
   m_isRightToLeft: 0
@@ -7212,8 +7212,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4283520140
-  m_fontColor: {r: 0.5471698, g: 0.3287733, b: 0.31746173, a: 1}
+    rgba: 4285282152
+  m_fontColor: {r: 0.40784317, g: 0.21568629, b: 0.42352945, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -7986,7 +7986,7 @@ GameObject:
   - component: {fileID: 2073829205}
   - component: {fileID: 2073829204}
   m_Layer: 0
-  m_Name: PowerUpTxt
+  m_Name: DecaUpTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8004,10 +8004,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8306d77140fe3054fb3c86cdcc7a8a56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decaText: {fileID: 0}
-  moveDistance: 0.13
-  duration: 0.25
-  punchScaleAmount: 0.3
+  decaText: {fileID: 2073829205}
+  moveDistance: 0.15
+  duration: 2
+  punchScaleAmount: 0.5
   DecaColor: {r: 1, g: 1, b: 1, a: 1}
   DecaGrowthColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &2073829205
@@ -8039,8 +8039,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281476514
-  m_fontColor: {r: 0.63529414, g: 0.14509805, b: 0.19607845, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -8156,7 +8156,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1504855374}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8353,13 +8353,20 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3843351288733793645, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
+      propertyPath: DecaTXT
+      value: 
+      objectReference: {fileID: 2073829204}
     - target: {fileID: 6311880065029726950, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2119583168839535801, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2073829207}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
 --- !u!1001 &6137991279346660823
@@ -8470,4 +8477,3 @@ SceneRoots:
   - {fileID: 1995446975}
   - {fileID: 1625514468}
   - {fileID: 2069048895}
-  - {fileID: 2073829207}

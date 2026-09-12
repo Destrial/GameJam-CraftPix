@@ -9,6 +9,8 @@ namespace Destrial
     public class PlayerController : MonoBehaviour
     {
         public DamageText DMGTXT;
+        public DecaTxt DecaTXT;
+        
         DestrialInputs _myInputs;
         InputAction _lookInputAction;
         InputAction _moveInputAction;

@@ -283,13 +283,17 @@ namespace Destrial
         public void AudioLoot()
         {
             _audioSource.PlayOneShot(_audioDecaLoot, sfxVolume);
+            BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaLoot);
         }
         public void AudioGrowth()
         {
             _audioSource.PlayOneShot(_audioDecaGrowth, sfxVolume);
+            BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaGrowth);
         }
         public void LevelUp()
         {
+            BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaLevelUP);
+            
             PlayerLevel++;
              TurnManager.LevelUp(); //event
          //    Debug.Log("LEVEL UP"+_audioLevelUp );
@@ -310,6 +314,7 @@ namespace Destrial
                 AddXP();
                 AddMegaGROW();
                 _audioSource.PlayOneShot(_audioDecaDestroy, sfxVolume);
+                BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaDestroy);
                 /// GO REWARD DESTROY
                 /// DROP ITEM
             }
@@ -347,6 +352,7 @@ namespace Destrial
             {
                 cumulKill = 0;
                _audioSource.PlayOneShot(_audioDecaKill, sfxVolume);
+               BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaKill);
                 
                 /// NEW HIT  SUPER COUP
                 /// ONE HIT KILLS
