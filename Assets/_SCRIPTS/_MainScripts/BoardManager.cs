@@ -461,7 +461,7 @@ namespace Destrial
             int numi = Random.Range(0, FoodPrefab.Length);
             FoodObject newFood = Instantiate(FoodPrefab[numi]);
 
-            AddObject(newFood, coord, true);
+            AddObject(newFood, coord, false);
         }
         
         public void GenerateLocalBomb(Vector2Int coord)
@@ -469,7 +469,7 @@ namespace Destrial
             int numi = Random.Range(0, BombPrefab.Length);
             BombObject newBomb = Instantiate(BombPrefab[numi]);
 
-            AddObject(newBomb, coord, true);
+            AddObject(newBomb, coord, false);
         }
 
         void GenerateWall()

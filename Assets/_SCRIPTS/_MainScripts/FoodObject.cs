@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Destrial
@@ -9,6 +10,12 @@ namespace Destrial
 
         [SerializeField] AudioSource _audioSource;
         [SerializeField] AudioClip[] _audioCrunch;
+
+        private void OnEnable()
+        {
+            
+        }
+
         public override void PlayerEntered()
         {
             GameManager.Instance.ChangeLife(AmountGranted);

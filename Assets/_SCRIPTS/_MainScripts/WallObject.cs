@@ -15,7 +15,7 @@ namespace Destrial
         public int PlayerDmg = 3;
         private int _healthPoint;
         private Tile _originalTile;
-
+        bool isDestroyed ;
         private Vector2Int myPos;
         
         [SerializeField] AudioSource _audioSource;
@@ -25,7 +25,7 @@ namespace Destrial
 
         public override void Init(Vector2Int cell)
         {
-          
+            isDestroyed = false;
             base.Init(cell);
             _healthPoint = MaxHealth;
             myPos = cell;
@@ -60,8 +60,13 @@ namespace Destrial
                 return false;
             }
 
+
+            if (isDestroyed)
+            {
+                return false;
+            }
             //  GameManager.Instance.BoardManager.SetCellTile(_cell, _originalTile);
-            GameManager.Instance.BoardManager.FreeBoard(_cell,true);
+        
           //  GameManager.Instance.ChangeLife(-PlayerDmg);
          //   GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg,wallDir);
             //TEST DROP
@@ -77,9 +82,15 @@ namespace Destrial
                 GameManager.Instance.BoardManager.GenerateLocalBomb(myPos);
             }
             
-            
-            Destroy(gameObject);
+            Invoke("DestroyME",3f);
+            isDestroyed = true;
             return true;
+        }
+
+        void DestroyME()
+        {
+            GameManager.Instance.BoardManager.FreeBoard(_cell,true);
+            Destroy(gameObject);
         }
     }
 }
