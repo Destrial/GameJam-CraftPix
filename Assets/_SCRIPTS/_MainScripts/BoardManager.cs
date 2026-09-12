@@ -464,7 +464,7 @@ namespace Destrial
             AddObject(newFood, coord, true);
         }
         
-        public void GenerateLocaBomb(Vector2Int coord)
+        public void GenerateLocalBomb(Vector2Int coord)
         {
             int numi = Random.Range(0, BombPrefab.Length);
             BombObject newBomb = Instantiate(BombPrefab[numi]);

@@ -67,7 +67,15 @@ namespace Destrial
             //TEST DROP
             GameManager.Instance.WallDestroyed();
             GameManager.Instance.AddDestroy();
-          
+            int rand = Random.Range(0, 100);
+            if (rand < 20)
+            {
+                GameManager.Instance.BoardManager.GenerateLocalFood(myPos);
+            }
+            else if (rand < 40)
+            {
+                GameManager.Instance.BoardManager.GenerateLocalBomb(myPos);
+            }
             
             
             Destroy(gameObject);

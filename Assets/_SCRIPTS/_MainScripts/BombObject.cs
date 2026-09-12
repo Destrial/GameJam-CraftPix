@@ -9,28 +9,27 @@ namespace Destrial
 
         [SerializeField] AudioSource _audioSource;
         [SerializeField] AudioClip[] _audioBoom;
+
+
+        void Start()
+        {
+            PlayerEntered();
+        }
         public override void PlayerEntered()
         {
             GameManager.Instance.ChangeLife(-AmountGranted);
             GameManager.Instance.AudioPickup(true);
-           
-            
-            Destroy(gameObject);
+            _audioSource.PlayOneShot(_audioBoom[Random.Range(0, _audioBoom.Length)], GameManager.Instance.sfxVolume);
+            Invoke("DestroyMe", 1.5f);
 
-            //increase food
-          
         }
         
-        public override bool PlayerWantsToEnter()   
+       
+
+        void DestroyMe()
         {
-            GameManager.Instance.ChangeLife(-AmountGranted);
-            GameManager.Instance.AudioPickup(true);
-           
             Destroy(gameObject);
-
-
-            return false;
-
+            
         }
 
         public override void RatEntered()
