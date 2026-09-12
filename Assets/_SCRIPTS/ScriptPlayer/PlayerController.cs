@@ -148,8 +148,6 @@ namespace Destrial
         }
         
      
-
-
     
 
         public void Spawn(BoardManager boardManager, Vector2Int cell)

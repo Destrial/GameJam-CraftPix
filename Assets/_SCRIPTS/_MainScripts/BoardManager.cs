@@ -33,6 +33,7 @@ namespace Destrial
 
         public ExitCellObject ExitCellPrefab;
         public FoodObject[] FoodPrefab;
+        public BombObject[] BombPrefab;
         public WallObject[] WallDestroyPrefab;
 
 
@@ -453,6 +454,22 @@ namespace Destrial
 
                 AddObject(newFood, coord, true);
             }
+        }
+
+        public void GenerateLocalFood(Vector2Int coord)
+        {
+            int numi = Random.Range(0, FoodPrefab.Length);
+            FoodObject newFood = Instantiate(FoodPrefab[numi]);
+
+            AddObject(newFood, coord, true);
+        }
+        
+        public void GenerateLocaBomb(Vector2Int coord)
+        {
+            int numi = Random.Range(0, BombPrefab.Length);
+            BombObject newBomb = Instantiate(BombPrefab[numi]);
+
+            AddObject(newBomb, coord, true);
         }
 
         void GenerateWall()

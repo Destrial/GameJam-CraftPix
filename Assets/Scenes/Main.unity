@@ -4994,6 +4994,8 @@ MonoBehaviour:
   ExitCellPrefab: {fileID: 1967015892845628024, guid: fdff02a44e59dbd43b8bdb59768e3290, type: 3}
   FoodPrefab:
   - {fileID: 6147983007027712503, guid: b4f0338da3f8df54ca4cee94433e6ef8, type: 3}
+  BombPrefab:
+  - {fileID: 1478906328711243600, guid: 01591535356c4fa4bb8c6f0a476c0bae, type: 3}
   WallDestroyPrefab:
   - {fileID: 2230941929989740007, guid: 0792015c13c9f914ea8a26c5f1de5c7d, type: 3}
   dashDuration: 0.1
@@ -8156,6 +8158,10 @@ PrefabInstance:
     - target: {fileID: 3722317598743108903, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722317598743108903, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6311880065029726950, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
       propertyPath: m_IsActive
