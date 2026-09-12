@@ -97,6 +97,9 @@ namespace Destrial
             _isGameOver = true;
             MyState = PlayerState.Death;
             _audioSource.PlayOneShot(_audioDie, GameManager.Instance.sfxVolume);
+            GameManager.Instance.PlayIntro();
+         
+            
            // Debug.Log("GAME OVER player: "+_board.Player.MyState);
            _spriteRenderer.DOColor(Color.clear, 0.5f).SetDelay(2.1f).SetEase(Ease.OutCubic);
         }

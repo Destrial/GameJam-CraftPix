@@ -78,6 +78,9 @@ namespace Destrial
        [SerializeField] AudioClip _audioNextLevel;
        [SerializeField] AudioClip[] _audioHit;
        
+       
+         
+       [SerializeField] AudioClip _musicDungeon;
        public AudioClip musicClip;
      
 
@@ -102,7 +105,7 @@ namespace Destrial
             TurnManager.OnMobDie += OnMobDieHappen;
             TurnManager.OnPickup += OnPickUpHappen;
             TurnManager.OnDestroy += OnDestroyHappen;
-          
+           
 
           //  _lifeLabel = UIDoc.rootVisualElement.Q<Label>("LifeLabel");
 
@@ -123,7 +126,10 @@ namespace Destrial
         public void StartNewGame()
         {
          //   _gameOverPanel.style.visibility = Visibility.Hidden;
-        
+         _audioSource.clip = _musicDungeon;
+         _audioSource.loop = true;
+         _audioSource.volume = musicVolume;
+         _audioSource.Play();
             DOTween.KillAll(complete: true); 
             RoomLevel = 1;
             PlayerCurrentHealth = _startingHealth;
@@ -381,6 +387,14 @@ namespace Destrial
             _audioSource.PlayOneShot(_audioHit[Random.Range(0, _audioHit.Length)], sfxVolume);
         }
 
+
+        public void PlayIntro()
+        {
+            _audioSource.clip = musicClip;
+            _audioSource.loop = true;
+            _audioSource.volume = musicVolume;
+            _audioSource.Play();
+        }
        
     }
 }

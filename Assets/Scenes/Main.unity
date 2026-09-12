@@ -2418,8 +2418,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4292660160
-  m_fontColor: {r: 0.75294125, g: 0.7960785, b: 0.86274517, a: 1}
+    rgba: 4283287395
+  m_fontColor: {r: 0.38823533, g: 0.7803922, b: 0.3019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3468,7 +3468,8 @@ MonoBehaviour:
   _audioNextLevel: {fileID: 8300000, guid: e741d823414a1bb4ca2e902a6899491e, type: 3}
   _audioHit:
   - {fileID: 8300000, guid: 5adb9b33dffc16d4e966541802c35e79, type: 3}
-  musicClip: {fileID: 8300000, guid: 0e47c7371d76c1a48a8f0de7f4358ca9, type: 3}
+  _musicDungeon: {fileID: 8300000, guid: 0e47c7371d76c1a48a8f0de7f4358ca9, type: 3}
+  musicClip: {fileID: 8300000, guid: 327a0c81f96b019428a0d3d3a969ea43, type: 3}
   musicVolume: 0.3
   sfxVolume: 1
 --- !u!82 &754903446
@@ -4374,17 +4375,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1015972446}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 57.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1609670361}
+  m_Father: {fileID: 1896898509}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 6, y: -12}
-  m_SizeDelta: {x: -12.000003, y: -24}
+  m_SizeDelta: {x: 288, y: 76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1015972448
 MonoBehaviour:
@@ -4407,8 +4408,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "<color=#FDAE33>GOAL: Survive!</color>\n\nCOMMAND:\nWASD: MOVE\nLMB: ATTACK\nSPACE:
-    TURN\n\n<color=#B55088>\nEVERY 10 ACTIONS, SOMETHING SPECIAL HAPPENS DEPENDING
-    ON WHAT YOU DID!\n</color>\n<color=#FDAE33><size=22>\nLEVEL UP AND AIM FOR THE
+    TURN\n<color=#B55088>\nEVERY 10 ACTIONS, SOMETHING SPECIAL HAPPENS DEPENDING
+    ON WHAT YOU DID!</color>\n<color=#FDAE33><size=22>\nLEVEL UP AND AIM FOR THE
     \nDECA GROWTH!!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f2c48c60f54a50a47ba5da71c6a4900d, type: 2}
@@ -4472,7 +4473,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 230.18504, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4550,7 +4551,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 0.97959185
+  orthographic size: 1.7578125
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -5614,16 +5615,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: ab4a56b959db7e34dba4cedb443464e3, type: 2}
   m_Color: {r: 0.14509805, g: 0.16470589, b: 0.2627451, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 2334849734660385003, guid: a1827adc02ece0445bc261ea7a67ef82, type: 3}
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5631,7 +5632,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.32
 --- !u!222 &1426647157
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6451,19 +6452,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609670360}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.6, y: 1.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1931258543}
-  - {fileID: 1015972447}
+  - {fileID: 1896898509}
   m_Father: {fileID: 1426647155}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 221, y: -366}
-  m_SizeDelta: {x: 200, y: 400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 194, y: 356}
+  m_SizeDelta: {x: 400, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1609670362
 MonoBehaviour:
@@ -6485,7 +6485,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2408368388587631828, guid: 41a6baff5bcb9a548bfdd77ccf69e223, type: 3}
+  m_Sprite: {fileID: 5441223297315994465, guid: 8def70955304b2d46a4395c79b5222f3, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6494,7 +6494,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 0.4
+  m_PixelsPerUnitMultiplier: 0.52
 --- !u!222 &1609670363
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7104,6 +7104,43 @@ RectTransform:
   m_AnchoredPosition: {x: -7.700012, y: -10.200012}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1896898508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1896898509}
+  m_Layer: 5
+  m_Name: rot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1896898509
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896898508}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1931258543}
+  - {fileID: 1015972447}
+  m_Father: {fileID: 1609670361}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 107, y: -113}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1931258542
 GameObject:
   m_ObjectHideFlags: 0
@@ -7129,17 +7166,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931258542}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 57.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1609670361}
+  m_Father: {fileID: 1896898509}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 5, y: -13}
-  m_SizeDelta: {x: -10.000001, y: -26}
+  m_SizeDelta: {x: 290, y: 74}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1931258544
 MonoBehaviour:
@@ -7162,8 +7199,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "<color=#BE492E>GOAL: Survive!</color>\n\nCOMMAND:\nWASD: MOVE\nLMB: ATTACK\nSPACE:
-    TURN\n\n<color=#68376C>\nEVERY 10 ACTIONS, SOMETHING SPECIAL HAPPENS DEPENDING
-    ON WHAT YOU DID!\n</color>\n<color=#BE492E><size=22>\nLEVEL UP AND AIM FOR THE
+    TURN\n<color=#68376C>\nEVERY 10 ACTIONS, SOMETHING SPECIAL HAPPENS DEPENDING
+    ON WHAT YOU DID!</color>\n<color=#BE492E><size=22>\nLEVEL UP AND AIM FOR THE
     \nDECA GROWTH!!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f2c48c60f54a50a47ba5da71c6a4900d, type: 2}
@@ -7227,7 +7264,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 228.50531, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

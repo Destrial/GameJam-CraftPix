@@ -113,7 +113,7 @@ namespace Destrial
         {
             _gameOverPanel.SetActive(true);
             _gamePanel.SetActive(false);
-            _dieByTXT.text = "<size=44>Game Over!</size>\nYou traveled through " + _gameManager.RoomLevel +
+            _dieByTXT.text = "<size=44><color=#A22532>Game Over!</color></size>\n\nYou traveled through " + _gameManager.RoomLevel +
                              " rooms. You lastest " + _gameManager.TurnManager.TurnCount + " turns, receiving " +
                              _gameManager.HitsTakenAmount + " hits, and attacking " + _gameManager.AttacksAmount +
                              " times!";
