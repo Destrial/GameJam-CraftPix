@@ -17,7 +17,7 @@ namespace Destrial
             DecaKill,
             DecaLoot,
             DecaDestroy,
-            DecaLevelUP,
+            LevelUP,
             
             DecaGrowth,
         }
@@ -26,8 +26,8 @@ namespace Destrial
         // Configuration
         [Header("Configuration")]
         [SerializeField] private float moveDistance = 0.15f;
-        [SerializeField] private float duration = 0.5f;
-        [SerializeField] private float punchScaleAmount = 0.6f;
+        [SerializeField] private float duration = 2f;
+        [SerializeField] private float punchScaleAmount = 0.5f;
         [SerializeField]  private Color DecaColor = Color.white;
         [SerializeField]  private Color DecaGrowthColor = Color.green;
         

@@ -47,8 +47,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EndTile: {fileID: 11400000, guid: af76bf7b901d7eb4a977aaa8745c3a22, type: 2}
   RoomSide: 0
-  _audioSource: {fileID: -2249194532083809027}
-  _audioImpact: {fileID: 8300000, guid: e741d823414a1bb4ca2e902a6899491e, type: 3}
 --- !u!82 &-2249194532083809027
 AudioSource:
   m_ObjectHideFlags: 0
@@ -58,7 +56,7 @@ AudioSource:
   m_GameObject: {fileID: 5333229133503884317}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 5754e2ea490461643b17576e88b372aa, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1

@@ -65,8 +65,8 @@ namespace Destrial
 
         
        [SerializeField] AudioSource _audioSource;
-       [SerializeField] private AudioClip _audioDecaGrowth;
-           [SerializeField] AudioClip _audioDecaKill;
+       [SerializeField] AudioClip _audioDecaGrowth;
+       [SerializeField] AudioClip _audioDecaKill;
        [SerializeField] AudioClip _audioDecaLoot;
        [SerializeField] AudioClip _audioDecaDestroy;
        [SerializeField] AudioClip _audioLevelUp;
@@ -292,7 +292,7 @@ namespace Destrial
         }
         public void LevelUp()
         {
-            BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaLevelUP);
+            BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.LevelUP);
             
             PlayerLevel++;
              TurnManager.LevelUp(); //event
