@@ -11,6 +11,7 @@ namespace Destrial
         [SerializeField] SpriteRenderer _spriteRenderer;
         public Sprite DestroySprite1;
         public Sprite DestroySprite2;
+        public Sprite DestroySprite3;
         public int MaxHealth = 3;
         public int PlayerDmg = 3;
         private int _healthPoint;
@@ -70,6 +71,7 @@ namespace Destrial
           //  GameManager.Instance.ChangeLife(-PlayerDmg);
          //   GameManager.Instance.BoardManager.Player.GetHurt(-PlayerDmg,wallDir);
             //TEST DROP
+            _spriteRenderer.sprite = DestroySprite3;
             GameManager.Instance.WallDestroyed();
             GameManager.Instance.AddDestroy();
             int rand = Random.Range(0, 100);
@@ -82,9 +84,9 @@ namespace Destrial
                 GameManager.Instance.BoardManager.GenerateLocalBomb(myPos);
             }
             
-            Invoke("DestroyME",3f);
+            Invoke("DestroyME",0.5f);
             isDestroyed = true;
-            return true;
+            return false;
         }
 
         void DestroyME()

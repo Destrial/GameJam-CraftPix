@@ -49,11 +49,11 @@ MonoBehaviour:
   _spriteRenderer: {fileID: 2119373768690077082}
   DestroySprite1: {fileID: -6470460504253458178, guid: b8936f384d71fd0469ab4785d2df328e, type: 3}
   DestroySprite2: {fileID: -4178046375966092550, guid: e9ba630412516844ca8475e66f576885, type: 3}
+  DestroySprite3: {fileID: -855298285791758126, guid: c7f6a8098f2b4944999082b3143fc59a, type: 3}
   MaxHealth: 3
   PlayerDmg: 3
   _audioSource: {fileID: -104423467032293782}
   _audioImpact: {fileID: 8300000, guid: 4a4b2d8c8e39ae6419c8ac9b439cf823, type: 3}
-  _audioDestroy: {fileID: 8300000, guid: 9ec7e6d2dd965494b83d2b9bc9882fc2, type: 3}
 --- !u!212 &2119373768690077082
 SpriteRenderer:
   m_ObjectHideFlags: 0
