@@ -330,6 +330,10 @@ namespace Destrial
                 AddMegaGROW();
                 _audioSource.PlayOneShot(_audioDecaDestroy, sfxVolume);
                 BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaDestroy);
+                MyUIManager.ShowPower(DecaTxt.DecaType.DecaDestroy);
+                MaxHealth++;
+             
+                MyUIManager.ShowLife();
                 /// GO REWARD DESTROY
                 /// DROP ITEM
             }
@@ -350,9 +354,13 @@ namespace Destrial
                 MyUIManager.ShowLife();
                 _audioSourceVoice.PlayOneShot(_audioDecaLoot, sfxVolume);
                 BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaLoot);
-                /// GO REWARDFULL HEALTH
-                /// FULL LIFE
-                /// 
+                 MyUIManager.ShowPower(DecaTxt.DecaType.DecaLoot);
+                
+                PlayerCurrentHealth=MaxHealth;
+                 MyUIManager.ShowLife();
+                 /// GO REWARDFULL HEALTH
+                 /// FULL LIFE
+                 /// 
 
             }
         }
