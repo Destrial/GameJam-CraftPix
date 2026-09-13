@@ -189,6 +189,7 @@ namespace Destrial
             PlayerController.Spawn(BoardManager, PlayerSpawnPosition);
             PlayerController.Init();
             _audioSource.PlayOneShot(_audioNextLevel, sfxVolume);
+            MyUIManager.RefreshALL();
        
         }
 

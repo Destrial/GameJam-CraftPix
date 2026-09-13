@@ -15,7 +15,6 @@ namespace Destrial
         [SerializeField] GameObject _levelUpPanel;
         [SerializeField] GameObject _gamePanel;
 
-        [SerializeField] GameObject _decaPanel;
 
         [SerializeField] private TextMeshProUGUI _dieByTXT;
         [SerializeField] private TextMeshProUGUI _dieStatsTXT;
@@ -25,7 +24,7 @@ namespace Destrial
         [SerializeField] private TextMeshProUGUI _attackTXT;
         [SerializeField] private TextMeshProUGUI _defTXT;
         [SerializeField] private TextMeshProUGUI _levelTXT;
-
+        [SerializeField] private TextMeshProUGUI _roomTXT;
         [SerializeField] private TextMeshProUGUI _killsTXT;
         [SerializeField] private TextMeshProUGUI _destroyTXT;
         [SerializeField] private TextMeshProUGUI _pickupTXT;
@@ -124,6 +123,13 @@ namespace Destrial
             _levelUpPanel.SetActive(false);
             _startPanel.SetActive(false);
             _gamePanel.SetActive(true);
+            RefreshALL();
+
+
+        }
+
+        public void RefreshALL()
+        {
             ShowLife();
             RefreshKills();
             RefreshPickup();
@@ -132,11 +138,7 @@ namespace Destrial
             RefreshAttack();
             RefreshDefense();
             RefreshGrow();
-
-
-
-        }
-
+            RefreshRoom();        }
 
         public void ShowLevelUp(bool show)
         {
@@ -148,7 +150,10 @@ namespace Destrial
             _growTXT.text= "Deca Growth "+_gameManager.AmountGrow+"/3"; 
         }
 
-
+        public void RefreshRoom()
+        {
+            _roomTXT.text = "Room# " + _gameManager.RoomLevel;
+        }
         public void ShowGameOver()
         {
             _gameOverPanel.SetActive(true);
