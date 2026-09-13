@@ -108,9 +108,13 @@ namespace Destrial
             {
                 //do INSTAKILL
                 _currentHealth -= Health;
-                
+
                 GameManager.Instance.decaKillActivated = false;
-                GameManager.Instance.MyUIManager.HidePower();
+                if (!GameManager.Instance.decaGrowthActivated)
+                {
+                    GameManager.Instance.MyUIManager.HidePower();
+                }
+
                 normalSound = false;
             }
             

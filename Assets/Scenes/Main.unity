@@ -922,9 +922,9 @@ RectTransform:
   - {fileID: 421318375}
   m_Father: {fileID: 1439975276}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 30, y: -28}
   m_SizeDelta: {x: 60, y: 56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &328813124
@@ -2569,9 +2569,9 @@ RectTransform:
   - {fileID: 519329870}
   m_Father: {fileID: 405885394}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 80, y: -10}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &607867693
@@ -3364,7 +3364,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &734769188
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3716,6 +3716,7 @@ MonoBehaviour:
   decaKillActivated: 0
   decaGrowthActivated: 0
   GrowthTIME: 0
+  _decaGrowDuration: 10
   _audioSource: {fileID: 754903446}
   _audioSourceMusic: {fileID: 572458597}
   _audioSourceVoice: {fileID: 905610407}
@@ -4958,9 +4959,9 @@ RectTransform:
   - {fileID: 668128320}
   m_Father: {fileID: 1439975276}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 158, y: -28}
   m_SizeDelta: {x: 60, y: 56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1005114291
@@ -5543,9 +5544,9 @@ RectTransform:
   - {fileID: 1301642916}
   m_Father: {fileID: 405885394}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 80, y: -76.666664}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1110537049
@@ -6519,7 +6520,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1426647155
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7592,9 +7593,9 @@ RectTransform:
   - {fileID: 607612373}
   m_Father: {fileID: 405885394}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 80, y: -43.333332}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1601204432
@@ -7833,7 +7834,6 @@ MonoBehaviour:
   _gameOverPanel: {fileID: 269515402}
   _levelUpPanel: {fileID: 2042382320}
   _gamePanel: {fileID: 734769187}
-  _decaPanel: {fileID: 0}
   _dieByTXT: {fileID: 821977300}
   _dieStatsTXT: {fileID: 1453142759}
   _dieMegaGrowthTXT: {fileID: 36476204}
@@ -7841,7 +7841,7 @@ MonoBehaviour:
   _attackTXT: {fileID: 421318376}
   _defTXT: {fileID: 668128321}
   _levelTXT: {fileID: 1497840820}
-  _roomTXT: {fileID: 0}
+  _roomTXT: {fileID: 1806512769}
   _killsTXT: {fileID: 519329871}
   _destroyTXT: {fileID: 1301642917}
   _pickupTXT: {fileID: 607612374}
@@ -7960,9 +7960,9 @@ RectTransform:
   - {fileID: 538381808}
   m_Father: {fileID: 432004906}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: -30}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1728344777

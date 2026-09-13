@@ -73,7 +73,7 @@ namespace Destrial
         public bool decaGrowthActivated = false;
 
         public int GrowthTIME = 0;
-        
+        [SerializeField] private int _decaGrowDuration = 20;
         
        [SerializeField] AudioSource _audioSource;
        [SerializeField] AudioSource _audioSourceMusic;
@@ -459,7 +459,7 @@ namespace Destrial
                 BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaGrowth);
                 MyUIManager.ShowPower(DecaTxt.DecaType.DecaGrowth);
                 decaGrowthActivated = true;
-                GrowthTIME = 10;
+                GrowthTIME = _decaGrowDuration;
                 BoardManager.Player.transform.DOScale(1.8f, 0.5f).SetEase(Ease.OutCubic);
                 //MEGA GROW
                 // INVULENRABILITY 10 TOURS + VITESSE x2 + ATTTX2
