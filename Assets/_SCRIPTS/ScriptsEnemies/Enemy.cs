@@ -92,11 +92,12 @@ namespace Destrial
         public override void Init(Vector2Int coord)
         {
             base.Init(coord);
-            _currentHealth = Health;
+          
             _board = GameManager.Instance.BoardManager;
             Cell = _board.GetCellData(coord);
             Damage+=(MobLevel-1)*_modifLevelDMG;
             Health+=(MobLevel-1)*_modifLevelHP;
+            _currentHealth = Health;
            _levelText.text="Lvl "+MobLevel;
 
             GameManager.Instance.Enemies.Add(this);
@@ -138,8 +139,8 @@ namespace Destrial
             _bloodAnim.SetFloat("mov_x", _newDirection.x);
             _bloodAnim.SetFloat("mov_y", _newDirection.y);
             _bloodAnim.SetTrigger("GoBlood");
-
-            DMGTXT.Initialize(-GameManager.Instance.PlayerAttack);
+//Debug.Log("dmg: "+(-GameManager.Instance.PlayerAttack)+"/"+_currentHealth);
+DMGTXT.Initialize(-GameManager.Instance.PlayerAttack);
             
             if (_currentHealth <= 0)
             {
