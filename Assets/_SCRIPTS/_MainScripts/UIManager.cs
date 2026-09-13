@@ -14,6 +14,9 @@ namespace Destrial
         [SerializeField] GameObject _gameOverPanel;
         [SerializeField] GameObject _levelUpPanel;
         [SerializeField] GameObject _gamePanel;
+        
+        [SerializeField] GameObject _decaPanel;
+        
         [SerializeField] private TextMeshProUGUI _dieByTXT;
         [SerializeField] private TextMeshProUGUI _dieStatsTXT;
         [SerializeField] private TextMeshProUGUI _dieMegaGrowthTXT;
