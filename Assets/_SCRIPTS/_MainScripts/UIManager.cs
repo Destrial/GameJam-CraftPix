@@ -95,7 +95,7 @@ namespace Destrial
                     
                     break;
                 case DecaTxt.DecaType.DecaDestroy:
-                    Powers[2].SetActive(true)
+                    Powers[2].SetActive(true);
                     Invoke("HidePower", _hidePowerTime);
                         
                     break;
