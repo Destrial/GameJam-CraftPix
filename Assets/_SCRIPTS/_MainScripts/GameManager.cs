@@ -207,6 +207,7 @@ namespace Destrial
             if (decaGrowthActivated)
             {
                 GrowthTIME--;
+                MyUIManager.ShowPower(DecaTxt.DecaType.DecaGrowth);
                 if (GrowthTIME <= 0)
                 {
                     decaGrowthActivated = false;
@@ -464,9 +465,10 @@ namespace Destrial
                 TotalGrow++;
                 _audioSourceVoice.PlayOneShot(_audioDecaGrowth, sfxVolume);
                 BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaGrowth);
-                MyUIManager.ShowPower(DecaTxt.DecaType.DecaGrowth);
                 decaGrowthActivated = true;
                 GrowthTIME = _decaGrowDuration;
+                MyUIManager.ShowPower(DecaTxt.DecaType.DecaGrowth);
+              
                 BoardManager.Player.transform.DOScale(1.8f, 0.5f).SetEase(Ease.OutCubic);
                 //MEGA GROW
                 // INVULENRABILITY 10 TOURS + VITESSE x2 + ATTTX2

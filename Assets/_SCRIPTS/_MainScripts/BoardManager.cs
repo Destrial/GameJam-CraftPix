@@ -460,15 +460,16 @@ namespace Destrial
         {
             int numi = Random.Range(0, FoodPrefab.Length);
             FoodObject newFood = Instantiate(FoodPrefab[numi]);
-
-            AddObject(newFood, coord, true);
+            newFood.FoodLevel=GameManager.Instance.GameLevel;
+             AddObject(newFood, coord, true);
         }
         
         public void GenerateLocalBomb(Vector2Int coord)
         {
             int numi = Random.Range(0, BombPrefab.Length);
+                
             BombObject newBomb = Instantiate(BombPrefab[numi]);
-
+            newBomb.BombLevel=GameManager.Instance.GameLevel;
             AddObject(newBomb, coord, true);
         }
 
