@@ -117,7 +117,14 @@ namespace Destrial
             _board.FlashSprite(_spriteRenderer);
             GameManager.Instance.ChangeLife(-amount); //DAMAGE THE PLAYER
            // Debug.Log("hurt "+amount);
-            Instantiate(_bloodPrefab, transform.position, Quaternion.identity);
+            GameObject bloody=Instantiate(_bloodPrefab, transform.position, Quaternion.identity);
+            Animator _bloodAnim = bloody.GetComponent<Animator>();
+            
+           // Debug.Log(_bloodAnim+"/"+_bloodAnim.runtimeAnimatorController);
+            _bloodAnim.SetFloat("mov_x", _newDirection.x);
+            _bloodAnim.SetFloat("mov_y", _newDirection.y);
+            _bloodAnim.SetTrigger("GoBlood");
+       //     Debug.Log("_bloodAnim "+_bloodAnim.GetFloat("mov_x")+" "+_bloodAnim.GetFloat("mov_y"));
             _audioSource.PlayOneShot(_audioHurt[Random.Range(0, _audioHurt.Length)], GameManager.Instance.sfxVolume);
         }
 

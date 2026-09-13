@@ -47,13 +47,13 @@ namespace Destrial
       
         [SerializeField] AudioClip[] _audioImpact;
         [SerializeField] SpriteRenderer _spriteRenderer;
-        
+        Animator _bloodAnim;
 
         private void Awake()
         {
             _animator = GetComponent<Animator>();
             _audioSource = GetComponent<AudioSource>();
-
+         
         //    GameManager.Instance.TurnManager.OnTick += TurnHappened; //EVENT
         }
 
@@ -126,13 +126,15 @@ namespace Destrial
 
             _board.FlashSprite(_spriteRenderer);
             
-            
-            Animator bloodAnim = _bloodPrefab.GetComponent<Animator>();
-            bloodAnim.SetFloat("mov_x", _newDirection.x);
-            bloodAnim.SetFloat("mov_y", _newDirection.y);
-            Instantiate(_bloodPrefab, transform.position, Quaternion.identity);
+           
+            GameObject bloody=Instantiate(_bloodPrefab, transform.position, Quaternion.identity);
 
+              
+            _bloodAnim = bloody.GetComponent<Animator>();
             
+            _bloodAnim.SetFloat("mov_x", _newDirection.x);
+            _bloodAnim.SetFloat("mov_y", _newDirection.y);
+            _bloodAnim.SetTrigger("GoBlood");
 
             DMGTXT.Initialize(-GameManager.Instance.PlayerAttack);
             
