@@ -44,8 +44,7 @@ namespace Destrial
       
         [SerializeField] AudioClip[] _audioImpact;
         [SerializeField] SpriteRenderer _spriteRenderer;
-    
-        [SerializeField] AudioClip[] _audioINSTAKILL;
+        
 
         private void Awake()
         {
@@ -95,6 +94,7 @@ namespace Destrial
 
         public override bool PlayerWantsToEnter()
         {
+            bool normalSound = true;
             if (GameManager.Instance.decaKillActivated == false)
             {
                 _currentHealth -= GameManager.Instance.PlayerAttack;
@@ -103,16 +103,16 @@ namespace Destrial
             {
                 //do INSTAKILL
                 _currentHealth -= Health;
-                _audioSource.PlayOneShot(_audioImpact[Random.Range(0, _audioINSTAKILL.Length)],GameManager.Instance.sfxVolume);
                 
-                //deactivate DecaKILL
                 GameManager.Instance.decaKillActivated = false;
                 GameManager.Instance.MyUIManager.HidePower();
+                normalSound = false;
             }
             
             _animator.SetTrigger("Hurt");
             _audioSource.PlayOneShot(_audioImpact[Random.Range(0, _audioImpact.Length)],GameManager.Instance.sfxVolume);
             _audioSource.PlayOneShot(_audioHurt[Random.Range(0, _audioHurt.Length)],GameManager.Instance.sfxVolume);
+
             _board.FlashSprite(_spriteRenderer);
             Instantiate(_bloodPrefab, transform.position, Quaternion.identity);
             DMGTXT.Initialize(-GameManager.Instance.PlayerAttack);
@@ -122,7 +122,7 @@ namespace Destrial
                 GameManager.Instance.AddKill();
                 
                 
-                GameManager.Instance.MobDeath(_myEnemyType);
+                GameManager.Instance.MobDeath(_myEnemyType,normalSound);
                 Instantiate(_deathPrefab, transform.position, Quaternion.identity);
                 GameManager.Instance.Enemies.Remove(this);
                 Destroy(gameObject);

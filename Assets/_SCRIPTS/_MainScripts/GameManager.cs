@@ -87,6 +87,8 @@ namespace Destrial
        [SerializeField] AudioClip _audioNextLevel;
        [SerializeField] AudioClip[] _audioHit;
        
+       [SerializeField] AudioClip[] _audioINSTAKILL;
+       
        
          
        [SerializeField] AudioClip _musicDungeon;
@@ -270,9 +272,18 @@ namespace Destrial
             
         }
 
-        public void MobDeath(Enemy.EnemyType typeMob)
+        public void MobDeath(Enemy.EnemyType typeMob,bool normalSound)
         {
-            _audioSource.PlayOneShot(_audioMobDeath[Random.Range(0, _audioMobDeath.Length)], sfxVolume);
+            if (normalSound)
+            {
+                _audioSource.PlayOneShot(_audioMobDeath[Random.Range(0, _audioMobDeath.Length)], sfxVolume);
+            }
+
+            else
+            {
+              
+                _audioSource.PlayOneShot(_audioINSTAKILL[Random.Range(0, _audioINSTAKILL.Length)],sfxVolume);
+            }
         }
         public void WallDestroyed()
         {

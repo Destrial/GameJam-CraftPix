@@ -3712,6 +3712,7 @@ MonoBehaviour:
   AmountGrow: 0
   decaKillActivated: 0
   decaGrowthActivated: 0
+  GrowthTIME: 0
   _audioSource: {fileID: 754903446}
   _audioSourceMusic: {fileID: 572458597}
   _audioSourceVoice: {fileID: 905610407}
@@ -3734,6 +3735,9 @@ MonoBehaviour:
   _audioNextLevel: {fileID: 8300000, guid: e741d823414a1bb4ca2e902a6899491e, type: 3}
   _audioHit:
   - {fileID: 8300000, guid: 5adb9b33dffc16d4e966541802c35e79, type: 3}
+  _audioINSTAKILL:
+  - {fileID: 8300000, guid: 66888ca5468c2224c9ac5f2231001b56, type: 3}
+  - {fileID: 8300000, guid: ba9b78f7d0e9e2f4c9bb1dcbdd02fb33, type: 3}
   _musicDungeon: {fileID: 8300000, guid: 0e47c7371d76c1a48a8f0de7f4358ca9, type: 3}
   musicClip: {fileID: 8300000, guid: 327a0c81f96b019428a0d3d3a969ea43, type: 3}
   musicVolume: 0.3
@@ -5194,7 +5198,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 0.97959185
+  orthographic size: 0.9183673
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -7850,6 +7854,7 @@ MonoBehaviour:
   - {fileID: 805365215}
   - {fileID: 1101779458}
   _growthTurnTXT: {fileID: 1401310064}
+  _hidePowerTime: 2
 --- !u!1 &1629421125
 GameObject:
   m_ObjectHideFlags: 0
