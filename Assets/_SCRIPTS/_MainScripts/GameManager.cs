@@ -360,7 +360,10 @@ namespace Destrial
                 _audioSourceVoice.PlayOneShot(_audioDecaKill, sfxVolume);
                BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaKill);
 
+               MyUIManager.ShowPower(DecaTxt.DecaType.DecaKill);
+               
                decaKillActivated = true;
+               
 
 
 

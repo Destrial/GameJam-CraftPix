@@ -43,7 +43,9 @@ namespace Destrial
         [SerializeField] AudioClip[] _audioHurt;
       
         [SerializeField] AudioClip[] _audioImpact;
-    [SerializeField] SpriteRenderer _spriteRenderer;
+        [SerializeField] SpriteRenderer _spriteRenderer;
+    
+        [SerializeField] AudioClip[] _audioINSTAKILL;
 
         private void Awake()
         {
@@ -99,8 +101,13 @@ namespace Destrial
             }
             else
             {
+                //do INSTAKILL
                 _currentHealth -= Health;
+                _audioSource.PlayOneShot(_audioImpact[Random.Range(0, _audioINSTAKILL.Length)],GameManager.Instance.sfxVolume);
+                
+                //deactivate DecaKILL
                 GameManager.Instance.decaKillActivated = false;
+                GameManager.Instance.MyUIManager.HidePower();
             }
             
             _animator.SetTrigger("Hurt");
