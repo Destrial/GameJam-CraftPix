@@ -147,6 +147,7 @@ namespace Destrial
                 
                 
                 GameManager.Instance.MobDeath(_myEnemyType,normalSound);
+            
                 Instantiate(_deathPrefab, transform.position, Quaternion.identity);
                 GameManager.Instance.Enemies.Remove(this);
                 Destroy(gameObject);
