@@ -67,7 +67,8 @@ namespace Destrial
         //DECA-Counters
         public bool decaKillActivated = false;
         public bool decaGrowthActivated = false;
-        
+
+        public int GrowthTIME = 0;
         
         
        [SerializeField] AudioSource _audioSource;
