@@ -347,10 +347,11 @@ namespace Destrial
                 cumulDestroy = 0;
                 AddXP();
                 AddMegaGROW();
-                _audioSource.PlayOneShot(_audioDecaDestroy, sfxVolume);
+              
                 BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaDestroy);
                 if (!decaGrowthActivated)
                 {
+                    _audioSource.PlayOneShot(_audioDecaDestroy, sfxVolume);
                     MyUIManager.ShowPower(DecaTxt.DecaType.DecaDestroy);
                 }
 
@@ -375,10 +376,11 @@ namespace Destrial
                 AddMegaGROW();
                 PlayerCurrentHealth = MaxHealth;
                 MyUIManager.ShowLife();
-                _audioSourceVoice.PlayOneShot(_audioDecaLoot, sfxVolume);
+               
                 BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaLoot);
                 if (!decaGrowthActivated)
                 {
+                    _audioSourceVoice.PlayOneShot(_audioDecaLoot, sfxVolume);
                     MyUIManager.ShowPower(DecaTxt.DecaType.DecaLoot);
                 }
 
@@ -402,10 +404,11 @@ namespace Destrial
             {
                 AddMegaGROW();
                 cumulKill = 0;
-                _audioSourceVoice.PlayOneShot(_audioDecaKill, sfxVolume);
+              
                BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaKill);
                if (!decaGrowthActivated)
                {
+                   _audioSourceVoice.PlayOneShot(_audioDecaKill, sfxVolume);
                    MyUIManager.ShowPower(DecaTxt.DecaType.DecaKill);
                }
 
