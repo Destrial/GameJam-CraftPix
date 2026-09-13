@@ -212,7 +212,7 @@ namespace Destrial
             GoWait();
             Invoke("GoIdle", 0.5f);
         //    _cantInput = true;
-            transform.localScale = new Vector3(1, 1, 1);
+           // transform.localScale = new Vector3(1, 1, 1);
          //   
          
         
