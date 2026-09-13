@@ -62,7 +62,13 @@ namespace Destrial
 
         public int HitsTakenAmount = 0;
         public int AmountGrow = 0;
-
+        
+        
+        //DECA-Counters
+        public bool decaKillActivated = false;
+        public bool decaGrowthActivated = false;
+        
+        
         
        [SerializeField] AudioSource _audioSource;
        [SerializeField] AudioSource _audioSourceMusic;
@@ -352,6 +358,8 @@ namespace Destrial
                 cumulKill = 0;
                 _audioSourceVoice.PlayOneShot(_audioDecaKill, sfxVolume);
                BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaKill);
+               
+               
                 
              
                 /// NEW HIT  SUPER COUP

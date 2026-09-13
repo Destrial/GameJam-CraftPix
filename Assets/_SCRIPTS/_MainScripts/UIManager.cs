@@ -132,8 +132,8 @@ namespace Destrial
 
         public void ChoiceAddLife()
         {
-            _gameManager.MaxHealth = _gameManager.MaxHealth + 50;
-            _gameManager.ChangeLife(50);
+            _gameManager.MaxHealth = _gameManager.MaxHealth + 10;
+            _gameManager.ChangeLife(10);
             ShowLife();
            ShowLevelUp(false);
            _gameManager.BoardManager.Player.GoIdle();
