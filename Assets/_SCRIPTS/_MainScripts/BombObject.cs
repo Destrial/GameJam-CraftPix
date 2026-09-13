@@ -20,6 +20,7 @@ namespace Destrial
             GameManager.Instance.ChangeLife(-AmountGranted);
             GameManager.Instance.AudioPickup(true);
             _audioSource.PlayOneShot(_audioBoom[Random.Range(0, _audioBoom.Length)], GameManager.Instance.sfxVolume);
+            GameManager.Instance.BoardManager.Player.GoWait();
             Invoke("DestroyMe", 1.5f);
 
         }
@@ -29,7 +30,7 @@ namespace Destrial
         void DestroyMe()
         {
             Destroy(gameObject);
-            
+            GameManager.Instance.BoardManager.Player.GoIdle();
         }
 
         public override void RatEntered()
