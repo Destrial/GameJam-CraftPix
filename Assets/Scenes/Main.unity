@@ -3716,7 +3716,7 @@ MonoBehaviour:
   decaKillActivated: 0
   decaGrowthActivated: 0
   GrowthTIME: 0
-  _decaGrowDuration: 10
+  _decaGrowDuration: 20
   _audioSource: {fileID: 754903446}
   _audioSourceMusic: {fileID: 572458597}
   _audioSourceVoice: {fileID: 905610407}
@@ -3725,7 +3725,7 @@ MonoBehaviour:
   _audioDecaLoot: {fileID: 8300000, guid: 68d5fa9824f0c7849901171ce042c70a, type: 3}
   _audioDecaDestroy: {fileID: 8300000, guid: f2d8f4edeb656d047b9168596cf35627, type: 3}
   _audioLevelUp: {fileID: 8300000, guid: f4e948deea6f0e44c971d005481b16bc, type: 3}
-  _audioLose: {fileID: 8300000, guid: 48286d092cbb86f4e8ba241105733eb6, type: 3}
+  _audioLose: {fileID: 8300000, guid: ba36c4ad3659bc8428aee0cb979b60f6, type: 3}
   _audioPickUp:
   - {fileID: 8300000, guid: b284c3fdbe024eb499d1859c654e24ce, type: 3}
   - {fileID: 8300000, guid: d6307525abbce2949acd88e7a0926e9f, type: 3}
@@ -5203,7 +5203,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 0.9183673
+  orthographic size: 0.97959185
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -6558,7 +6558,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: ab4a56b959db7e34dba4cedb443464e3, type: 2}
   m_Color: {r: 0.14509805, g: 0.16470589, b: 0.2627451, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -8529,7 +8529,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7.700012, y: -10.200012}
+  m_AnchoredPosition: {x: -7.7000732, y: -10.200012}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1896898508

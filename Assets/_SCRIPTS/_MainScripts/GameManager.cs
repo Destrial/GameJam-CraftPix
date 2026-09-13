@@ -120,6 +120,11 @@ namespace Destrial
             TurnManager.OnMobDie += OnMobDieHappen;
             TurnManager.OnPickup += OnPickUpHappen;
             TurnManager.OnDestroy += OnDestroyHappen;
+            // 1. Reveal the hardware mouse pointer
+            UnityEngine.Cursor.visible = true;
+
+            // 2. Unlock the cursor so it can move freely across the screen
+            UnityEngine.Cursor.lockState = CursorLockMode.None; 
            
 
           //  _lifeLabel = UIDoc.rootVisualElement.Q<Label>("LifeLabel");
@@ -140,7 +145,9 @@ namespace Destrial
 
         public void StartNewGame()
         {
-         //   _gameOverPanel.style.visibility = Visibility.Hidden;
+            UnityEngine.Cursor.visible = false;
+            UnityEngine.Cursor.lockState = CursorLockMode.Locked; 
+        
          _audioSourceMusic.clip = _musicDungeon;
          _audioSourceMusic.loop = true;
          _audioSourceMusic.volume = musicVolume;

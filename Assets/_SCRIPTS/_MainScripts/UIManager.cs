@@ -143,6 +143,8 @@ namespace Destrial
         public void ShowLevelUp(bool show)
         {
             _levelUpPanel.SetActive(show);
+            UnityEngine.Cursor.visible = true;
+            UnityEngine.Cursor.lockState = CursorLockMode.None; 
         }
 
         public void RefreshGrow()
@@ -156,6 +158,8 @@ namespace Destrial
         }
         public void ShowGameOver()
         {
+            UnityEngine.Cursor.visible = true;
+            UnityEngine.Cursor.lockState = CursorLockMode.None; 
             _gameOverPanel.SetActive(true);
             _gamePanel.SetActive(false);
             _dieByTXT.text = "<size=44><color=#A22532>Game Over!</color></size>\n\nYou traveled through " + _gameManager.RoomLevel +
@@ -178,6 +182,8 @@ namespace Destrial
             _gameManager.ChangeLife(10);
             ShowLife();
            ShowLevelUp(false);
+           UnityEngine.Cursor.visible = false;
+           UnityEngine.Cursor.lockState = CursorLockMode.Locked; 
            _gameManager.BoardManager.Player.GoIdle();
         }
 
@@ -186,6 +192,8 @@ namespace Destrial
             _gameManager.PlayerAttack++;
             RefreshAttack();
             ShowLevelUp(false);
+            UnityEngine.Cursor.visible = false;
+            UnityEngine.Cursor.lockState = CursorLockMode.Locked; 
             _gameManager.BoardManager.Player.GoIdle();
         }
 
@@ -197,6 +205,8 @@ namespace Destrial
             _gameManager.PlayerDefense++;
             RefreshDefense();
             ShowLevelUp(false);
+            UnityEngine.Cursor.visible = false;
+            UnityEngine.Cursor.lockState = CursorLockMode.Locked; 
             _gameManager.BoardManager.Player.GoIdle();
             
 
