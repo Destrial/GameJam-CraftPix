@@ -19,7 +19,9 @@ namespace Destrial
         [SerializeField] private TextMeshPro _levelText;
         [SerializeField] private EnemyType _myEnemyType;
         [SerializeField] private GameObject _deathPrefab;
+        
         [SerializeField] private GameObject _bloodPrefab;
+        
         public int MobLevel = 1;
         public DamageText DMGTXT;
 
@@ -123,7 +125,15 @@ namespace Destrial
             _audioSource.PlayOneShot(_audioHurt[Random.Range(0, _audioHurt.Length)],GameManager.Instance.sfxVolume);
 
             _board.FlashSprite(_spriteRenderer);
+            
+            
+            Animator bloodAnim = _bloodPrefab.GetComponent<Animator>();
+            bloodAnim.SetFloat("mov_x", _newDirection.x);
+            bloodAnim.SetFloat("mov_y", _newDirection.y);
             Instantiate(_bloodPrefab, transform.position, Quaternion.identity);
+
+            
+
             DMGTXT.Initialize(-GameManager.Instance.PlayerAttack);
             
             if (_currentHealth <= 0)
