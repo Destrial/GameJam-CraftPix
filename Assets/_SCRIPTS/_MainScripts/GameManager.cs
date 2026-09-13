@@ -291,11 +291,10 @@ namespace Destrial
         public void LevelUp()
         {
             BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.LevelUP);
-            
+            BoardManager.Player.GoWait();
             PlayerLevel++;
              TurnManager.LevelUp(); //event
-         //    Debug.Log("LEVEL UP"+_audioLevelUp );
-             BoardManager.Player.MyState=PlayerController.PlayerState.Wait;
+        
           
              MyUIManager.ShowLevelUp(true);
         }

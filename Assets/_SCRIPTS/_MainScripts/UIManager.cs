@@ -133,7 +133,7 @@ namespace Destrial
             _gameManager.ChangeLife(50);
             ShowLife();
            ShowLevelUp(false);
-           _gameManager.BoardManager.Player.MyState=PlayerController.PlayerState.Idle;
+           _gameManager.BoardManager.Player.GoIdle();
         }
 
         public void ChoiceAddAttack()
@@ -141,7 +141,7 @@ namespace Destrial
             _gameManager.PlayerAttack++;
             RefreshAttack();
             ShowLevelUp(false);
-            _gameManager.BoardManager.Player.MyState=PlayerController.PlayerState.Idle;
+            _gameManager.BoardManager.Player.GoIdle();
         }
 
 
@@ -151,7 +151,8 @@ namespace Destrial
             _gameManager.PlayerDefense++;
             RefreshDefense();
             ShowLevelUp(false);
-            _gameManager.BoardManager.Player.MyState=PlayerController.PlayerState.Idle;
+            _gameManager.BoardManager.Player.GoIdle();
+            
 
         }
 
