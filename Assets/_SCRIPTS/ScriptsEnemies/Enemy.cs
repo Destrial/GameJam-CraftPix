@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using DG.Tweening;
+    using TMPro;
 
 
 namespace Destrial
@@ -15,11 +16,11 @@ namespace Destrial
             BladeGoblin,
             ShamanGoblin
         }
-
+        [SerializeField] private TextMeshPro _levelText;
         [SerializeField] private EnemyType _myEnemyType;
         [SerializeField] private GameObject _deathPrefab;
         [SerializeField] private GameObject _bloodPrefab;
-        
+        public int MobLevel = 1;
         public DamageText DMGTXT;
 
 //public Vector2Int CellPosition;
@@ -89,6 +90,10 @@ namespace Destrial
             _currentHealth = Health;
             _board = GameManager.Instance.BoardManager;
             Cell = _board.GetCellData(coord);
+            Damage+=(MobLevel-1);
+            Health+=(MobLevel-1)*3;
+           _levelText.text="Lvl "+MobLevel;
+
             GameManager.Instance.Enemies.Add(this);
         }
 

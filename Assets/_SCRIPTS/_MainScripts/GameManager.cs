@@ -3,6 +3,8 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using System.Collections;
 using DG.Tweening;
+using UnityEditor;
+
 namespace Destrial
 {
 
@@ -18,8 +20,10 @@ namespace Destrial
         public BoardManager BoardManager;
         public PlayerController PlayerController;
 
-      
+
         public int RoomLevel = 0;
+        public int GameLevel = 1;
+            
 
         public Vector2Int PlayerSpawnPosition;
      
@@ -62,7 +66,7 @@ namespace Destrial
 
         public int HitsTakenAmount = 0;
         public int AmountGrow = 0;
-        
+        public int TotalGrow = 0;
         
         //DECA-Counters
         public bool decaKillActivated = false;
@@ -143,6 +147,7 @@ namespace Destrial
          _audioSourceMusic.Play();
             DOTween.KillAll(complete: true); 
             RoomLevel = 1;
+            GameLevel = 1;
             PlayerCurrentHealth = _startingHealth;
             MaxHealth = _startingHealth;
             XPAmount = 0;
@@ -160,6 +165,8 @@ namespace Destrial
             AttacksAmount = 0;
             HitsTakenAmount = 0;
             TurnManager.TurnCount = 0;
+            AmountGrow = 0;
+            TotalGrow = 0;
             MyUIManager.Init();
           //  _lifeLabel.text = "Health : " + _currentHealthAmount;
              
@@ -173,7 +180,8 @@ namespace Destrial
 
         public void NewLevel()
         {
-           
+            RoomLevel++;
+            GameLevel=1+RoomLevel/ 10;
             BoardManager.Clean();
             BoardManager.Init();
            
@@ -181,13 +189,12 @@ namespace Destrial
             PlayerController.Spawn(BoardManager, PlayerSpawnPosition);
             PlayerController.Init();
             _audioSource.PlayOneShot(_audioNextLevel, sfxVolume);
-         //   Debug.Log(""+PlayerController.CellPosition+"/"+PlayerSpawnPosition);
-            RoomLevel++;
+       
         }
 
         void OnTurnHappen()
         {
-            Debug.Log("Turn: "+TurnManager.TurnCount);
+        //    Debug.Log("Turn: "+TurnManager.TurnCount);
             StartCoroutine(StartTimerAttack());
             if (decaGrowthActivated)
             {
@@ -442,10 +449,11 @@ namespace Destrial
         void AddMegaGROW()
         {
             AmountGrow++;
-            MyUIManager.RefreshGrow();
+          
             if (AmountGrow == 3)
             {
                 AmountGrow = 0;
+                TotalGrow++;
                 _audioSourceVoice.PlayOneShot(_audioDecaGrowth, sfxVolume);
                 BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaGrowth);
                 MyUIManager.ShowPower(DecaTxt.DecaType.DecaGrowth);
@@ -455,6 +463,7 @@ namespace Destrial
                 //MEGA GROW
                 // INVULENRABILITY 10 TOURS + VITESSE x2 + ATTTX2
             }
+            MyUIManager.RefreshGrow();
         }
 
 

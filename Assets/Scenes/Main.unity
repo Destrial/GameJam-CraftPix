@@ -3710,6 +3710,7 @@ MonoBehaviour:
   AttacksAmount: 0
   HitsTakenAmount: 0
   AmountGrow: 0
+  TotalGrow: 0
   decaKillActivated: 0
   decaGrowthActivated: 0
   GrowthTIME: 0

@@ -7,7 +7,7 @@ namespace Destrial
     public class BombObject : CellObject
     {
         public int AmountGranted = 20;
-
+        public int BombLevel = 1;
         [SerializeField] AudioSource _audioSource;
         [SerializeField] AudioClip[] _audioBoom;
         private bool _isBoom;
@@ -22,7 +22,7 @@ namespace Destrial
             if (_isBoom) return;
             _isBoom = true;
             Vector2Int modDir = _cell - GameManager.Instance.BoardManager.Player.CellPosition;
-            GameManager.Instance.BoardManager.Player.GetHurt(AmountGranted,modDir); // CHANGE UI            GameManager.Instance.ChangeLife(-AmountGranted);
+            GameManager.Instance.BoardManager.Player.GetHurt(AmountGranted+(BombLevel-1)*5,modDir); // CHANGE UI            GameManager.Instance.ChangeLife(-AmountGranted);
          
             _audioSource.PlayOneShot(_audioBoom[Random.Range(0, _audioBoom.Length)], GameManager.Instance.sfxVolume);
             GameManager.Instance.BoardManager.Player.GoWait();

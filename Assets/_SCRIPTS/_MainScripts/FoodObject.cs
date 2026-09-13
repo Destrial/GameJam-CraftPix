@@ -7,7 +7,7 @@ namespace Destrial
     public class FoodObject : CellObject
     {
         public int AmountGranted = 5;
-
+        public int FoodLevel=1;
         [SerializeField] AudioSource _audioSource;
         [SerializeField] AudioClip[] _audioCrunch;
 
@@ -18,7 +18,7 @@ namespace Destrial
 
         public override void PlayerEntered()
         {
-            GameManager.Instance.ChangeLife(AmountGranted);
+            GameManager.Instance.ChangeLife(AmountGranted+(FoodLevel-1)*5);
             GameManager.Instance.AudioPickup(true);
            
             GameManager.Instance.AddPickup();

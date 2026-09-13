@@ -451,7 +451,7 @@ namespace Destrial
 
                 int numi = Random.Range(0, FoodPrefab.Length);
                 FoodObject newFood = Instantiate(FoodPrefab[numi]);
-
+              newFood.FoodLevel=GameManager.Instance.GameLevel;
                 AddObject(newFood, coord, true);
             }
         }
@@ -502,7 +502,8 @@ namespace Destrial
 
                 //Ennemies
                 Enemy newEnemy = Instantiate(EnemyPrefab);
-
+                newEnemy.MobLevel = GameManager.Instance.GameLevel;
+                
                 AddObject(newEnemy, coord, false);
                 //  GameManager.Instance.Enemies.Add(newEnemy);
             }

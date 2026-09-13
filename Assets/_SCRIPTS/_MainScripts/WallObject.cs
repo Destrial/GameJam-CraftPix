@@ -15,6 +15,7 @@ namespace Destrial
         public int MaxHealth = 3;
         public int PlayerDmg = 3;
         private int _healthPoint;
+        public int WallLevel=1;
         private Tile _originalTile; 
         private Vector2Int myPos;
         [SerializeField] float _timeToDestroy=0.5f;
@@ -29,7 +30,7 @@ namespace Destrial
           
             _isExploding = false;
             base.Init(cell);
-            _healthPoint = MaxHealth;
+            _healthPoint = MaxHealth+(WallLevel-1)*2;
             myPos = cell;
             _originalTile = GameManager.Instance.BoardManager.GetCellTile(cell);
           //  GameManager.Instance.BoardManager.SetCellTile(cell, ObstacleTile);

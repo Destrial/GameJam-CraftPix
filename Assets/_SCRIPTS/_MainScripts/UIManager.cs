@@ -158,7 +158,7 @@ namespace Destrial
                              _gameManager.HitsTakenAmount + " hits, and attacking " + _gameManager.AttacksAmount +
                              " times!";
             _dieStatsTXT.text = "Player Level: "+ _gameManager.PlayerLevel+"\nKills: "+ _gameManager.KillAmount+"\nDestroys:"+ _gameManager.DestroyAmount+"\nPickup: "+ _gameManager.PickupAmount;
-            _dieMegaGrowthTXT.text = "Mega Growth : "+ _gameManager.AmountGrow;
+            _dieMegaGrowthTXT.text = "Mega Growth : "+ _gameManager.TotalGrow;
         }
 
         public void RestartGame()
