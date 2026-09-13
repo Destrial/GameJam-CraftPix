@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 36670c815fab98041aca13eeedbde992
+guid: 8a635b2400f35dc498fa0b21131ab0b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2589212268415769977
-    second: R_Idle_0
+      213: -4115349436851237892
+    second: R_Attack_0
   - first:
-      213: -8376621800927932320
-    second: R_Idle_1
+      213: -5092693282215323134
+    second: R_Attack_1
   - first:
-      213: 4738762487052738647
-    second: R_Idle_2
+      213: -8123796609713714143
+    second: R_Attack_2
   - first:
-      213: -2038907194308035746
-    second: R_Idle_3
+      213: 8962329993756759491
+    second: R_Attack_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -119,85 +119,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: R_Idle_0
+      name: R_Attack_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
+        x: 9
+        y: 10
+        width: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 19721f0fdf3bb1149a3aabcec6d4682e
-      internalID: 354931353
+      spriteID: cfbc0e1cd7753e6c0800000000000000
+      internalID: -4115349436851237892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: R_Idle_1
+      name: R_Attack_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
+        x: 41
+        y: 10
+        width: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b10538e5e6338a24181d511d460260a0
-      internalID: 1592305576
+      spriteID: 20a998b217e1359b0800000000000000
+      internalID: -5092693282215323134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: R_Idle_2
+      name: R_Attack_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
+        x: 74
+        y: 10
+        width: 14
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4ff608eee4abb5d4e8786e5bcb598bff
-      internalID: -1607459840
+      spriteID: 12ccd72760a724f80800000000000000
+      internalID: -8123796609713714143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: R_Idle_3
+      name: R_Attack_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
+        x: 105
+        y: 10
+        width: 15
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e9995366a4f77f54c8abbb27fc1a7b53
-      internalID: 529758687
+      spriteID: 3c553b515a7906c70800000000000000
+      internalID: 8962329993756759491
       vertices: []
       indices: 
       edges: []
@@ -205,7 +205,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 37102c5071ce57540949fb992f3f4f3d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -213,10 +213,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      R_Idle_0: 354931353
-      R_Idle_1: 1592305576
-      R_Idle_2: -1607459840
-      R_Idle_3: 529758687
+      U_Walk_0: -4009086310334153817
+      U_Walk_1: -2648376872383064187
+      U_Walk_2: -764003165941485920
+      U_Walk_3: 6818739885194633778
+      U_Walk_4: -5951623572059180443
+      U_Walk_5: -8036710771169646379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
