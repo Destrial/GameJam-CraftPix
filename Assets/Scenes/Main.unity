@@ -3738,6 +3738,7 @@ MonoBehaviour:
   _audioINSTAKILL:
   - {fileID: 8300000, guid: 66888ca5468c2224c9ac5f2231001b56, type: 3}
   - {fileID: 8300000, guid: ba9b78f7d0e9e2f4c9bb1dcbdd02fb33, type: 3}
+  _audioStopGrow: {fileID: 8300000, guid: fc06a83005d397d4696459745ebec51b, type: 3}
   _musicDungeon: {fileID: 8300000, guid: 0e47c7371d76c1a48a8f0de7f4358ca9, type: 3}
   musicClip: {fileID: 8300000, guid: 327a0c81f96b019428a0d3d3a969ea43, type: 3}
   musicVolume: 0.3

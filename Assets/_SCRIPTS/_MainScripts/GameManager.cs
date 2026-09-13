@@ -89,7 +89,7 @@ namespace Destrial
        
        [SerializeField] AudioClip[] _audioINSTAKILL;
        
-       
+       [SerializeField] AudioClip _audioStopGrow;
          
        [SerializeField] AudioClip _musicDungeon;
        public AudioClip musicClip;
@@ -189,6 +189,18 @@ namespace Destrial
         {
             
             StartCoroutine(StartTimerAttack());
+            if (decaGrowthActivated)
+            {
+                GrowthTIME--;
+                if (GrowthTIME <= 0)
+                {
+                    decaGrowthActivated = false;
+                    MyUIManager.HidePower();
+                 
+                    BoardManager.Player.transform.DOScale(1f, 0.5f).SetEase(Ease.OutCubic);
+                    _audioSource.PlayOneShot(_audioStopGrow, sfxVolume);
+                }   
+            }
         }
 
         void OnMobDieHappen()
@@ -213,8 +225,14 @@ namespace Destrial
             if (amount < 0) // si degats 
             {
                 amount += PlayerDefense;
+                if (decaGrowthActivated)
+                {
+                    amount = 0;
+                }
               
-            } 
+            }
+
+           
             BoardManager.Player.DMGTXT.Initialize(amount);
 
            
@@ -301,11 +319,7 @@ namespace Destrial
             }
         }
        
-        public void AudioGrowth()
-        {
-            _audioSourceVoice.PlayOneShot(_audioDecaGrowth, sfxVolume);
-            BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaGrowth);
-        }
+      
         public void LevelUp()
         {
             BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.LevelUP);
@@ -417,6 +431,10 @@ namespace Destrial
                 AmountGrow = 0;
                 _audioSourceVoice.PlayOneShot(_audioDecaGrowth, sfxVolume);
                 BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaGrowth);
+                MyUIManager.ShowPower(DecaTxt.DecaType.DecaGrowth);
+                decaGrowthActivated = true;
+                GrowthTIME = 10;
+                BoardManager.Player.transform.DOScale(1.8f, 0.5f).SetEase(Ease.OutCubic);
                 //MEGA GROW
                 // INVULENRABILITY 10 TOURS + VITESSE x2 + ATTTX2
             }

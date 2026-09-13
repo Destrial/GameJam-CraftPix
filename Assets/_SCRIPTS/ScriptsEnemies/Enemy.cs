@@ -95,7 +95,7 @@ namespace Destrial
         public override bool PlayerWantsToEnter()
         {
             bool normalSound = true;
-            if (GameManager.Instance.decaKillActivated == false)
+            if (GameManager.Instance.decaKillActivated == false & GameManager.Instance.decaGrowthActivated == false)
             {
                 _currentHealth -= GameManager.Instance.PlayerAttack;
             }
