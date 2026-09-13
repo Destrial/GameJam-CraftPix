@@ -249,7 +249,7 @@ namespace Destrial
                 _animator.SetFloat("mov_y", _newDirection.y);
                 _animator.SetTrigger("Attack");
            
-                GameManager.Instance.BoardManager.Player.GetHurt(Damage,modDir); // CHANGE UI
+                GameManager.Instance.BoardManager.Player.GetHurt(Damage,modDir); 
            
         }
 

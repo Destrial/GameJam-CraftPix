@@ -1,3 +1,4 @@
+using NUnit.Framework.Constraints;
 using UnityEngine;
 
 namespace Destrial
@@ -9,16 +10,20 @@ namespace Destrial
 
         [SerializeField] AudioSource _audioSource;
         [SerializeField] AudioClip[] _audioBoom;
-
+        private bool _isBoom;
 
         void Start()
         {
+            _isBoom = false;
             PlayerEntered();
         }
         public override void PlayerEntered()
         {
-            GameManager.Instance.ChangeLife(-AmountGranted);
-            GameManager.Instance.AudioPickup(true);
+            if (_isBoom) return;
+            _isBoom = true;
+            Vector2Int modDir = _cell - GameManager.Instance.BoardManager.Player.CellPosition;
+            GameManager.Instance.BoardManager.Player.GetHurt(AmountGranted,modDir); // CHANGE UI            GameManager.Instance.ChangeLife(-AmountGranted);
+         
             _audioSource.PlayOneShot(_audioBoom[Random.Range(0, _audioBoom.Length)], GameManager.Instance.sfxVolume);
             GameManager.Instance.BoardManager.Player.GoWait();
             Invoke("DestroyMe", 1.5f);

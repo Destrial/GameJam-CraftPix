@@ -349,7 +349,11 @@ namespace Destrial
                 AddMegaGROW();
                 _audioSource.PlayOneShot(_audioDecaDestroy, sfxVolume);
                 BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaDestroy);
-                MyUIManager.ShowPower(DecaTxt.DecaType.DecaDestroy);
+                if (!decaGrowthActivated)
+                {
+                    MyUIManager.ShowPower(DecaTxt.DecaType.DecaDestroy);
+                }
+
                 MaxHealth++;
              
                 MyUIManager.ShowLife();
@@ -373,8 +377,11 @@ namespace Destrial
                 MyUIManager.ShowLife();
                 _audioSourceVoice.PlayOneShot(_audioDecaLoot, sfxVolume);
                 BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaLoot);
-                 MyUIManager.ShowPower(DecaTxt.DecaType.DecaLoot);
-                
+                if (!decaGrowthActivated)
+                {
+                    MyUIManager.ShowPower(DecaTxt.DecaType.DecaLoot);
+                }
+
                 PlayerCurrentHealth=MaxHealth;
                  MyUIManager.ShowLife();
                  /// GO REWARDFULL HEALTH
@@ -397,9 +404,11 @@ namespace Destrial
                 cumulKill = 0;
                 _audioSourceVoice.PlayOneShot(_audioDecaKill, sfxVolume);
                BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaKill);
+               if (!decaGrowthActivated)
+               {
+                   MyUIManager.ShowPower(DecaTxt.DecaType.DecaKill);
+               }
 
-               MyUIManager.ShowPower(DecaTxt.DecaType.DecaKill);
-               
                decaKillActivated = true;
                
 

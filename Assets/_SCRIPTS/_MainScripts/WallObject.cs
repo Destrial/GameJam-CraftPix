@@ -37,10 +37,11 @@ namespace Destrial
 
         public override bool PlayerWantsToEnter()
         {
-            if(_isExploding)   
+            if(_isExploding==true)   
         {
             return false;
         }
+            
             Vector2Int wallDir=_cell-GameManager.Instance.PlayerController.CellPosition;
             _healthPoint -= 1;
             _audioSource.PlayOneShot(_audioImpact,GameManager.Instance.sfxVolume);
@@ -77,9 +78,9 @@ namespace Destrial
             GameManager.Instance.WallDestroyed();
             GameManager.Instance.AddDestroy();
             
-            GameManager.Instance.BoardManager.GenerateLocalBomb(myPos);
+          
             
-            /*
+            
             int rand = Random.Range(0, 100);
             if (rand < 20)
             {
@@ -89,7 +90,7 @@ namespace Destrial
             {
                 GameManager.Instance.BoardManager.GenerateLocalBomb(myPos);
             }
-            */
+            
             _isExploding = true;
             GameManager.Instance.BoardManager.Player.GoWait();
          
