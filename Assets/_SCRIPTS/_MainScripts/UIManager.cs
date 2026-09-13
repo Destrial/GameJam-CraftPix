@@ -84,7 +84,7 @@ namespace Destrial
             {
                 case DecaTxt.DecaType.DecaKill:
                     Powers[0].SetActive(true);
-                    Invoke("HidePower", _hidePowerTime);
+                  
                     break;
                 case DecaTxt.DecaType.DecaLoot:
                     Powers[1].SetActive(true);
@@ -98,7 +98,7 @@ namespace Destrial
                     break;
                 case DecaTxt.DecaType.DecaGrowth:
                     Powers[3].SetActive(true);
-                    _growthTurnTXT.text = "" + _gameManager.TurnManager.TurnCount+" TURN";
+                    _growthTurnTXT.text = "" + _gameManager.GrowthTIME+" TURN";
                     break;
 
             }
