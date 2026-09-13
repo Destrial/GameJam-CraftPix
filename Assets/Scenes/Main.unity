@@ -3576,6 +3576,8 @@ MonoBehaviour:
   AttacksAmount: 0
   HitsTakenAmount: 0
   AmountGrow: 0
+  decaKillActivated: 0
+  decaGrowthActivated: 0
   _audioSource: {fileID: 754903446}
   _audioSourceMusic: {fileID: 572458597}
   _audioSourceVoice: {fileID: 905610407}
@@ -4809,7 +4811,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 0.97959185
+  orthographic size: 0.9183673
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -6399,11 +6401,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 512a7cf42b2db6f498d78b7692124df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &1504855377 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 4280025833065194016, guid: ed54e8a9062893d459b3c5b878ca86a9, type: 3}
-  m_PrefabInstance: {fileID: 152903889954229305}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1511660679
 GameObject:
   m_ObjectHideFlags: 0
@@ -6890,6 +6887,7 @@ MonoBehaviour:
   _gameOverPanel: {fileID: 269515402}
   _levelUpPanel: {fileID: 2042382320}
   _gamePanel: {fileID: 734769187}
+  _decaPanel: {fileID: 0}
   _dieByTXT: {fileID: 821977300}
   _dieStatsTXT: {fileID: 1453142759}
   _dieMegaGrowthTXT: {fileID: 36476204}
@@ -7156,7 +7154,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 919.9, y: -42.5}
+  m_AnchoredPosition: {x: 920, y: -42.5}
   m_SizeDelta: {x: 60, y: 56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1734597431
