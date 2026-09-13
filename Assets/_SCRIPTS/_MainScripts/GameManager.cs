@@ -358,13 +358,15 @@ namespace Destrial
                 cumulKill = 0;
                 _audioSourceVoice.PlayOneShot(_audioDecaKill, sfxVolume);
                BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaKill);
-               
-               
-                
-             
-                /// NEW HIT  SUPER COUP
-                /// ONE HIT KILLS
-                /// 
+
+               decaKillActivated = true;
+
+
+
+
+               /// NEW HIT  SUPER COUP
+               /// ONE HIT KILLS
+               /// 
 
             }
         }

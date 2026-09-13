@@ -91,9 +91,18 @@ namespace Destrial
             GameManager.Instance.Enemies.Add(this);
         }
 
-        public override bool PlayerWantsToEnter()   
+        public override bool PlayerWantsToEnter()
         {
-            _currentHealth -= GameManager.Instance.PlayerAttack;
+            if (GameManager.Instance.decaKillActivated == false)
+            {
+                _currentHealth -= GameManager.Instance.PlayerAttack;
+            }
+            else
+            {
+                _currentHealth -= Health;
+                GameManager.Instance.decaKillActivated = false;
+            }
+            
             _animator.SetTrigger("Hurt");
             _audioSource.PlayOneShot(_audioImpact[Random.Range(0, _audioImpact.Length)],GameManager.Instance.sfxVolume);
             _audioSource.PlayOneShot(_audioHurt[Random.Range(0, _audioHurt.Length)],GameManager.Instance.sfxVolume);
