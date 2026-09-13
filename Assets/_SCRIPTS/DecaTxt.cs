@@ -17,9 +17,9 @@ namespace Destrial
             DecaKill,
             DecaLoot,
             DecaDestroy,
-            LevelUP,
-            
             DecaGrowth,
+            LevelUP,
+            None
         }
         
         

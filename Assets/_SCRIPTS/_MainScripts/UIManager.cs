@@ -14,9 +14,9 @@ namespace Destrial
         [SerializeField] GameObject _gameOverPanel;
         [SerializeField] GameObject _levelUpPanel;
         [SerializeField] GameObject _gamePanel;
-        
+
         [SerializeField] GameObject _decaPanel;
-        
+
         [SerializeField] private TextMeshProUGUI _dieByTXT;
         [SerializeField] private TextMeshProUGUI _dieStatsTXT;
         [SerializeField] private TextMeshProUGUI _dieMegaGrowthTXT;
@@ -36,10 +36,10 @@ namespace Destrial
         [SerializeField] private Image _pickupBAR;
         [SerializeField] private Image _xpBAR;
         [SerializeField] private Image _lifeBAR;
-        [SerializeField]
-        GameManager _gameManager;
+        [SerializeField] GameManager _gameManager;
 
-
+        [SerializeField] private GameObject[] Powers;
+        [SerializeField] private TextMeshProUGUI _growthTurnTXT;
 
         public void RefreshKills()
         {
@@ -70,13 +70,48 @@ namespace Destrial
 
         public void ShowLife()
         {
-            float calc = (float)_gameManager.PlayerCurrentHealth/(float)_gameManager.MaxHealth;
-            _lifeTXT.text = "" + _gameManager.PlayerCurrentHealth+"/"+_gameManager.MaxHealth;
+            float calc = (float)_gameManager.PlayerCurrentHealth / (float)_gameManager.MaxHealth;
+            _lifeTXT.text = "" + _gameManager.PlayerCurrentHealth + "/" + _gameManager.MaxHealth;
             _lifeBAR.fillAmount = calc;
-         
+
         }
 
-        public void Init()
+        public void ShowPower(DecaTxt.DecaType type)
+        {
+            for (int i = 0; i < Powers.Length; i++) //remove all
+            {
+                Powers[i].SetActive(false);
+            }
+
+            switch (type)
+            {
+                case DecaTxt.DecaType.DecaKill:
+                    Powers[0].SetActive(true);
+                    break;
+                case DecaTxt.DecaType.DecaLoot:
+                    Powers[1].SetActive(true);
+                    break;
+                case DecaTxt.DecaType.DecaDestroy:
+                    Powers[2].SetActive(true);
+                    break;
+                case DecaTxt.DecaType.DecaGrowth:
+                    Powers[3].SetActive(true);
+                    _growthTurnTXT.text = "" + _gameManager.TurnManager.TurnCount+" TURN";
+                    break;
+
+            }
+
+        }
+
+        public void HidePower()
+        {
+            for (int i = 0; i < Powers.Length; i++) //remove all
+            {
+                Powers[i].SetActive(false);
+            }
+        }
+
+    public void Init()
         {
             if (!_gameManager)
             {
