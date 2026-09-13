@@ -40,7 +40,7 @@ namespace Destrial
 
         [SerializeField] private GameObject[] Powers;
         [SerializeField] private TextMeshProUGUI _growthTurnTXT;
-
+        [SerializeField] private float _hidePowerTime = 2f;
         public void RefreshKills()
         {
             _killsTXT.text = "" + _gameManager.KillAmount % 10f + "/10";
@@ -87,12 +87,17 @@ namespace Destrial
             {
                 case DecaTxt.DecaType.DecaKill:
                     Powers[0].SetActive(true);
+                    Invoke("HidePower", _hidePowerTime);
                     break;
                 case DecaTxt.DecaType.DecaLoot:
                     Powers[1].SetActive(true);
+                    Invoke("HidePower", _hidePowerTime);
+                    
                     break;
                 case DecaTxt.DecaType.DecaDestroy:
-                    Powers[2].SetActive(true);
+                    Powers[2].SetActive(true)
+                    Invoke("HidePower", _hidePowerTime);
+                        
                     break;
                 case DecaTxt.DecaType.DecaGrowth:
                     Powers[3].SetActive(true);
@@ -183,6 +188,7 @@ namespace Destrial
         }
 
 
+      
 
         public void ChoiceAddDef()
         {
