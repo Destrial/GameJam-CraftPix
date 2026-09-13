@@ -49,7 +49,7 @@ namespace Destrial
         [SerializeField] private Color normalColor = Color.white;
 
         //Enemies
-        public Enemy EnemyPrefab;
+        public Enemy[] EnemyPrefab;
         public int Width;
         public int Height;
 
@@ -492,6 +492,14 @@ namespace Destrial
         void GenerateEnemy()
         {
             int enemyCount = Random.Range(1, _enemyNumber);
+            int enemyCountGob=0;
+            if (GameManager.Instance.GameLevel >= 2)
+            {
+                 enemyCountGob = Random.Range(1, _enemyNumber);
+                enemyCount -= enemyCountGob;
+                
+            }
+
             for (int i = 0; i < enemyCount; ++i)
             {
                 int randomIndex = Random.Range(0, _emptyCellsList.Count);
@@ -501,7 +509,25 @@ namespace Destrial
 
 
                 //Ennemies
-                Enemy newEnemy = Instantiate(EnemyPrefab);
+                Enemy newEnemy = Instantiate(EnemyPrefab[0]); //RATS
+                newEnemy.MobLevel = GameManager.Instance.GameLevel;
+
+                AddObject(newEnemy, coord, false);
+                //  GameManager.Instance.Enemies.Add(newEnemy);
+
+
+            }
+            
+            for (int i = 0; i < enemyCountGob; ++i)
+            {
+                int randomIndex = Random.Range(0, _emptyCellsList.Count);
+                Vector2Int coord = _emptyCellsList[randomIndex];
+
+                _emptyCellsList.RemoveAt(randomIndex);
+
+
+                //Ennemies
+                Enemy newEnemy = Instantiate(EnemyPrefab[1]); //GOB
                 newEnemy.MobLevel = GameManager.Instance.GameLevel;
                 
                 AddObject(newEnemy, coord, false);

@@ -21,6 +21,9 @@ namespace Destrial
         [SerializeField] private GameObject _deathPrefab;
         
         [SerializeField] private GameObject _bloodPrefab;
+
+        [SerializeField] private int _modifLevelHP;
+        [SerializeField] private int _modifLevelDMG;
         
         public int MobLevel = 1;
         public DamageText DMGTXT;
@@ -92,8 +95,8 @@ namespace Destrial
             _currentHealth = Health;
             _board = GameManager.Instance.BoardManager;
             Cell = _board.GetCellData(coord);
-            Damage+=(MobLevel-1);
-            Health+=(MobLevel-1)*3;
+            Damage+=(MobLevel-1)*_modifLevelDMG;
+            Health+=(MobLevel-1)*_modifLevelHP;
            _levelText.text="Lvl "+MobLevel;
 
             GameManager.Instance.Enemies.Add(this);

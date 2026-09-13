@@ -10,13 +10,22 @@ namespace Destrial
         
         
         [SerializeField] private float _timeToDestruct;
-        
+        [SerializeField] Enemy.EnemyType myType;
         
         // Start is called before the first frame update
         void Start()
         {
             _animator = GetComponent<Animator>();
-            _animator.SetBool("RatDied", true);
+            switch (myType)
+            {
+                case Enemy.EnemyType.Rat:
+                    _animator.SetBool("RatDied", true);
+                    break;
+                case Enemy.EnemyType.Goblin:
+                    _animator.SetTrigger("BasicGobDied");
+                    break;
+            }
+           
             
             Invoke("Destruct", _timeToDestruct);
         }
