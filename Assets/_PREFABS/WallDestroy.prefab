@@ -52,6 +52,7 @@ MonoBehaviour:
   DestroySprite3: {fileID: -855298285791758126, guid: c7f6a8098f2b4944999082b3143fc59a, type: 3}
   MaxHealth: 3
   PlayerDmg: 3
+  _timeToDestroy: 0.5
   _audioSource: {fileID: -104423467032293782}
   _audioImpact: {fileID: 8300000, guid: 4a4b2d8c8e39ae6419c8ac9b439cf823, type: 3}
 --- !u!212 &2119373768690077082
@@ -72,7 +73,7 @@ SpriteRenderer:
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
-  m_RendererPriority: 0
+  m_RendererPriority: 5
   m_Materials:
   - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:

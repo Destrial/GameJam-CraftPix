@@ -65,6 +65,8 @@ namespace Destrial
 
         
        [SerializeField] AudioSource _audioSource;
+       [SerializeField] AudioSource _audioSourceMusic;
+       [SerializeField] AudioSource _audioSourceVoice;
        [SerializeField] private AudioClip _audioDecaGrowth;
            [SerializeField] AudioClip _audioDecaKill;
        [SerializeField] AudioClip _audioDecaLoot;
@@ -114,10 +116,10 @@ namespace Destrial
 
           //  StartNewGame();
             BoardManager.Player.MyState=PlayerController.PlayerState.Wait;
-            _audioSource.clip = musicClip;
-            _audioSource.loop = true;
-            _audioSource.volume = musicVolume;
-            _audioSource.Play();
+            _audioSourceMusic.clip = musicClip;
+            _audioSourceMusic.loop = true;
+            _audioSourceMusic.volume = musicVolume;
+            _audioSourceMusic.Play();
         }
 
 
@@ -126,10 +128,10 @@ namespace Destrial
         public void StartNewGame()
         {
          //   _gameOverPanel.style.visibility = Visibility.Hidden;
-         _audioSource.clip = _musicDungeon;
-         _audioSource.loop = true;
-         _audioSource.volume = musicVolume;
-         _audioSource.Play();
+         _audioSourceMusic.clip = _musicDungeon;
+         _audioSourceMusic.loop = true;
+         _audioSourceMusic.volume = musicVolume;
+         _audioSourceMusic.Play();
             DOTween.KillAll(complete: true); 
             RoomLevel = 1;
             PlayerCurrentHealth = _startingHealth;
@@ -258,7 +260,7 @@ namespace Destrial
             {
                 PlayerController.MyState = PlayerController.PlayerState.Idle;
             }
-            //  PlayerController.MyAction = PlayerController.PlayerState.Idle;
+            
         }
 
         public void MobDeath(Enemy.EnemyType typeMob)
@@ -280,14 +282,10 @@ namespace Destrial
                 _audioSource.PlayOneShot(_audioBadPickUp[Random.Range(0, _audioBadPickUp.Length)], sfxVolume);
             }
         }
-        public void AudioLoot()
-        {
-            _audioSource.PlayOneShot(_audioDecaLoot, sfxVolume);
-            BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaLoot);
-        }
+       
         public void AudioGrowth()
         {
-            _audioSource.PlayOneShot(_audioDecaGrowth, sfxVolume);
+            _audioSourceVoice.PlayOneShot(_audioDecaGrowth, sfxVolume);
             BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaGrowth);
         }
         public void LevelUp()
@@ -333,7 +331,8 @@ namespace Destrial
                 AddMegaGROW();
                 PlayerCurrentHealth = MaxHealth;
                 MyUIManager.ShowLife();
-                _audioSource.PlayOneShot(_audioDecaLoot, sfxVolume);
+                _audioSourceVoice.PlayOneShot(_audioDecaLoot, sfxVolume);
+                BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaLoot);
                 /// GO REWARDFULL HEALTH
                 /// FULL LIFE
                 /// 
@@ -347,13 +346,15 @@ namespace Destrial
             MyUIManager.RefreshKills();
             cumulKill++;
             AddXP();
-            AddMegaGROW();
-            if (cumulKill > 10)
+           
+            if (cumulKill == 10)
             {
+                AddMegaGROW();
                 cumulKill = 0;
-               _audioSource.PlayOneShot(_audioDecaKill, sfxVolume);
+                _audioSourceVoice.PlayOneShot(_audioDecaKill, sfxVolume);
                BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaKill);
                 
+             
                 /// NEW HIT  SUPER COUP
                 /// ONE HIT KILLS
                 /// 
@@ -382,7 +383,8 @@ namespace Destrial
             if (AmountGrow > 3)
             {
                 AmountGrow = 0;
-                _audioSource.PlayOneShot(_audioDecaGrowth, sfxVolume);
+                _audioSourceVoice.PlayOneShot(_audioDecaGrowth, sfxVolume);
+                BoardManager.Player.DecaTXT.Initialize(DecaTxt.DecaType.DecaGrowth);
                 //MEGA GROW
                 // INVULENRABILITY 10 TOURS + VITESSE x2 + ATTTX2
             }
@@ -397,10 +399,10 @@ namespace Destrial
 
         public void PlayIntro()
         {
-            _audioSource.clip = musicClip;
-            _audioSource.loop = true;
-            _audioSource.volume = musicVolume;
-            _audioSource.Play();
+            _audioSourceMusic.clip = musicClip;
+            _audioSourceMusic.loop = true;
+            _audioSourceMusic.volume = musicVolume;
+            _audioSourceMusic.Play();
         }
        
     }

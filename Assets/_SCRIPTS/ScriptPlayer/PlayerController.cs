@@ -43,7 +43,7 @@ namespace Destrial
         }
 
         public PlayerState MyState;
-        public PlayerState MyAction;
+      
 
         private Vector2Int _newCellTarget;
         private Vector2Int _newDirection;
@@ -52,6 +52,7 @@ namespace Destrial
         public bool CantNewInput;
         [SerializeField] private GameObject _bloodPrefab;
         [SerializeField] AudioSource _audioSource;
+      
         [SerializeField] AudioClip[] _audioMove;
         [SerializeField] AudioClip[] _audioAttack;
         [SerializeField] AudioClip[] _audioHurt;
@@ -199,10 +200,10 @@ namespace Destrial
             _animator.SetBool("Moving", false);
             _moveTarget = transform.position;
             _isGameOver = false;
-            _isMoving = false;
-            
-            MyState = PlayerState.Wait;
-            Invoke("StartIdle", 0.5f);
+          
+          
+            GoWait();
+            Invoke("GoIdle", 0.5f);
         //    _cantInput = true;
             transform.localScale = new Vector3(1, 1, 1);
          //   
@@ -394,7 +395,7 @@ namespace Destrial
 
         void DirectAttack()
         {
-            MyAction = PlayerState.Attacking;
+         
             MyState = PlayerState.Attacking;
             _isAttacking = true;
             _isMoving = false;
@@ -441,5 +442,23 @@ namespace Destrial
 
            //  _cantInput = false;
         }
+        
+        public void GoWait()
+        {
+            MyState = PlayerState.Wait;
+            _isAttacking = false;
+            _isMoving = false;
+            CantNewInput = true;
+        }
+
+        public void  GoIdle()
+        {
+            MyState = PlayerState.Idle;
+            _isAttacking = false;
+            _isMoving = false;
+            CantNewInput = false;
+
+        }
+
     }
 }

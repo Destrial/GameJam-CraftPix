@@ -18,6 +18,7 @@ namespace Destrial
         private Tile _originalTile;
         bool isDestroyed ;
         private Vector2Int myPos;
+        [SerializeField] float _timeToDestroy=0.5f;
         
         [SerializeField] AudioSource _audioSource;
      
@@ -83,14 +84,16 @@ namespace Destrial
             {
                 GameManager.Instance.BoardManager.GenerateLocalBomb(myPos);
             }
-            
-            Invoke("DestroyME",0.5f);
+            GameManager.Instance.BoardManager.Player.GoWait();
+           
+            Invoke("DestroyME",_timeToDestroy);
             isDestroyed = true;
             return false;
         }
 
         void DestroyME()
         {
+            GameManager.Instance.BoardManager.Player.GoIdle();
             GameManager.Instance.BoardManager.FreeBoard(_cell,true);
             Destroy(gameObject);
         }
