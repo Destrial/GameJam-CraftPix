@@ -145,7 +145,7 @@ namespace Destrial
 
         public void RefreshGrow()
         {
-            //ui    
+            _growTXT.text= "Deca Growth "+_gameManager.AmountGrow+"/3"; 
         }
 
 

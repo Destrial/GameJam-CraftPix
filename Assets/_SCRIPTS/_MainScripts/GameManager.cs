@@ -74,7 +74,7 @@ namespace Destrial
        [SerializeField] AudioSource _audioSource;
        [SerializeField] AudioSource _audioSourceMusic;
        [SerializeField] AudioSource _audioSourceVoice;
-       [SerializeField] private AudioClip _audioDecaGrowth;
+       [SerializeField] AudioClip _audioDecaGrowth;
        [SerializeField] AudioClip _audioDecaKill;
        [SerializeField] AudioClip _audioDecaLoot;
        [SerializeField] AudioClip _audioDecaDestroy;
@@ -159,7 +159,7 @@ namespace Destrial
             PlayerLevel = 1;
             AttacksAmount = 0;
             HitsTakenAmount = 0;
-            
+            TurnManager.TurnCount = 0;
             MyUIManager.Init();
           //  _lifeLabel.text = "Health : " + _currentHealthAmount;
              
@@ -187,7 +187,7 @@ namespace Destrial
 
         void OnTurnHappen()
         {
-            
+            Debug.Log("Turn: "+TurnManager.TurnCount);
             StartCoroutine(StartTimerAttack());
             if (decaGrowthActivated)
             {
@@ -228,6 +228,11 @@ namespace Destrial
                 if (decaGrowthActivated)
                 {
                     amount = 0;
+
+                }
+                else if (amount > 0) //degat minimum -1
+                {
+                    amount = -1;
                 }
               
             }
@@ -260,8 +265,8 @@ namespace Destrial
         IEnumerator StartTimerAttack()
         {
           
-           PlayerController.MyState = PlayerController.PlayerState.Wait;
-           
+          
+           BoardManager.Player.GoWait();
    
             foreach (Enemy enemy in new List<Enemy>(Enemies))
             {
@@ -285,7 +290,7 @@ namespace Destrial
             }
             if (PlayerController.MyState != PlayerController.PlayerState.Death)
             {
-                PlayerController.MyState = PlayerController.PlayerState.Idle;
+                BoardManager.Player.GoIdle();
             }
             
         }
@@ -426,7 +431,7 @@ namespace Destrial
         {
             AmountGrow++;
             MyUIManager.RefreshGrow();
-            if (AmountGrow > 3)
+            if (AmountGrow == 3)
             {
                 AmountGrow = 0;
                 _audioSourceVoice.PlayOneShot(_audioDecaGrowth, sfxVolume);

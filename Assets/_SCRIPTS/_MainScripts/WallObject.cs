@@ -15,19 +15,19 @@ namespace Destrial
         public int MaxHealth = 3;
         public int PlayerDmg = 3;
         private int _healthPoint;
-        private Tile _originalTile;
-        bool isDestroyed ;
+        private Tile _originalTile; 
         private Vector2Int myPos;
         [SerializeField] float _timeToDestroy=0.5f;
         
         [SerializeField] AudioSource _audioSource;
      
         [SerializeField] AudioClip _audioImpact;
-       
+        private bool _isExploding;
 
         public override void Init(Vector2Int cell)
         {
-            isDestroyed = false;
+          
+            _isExploding = false;
             base.Init(cell);
             _healthPoint = MaxHealth;
             myPos = cell;
@@ -37,6 +37,10 @@ namespace Destrial
 
         public override bool PlayerWantsToEnter()
         {
+            if(_isExploding)   
+        {
+            return false;
+        }
             Vector2Int wallDir=_cell-GameManager.Instance.PlayerController.CellPosition;
             _healthPoint -= 1;
             _audioSource.PlayOneShot(_audioImpact,GameManager.Instance.sfxVolume);
@@ -63,10 +67,7 @@ namespace Destrial
             }
 
 
-            if (isDestroyed)
-            {
-                return false;
-            }
+           
             //  GameManager.Instance.BoardManager.SetCellTile(_cell, _originalTile);
         
           //  GameManager.Instance.ChangeLife(-PlayerDmg);
@@ -75,6 +76,10 @@ namespace Destrial
             _spriteRenderer.sprite = DestroySprite3;
             GameManager.Instance.WallDestroyed();
             GameManager.Instance.AddDestroy();
+            
+            GameManager.Instance.BoardManager.GenerateLocalBomb(myPos);
+            
+            /*
             int rand = Random.Range(0, 100);
             if (rand < 20)
             {
@@ -84,10 +89,12 @@ namespace Destrial
             {
                 GameManager.Instance.BoardManager.GenerateLocalBomb(myPos);
             }
+            */
+            _isExploding = true;
             GameManager.Instance.BoardManager.Player.GoWait();
-           
+         
             Invoke("DestroyME",_timeToDestroy);
-            isDestroyed = true;
+            
             return false;
         }
 

@@ -413,7 +413,7 @@ namespace Destrial
 
           //  _cantInput = true;
             _isMoving = false;
-            GameManager.Instance.TurnManager.Tick();
+           // GameManager.Instance.TurnManager.Tick();
             StartCoroutine(StartTimerAttack());
 
             _animator.SetFloat("mov_x", _newDirection.x);
