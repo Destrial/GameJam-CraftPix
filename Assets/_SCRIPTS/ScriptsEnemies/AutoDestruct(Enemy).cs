@@ -22,7 +22,7 @@ namespace Destrial
                     _animator.SetBool("RatDied", true);
                     break;
                 case Enemy.EnemyType.Goblin:
-                    _animator.SetTrigger("BasicGobDied");
+                    _animator.SetTrigger("GobDied");
                     break;
             }
            

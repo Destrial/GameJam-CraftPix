@@ -464,9 +464,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _levelText: {fileID: 3465774160200361306}
   _myEnemyType: 1
-  _deathPrefab: {fileID: 7838084249358595467, guid: 05f5ecb3c9c4a6c4b8f6f3d3a0b32f55, type: 3}
+  _deathPrefab: {fileID: 7838084249358595467, guid: 941ef05fabbebfb499b8766d75645983, type: 3}
   _bloodPrefab: {fileID: 5565975253063727830, guid: a69cdc1eae230ae43b9deeb406acbd61, type: 3}
-  _modifLevelHP: 5
+  _modifLevelHP: 2
   _modifLevelDMG: 2
   MobLevel: 1
   DMGTXT: {fileID: 5755942989679140564}
