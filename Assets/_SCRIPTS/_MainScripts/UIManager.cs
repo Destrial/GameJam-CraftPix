@@ -78,10 +78,7 @@ namespace Destrial
 
         public void ShowPower(DecaTxt.DecaType type)
         {
-            for (int i = 0; i < Powers.Length; i++) //remove all
-            {
-                Powers[i].SetActive(false);
-            }
+          HidePower();
 
             switch (type)
             {
