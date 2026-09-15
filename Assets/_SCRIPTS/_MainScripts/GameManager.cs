@@ -347,8 +347,8 @@ namespace Destrial
             BoardManager.Player.GoWait();
             PlayerLevel++;
              TurnManager.LevelUp(); //event
+             BoardManager.Player.ShowConfeti();
         
-          
              MyUIManager.ShowLevelUp(true);
         }
         
