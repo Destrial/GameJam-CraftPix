@@ -134,7 +134,7 @@ namespace Destrial
         public void ShowConfeti()
         {
             Confeti.Play();
-            ConfetiSolo.SetActive(true;
+            ConfetiSolo.SetActive(true);
             _audioSource.PlayOneShot(_audioYeahLevel, GameManager.Instance.sfxVolume);
         }
 
