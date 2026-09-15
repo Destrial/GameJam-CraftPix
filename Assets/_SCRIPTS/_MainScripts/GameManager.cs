@@ -491,6 +491,13 @@ namespace Destrial
             _audioSourceMusic.Play();
         }
         
+        public void PlayDungeon()
+        {
+            _audioSourceMusic.clip = _musicDungeon;
+            _audioSourceMusic.loop = true;
+            _audioSourceMusic.volume = musicVolume;
+            _audioSourceMusic.Play();
+        }
         
        
     }

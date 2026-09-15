@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 namespace Destrial
@@ -44,9 +45,50 @@ namespace Destrial
         [SerializeField] private Slider _volumeSlider;
         [SerializeField] private Slider _musicSlider;
         bool _testSound = false;
+        
+        DestrialInputs _myInputs;
+        private InputAction _cancelInput;
+        bool CantNewInput;
+        bool GameStarted;
+        
+        private void Awake()
+        {
+            GameStarted = false;
+            _myInputs = new DestrialInputs();
+        
+            _cancelInput = _myInputs.Player.Cancel;
+               
+        }
 
+        private void OnEnable()
+        {
+            _myInputs.Enable();
+            _myInputs.Player.Cancel.performed += OnCancelPerformed;
+        
+         
+            CantNewInput = false;
+        }
+
+        private void OnDisable()
+        {
+            _myInputs.Player.Cancel.performed -= OnCancelPerformed;
+        }
+
+        private void OnCancelPerformed(InputAction.CallbackContext context)
+        {
+            if (!CantNewInput)
+            {
+               OpenSettings();
+               CantNewInput = true;
+            }
+        }
+        
         void Start()
         {
+            if (!_gameManager)
+            {
+                _gameManager = GameManager.Instance;
+            }       
             _volumeSlider.value = GameManager.Instance.sfxVolume;
 
             // Listen for slider value updates
@@ -60,16 +102,47 @@ namespace Destrial
 
         public void CloseSettings()
         {
-            _settingPanel.SetActive(false);
-            _startPanel.SetActive(true);
+          
             _testSound = false;
+            CantNewInput = false;
+            
+            if (!GameStarted)
+            {
+                _settingPanel.SetActive(false);
+                _startPanel.SetActive(true);
+            }
+            else 
+            {
+                GameManager.Instance.BoardManager.Player.GoIdle();
+                _settingPanel.SetActive(false);
+                _gamePanel.SetActive(true);
+                // 1. Reveal the hardware mouse pointer
+                UnityEngine.Cursor.visible = false;
+
+                // 2. Unlock the cursor so it can move freely across the screen
+                UnityEngine.Cursor.lockState = CursorLockMode.Locked; 
+            }
         }
 
         public void OpenSettings()
         {
             _testSound = true;
-            _settingPanel.SetActive(true);
-            _startPanel.SetActive(false);
+            // 1. Reveal the hardware mouse pointer
+            UnityEngine.Cursor.visible = true;
+
+            // 2. Unlock the cursor so it can move freely across the screen
+            UnityEngine.Cursor.lockState = CursorLockMode.None; 
+            if (!GameStarted)
+            {
+                _settingPanel.SetActive(true);
+                _startPanel.SetActive(false);
+            }
+            else if(GameManager.Instance.BoardManager.Player.MyState!=PlayerController.PlayerState.Wait)
+                {
+                    GameManager.Instance.BoardManager.Player.GoWait();
+                    _settingPanel.SetActive(true);
+                        _gamePanel.SetActive(false);
+                }
         }
         
         public void SetSFXAudioVolume(float value)
@@ -90,8 +163,15 @@ namespace Destrial
         
         public void SetMusicAudioVolume(float value)
         {
-            GameManager.Instance.musicVolume=_musicSlider.value;
-            GameManager.Instance.PlayIntro();
+            GameManager.Instance.musicVolume = _musicSlider.value;
+            if (!GameStarted)
+            {
+                GameManager.Instance.PlayIntro();
+            }
+            else
+            {
+                GameManager.Instance.PlayDungeon();
+            }
         }
         
         public void RefreshKills()
@@ -168,11 +248,9 @@ namespace Destrial
 
     public void Init()
         {
-            if (!_gameManager)
-            {
-                _gameManager = GameManager.Instance;
-            }
+           
 
+            GameStarted = true;
             _gameOverPanel.SetActive(false);
             _levelUpPanel.SetActive(false);
             _startPanel.SetActive(false);
@@ -226,7 +304,7 @@ namespace Destrial
 
         public void RestartGame()
         {
-        
+            GameStarted = true;
             _gameManager.StartNewGame();
         }
 

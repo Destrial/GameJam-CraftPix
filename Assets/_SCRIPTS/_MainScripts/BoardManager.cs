@@ -1,4 +1,5 @@
 using System;
+using System;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using System.Collections.Generic;
@@ -494,10 +495,17 @@ namespace Destrial
         {
             int enemyCount = Random.Range(1, _enemyNumber);
             int enemyCountGob=0;
+            int enemyCountGobSword=0;
             if (GameManager.Instance.GameLevel >= 2)
             {
-                 enemyCountGob = Random.Range(1, _enemyNumber);
-                enemyCount -= enemyCountGob;
+                 enemyCountGob = Random.Range(1, _enemyNumber); //ADD GOB
+                 enemyCount -= enemyCountGob; //reduce RATS
+
+            }
+            if (GameManager.Instance.GameLevel >= 3)
+            {
+                enemyCountGobSword = Random.Range(1, _enemyNumber); // ADD GOB SWORD
+                enemyCountGob -= enemyCountGobSword; // REDUCE SIMPLE GOB
                 
             }
 
@@ -514,7 +522,7 @@ namespace Destrial
                 newEnemy.MobLevel = GameManager.Instance.GameLevel;
 
                 AddObject(newEnemy, coord, false);
-                //  GameManager.Instance.Enemies.Add(newEnemy);
+               
 
 
             }
@@ -532,7 +540,23 @@ namespace Destrial
                 newEnemy.MobLevel = GameManager.Instance.GameLevel;
                 
                 AddObject(newEnemy, coord, false);
-                //  GameManager.Instance.Enemies.Add(newEnemy);
+               
+            }
+            
+            for (int i = 0; i < enemyCountGobSword; ++i)
+            {
+                int randomIndex = Random.Range(0, _emptyCellsList.Count);
+                Vector2Int coord = _emptyCellsList[randomIndex];
+
+                _emptyCellsList.RemoveAt(randomIndex);
+
+
+                //Ennemies
+                Enemy newEnemy = Instantiate(EnemyPrefab[2]); //GOB SWORD
+                newEnemy.MobLevel = GameManager.Instance.GameLevel;
+                
+                AddObject(newEnemy, coord, false);
+               
             }
         }
 
