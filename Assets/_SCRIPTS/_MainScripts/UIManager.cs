@@ -43,7 +43,7 @@ namespace Destrial
         
         [SerializeField] private Slider _volumeSlider;
         [SerializeField] private Slider _musicSlider;
-      
+        bool _testSound = false;
 
         void Start()
         {
@@ -62,10 +62,12 @@ namespace Destrial
         {
             _settingPanel.SetActive(false);
             _startPanel.SetActive(true);
+            _testSound = false;
         }
 
         public void OpenSettings()
         {
+            _testSound = true;
             _settingPanel.SetActive(true);
             _startPanel.SetActive(false);
         }
@@ -73,7 +75,17 @@ namespace Destrial
         public void SetSFXAudioVolume(float value)
         {
           GameManager.Instance.sfxVolume=_volumeSlider.value;
-          GameManager.Instance.HitSound();
+          if (_testSound)
+          {
+              _testSound=false;
+              GameManager.Instance.HitSound();
+                  Invoke("TestAgain", 0.5f);
+          }
+        }
+
+        void TestAgain()
+        {
+            _testSound=true;
         }
         
         public void SetMusicAudioVolume(float value)
