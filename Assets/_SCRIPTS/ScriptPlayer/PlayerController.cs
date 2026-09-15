@@ -60,7 +60,7 @@ namespace Destrial
         [SerializeField] AudioClip[] _audioAttack;
         [SerializeField] AudioClip[] _audioHurt;
         [SerializeField] AudioClip _audioDie;
-
+        [SerializeField] AudioClip _audioYeahLevel;
         //  [SerializeField]
         //  private float _waitInputTime;
         private void Awake()
@@ -134,7 +134,8 @@ namespace Destrial
         public void ShowConfeti()
         {
             Confeti.Play();
-            ConfetiSolo.SetActive(true);
+            ConfetiSolo.SetActive(true;
+            _audioSource.PlayOneShot(_audioYeahLevel, GameManager.Instance.sfxVolume);
         }
 
         private void OnAttackPerformed(InputAction.CallbackContext context)
