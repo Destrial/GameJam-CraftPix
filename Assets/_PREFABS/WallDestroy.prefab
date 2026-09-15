@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2230941929989740007}
   - component: {fileID: 2119373768690077082}
   - component: {fileID: -104423467032293782}
+  - component: {fileID: 6936732674891008149}
   m_Layer: 0
   m_Name: WallDestroy
   m_TagString: Untagged
@@ -52,6 +53,7 @@ MonoBehaviour:
   DestroySprite3: {fileID: -855298285791758126, guid: c7f6a8098f2b4944999082b3143fc59a, type: 3}
   MaxHealth: 3
   PlayerDmg: 3
+  WallLevel: 1
   _timeToDestroy: 0.5
   _audioSource: {fileID: -104423467032293782}
   _audioImpact: {fileID: 8300000, guid: 4a4b2d8c8e39ae6419c8ac9b439cf823, type: 3}
@@ -203,3 +205,52 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6936732674891008149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3957934330028507964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_Priority: 0
+  m_ComponentVersion: 3
+  m_HasRenderer: 0
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_AlphaCutoff: 0.1
+  m_ApplyToSortingLayers: 00000000ad8708574ded627711dad845
+  m_ShapePath:
+  - {x: -0.065, y: -0.075, z: 0}
+  - {x: -0.065, y: 0.075, z: 0}
+  - {x: 0.065, y: 0.075, z: 0}
+  - {x: 0.065, y: -0.075, z: 0}
+  m_ShapePathHash: 0
+  m_InstanceId: 0
+  m_ShadowShape2DComponent: {fileID: 2119373768690077082}
+  m_ShadowShape2DProvider:
+    rid: 3697708525682163712
+  m_ShadowCastingSource: 2
+  m_ShadowMesh:
+    m_Mesh: {fileID: 0}
+    m_LocalBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.05899048, y: 0.069000244, z: 0}
+    m_EdgeProcessing: 1
+    m_TrimEdge: 0.006
+    m_FlipX: 0
+    m_FlipY: 0
+    m_InitialTrim: 0.006
+  m_CastingOption: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 3697708525682163712
+      type: {class: ShadowShape2DProvider_SpriteRenderer, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data: 
