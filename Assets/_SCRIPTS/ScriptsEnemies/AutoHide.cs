@@ -7,7 +7,7 @@ namespace Destrial
 {
     public class AutoHide : MonoBehaviour
     {
-       
+        [SerializeField]
         SpriteRenderer _spriteRenderer;
         
         [SerializeField] private float _timeToHide;
