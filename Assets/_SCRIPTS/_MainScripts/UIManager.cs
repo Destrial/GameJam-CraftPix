@@ -14,7 +14,7 @@ namespace Destrial
         [SerializeField] GameObject _gameOverPanel;
         [SerializeField] GameObject _levelUpPanel;
         [SerializeField] GameObject _gamePanel;
-
+        [SerializeField] GameObject _settingPanel;
 
         [SerializeField] private TextMeshProUGUI _dieByTXT;
         [SerializeField] private TextMeshProUGUI _dieStatsTXT;
@@ -40,6 +40,48 @@ namespace Destrial
         [SerializeField] private GameObject[] Powers;
         [SerializeField] private TextMeshProUGUI _growthTurnTXT;
         [SerializeField] private float _hidePowerTime = 2f;
+        
+        [SerializeField] private Slider _volumeSlider;
+        [SerializeField] private Slider _musicSlider;
+      
+
+        void Start()
+        {
+            _volumeSlider.value = GameManager.Instance.sfxVolume;
+
+            // Listen for slider value updates
+            _volumeSlider.onValueChanged.AddListener(SetSFXAudioVolume);
+            
+            _musicSlider.value = GameManager.Instance.musicVolume;
+
+            // Listen for slider value updates
+            _musicSlider.onValueChanged.AddListener(SetMusicAudioVolume);
+        }
+
+        public void CloseSettings()
+        {
+            _settingPanel.SetActive(false);
+            _startPanel.SetActive(true);
+        }
+
+        public void OpenSettings()
+        {
+            _settingPanel.SetActive(true);
+            _startPanel.SetActive(false);
+        }
+        
+        public void SetSFXAudioVolume(float value)
+        {
+          GameManager.Instance.sfxVolume=_volumeSlider.value;
+          GameManager.Instance.HitSound();
+        }
+        
+        public void SetMusicAudioVolume(float value)
+        {
+            GameManager.Instance.musicVolume=_musicSlider.value;
+            GameManager.Instance.PlayIntro();
+        }
+        
         public void RefreshKills()
         {
             _killsTXT.text = "" + _gameManager.KillAmount % 10f + "/10";
