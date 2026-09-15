@@ -10,6 +10,9 @@ namespace Destrial
     {
         public DamageText DMGTXT;
         public DecaTxt DecaTXT;
+
+        public ParticleSystem Confeti;
+        public GameObject ConfetiSolo;
         
         DestrialInputs _myInputs;
         InputAction _lookInputAction;
@@ -128,6 +131,12 @@ namespace Destrial
             _audioSource.PlayOneShot(_audioHurt[Random.Range(0, _audioHurt.Length)], GameManager.Instance.sfxVolume);
         }
 
+        public void ShowConfeti()
+        {
+            Confeti.Play();
+            ConfetiSolo.SetActive(true);
+        }
+
         private void OnAttackPerformed(InputAction.CallbackContext context)
         {
             if (MyState.Equals(PlayerState.Idle) && !_isAttacking && !_isMoving)
@@ -140,7 +149,9 @@ namespace Destrial
         {
             if (MyState.Equals(PlayerState.Idle) && !_isAttacking && !_isMoving)
             {
+                TurnTowardsMob();
                 ShowLook(_newDirection);
+             
             }
         }
         private void OnStopLook(InputAction.CallbackContext context)
@@ -196,7 +207,53 @@ namespace Destrial
             _audioSource.PlayOneShot(_audioMove[Random.Range(0, _audioMove.Length)], GameManager.Instance.sfxVolume);
         }
 
-
+        void TurnTowardsMob()
+        {
+            CellObject testObject = _board.GetCellData(CellPosition+Vector2Int.up).ContainedObject;
+            if (testObject!=null)
+            {
+                if (testObject is Enemy)
+                {
+                    _newDirection = Vector2Int.up;
+                    _animator.SetFloat("mov_x", _newDirection.x);
+                    _animator.SetFloat("mov_y", _newDirection.y);
+                }
+            }
+            
+            testObject = _board.GetCellData(CellPosition+Vector2Int.right).ContainedObject;
+            if (testObject!=null)
+            {
+                if (testObject is Enemy)
+                {
+                    _newDirection = Vector2Int.right;
+                    _animator.SetFloat("mov_x", _newDirection.x);
+                    _animator.SetFloat("mov_y", _newDirection.y);
+                }
+            }
+            
+            testObject = _board.GetCellData(CellPosition+Vector2Int.down).ContainedObject;
+            if (testObject!=null)
+            {
+                if (testObject is Enemy)
+                {
+                    _newDirection = Vector2Int.down;
+                    _animator.SetFloat("mov_x", _newDirection.x);
+                    _animator.SetFloat("mov_y", _newDirection.y);
+                }
+            }
+            testObject = _board.GetCellData(CellPosition+Vector2Int.left).ContainedObject;
+            if (testObject!=null)
+            {
+                if (testObject is Enemy)
+                {
+                    _newDirection = Vector2Int.left;
+                    _animator.SetFloat("mov_x", _newDirection.x);
+                    _animator.SetFloat("mov_y", _newDirection.y);
+                }
+            }
+        }
+        
+        
         public void Init()
         {
             _animator.SetFloat("mov_x", 0);
