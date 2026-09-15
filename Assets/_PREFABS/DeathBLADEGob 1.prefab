@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3584837559983627735}
   - component: {fileID: 2575477130955423926}
   m_Layer: 0
-  m_Name: Death
+  m_Name: DeathBLADEGob 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 538491838, guid: ac33ecead87f036478ba08d0394efb02, type: 3}
+  m_Sprite: {fileID: -1041018209, guid: 4a160ab814698f84bbde231afca068cf, type: 3}
   m_Color: {r: 0.37254903, g: 0.37254903, b: 0.37254903, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -121,3 +121,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _timeToDestruct: 2.1
+  myType: 1
