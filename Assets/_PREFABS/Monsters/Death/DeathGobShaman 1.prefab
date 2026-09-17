@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3584837559983627735}
   - component: {fileID: 2575477130955423926}
   m_Layer: 0
-  m_Name: DeathBLADEGob 1
+  m_Name: DeathGobShaman 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
