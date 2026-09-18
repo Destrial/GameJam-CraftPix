@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -104423467032293782}
   - component: {fileID: 6936732674891008149}
   m_Layer: 0
-  m_Name: WallDestroy
+  m_Name: BreakableBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52,7 +52,6 @@ MonoBehaviour:
   DestroySprite2: {fileID: -4178046375966092550, guid: e9ba630412516844ca8475e66f576885, type: 3}
   DestroySprite3: {fileID: -855298285791758126, guid: c7f6a8098f2b4944999082b3143fc59a, type: 3}
   MaxHealth: 3
-  PlayerDmg: 3
   WallLevel: 1
   _timeToDestroy: 0.5
   _audioSource: {fileID: -104423467032293782}

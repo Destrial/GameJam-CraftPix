@@ -4,7 +4,7 @@ using UnityEngine.Tilemaps;
 namespace Destrial
 {
 
-    public class WallObject : CellObject
+    public class BreakableObject : CellObject
     {
        // public Tile ObstacleTile;
        
@@ -13,7 +13,7 @@ namespace Destrial
         public Sprite DestroySprite2;
         public Sprite DestroySprite3;
         public int MaxHealth = 3;
-        public int PlayerDmg = 3;
+        //public int PlayerDmg = 3;
         private int _healthPoint;
         public int WallLevel=1;
         private Tile _originalTile; 
@@ -42,7 +42,11 @@ namespace Destrial
         {
             return false;
         }
-            
+
+            if (GameManager.Instance.decaGrowthActivated)
+            {
+                _healthPoint = 0;
+            }
             Vector2Int wallDir=_cell-GameManager.Instance.PlayerController.CellPosition;
             _healthPoint -= 1;
             _audioSource.PlayOneShot(_audioImpact,GameManager.Instance.sfxVolume);

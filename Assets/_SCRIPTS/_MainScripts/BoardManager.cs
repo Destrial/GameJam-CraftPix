@@ -35,7 +35,7 @@ namespace Destrial
         public ExitCellObject ExitCellPrefab;
         public FoodObject[] FoodPrefab;
         public BombObject[] BombPrefab;
-        public WallObject[] WallDestroyPrefab;
+        public BreakableObject[] BreakablePrefab;
 
 
         [SerializeField] private float dashDuration = 0.1f;
@@ -484,10 +484,10 @@ namespace Destrial
 
                 _emptyCellsList.RemoveAt(randomIndex);
 
-                int numi = Random.Range(0, WallDestroyPrefab.Length);
-                WallObject newWall = Instantiate(WallDestroyPrefab[numi]);
+                int numi = Random.Range(0, BreakablePrefab.Length);
+                BreakableObject newBreakable = Instantiate(BreakablePrefab[numi]);
 
-                AddObject(newWall, coord, false);
+                AddObject(newBreakable, coord, false);
             }
         }
 

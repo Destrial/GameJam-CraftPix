@@ -7375,7 +7375,7 @@ MonoBehaviour:
   - {fileID: 6147983007027712503, guid: b4f0338da3f8df54ca4cee94433e6ef8, type: 3}
   BombPrefab:
   - {fileID: 1478906328711243600, guid: 01591535356c4fa4bb8c6f0a476c0bae, type: 3}
-  WallDestroyPrefab:
+  BreakablePrefab:
   - {fileID: 2230941929989740007, guid: 0792015c13c9f914ea8a26c5f1de5c7d, type: 3}
   dashDuration: 0.1
   returnDuration: 0.12

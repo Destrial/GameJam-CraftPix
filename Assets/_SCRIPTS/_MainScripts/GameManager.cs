@@ -214,6 +214,8 @@ namespace Destrial
                     MyUIManager.HidePower();
                  
                     BoardManager.Player.transform.DOScale(1f, 0.5f).SetEase(Ease.OutCubic);
+                   
+
                     _audioSource.PlayOneShot(_audioStopGrow, sfxVolume);
                 }   
             }
@@ -358,6 +360,12 @@ namespace Destrial
             DestroyAmount++;
             MyUIManager.RefreshDestroy();
             cumulDestroy++;
+
+            if (cumulDestroy == 5)  // INEFFICIENT
+            {
+                AddXP();
+            }
+            
             if (cumulDestroy == 10)
             {
                 cumulDestroy = 0;
@@ -385,6 +393,12 @@ namespace Destrial
             PickupAmount++;
             MyUIManager.RefreshPickup();
             cumulPickup++;
+            
+            if (cumulPickup == 5)  // INEFFICIENT
+            {
+                AddXP();
+            }
+            
             if (cumulPickup == 10)
             {
                 cumulPickup = 0;

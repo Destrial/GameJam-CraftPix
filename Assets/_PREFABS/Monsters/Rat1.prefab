@@ -471,7 +471,7 @@ MonoBehaviour:
   MobLevel: 1
   DMGTXT: {fileID: 5755942989679140564}
   _moveSpeed: 1
-  Health: 4
+  Health: 3
   Damage: 2
   _audioSource: {fileID: 6626788376126874644}
   _audioMove:
