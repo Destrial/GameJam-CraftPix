@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3255321373542755711}
   - component: {fileID: 6147983007027712503}
   - component: {fileID: -5376796282459794978}
+  - component: {fileID: -8064208852749560173}
   m_Layer: 0
   m_Name: FoodGrain
   m_TagString: Untagged
@@ -93,7 +94,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5477602428270567970}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d38164b406bce8408de24ceb8d9c018, type: 3}
   m_Name: 
@@ -200,3 +201,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-8064208852749560173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5477602428270567970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc10865140375942beb0f5a3b415a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AmountGranted: 5
+  FoodLevel: 1
+  PoisonChance: 0.7
+  PoisonColor: {r: 0.2, g: 1, b: 0.2, a: 1}
+  _audioSource: {fileID: -5376796282459794978}
+  _audioCrunch: []
+  _spriteRenderer: {fileID: 0}

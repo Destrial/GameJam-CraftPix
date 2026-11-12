@@ -456,7 +456,26 @@ namespace Destrial
                 AddObject(newFood, coord, true);
             }
         }
+        
+        //Attempt at copy generation...
+        void GenerateSpike()
+        {
+            int spikeCount = 3;
+            for (int i = 0; i < spikeCount; ++i)
+            {
+                int randomIndex = Random.Range(0, _emptyCellsList.Count);
+                Vector2Int coord = _emptyCellsList[randomIndex];
 
+                _emptyCellsList.RemoveAt(randomIndex);
+
+                int numi = Random.Range(0, FoodPrefab.Length);
+                FoodObject newFood = Instantiate(FoodPrefab[numi]);
+                newFood.FoodLevel=GameManager.Instance.GameLevel;
+                AddObject(newFood, coord, true);
+            }
+        }
+
+        //BOX ITEM GENERATION
         public void GenerateLocalFood(Vector2Int coord)
         {
             int numi = Random.Range(0, FoodPrefab.Length);
@@ -696,9 +715,14 @@ namespace Destrial
                 {
                     // 3. Convert the progress into a fully saturated, bright HSV color
                     // Multiplying by time/speed inside can make it cycle faster if desired
-                    float currentHue = hueProgress % 1f; 
+                    float currentHue = hueProgress % 1f;
                     sprite.color = Color.HSVToRGB(currentHue, 1f, 1f);
                 });
+            
         }
     }
 }
+
+
+
+
